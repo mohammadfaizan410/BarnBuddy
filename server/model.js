@@ -85,6 +85,10 @@ const customerSchema = new mongoose.Schema({
 });
 
 const productSchema = new mongoose.Schema({
+  owner: {
+    type: String,
+  },
+
   title: {
     type: String,
   },
@@ -142,9 +146,15 @@ const businessSchema = new mongoose.Schema({
   },
 
   //TODO: Add a product schema
-  products: [{ type: mongoose.Schema.Types.ObjectId, ref: "Product" }],
+  products: {
+    type: [String],
+  },
 
   instore_purchasing: {
+    type: Boolean,
+  },
+
+  claimed: {
     type: Boolean,
   },
 
@@ -166,8 +176,7 @@ const businessSchema = new mongoose.Schema({
   },
 
   reviews: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Review",
+    type: [String],
   },
 
   filters: {

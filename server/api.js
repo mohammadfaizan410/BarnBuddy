@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const express = require("express");
 const router = express.Router();
+const fs = require("fs");
 
 const { User, Customer, Business, Product, Review } = require("./model.js");
 
@@ -18,10 +19,94 @@ database.once("connected", () => {
 
 // ------- mongo db connection --------
 
+// --------- functions ------------
+
+async function importBusinesses() {
+  try {
+    // Read the data from the file
+    const rawData = fs.readFileSync("data.json");
+    const data = JSON.parse(rawData);
+    let count = 0;
+
+    // Iterate over each object in the array
+    for (const business of data) {
+      const avatar = business.imgSrcset.split(", ")[0].split(" ")[0];
+      const rating = business.starRating;
+      const title = business.title;
+      const location = business.primaryLocation;
+      const phone = business.phoneNumber;
+      const description = business.about;
+      const banner_image = business.backgroundImg;
+      const email = "";
+      const website_link = "";
+
+      if (avatar.includes("https://images.leafly.com/")) {
+        console.log(
+          "The imgSrcset link contains 'https://images.leafly.com/, SKIPPING'."
+        );
+      } else {
+        count++;
+
+        const user = new User({
+          username: "NA",
+          password: "temp123^@&#@*#*",
+          email: email,
+          fullname: "NA",
+          date_of_birth: null,
+          user_type: "business",
+        });
+
+        await user.save();
+
+        const business = new Business({
+          user_id: user._id,
+          title: title,
+          description: description,
+          website_link: website_link,
+          location: location,
+          email: email,
+          phone: phone,
+          products: [],
+          instore_purchasing: false,
+          business_type: [],
+          banner_image: banner_image,
+          avatar: avatar,
+          deals: [],
+          reviews: [],
+          filters: [],
+          registration_date: Date.now(),
+          followers: [],
+          opening_hours: [],
+          claimed: false,
+        });
+
+        await business.save();
+      }
+    }
+    console.log("-------------------");
+    console.log("Total businesses imported:", count);
+    console.log("-------------------");
+  } catch (error) {
+    console.error("Error reading file:", error);
+  }
+}
+
+importBusinesses();
+
+// --------- functions ------------
+
 // Register
 router.post("/user/customer/add", async (req, res) => {
   try {
     const { username, password, email, fullname, date_of_birth } = req.body;
+
+    const existing_user = await User.findOne({
+      email: email,
+    });
+
+    if (existing_user) {
+      return res.status(400).json({ message: "User already exists." });
+    }
     const user = new User({
       username: username,
       password: password,
@@ -69,19 +154,29 @@ router.post("/user/business/add", async (req, res) => {
       phone,
     } = req.body;
 
+    const existing_user = await User.findOne({
+      email: email,
+    });
+
+    if (existing_user) {
+      return res.status(400).json({ message: "User already exists." });
+    }
+
     const user = new User({
       username: "NA",
       password: password,
       email: email,
       fullname: "NA",
-      date_of_birth: "NA",
+      date_of_birth: null,
       user_type: "business",
     });
 
     await user.save();
 
-    const banner_image = "";
-    const avatar = "";
+    const banner_image =
+      "https://img.freepik.com/free-vector/gradient-duotone-gaming-twitter-header_23-2149231677.jpg";
+    const avatar =
+      "https://www.dgpublishing.com/wp-content/uploads/cache/2018/02/temp-avatar/1922871591.jpg";
 
     const business = new Business({
       user_id: user._id,
@@ -97,16 +192,16 @@ router.post("/user/business/add", async (req, res) => {
       banner_image: banner_image,
       avatar: avatar,
       deals: [],
-      reviews: {},
+      reviews: "",
       filters: [],
       registration_date: Date.now(),
       followers: [],
       opening_hours: [],
+      claimed: false,
     });
 
     await business.save();
 
-    await user.save();
     return res.status(200).json({ message: "Success Business Added." });
   } catch (error) {
     console.log(error);
@@ -133,6 +228,42 @@ router.post("/user/customer/update", async (req, res) => {
     await user.save();
 
     return res.status(200).json({ message: "Success Customer Updated." });
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message });
+  }
+});
+
+router.post("/user/business/:business_id", async (req, res) => {
+  try {
+    const { business_id } = req.params;
+
+    const business = await Business.findOne({
+      _id: business_id,
+    });
+
+    if (!business) {
+      return res.status(400).json({ message: "Business not found" });
+    }
+
+    return res.status(200).json({ business: business });
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message });
+  }
+});
+
+router.post("/business/unclaimed/all", async (req, res) => {
+  try {
+    const business = await Business.findOne({
+      _id: business_id,
+    });
+
+    if (!business) {
+      return res.status(400).json({ message: "Business not found" });
+    }
+
+    return res.status(200).json({ business: business });
   } catch (error) {
     console.log(error);
     res.status(400).json({ message: error.message });
@@ -178,6 +309,17 @@ router.post("/user/business/update", async (req, res) => {
     await business.save();
 
     await user.save();
+    return res.status(200).json({ message: "Success Business Updated." });
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message });
+  }
+});
+
+router.post("/business/claim", async (req, res) => {
+  try {
+    const { business_id } = req.body;
+
     return res.status(200).json({ message: "Success Business Updated." });
   } catch (error) {
     console.log(error);
