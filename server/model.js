@@ -196,11 +196,42 @@ const businessSchema = new mongoose.Schema({
   },
 });
 
+const businessClaimSchema = new mongoose.Schema({
+  business_id: {
+    type: String,
+  },
+
+  name: {
+    type: String,
+  },
+
+  email: {
+    type: String,
+  },
+
+  submission_date: {
+    type: Date,
+  },
+
+  business_ownership_document: {
+    type: String,
+  },
+
+  government_issued_id: {
+    type: String,
+  },
+
+  status: {
+    type: String, //approved, pending, rejected
+  },
+});
+
 const User = mongoose.model("User", userSchema);
 const Customer = mongoose.model("Customer", customerSchema);
 const Business = mongoose.model("Business", businessSchema);
 const Product = mongoose.model("Product", productSchema);
 const Review = mongoose.model("Review", reviewSchema);
+const BusinessClaim = mongoose.model("BusinessClaim", businessClaimSchema);
 
 module.exports = {
   User,
@@ -208,4 +239,5 @@ module.exports = {
   Business,
   Product,
   Review,
+  BusinessClaim,
 };

@@ -2,8 +2,17 @@ const mongoose = require("mongoose");
 const express = require("express");
 const router = express.Router();
 const fs = require("fs");
+const multer = require("multer");
+const path = require("path");
 
-const { User, Customer, Business, Product, Review } = require("./model.js");
+const {
+  User,
+  Customer,
+  Business,
+  Product,
+  Review,
+  BusinessClaim,
+} = require("./model.js");
 
 // ------- mongo db connection -------
 mongoose.connect("mongodb://127.0.0.1:27017/barnbuddy");
@@ -18,6 +27,26 @@ database.once("connected", () => {
 });
 
 // ------- mongo db connection --------
+
+// ---------- MULTER SET UP ------------
+
+// Set storage engine for multer
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, "uploads/");
+  },
+  filename: function (req, file, cb) {
+    cb(null, Date.now() + path.extname(file.originalname));
+  },
+});
+
+// Initialize multer upload
+const upload = multer({
+  storage: storage,
+  limits: { fileSize: 10000000 }, // Adjust file size limit as needed
+});
+
+// ----------- MULTER SET UP ------------
 
 // --------- functions ------------
 
@@ -259,7 +288,6 @@ router.get("/business/unclaimed/all", async (req, res) => {
       claimed: false,
     });
 
-    console.log(business);
     return res.status(200).json({ businesses: businesses });
   } catch (error) {
     console.log(error);
@@ -315,9 +343,40 @@ router.post("/user/business/update", async (req, res) => {
 
 router.post("/business/claim", async (req, res) => {
   try {
-    const { business_id } = req.body;
+    const { business_id, fullname, email } = req.body;
+    upload.fields([
+      { name: "business_ownership_document", maxCount: 1 },
+      { name: "government_issued_id", maxCount: 1 },
+    ]);
 
-    return res.status(200).json({ message: "Success Business Updated." });
+    const business_ownership_document =
+      req.files["business_ownership_document"][0].path;
+    const government_issued_id = req.files["government_issued_id"][0].path;
+
+    // Perform any operations with the file paths as needed
+    console.log("File 1 Path:", business_ownership_document);
+    console.log("File 2 Path:", government_issued_id);
+
+    const business = await Business.findOne({
+      _id: business_id,
+    });
+
+    if (!business) {
+      return res.status(400).json({ message: "Business not found" });
+    }
+
+    const business_claim = new BusinessClaim({
+      business_id: business_id,
+      fullname: fullname,
+      email: email,
+      business_ownership_document: business_ownership_document,
+      government_issued_id: government_issued_id,
+      status: "pending",
+    });
+
+    await business_claim.save();
+
+    return res.status(200).json({ message: "Success Business Claim Filed." });
   } catch (error) {
     console.log(error);
     res.status(400).json({ message: error.message });
