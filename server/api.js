@@ -253,14 +253,14 @@ router.post("/user/business/:business_id", async (req, res) => {
   }
 });
 
-router.post("/business/unclaimed/all", async (req, res) => {
+router.get("/business/unclaimed/all", async (req, res) => {
   try {
-    const business = await Business.find({
+    const businesses = await Business.find({
       claimed: false,
     });
 
     console.log(business);
-    return res.status(200).json({ business: business });
+    return res.status(200).json({ businesses: businesses });
   } catch (error) {
     console.log(error);
     res.status(400).json({ message: error.message });
