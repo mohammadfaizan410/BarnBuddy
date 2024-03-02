@@ -373,6 +373,7 @@ router.post(
         email: email,
         business_ownership_document: business_ownership_document,
         government_issued_id: government_issued_id,
+        submission_date: Date.now(),
         status: "pending",
       });
 
