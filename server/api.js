@@ -91,7 +91,7 @@ async function importBusinesses() {
   }
 }
 
-importBusinesses();
+//importBusinesses();
 
 // --------- functions ------------
 
@@ -255,14 +255,11 @@ router.post("/user/business/:business_id", async (req, res) => {
 
 router.post("/business/unclaimed/all", async (req, res) => {
   try {
-    const business = await Business.findOne({
-      _id: business_id,
+    const business = await Business.find({
+      claimed: false,
     });
 
-    if (!business) {
-      return res.status(400).json({ message: "Business not found" });
-    }
-
+    console.log(business);
     return res.status(200).json({ business: business });
   } catch (error) {
     console.log(error);
