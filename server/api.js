@@ -295,6 +295,17 @@ router.get("/business/unclaimed/all", async (req, res) => {
   }
 });
 
+router.get("/business/all", async (req, res) => {
+  try {
+    const businesses = await Business.find({});
+
+    return res.status(200).json({ businesses: businesses });
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message });
+  }
+});
+
 router.post("/user/business/update", async (req, res) => {
   try {
     const {
