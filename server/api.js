@@ -91,7 +91,7 @@ async function importBusinesses() {
   }
 }
 
-importBusinesses();
+// importBusinesses();
 
 // --------- functions ------------
 

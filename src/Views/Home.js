@@ -1,10 +1,13 @@
 import React, { useEffect } from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import BusinessCardRound from "../components/Business/Business-Card-Round";
+import { Link } from "react-router-dom";
 
 
 export default function Home() {
     const [businessArray, setBusinessArray] = React.useState([]);
+    const [featuredProducts, setFeaturedProducts] = React.useState([]);
+
     useEffect(() => {        
         setBusinessArray([{
             "imgSrcset": "https://leafly-public.imgix.net/dispensary/photos/gallery381191/D3DM7qOSIWlhWMo40Pkg_20230529_174040_0000.png?auto=compress%2Cformat&w=48&dpr=1 1x, https://leafly-public.imgix.net/dispensary/photos/gallery381191/D3DM7qOSIWlhWMo40Pkg_20230529_174040_0000.png?auto=compress%2Cformat&w=48&dpr=2 2x",
@@ -76,12 +79,71 @@ export default function Home() {
             "about": "The Tea Tree is a family owned Medical Marjiuana Dispensary located in Tea, SD. We have a variety of different strains of flower, vape cartridges, edibles, and concentrates as they are available!",
             "backgroundImg": "https://leafly-public.imgix.net/dispensary/photos/gallery370011/i7tvoIjiRQGsgIBjxQR5_logo-202.jpg?auto=compress%2Cformat&fill=blur&fit=fill&h=288&w=736&dpr=1"
         }])
-
-    }, [0])
+      
+        setFeaturedProducts([
+          {
+            "title" : "white widow",
+            "image" : "https://images.leafly.com/menu/8Jn4vL7aQ2u6WjrLflxD_white-widow.jpg",
+            "starRating" : "4.5",
+            "price" : "20",
+            "category" : "flower",
+            "type" : "Indica",
+            "description" : "White Widow",
+            "owner" : "Red Eye - Ontario -  PICK UP AVAILABLE!!",
+            "href" : "https://www.leafly.com/dispensary-info/red-eye-ontario-"
+        },
+          {
+            "title" : "white widow",
+            "image" : "https://images.leafly.com/menu/8Jn4vL7aQ2u6WjrLflxD_white-widow.jpg",
+            "starRating" : "4.5",
+            "price" : "20",
+            "category" : "flower",
+            "type" : "Indica",
+            "description" : "White Widow",
+            "owner" : "Red Eye - Ontario -  PICK UP AVAILABLE!!",
+            "href" : "https://www.leafly.com/dispensary-info/red-eye-ontario-"
+        },
+          {
+            "title" : "white widow",
+            "image" : "https://images.leafly.com/menu/8Jn4vL7aQ2u6WjrLflxD_white-widow.jpg",
+            "starRating" : "4.5",
+            "price" : "20",
+            "category" : "flower",
+            "type" : "Indica",
+            "description" : "White Widow",
+            "owner" : "Red Eye - Ontario -  PICK UP AVAILABLE!!",
+            "href" : "https://www.leafly.com/dispensary-info/red-eye-ontario-"
+        },
+          {
+            "title" : "white widow",
+            "image" : "https://images.leafly.com/menu/8Jn4vL7aQ2u6WjrLflxD_white-widow.jpg",
+            "starRating" : "4.5",
+            "price" : "20",
+            "category" : "flower",
+            "type" : "Indica",
+            "description" : "White Widow",
+            "owner" : "Red Eye - Ontario -  PICK UP AVAILABLE!!",
+            "href" : "https://www.leafly.com/dispensary-info/red-eye-ontario-"
+        },
+          {
+            "title" : "white widow",
+            "image" : "https://images.leafly.com/menu/8Jn4vL7aQ2u6WjrLflxD_white-widow.jpg",
+            "starRating" : "4.5",
+            "price" : "20",
+            "category" : "flower",
+            "type" : "Indica",
+            "description" : "White Widow",
+            "owner" : "Red Eye - Ontario -  PICK UP AVAILABLE!!",
+            "href" : "https://www.leafly.com/dispensary-info/red-eye-ontario-"
+        },
+      ]);
+      
+      
+      },[0]);
 
     return (
         <div>
-       <Carousel style={{margin: "0px", padding : "0px"}}>
+       <Carousel className="rounded" style={{margin: "0px", padding : "0px"}}>
       <Carousel.Item>
       <img src="https://images.leafly.com/menu/gXfSWzrhQBmaiTVyzUgU_C311EB87-D7C9-44DD-A00B-49B454A7969D%20(1).JPG" className="carousel-image-banner" alt="Second slide" />
       </Carousel.Item>
@@ -111,6 +173,24 @@ export default function Home() {
             }
             </div>
         </div>
+        <div className="d-flex flex-column mt-4">
+            <h3 className="textSecondary text-bold margin-2x-top">Top Rated Stores</h3>
+            <div className="d-flex flex-row" style={{overflow: "auto"}}>
+            {/* {
+                featuredProducts.map((product, index) => {
+                    Image = product.imgSrcset.split(" ")[0];
+                    title = product.title;
+                    category = product.type;
+                    description = product.description;
+                    price = product.price;
+                    rating = product.starRating;
+                })
+            } */}
+            </div>
+        </div>
+       <Link to="/claim-business" className="btn btn-primary">
+          claim a business
+       </Link>     
     </div>
 
     );
