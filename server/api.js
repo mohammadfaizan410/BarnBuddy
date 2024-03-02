@@ -398,4 +398,55 @@ router.post(
   }
 );
 
+router.post("/business/claim/approve", async (req, res) => {
+  try {
+    const { business_claim_id } = req.body;
+
+    const business_claim = await BusinessClaim.findOne({
+      _id: business_claim_id,
+    });
+
+    if (!business_claim) {
+      return res.status(400).json({ message: "Business Claim not found" });
+    }
+
+    business_claim.status = "rejected";
+    await business_claim.save();
+
+    return res.status(200).json({ message: "Success Claim Rejected." });
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message });
+  }
+});
+
+router.post("/business/claim/reject", async (req, res) => {
+  try {
+    const { business_claim_id } = req.body;
+
+    const business_claim = await BusinessClaim.findOne({
+      _id: business_claim_id,
+    });
+
+    if (!business_claim) {
+      return res.status(400).json({ message: "Business Claim not found" });
+    }
+
+    business_claim.status = "approved";
+    await business_claim.save();
+
+    const business = await Business.findOne({
+      _id: business_claim.business_id,
+    });
+
+    business.claimed = true;
+    await business.save();
+
+    return res.status(200).json({ message: "Success Claim Approved." });
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message });
+  }
+});
+
 module.exports = router;
