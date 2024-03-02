@@ -166,6 +166,7 @@ export default function Home() {
                             starRating={business.starRating}
                             title={business.title.split(" - ")[0].slice(0, 12)}
                             avatar={business.imgSrcset.split(" ")[0]}
+                            width="110px"
                             />
                         </div>
                     )
