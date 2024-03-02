@@ -341,46 +341,49 @@ router.post("/user/business/update", async (req, res) => {
   }
 });
 
-router.post("/business/claim", async (req, res) => {
-  try {
-    const { business_id, fullname, email } = req.body;
-    upload.fields([
-      { name: "business_ownership_document", maxCount: 1 },
-      { name: "government_issued_id", maxCount: 1 },
-    ]);
+router.post(
+  "/business/claim",
+  upload.fields([
+    { name: "business_ownership_document", maxCount: 1 },
+    { name: "government_issued_id", maxCount: 1 },
+  ]),
+  async (req, res) => {
+    try {
+      const { business_id, fullname, email } = req.body;
 
-    const business_ownership_document =
-      req.files["business_ownership_document"][0].path;
-    const government_issued_id = req.files["government_issued_id"][0].path;
+      const business_ownership_document =
+        req.files["business_ownership_document"][0].path;
+      const government_issued_id = req.files["government_issued_id"][0].path;
 
-    // Perform any operations with the file paths as needed
-    console.log("File 1 Path:", business_ownership_document);
-    console.log("File 2 Path:", government_issued_id);
+      // Perform any operations with the file paths as needed
+      console.log("File 1 Path:", business_ownership_document);
+      console.log("File 2 Path:", government_issued_id);
 
-    const business = await Business.findOne({
-      _id: business_id,
-    });
+      const business = await Business.findOne({
+        _id: business_id,
+      });
 
-    if (!business) {
-      return res.status(400).json({ message: "Business not found" });
+      if (!business) {
+        return res.status(400).json({ message: "Business not found" });
+      }
+
+      const business_claim = new BusinessClaim({
+        business_id: business_id,
+        fullname: fullname,
+        email: email,
+        business_ownership_document: business_ownership_document,
+        government_issued_id: government_issued_id,
+        status: "pending",
+      });
+
+      await business_claim.save();
+
+      return res.status(200).json({ message: "Success Business Claim Filed." });
+    } catch (error) {
+      console.log(error);
+      res.status(400).json({ message: error.message });
     }
-
-    const business_claim = new BusinessClaim({
-      business_id: business_id,
-      fullname: fullname,
-      email: email,
-      business_ownership_document: business_ownership_document,
-      government_issued_id: government_issued_id,
-      status: "pending",
-    });
-
-    await business_claim.save();
-
-    return res.status(200).json({ message: "Success Business Claim Filed." });
-  } catch (error) {
-    console.log(error);
-    res.status(400).json({ message: error.message });
   }
-});
+);
 
 module.exports = router;
