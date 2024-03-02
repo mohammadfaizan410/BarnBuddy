@@ -8,41 +8,57 @@ export default function ClaimBusiness() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     const [selectedBusiness, setSelectedBusiness] = useState(null);
+    const [submitDisabled, setSubmitDisabled] = useState(true);
     const [formData, setFormData] = useState({
         name: "",
         email: "",
         dob: "",
-        proof: {},
-        id: {},
-        selectedBusiness : {}
+        business_ownership_document: {},
+        government_issued_id: {},
+        business_id : ""
     });
 
     const handleSelectedBusiness = (business) => {
         setSelectedBusiness(business);
-        setFormData({...formData, selectedBusiness: business._id});
+        setFormData({...formData, business_id: business._id});
     }
 
 
     const handleFileChangeOwnership = (e) => {
-        setFormData({...formData, proof: e.target.files[0]});
+        const file = e.target.files[0];
+        if(file){
+            setFormData({...formData, business_ownership_document: file});
+                }
     }
 
     const handleFileChangeId = (e) => {
-        setFormData({...formData, id: e.target.files[0]});
+        const file = e.target.files[0];
+        if(file){
+            setFormData({...formData, government_issued_id: file});
+        }
     }
+
+    const handleValidation = () => {};
 
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formData);
+        const formDataWithFIles = new FormData();
+        formDataWithFIles.append("name", formData.name);
+        formDataWithFIles.append("email", formData.email);
+        formDataWithFIles.append("dob", formData.dob);
+        formDataWithFIles.append("business_id", formData.business_id);
+        formDataWithFIles.append("business_ownership_document", formData.business_ownership_document);
+        formDataWithFIles.append("government_issued_id", formData.government_issued_id);
+
+        fetch("http://localhost:3001/business/claim", {
+            method: "POST",
+            body: formDataWithFIles,
+        })
     }
 
-
-
-
-
     return(
-        <form>
+        <form noValidate>
             <h3>Claim A business</h3>
             <p>After you have selected a business and added all the necessary details the owner of the website will be notified. Once approved you would be emailed a business account along with its details.</p>
             {selectedBusiness ? 
@@ -97,7 +113,7 @@ export default function ClaimBusiness() {
             <span className="textSecondary textSmall">Please upload any government issues identification   </span>
             </div>
             <div className="form-section margin-2x-top margin-3x-bottom">
-            <button className="btn btn-primary" type="submit" onClick={handleSubmit}>
+            <button className={`btn btn-primary ${submitDisabled ? "disabled" : ""}`}  type="submit" onClick={handleSubmit}>
             Submit
             </button>
             </div>

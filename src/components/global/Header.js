@@ -16,7 +16,7 @@ export default function Header() {
                     <GiHamburgerMenu size={30} />
                 </div>
                 <div className="m-0 p-0 mx-5">
-                    <h4 className="textPrimary m-0 p-0">BarnBuddy</h4>
+                    <Link to="/" className="text-decoration-none"><h4 className="textPrimary m-0 p-0">BarnBuddy</h4></Link>
                 </div>
                 <div className="d-flex flex-grow-1 mx-3">
                     <Search />
