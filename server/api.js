@@ -449,4 +449,98 @@ router.post("/business/claim/reject", async (req, res) => {
   }
 });
 
+router.post("/business/product/add", async (req, res) => {
+  try {
+    const { business_id, title, description, categories, price } = req.body;
+
+    const business = await Business.findOne({
+      _id: business_id,
+    });
+
+    if (!business) {
+      return res.status(400).json({ message: "Business not found" });
+    }
+
+    const product = new Product({
+      business_id: business_id,
+      title: title,
+      description: description,
+      categories: categories,
+      price: price,
+      followers: [],
+      reviews: [],
+    });
+
+    await product.save();
+
+    business.products.push(product._id);
+    await business.save();
+
+    return res.status(200).json({ message: "Success Product Added." });
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message });
+  }
+});
+
+router.delete("/business/product/delete", async (req, res) => {
+  try {
+    const { business_id, product_id } = req.body;
+
+    const business = await Business.findOne({
+      _id: business_id,
+    });
+
+    if (!business) {
+      return res.status(400).json({ message: "Business not found" });
+    }
+
+    const product = await Product.findOne({
+      _id: product_id,
+    });
+
+    if (!product) {
+      return res.status(400).json({ message: "Product not found" });
+    }
+
+    business.products = business.products.filter((id) => id !== product_id);
+    await business.save();
+
+    await Product.deleteOne({
+      _id: product_id,
+    });
+
+    return res.status(200).json({ message: "Success Product Deleted." });
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message });
+  }
+});
+
+router.post("/business/product/update", async (req, res) => {
+  try {
+    const { product_id, title, description, categories, price } = req.body;
+
+    const product = await Product.findOne({
+      _id: product_id,
+    });
+
+    if (!product) {
+      return res.status(400).json({ message: "Product not found" });
+    }
+
+    product.title = title;
+    product.description = description;
+    product.categories = categories;
+    product.price = price;
+
+    await product.save();
+
+    return res.status(200).json({ message: "Success Product Updated." });
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message });
+  }
+});
+
 module.exports = router;

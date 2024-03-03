@@ -85,7 +85,7 @@ const customerSchema = new mongoose.Schema({
 });
 
 const productSchema = new mongoose.Schema({
-  owner: {
+  business_id: {
     type: String,
   },
 
@@ -109,10 +109,12 @@ const productSchema = new mongoose.Schema({
     type: [String],
   },
 
-  reviews: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Review",
-  },
+  reviews: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Review",
+    },
+  ],
 });
 
 const businessSchema = new mongoose.Schema({
