@@ -124,6 +124,31 @@ async function importBusinesses() {
 
 // --------- functions ------------
 
+router.post("/auth/business", async (req, res) => {
+  try {
+    const { email, password } = req.body;
+
+    const user = await User.findOne({
+      email: email,
+      password: password,
+      user_type: "business",
+    });
+
+    if (!user) {
+      return res.status(400).json({ message: "User not found" });
+    }
+
+    const business = await Business.findOne({
+      user_id: user._id,
+    });
+
+    return res.status(200).json({ success: true, business: business });
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message });
+  }
+});
+
 // Register
 router.post("/user/customer/add", async (req, res) => {
   try {
