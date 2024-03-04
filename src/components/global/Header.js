@@ -1,16 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import "../../styles/styles.css";
 import Search from "./Search";
 import { CiLocationOn } from "react-icons/ci";
 import { FaCartArrowDown } from "react-icons/fa";
+import { Dropdown, DropdownItem } from "react-bootstrap";
+import { useLocation } from "react-router-dom";
+import { useStoreState, useStoreActions } from "easy-peasy";
+import BusinessAuth from "../Dashboard/Business-Dashboard/Business-Components/Business-Auth";
+import { CiShop } from "react-icons/ci";
+import { IoAnalytics } from "react-icons/io5";
+import { CiSettings } from "react-icons/ci";
+import { FaUserFriends } from "react-icons/fa";
+import { CiHome } from "react-icons/ci";
+
+
+
 
 
 
 export default function Header() {
+    const headerVisibilityArray = ["/", "/businessfrontpage", "/claim-business"];
+    const headerBusinessDashboardArray = ["/business-dashboard-products", "/business-dashboard-analytics"];
+    const [location, setLocation] = useState("");
+    const locationPath = useLocation().pathname;
+    const setSelectedMenuBusiness = useStoreActions(actions => actions.setSelectedMenuBusiness);
+    const selectedMenuBusiness = useStoreState(state => state.selectedMenuBusiness);
+    const [BusinessAuthModal, setBusinessAuthModal] = React.useState(false);
+
+
+
+
+    React.useEffect(() => {
+        setLocation(locationPath);
+        setSelectedMenuBusiness("myproducts");
+    }, [locationPath]);
+
+    if(headerVisibilityArray.includes(location)) {
     return (
-        <div className="d-flex flex-column pt-4 boxShadow fixed-top bg-white" style={{zIndex: "10000"}}>
+        <>
+        <BusinessAuth show={BusinessAuthModal} handleClose={() => setBusinessAuthModal(false)} />
+        <div className="d-flex flex-column pt-4 boxShadow fixed-top bg-white" style={{zIndex: "10000"}} id="header-main">
             <div className="d-flex flex-row justify-content-between align-items-center container-margins">
                 <div className="textSecondary">
                     <GiHamburgerMenu size={30} />
@@ -59,7 +90,98 @@ export default function Header() {
                     <Link to="/business" className="text-decoration-none  menu-margin menu-font">
                         <p className="textPrimary text-bold">All Stores</p>
                     </Link>
+                    <Dropdown
+                    
+                    >
+                        <Dropdown.Toggle id="dropdown-basic" className="">
+                            Business
+                        </Dropdown.Toggle>
+
+                        <Dropdown.Menu className="p-2 ">
+                        <DropdownItem><Link to="/claim-business" className="text-decoration-none textSecondary">Claim Business</Link></DropdownItem>
+                            <DropdownItem
+                            onClick={
+                                () => setBusinessAuthModal(true)
+                               }
+                            >Business Account</DropdownItem>
+                        </Dropdown.Menu>    
+                    </Dropdown>
             </div>
         </div>
+        <div style={{height : "140px"}}></div>
+        </>
     );
+    }
+    if(headerBusinessDashboardArray.includes(location)) {
+        return(<>
+            <div className="d-flex flex-column mb-0 align-items-center  sidebar pt-2 " >
+                    <Link 
+                        to="/" 
+                        className={`text-decoration-none dashboard-menu-item menu-margin menu-font mx-auto mb-5 border-bottom`}
+                        >
+                        <CiHome 
+                        size={60}
+                        fill= "Gray"
+                        className={`p-2 ${selectedMenuBusiness == "myproducts" && "sidebar-icons-selected"}`}
+                        >
+                        </CiHome>
+                    </Link>
+                    <Link 
+                        to="/business-dashboard-products" 
+                        className={`text-decoration-none dashboard-menu-item menu-margin menu-font mx-auto mb-4 border-bottom`}
+                        onClick={() => setSelectedMenuBusiness("myproducts")}
+                        >
+                        <CiShop 
+                        size={50}
+                        fill={selectedMenuBusiness === "myproducts" ? "#00ADB5" : "gray"}
+                        className={`p-2 ${selectedMenuBusiness == "myproducts" && "sidebar-icons-selected"}`}
+                        style={selectedMenuBusiness === "myproducts" && {borderRadius: "20px", backgroundColor: "#E8E8E8"}}
+                        >
+                        </CiShop>
+                    </Link>
+                    <Link 
+                        to="/business-dashboard-products" 
+                        className={`text-decoration-none dashboard-menu-item menu-margin menu-font mx-auto mb-4 border-bottom`}
+                        onClick={() => setSelectedMenuBusiness("analytics")}
+                        >
+                        <IoAnalytics 
+                        size={50}
+                        fill={selectedMenuBusiness === "analytics" ? "#00ADB5" : "gray"}
+                        className={`p-2 ${selectedMenuBusiness == "myproducts" && "sidebar-icons-selected"}`}
+                        style={selectedMenuBusiness === "analytics" && {borderRadius: "20px", backgroundColor: "#E8E8E8"}}
+                        >
+                        </IoAnalytics>
+                    </Link>
+                    <Link 
+                        to="/business-dashboard-products" 
+                        className={`text-decoration-none dashboard-menu-item menu-margin menu-font mx-auto mb-4 border-bottom`}
+                        onClick={() => setSelectedMenuBusiness("followers")}
+                        >
+                        <FaUserFriends 
+                        size={50}
+                        fill={selectedMenuBusiness === "followers" ? "#00ADB5" : "gray"}
+                        className={`p-2 ${selectedMenuBusiness == "myproducts" && "sidebar-icons-selected"}`}
+                        style={selectedMenuBusiness === "followers" && {borderRadius: "20px", backgroundColor: "#E8E8E8"}}
+                        >
+                        </FaUserFriends>
+                    </Link>
+                    
+                    <Link 
+                        to="/business-dashboard-products" 
+                        className={`text-decoration-none dashboard-menu-item menu-margin menu-font mx-auto mb-4 border-bottom`}
+                        onClick={() => setSelectedMenuBusiness("settings")}
+                        >
+                        <CiSettings 
+                        size={50}
+                        fill={selectedMenuBusiness === "settings" ? "#00ADB5" : "gray"}
+                        className={`p-2 ${selectedMenuBusiness == "settings" && "sidebar-icons-selected"}`}
+                        style={selectedMenuBusiness === "settings" && {borderRadius: "20px", backgroundColor: "#E8E8E8"}}
+                        >
+                        </CiSettings>
+                    </Link>
+            </div>
+        
+        </>
+            )
+    }
 }

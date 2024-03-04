@@ -145,7 +145,7 @@ router.post("/auth/business", async (req, res) => {
     return res.status(200).json({ success: true, business: business });
   } catch (error) {
     console.log(error);
-    res.status(400).json({ message: error.message });
+    res.status(500).json({ message: error.message });
   }
 });
 

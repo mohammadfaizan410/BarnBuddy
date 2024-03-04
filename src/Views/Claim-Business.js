@@ -58,9 +58,9 @@ export default function ClaimBusiness() {
     }
 
     return(
-        <form noValidate>
-            <h3>Claim A business</h3>
-            <p>After you have selected a business and added all the necessary details the owner of the website will be notified. Once approved you would be emailed a business account along with its details.</p>
+        <form noValidate className="container-margins">
+            <h3 className="heading-primary mb-lg-5">Claim A business</h3>
+            <p className="textSecondary">After you have selected a business and added all the necessary details the owner of the website will be notified. Once approved you would be emailed a business account along with its details.</p>
             {selectedBusiness ? 
             <div className="d-flex flex-column align-items-start">
             <BusinessCardRound 

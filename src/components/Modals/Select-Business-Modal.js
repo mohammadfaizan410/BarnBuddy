@@ -1,6 +1,7 @@
 import React from "react";
-import { Modal, Button } from "react-bootstrap";
+import { Modal} from "react-bootstrap";
 import BusinessCardRound from "../Business/Business-Card-Round";
+import { IoClose } from "react-icons/io5";
 
 
 
@@ -20,7 +21,6 @@ function SelectBusinessModal(props) {
           })
           .catch((error) => {
             console.error('Error fetching data:', error.message);
-            // Handle the error, show a message to the user, or perform other actions as needed
           });
       }, []);
 
@@ -34,9 +34,9 @@ function SelectBusinessModal(props) {
             aria-labelledby="contained-modal-title-vcenter"
             centered
         >
-          <Modal.Header >
+          <Modal.Header className="d-flex justify-content-between" >
             <Modal.Title>Select An Unclaimed Business</Modal.Title>
-
+            <IoClose size={40} onClick={props.handleClose} style={{cursor: "pointer"}} />
           </Modal.Header>
           <Modal.Body
           style={{overflowY: "scroll", maxHeight: "500px"}}
