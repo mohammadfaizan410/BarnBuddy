@@ -2,6 +2,10 @@ const mongoose = require("mongoose");
 const express = require("express");
 const router = express.Router();
 const fs = require("fs");
+const crypto = require("crypto");
+const jwt = require("jsonwebtoken");
+const iv = crypto.randomBytes(16);
+require("dotenv").config();
 const multer = require("multer");
 const path = require("path");
 
@@ -50,79 +54,65 @@ const upload = multer({
 
 // --------- functions ------------
 
-async function importBusinesses() {
-  try {
-    // Read the data from the file
-    const rawData = fs.readFileSync("data.json");
-    const data = JSON.parse(rawData);
-    let count = 0;
+// Encryption
+function encrypt(data, key) {
+  const cipher = crypto.createCipheriv("aes-256-cbc", key, iv);
 
-    // Iterate over each object in the array
-    for (const business of data) {
-      const avatar = business.imgSrcset.split(", ")[0].split(" ")[0];
-      const rating = business.starRating;
-      const title = business.title;
-      const location = business.primaryLocation;
-      const phone = business.phoneNumber;
-      const description = business.about;
-      const banner_image = business.backgroundImg;
-      const email = "";
-      const website_link = "";
+  let encryptedText = cipher.update(data, "utf-8", "hex");
 
-      if (avatar.includes("https://images.leafly.com/")) {
-        console.log(
-          "The imgSrcset link contains 'https://images.leafly.com/, SKIPPING'."
-        );
-      } else {
-        count++;
+  encryptedText += cipher.final("hex");
 
-        const user = new User({
-          username: "NA",
-          password: "temp123^@&#@*#*",
-          email: email,
-          fullname: "NA",
-          date_of_birth: null,
-          user_type: "business",
-        });
-
-        await user.save();
-
-        const business = new Business({
-          user_id: user._id,
-          title: title,
-          description: description,
-          website_link: website_link,
-          location: location,
-          email: email,
-          phone: phone,
-          products: [],
-          instore_purchasing: false,
-          business_type: [],
-          banner_image: banner_image,
-          avatar: avatar,
-          deals: [],
-          reviews: [],
-          filters: [],
-          registration_date: Date.now(),
-          followers: [],
-          opening_hours: [],
-          claimed: false,
-        });
-
-        await business.save();
-      }
-    }
-    console.log("-------------------");
-    console.log("Total businesses imported:", count);
-    console.log("-------------------");
-  } catch (error) {
-    console.error("Error reading file:", error);
-  }
+  return encryptedText;
 }
 
-//importBusinesses();
+// Decryption
+function decrypt(encryptedText, key) {
+  const decipher = crypto.createDecipheriv("aes-256-cbc", key, iv);
+
+  let decryptedText = decipher.update(encryptedText, "hex", "utf-8");
+
+  decryptedText += decipher.final("utf-8");
+
+  return decryptedText;
+}
+
+// Add a method to generate a token
+function generateToken(data) {
+  return jwt.sign(data, process.env.secret, {
+    expiresIn: 604800 /* - 7 days */ /*86400* - one day */, // in seconds
+  });
+}
+
+function verifyToken(req, res, next) {
+  const incoming_token = req.headers["authorization"];
+
+  if (!incoming_token) {
+    return res
+      .status(401)
+      .json({ message: "No token provided", success: false });
+  }
+
+  jwt.verify(incoming_token, process.env.secret, (err, decoded) => {
+    if (err) {
+      return res
+        .status(401)
+        .json({ message: "Failed to authenticate token", success: false });
+    }
+
+    next();
+  });
+}
 
 // --------- functions ------------
+
+///////////////////////////////////////////////////////////
+// _____  _    _ ____  _      _____ _____
+// |  __ \| |  | |  _ \| |    |_   _/ ____|
+// | |__) | |  | | |_) | |      | || |
+// |  ___/| |  | |  _ <| |      | || |
+// | |    | |__| | |_) | |____ _| || |____
+// |_|     \____/|____/|______|_____\_____|
+///////////////////////////////////////////////////////////
 
 router.post("/auth/business", async (req, res) => {
   try {
@@ -142,14 +132,18 @@ router.post("/auth/business", async (req, res) => {
       user_id: user._id,
     });
 
-    return res.status(200).json({ success: true, business: business });
+    user.token = generateToken({ user_id: user._id });
+    await user.save();
+
+    return res
+      .status(200)
+      .json({ success: true, business: business, token: user.token });
   } catch (error) {
     console.log(error);
     res.status(500).json({ message: error.message });
   }
 });
 
-// Register
 router.post("/user/customer/add", async (req, res) => {
   try {
     const { username, password, email, fullname, date_of_birth } = req.body;
@@ -263,7 +257,16 @@ router.post("/user/business/add", async (req, res) => {
   }
 });
 
-router.post("/user/customer/update", async (req, res) => {
+/////////////////////////////////////////////////////////
+// _____  _____  _______      __  _______ ______
+// |  __ \|  __ \|_   _\ \    / /\|__   __|  ____|
+// | |__) | |__) | | |  \ \  / /  \  | |  | |__
+// |  ___/|  _  /  | |   \ \/ / /\ \ | |  |  __|
+// | |    | | \ \ _| |_   \  / ____ \| |  | |____
+// |_|    |_|  \_\_____|   \/_/    \_\_|  |______|
+/////////////////////////////////////////////////////////
+
+router.post("/user/customer/update", verifyToken, async (req, res) => {
   try {
     const { user_id, username, fullname, date_of_birth } = req.body;
 
@@ -288,7 +291,7 @@ router.post("/user/customer/update", async (req, res) => {
   }
 });
 
-router.post("/user/business/:business_id", async (req, res) => {
+router.post("/user/business/:business_id", verifyToken, async (req, res) => {
   try {
     const { business_id } = req.params;
 
@@ -307,7 +310,7 @@ router.post("/user/business/:business_id", async (req, res) => {
   }
 });
 
-router.get("/business/unclaimed/all", async (req, res) => {
+router.get("/business/unclaimed/all", verifyToken, async (req, res) => {
   try {
     const businesses = await Business.find({
       claimed: false,
@@ -320,7 +323,7 @@ router.get("/business/unclaimed/all", async (req, res) => {
   }
 });
 
-router.get("/business/all", async (req, res) => {
+router.get("/business/all", verifyToken, async (req, res) => {
   try {
     const businesses = await Business.find({});
 
@@ -331,7 +334,7 @@ router.get("/business/all", async (req, res) => {
   }
 });
 
-router.post("/user/business/update", async (req, res) => {
+router.post("/user/business/update", verifyToken, async (req, res) => {
   try {
     const {
       user_id,
@@ -379,6 +382,7 @@ router.post("/user/business/update", async (req, res) => {
 
 router.post(
   "/business/claim",
+  verifyToken,
   upload.fields([
     { name: "business_ownership_document", maxCount: 1 },
     { name: "government_issued_id", maxCount: 1 },
@@ -419,7 +423,7 @@ router.post(
   }
 );
 
-router.post("/business/claim/approve", async (req, res) => {
+router.post("/business/claim/approve", verifyToken, async (req, res) => {
   try {
     const { business_claim_id } = req.body;
 
@@ -441,7 +445,7 @@ router.post("/business/claim/approve", async (req, res) => {
   }
 });
 
-router.post("/business/claim/reject", async (req, res) => {
+router.post("/business/claim/reject", verifyToken, async (req, res) => {
   try {
     const { business_claim_id } = req.body;
 
@@ -472,6 +476,7 @@ router.post("/business/claim/reject", async (req, res) => {
 
 router.post(
   "/business/product/add",
+  verifyToken,
   upload.fields([
     { name: "featured_image", maxCount: 1 },
     { name: "product_image_1", maxCount: 1 },
@@ -527,7 +532,7 @@ router.post(
   }
 );
 
-router.delete("/business/product/delete", async (req, res) => {
+router.delete("/business/product/delete", verifyToken, async (req, res) => {
   try {
     const { business_id, product_id } = req.body;
 
@@ -563,6 +568,7 @@ router.delete("/business/product/delete", async (req, res) => {
 
 router.post(
   "/business/product/update",
+  verifyToken,
   upload.fields([
     { name: "featured_image", maxCount: 1 },
     { name: "product_image_1", maxCount: 1 },
