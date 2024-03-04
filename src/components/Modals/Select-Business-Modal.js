@@ -7,7 +7,7 @@ import { IoClose } from "react-icons/io5";
 
 function SelectBusinessModal(props) {
     const [allBusiness, setAllBusiness] = React.useState([]);
-
+    const [searchInput, setSearchInput] = React.useState("");
     React.useEffect(() => {
         fetch("http://localhost:3001/business/unclaimed/all")
           .then((res) => {
@@ -24,7 +24,14 @@ function SelectBusinessModal(props) {
           });
       }, []);
 
+      const handleSearchInput = (e) => {
+        setSearchInput(e.target.value);
+      }
 
+      const filteredBusiness = allBusiness.filter((business) => {
+        if(searchInput === "" || searchInput === null) return business;
+        return business.title.toLowerCase().includes(searchInput.toLowerCase());
+      });
 
 
     return (
@@ -34,16 +41,21 @@ function SelectBusinessModal(props) {
             aria-labelledby="contained-modal-title-vcenter"
             centered
         >
-          <Modal.Header className="d-flex justify-content-between" >
+          <Modal.Header className="d-flex flex-column" >
+            <div className="d-flex w-100 justify-content-between">
             <Modal.Title>Select An Unclaimed Business</Modal.Title>
             <IoClose size={40} onClick={props.handleClose} style={{cursor: "pointer"}} />
+            </div>
+            <input type="text" className="form-control" placeholder="Search" onChange={
+                handleSearchInput 
+            } />
           </Modal.Header>
           <Modal.Body
-          style={{overflowY: "scroll", maxHeight: "500px"}}
+          style={{overflowY: "scroll", minHeight: "400px", maxHeight: "400px"}}
           >
             <div className="d-flex flex-row flex-wrap">
             {  
-                allBusiness.map((business) => {
+                filteredBusiness.map((business) => {
                     return (
                         <div
                         className="px-2"

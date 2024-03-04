@@ -90,10 +90,8 @@ export default function Header() {
                     <Link to="/business" className="text-decoration-none  menu-margin menu-font">
                         <p className="textPrimary text-bold">All Stores</p>
                     </Link>
-                    <Dropdown
-                    
-                    >
-                        <Dropdown.Toggle id="dropdown-basic" className="">
+                    <Dropdown>
+                        <Dropdown.Toggle id="dropdown-basic" >
                             Business
                         </Dropdown.Toggle>
 

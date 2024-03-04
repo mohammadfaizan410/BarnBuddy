@@ -21,13 +21,13 @@ export default function BusinessDashboardProducts() {
         }
     }, [business._id]);
     return (
-        <div className="dashboard-margin-top dashboard-margin p-3 pb-4 border shadow-sm border-rounded">
+        <div className="dashboard-margin-top dashboard-margin p-3 pb-4 border shadow-sm border-rounded ">
             <div className="d-flex flex-row justify-content-between">
                 <h4 className=" border-bottom heading-primary">Listed Products</h4>
                 <IoAddCircleOutline size={30} className="textPrimary cursor-pointer" onClick={() => setShow(true)} />
             </div>
            
-                <div className="row mt-4 mb-4 border-bottom">
+                <div className="row mt-4 mb-4 border-bottom border-color">
                         <h6 className="textSecondary col-2">Product Name</h6>
                         <h6 className="textSecondary col-2">Product Description</h6>
                         <h6 className="textSecondary col-2">Product Price</h6>
