@@ -212,3 +212,11 @@
     font-weight: 500;
     color: #393E46;
 }
+
+.text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    word-wrap: break-word;
+}
