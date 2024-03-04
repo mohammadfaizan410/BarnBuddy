@@ -11,7 +11,7 @@ export default function ListedProducts(props) {
                         {{
                             productImage: "https://www.ikea.com/images/eket-storage-combination-with-legs-white-90333907__0637133_pe698650_s5.jpg",
                             productName: "Product Name",
-                            productDescription: "Product Description",
+                            productDescription: "Product Description sadasdnsandasdnmasmdmasmdsamdmamnsdmasdasdnasdbbasddddddddddddddddddddnm",
                             productPrice: "Product Price",
                             productCategory: "Product Category"
                         }}

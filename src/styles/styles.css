@@ -168,6 +168,14 @@
     border-right: 1px solid #d8f0f1;
   }
 
+  .border-bottom{
+    border-bottom: 1px solid #d8f0f1 !important;
+  }
+
+  .border-radius{
+    border-radius: 10px !important;
+  }
+
   .dashboard-margin{
     margin-left: 150px;
     margin-right: 100px;
@@ -211,4 +219,12 @@
     font-size: 1.5rem;
     font-weight: 500;
     color: #393E46;
+}
+
+.text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    word-wrap: break-word;
 }

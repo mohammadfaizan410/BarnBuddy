@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import BusinessCardRound from "../components/Business/Business-Card-Round";
 import BusinessAuth from "../components/Dashboard/Business-Dashboard/Business-Components/Business-Auth";
-
-
+import { Spinner } from "react-bootstrap";
 
 export default function Home() {
     const [businessArray, setBusinessArray] = React.useState([]);
@@ -143,7 +142,14 @@ export default function Home() {
       
       
       },[]);
-
+  if(businessArray.length === 0){
+    return (
+        <div className="d-flex justify-content-center align-items-center" style={{height: "100vh"}}>
+            <Spinner animation="border" role="status">
+            </Spinner>
+        </div>
+    )
+  }
     return (
         <div className="container-margins">
        <Carousel className="rounded" style={{margin: "0px", padding : "0px"}}>
