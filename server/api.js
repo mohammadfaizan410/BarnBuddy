@@ -391,10 +391,6 @@ router.post(
         req.files["business_ownership_document"][0].path;
       const government_issued_id = req.files["government_issued_id"][0].path;
 
-      // Perform any operations with the file paths as needed
-      console.log("File 1 Path:", business_ownership_document);
-      console.log("File 2 Path:", government_issued_id);
-
       const business = await Business.findOne({
         _id: business_id,
       });
@@ -474,39 +470,62 @@ router.post("/business/claim/reject", async (req, res) => {
   }
 });
 
-router.post("/business/product/add", async (req, res) => {
-  try {
-    const { business_id, title, description, categories, price } = req.body;
+router.post(
+  "/business/product/add",
+  upload.fields([
+    { name: "featured_image", maxCount: 1 },
+    { name: "product_image_1", maxCount: 1 },
+    { name: "product_image_2", maxCount: 1 },
+    { name: "product_image_3", maxCount: 1 },
+    { name: "product_image_4", maxCount: 1 },
+  ]),
+  async (req, res) => {
+    try {
+      const { business_id, title, description, categories, price } = req.body;
 
-    const business = await Business.findOne({
-      _id: business_id,
-    });
+      const featured_image = req.files["featured_image"][0].path;
+      const product_image_1 = req.files["product_image_1"][0].path;
+      const product_image_2 = req.files["product_image_2"][0].path;
+      const product_image_3 = req.files["product_image_3"][0].path;
+      const product_image_4 = req.files["product_image_4"][0].path;
 
-    if (!business) {
-      return res.status(400).json({ message: "Business not found" });
+      const business = await Business.findOne({
+        _id: business_id,
+      });
+
+      if (!business) {
+        return res.status(400).json({ message: "Business not found" });
+      }
+
+      const product = new Product({
+        business_id: business_id,
+        title: title,
+        description: description,
+        categories: categories,
+        price: price,
+        followers: [],
+        reviews: [],
+        featured_image: featured_image,
+        images: [
+          product_image_1,
+          product_image_2,
+          product_image_3,
+          product_image_4,
+        ],
+      });
+
+      await product.save();
+
+      business.products.push(product._id);
+      await business.save();
+
+      return res.status(200).json({ message: "Success Product Added." });
+    } catch (error) {
+      console.log(error);
+      res.status(400).json({ message: error.message });
     }
-
-    const product = new Product({
-      business_id: business_id,
-      title: title,
-      description: description,
-      categories: categories,
-      price: price,
-      followers: [],
-      reviews: [],
-    });
-
-    await product.save();
-
-    business.products.push(product._id);
-    await business.save();
-
-    return res.status(200).json({ message: "Success Product Added." });
-  } catch (error) {
-    console.log(error);
-    res.status(400).json({ message: error.message });
   }
-});
+);
 
 router.delete("/business/product/delete", async (req, res) => {
   try {
@@ -542,30 +561,53 @@ router.delete("/business/product/delete", async (req, res) => {
   }
 });
 
-router.post("/business/product/update", async (req, res) => {
-  try {
-    const { product_id, title, description, categories, price } = req.body;
+router.post(
+  "/business/product/update",
+  upload.fields([
+    { name: "featured_image", maxCount: 1 },
+    { name: "product_image_1", maxCount: 1 },
+    { name: "product_image_2", maxCount: 1 },
+    { name: "product_image_3", maxCount: 1 },
+    { name: "product_image_4", maxCount: 1 },
+  ]),
+  async (req, res) => {
+    try {
+      const { product_id, title, description, categories, price } = req.body;
 
-    const product = await Product.findOne({
-      _id: product_id,
-    });
+      const featured_image = req.files["featured_image"][0].path;
+      const product_image_1 = req.files["product_image_1"][0].path;
+      const product_image_2 = req.files["product_image_2"][0].path;
+      const product_image_3 = req.files["product_image_3"][0].path;
+      const product_image_4 = req.files["product_image_4"][0].path;
 
-    if (!product) {
-      return res.status(400).json({ message: "Product not found" });
+      const product = await Product.findOne({
+        _id: product_id,
+      });
+
+      if (!product) {
+        return res.status(400).json({ message: "Product not found" });
+      }
+
+      product.title = title;
+      product.description = description;
+      product.categories = categories;
+      product.price = price;
+      product.featured_image = featured_image;
+      product.images = [
+        product_image_1,
+        product_image_2,
+        product_image_3,
+        product_image_4,
+      ];
+
+      await product.save();
+
+      return res.status(200).json({ message: "Success Product Updated." });
+    } catch (error) {
+      console.log(error);
+      res.status(400).json({ message: error.message });
     }
-
-    product.title = title;
-    product.description = description;
-    product.categories = categories;
-    product.price = price;
-
-    await product.save();
-
-    return res.status(200).json({ message: "Success Product Updated." });
-  } catch (error) {
-    console.log(error);
-    res.status(400).json({ message: error.message });
   }
-});
+);
 
 module.exports = router;

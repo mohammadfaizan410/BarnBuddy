@@ -115,6 +115,14 @@ const productSchema = new mongoose.Schema({
       ref: "Review",
     },
   ],
+
+  featured_image: {
+    type: String,
+  },
+
+  images: {
+    type: [String],
+  },
 });
 
 const businessSchema = new mongoose.Schema({
