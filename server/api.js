@@ -125,7 +125,9 @@ router.post("/auth/business", async (req, res) => {
     });
 
     if (!user) {
-      return res.status(400).json({ message: "User not found" });
+      return res
+        .status(400)
+        .json({ message: "User not found", success: false });
     }
 
     const business = await Business.findOne({
@@ -153,7 +155,9 @@ router.post("/user/customer/add", async (req, res) => {
     });
 
     if (existing_user) {
-      return res.status(400).json({ message: "User already exists." });
+      return res
+        .status(400)
+        .json({ message: "User already exists.", success: false });
     }
     const user = new User({
       username: username,
@@ -183,7 +187,9 @@ router.post("/user/customer/add", async (req, res) => {
 
     await customer.save();
 
-    return res.status(200).json({ message: "Success Customer Added." });
+    return res
+      .status(200)
+      .json({ message: "Success Customer Added.", success: true });
   } catch (error) {
     console.log(error);
     res.status(400).json({ message: error.message });
@@ -207,7 +213,9 @@ router.post("/user/business/add", async (req, res) => {
     });
 
     if (existing_user) {
-      return res.status(400).json({ message: "User already exists." });
+      return res
+        .status(400)
+        .json({ message: "User already exists.", success: false });
     }
 
     const user = new User({
@@ -250,10 +258,12 @@ router.post("/user/business/add", async (req, res) => {
 
     await business.save();
 
-    return res.status(200).json({ message: "Success Business Added." });
+    return res
+      .status(200)
+      .json({ message: "Success Business Added.", success: true });
   } catch (error) {
     console.log(error);
-    res.status(400).json({ message: error.message });
+    res.status(400).json({ message: error.message, success: false });
   }
 });
 
@@ -275,7 +285,9 @@ router.post("/user/customer/update", verifyToken, async (req, res) => {
     });
 
     if (!user) {
-      return res.status(400).json({ message: "User not found" });
+      return res
+        .status(400)
+        .json({ message: "User not found", success: false });
     }
 
     user.username = username;
@@ -284,7 +296,9 @@ router.post("/user/customer/update", verifyToken, async (req, res) => {
 
     await user.save();
 
-    return res.status(200).json({ message: "Success Customer Updated." });
+    return res
+      .status(200)
+      .json({ message: "Success Customer Updated.", success: true });
   } catch (error) {
     console.log(error);
     res.status(400).json({ message: error.message });
@@ -300,10 +314,12 @@ router.post("/user/business/:business_id", verifyToken, async (req, res) => {
     });
 
     if (!business) {
-      return res.status(400).json({ message: "Business not found" });
+      return res
+        .status(400)
+        .json({ message: "Business not found", success: false });
     }
 
-    return res.status(200).json({ business: business });
+    return res.status(200).json({ business: business, success: true });
   } catch (error) {
     console.log(error);
     res.status(400).json({ message: error.message });
@@ -316,10 +332,10 @@ router.get("/business/unclaimed/all", verifyToken, async (req, res) => {
       claimed: false,
     });
 
-    return res.status(200).json({ businesses: businesses });
+    return res.status(200).json({ businesses: businesses, success: true });
   } catch (error) {
     console.log(error);
-    res.status(400).json({ message: error.message });
+    res.status(400).json({ message: error.message, success: false });
   }
 });
 
@@ -400,7 +416,9 @@ router.post(
       });
 
       if (!business) {
-        return res.status(400).json({ message: "Business not found" });
+        return res
+          .status(400)
+          .json({ message: "Business not found", success: false });
       }
 
       const business_claim = new BusinessClaim({
@@ -415,10 +433,12 @@ router.post(
 
       await business_claim.save();
 
-      return res.status(200).json({ message: "Success Business Claim Filed." });
+      return res
+        .status(200)
+        .json({ message: "Success Business Claim Filed.", success: true });
     } catch (error) {
       console.log(error);
-      res.status(400).json({ message: error.message });
+      res.status(400).json({ message: error.message, success: false });
     }
   }
 );
@@ -432,16 +452,20 @@ router.post("/business/claim/approve", verifyToken, async (req, res) => {
     });
 
     if (!business_claim) {
-      return res.status(400).json({ message: "Business Claim not found" });
+      return res
+        .status(400)
+        .json({ message: "Business Claim not found", success: false });
     }
 
     business_claim.status = "rejected";
     await business_claim.save();
 
-    return res.status(200).json({ message: "Success Claim Rejected." });
+    return res
+      .status(200)
+      .json({ message: "Success Claim Rejected.", success: true });
   } catch (error) {
     console.log(error);
-    res.status(400).json({ message: error.message });
+    res.status(400).json({ message: error.message, success: false });
   }
 });
 
@@ -454,7 +478,9 @@ router.post("/business/claim/reject", verifyToken, async (req, res) => {
     });
 
     if (!business_claim) {
-      return res.status(400).json({ message: "Business Claim not found" });
+      return res
+        .status(400)
+        .json({ message: "Business Claim not found", success: false });
     }
 
     business_claim.status = "approved";
@@ -467,10 +493,12 @@ router.post("/business/claim/reject", verifyToken, async (req, res) => {
     business.claimed = true;
     await business.save();
 
-    return res.status(200).json({ message: "Success Claim Approved." });
+    return res
+      .status(200)
+      .json({ message: "Success Claim Approved.", success: true });
   } catch (error) {
     console.log(error);
-    res.status(400).json({ message: error.message });
+    res.status(400).json({ message: error.message, success: false });
   }
 });
 
@@ -499,7 +527,9 @@ router.post(
       });
 
       if (!business) {
-        return res.status(400).json({ message: "Business not found" });
+        return res
+          .status(400)
+          .json({ message: "Business not found", success: false });
       }
 
       const product = new Product({
@@ -524,10 +554,12 @@ router.post(
       business.products.push(product._id);
       await business.save();
 
-      return res.status(200).json({ message: "Success Product Added." });
+      return res
+        .status(200)
+        .json({ message: "Success Product Added.", success: true });
     } catch (error) {
       console.log(error);
-      res.status(400).json({ message: error.message });
+      res.status(400).json({ message: error.message, success: false });
     }
   }
 );
@@ -541,7 +573,9 @@ router.delete("/business/product/delete", verifyToken, async (req, res) => {
     });
 
     if (!business) {
-      return res.status(400).json({ message: "Business not found" });
+      return res
+        .status(400)
+        .json({ message: "Business not found", success: false });
     }
 
     const product = await Product.findOne({
@@ -549,7 +583,9 @@ router.delete("/business/product/delete", verifyToken, async (req, res) => {
     });
 
     if (!product) {
-      return res.status(400).json({ message: "Product not found" });
+      return res
+        .status(400)
+        .json({ message: "Product not found", success: false });
     }
 
     business.products = business.products.filter((id) => id !== product_id);
@@ -559,10 +595,12 @@ router.delete("/business/product/delete", verifyToken, async (req, res) => {
       _id: product_id,
     });
 
-    return res.status(200).json({ message: "Success Product Deleted." });
+    return res
+      .status(200)
+      .json({ message: "Success Product Deleted.", success: true });
   } catch (error) {
     console.log(error);
-    res.status(400).json({ message: error.message });
+    res.status(400).json({ message: error.message, success: false });
   }
 });
 
@@ -591,7 +629,9 @@ router.post(
       });
 
       if (!product) {
-        return res.status(400).json({ message: "Product not found" });
+        return res
+          .status(400)
+          .json({ message: "Product not found", success: false });
       }
 
       product.title = title;
@@ -608,10 +648,12 @@ router.post(
 
       await product.save();
 
-      return res.status(200).json({ message: "Success Product Updated." });
+      return res
+        .status(200)
+        .json({ message: "Success Product Updated.", success: true });
     } catch (error) {
       console.log(error);
-      res.status(400).json({ message: error.message });
+      res.status(400).json({ message: error.message, success: false });
     }
   }
 );
