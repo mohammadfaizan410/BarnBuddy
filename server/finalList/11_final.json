@@ -1,0 +1,2963 @@
+{
+  "dispensary": {
+    "name": "CannaCare Medical Dispensary",
+    "address1": "3215 S Carolyn Ave ",
+    "coverPhotoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery369141/r0UIQUSRORemw1Wzd6bQ_slim-20margins-20dots-20logo.jpg",
+    "country": "US",
+    "city": "Sioux Falls",
+    "description": "Cannacare Medical Dispensary is located in Sioux Falls, SD and is family owned and operated. We are open from 8am-10pm seven days a week! Our main goal is to provide patients with the best possible products available on the market.",
+    "email": "cannacare.sf@gmail.com",
+    "flags": [
+      "US",
+      "dispensary",
+      "licensed",
+      "medical",
+      "storefront"
+    ],
+    "locations": [
+      {
+        "lat": 43.51583,
+        "lon": -96.779025
+      },
+      {
+        "lat": 43.5158725,
+        "lon": -96.7790344
+      }
+    ],
+    "logoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery369141/2EHpP1R1RtSiVC4llwY4_green-20dots-20logo.png",
+    "mapMarkerLocations": [
+      {
+        "city": "Sioux Falls",
+        "index": 0,
+        "label": "Sioux Falls,SD",
+        "state": "SD",
+        "country": "US",
+        "latitude": "43.5158725",
+        "longitude": "-96.7790344"
+      }
+    ],
+    "phone": "605-271-4803",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery369141/r0UIQUSRORemw1Wzd6bQ_slim-20margins-20dots-20logo.jpg"
+      }
+    ],
+    "primaryLocation": {
+      "lat": 43.51583,
+      "lon": -96.779025
+    },
+    "state": "SD",
+    "tags": [
+      "medical",
+      "storefront",
+      "licensed"
+    ],
+    "website": "https://www.cannacaresf.com/",
+    "zip": "57106"
+  },
+  "products": [
+    {
+      "name": "Dakota Green Terp Ranch - LBD - Pre-pack 1g",
+      "brandName": "Dakota Green Terp Ranch",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "From the Hills - Crescendo RBX - Pre-pack 1g",
+      "brandName": "From The Hills",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": "crescendo",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Bred by Ethos Genetics, Crescendo  crosses Chemdog, I-95, and Mandarin Cookies to create this THC-dominant hybrid. Its terpene profile produces sweet, earthy, and citrus aromas with gassy, kushy, and sweet cookie dough flavors. Buds are large in size and mostly green with purple accents.\n\n ",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": 1.0095612643881,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 22,
+          "score": -0.0505783711124502,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": -0.0302670529802162,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": 1.37473728623984,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.215148951729155,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.599134413307071,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.147507443819049,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.338625241854918,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.127272926638619,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.987892966540728,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.44084462881391,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.506024814507092,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.882491056186592,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Dakota Green Terp Ranch - Sour Plums - Pre-pack 1G",
+      "brandName": "Dakota Green Terp Ranch",
+      "cartUnit": "g",
+      "price": 12,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "605 Cannabis - Trop Cherry - Pre-pack 1g",
+      "brandName": "605 Cannabis",
+      "cartUnit": "g",
+      "price": 12,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": "trop-cherry",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Trop Cherry (aka Tropicana Cherry, or Cherry Trop) is a modern marijuana strain from Relentless Genetics. Trop Cherry is a cross of Tropicana Cookies and Cherry Cookies f3. Trop Cherry smells like a dank tangerines and cherry, with a functional daytime high. Relentless Genetics works out of Colorado and also does Rozay, and Frozay. A Trop Cherry just took first place in a Michigan Cannabis Cup in 2022.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": -0.069801679405574,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": -0.759256764605272,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": -0.166921355306873,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": 0.128727027186468,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 19,
+          "score": 0.374641578765139,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": 0.343047044249456,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": 0.137927472887538,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -0.0673799899166569,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.256086249675815,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": 0.0071429395576173,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.679835384722923,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.716149533015004,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.91974644795619,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "605 Cannabis - EmergenC - Pre-pack 1g",
+      "brandName": "605 Cannabis",
+      "cartUnit": "g",
+      "price": 12,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Black Hills Bud - Go Go - Pre-pack 1g",
+      "brandName": "Black Hills Bud",
+      "cartUnit": "g",
+      "price": 12,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "go-time",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Go Time is a sativa-dominant hybrid strain bred by JinxProof Genetics. A cross between Norton and JOG Kush, this uplifting strain is perfect for perking up moods, stimulating focus, and coercing arousal. Zesty lemon aromas combine with sour, skunky diesel notes with an earthy, hashy finish. As pretty as it is potent, Go Time flowers erupt with bulging calyxes of pastel purples, pinks, and greens underneath a snow-white coat of crystal resin. ",
+      "effects": {
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 3.09400104482159,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": 1.75604372694588,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": 1.20318377994131,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": 2.60643568888075,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 1.98739622607621,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.162973684852118,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -1.27491733118078,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.205120983968699,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.0555525781580139,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.53953281430738,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.18811585344253,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.10488498510593,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.901417358255249,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Black Hills Bud - Triks - Pre-pack 1g",
+      "brandName": "Black Hills Bud",
+      "cartUnit": "g",
+      "price": 12,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Garden Valley Agriculture - Skinny Minnie - Pre-pack 1g",
+      "brandName": "Garden Valley Agriculture",
+      "cartUnit": "g",
+      "price": 12,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Dakota Green Hydro - Blue Cookies - Pre-pack 1G",
+      "brandName": null,
+      "cartUnit": "g",
+      "price": 14,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/strains/photos/xKu01SygRkm6x1eqDW4H_BlueCookies.jpg",
+      "strainName": "blue-cookies",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Blue Cookies, also known as \"Blue GSC\" and \"Blue Girl Scout Cookies,\" is an indica-dominant hybrid cross between two celebrity strains, Girl Scout Cookies and Blueberry. As the child of these heavyweight champion strains, Blue Cookies delivers a crushing blow of euphoria straight to the head, where it swiftly sinks down to relax the entire body. Sweet berry flavors fuse with earthy cherry notes in a flavor profile as enticing as the bud’s thick coat of frosty resin that stretches over twisting hues of green and purple. Novice consumers should approach Blue Cookies with modesty, but this strain’s potency is perfect for hard-to-impress veterans. You may also come across another variation of Blue Cookies, a select Girl Scout Cookies phenotype that lacks the Blueberry genetics.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 441,
+          "score": 0.861692885516203,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 343,
+          "score": 0.484112272898476,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 326,
+          "score": 0.599317801908623,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 222,
+          "score": -0.0101672930111573,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 165,
+          "score": 0.43416565823143,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 155,
+          "score": 0.447962759559274,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 137,
+          "score": -0.177235841934015,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 130,
+          "score": 0.246043796109608,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 125,
+          "score": 0.820804991011572,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 120,
+          "score": -0.319430266410159,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 114,
+          "score": 0.12900323620848,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 101,
+          "score": -0.0406152908586279,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 84,
+          "score": -0.450417367994929,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "605 Cannabis - EmergenC - Pre-pack 2g",
+      "brandName": "605 Cannabis",
+      "cartUnit": "g",
+      "price": 15,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "From the Hills - Crescendo RBX - Pre-pack 3.5g",
+      "brandName": "From The Hills",
+      "cartUnit": "g",
+      "price": 25,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "crescendo",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Bred by Ethos Genetics, Crescendo  crosses Chemdog, I-95, and Mandarin Cookies to create this THC-dominant hybrid. Its terpene profile produces sweet, earthy, and citrus aromas with gassy, kushy, and sweet cookie dough flavors. Buds are large in size and mostly green with purple accents.\n\n ",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": 1.0095612643881,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 22,
+          "score": -0.0505783711124502,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": -0.0302670529802162,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": 1.37473728623984,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.215148951729155,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.599134413307071,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.147507443819049,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.338625241854918,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.127272926638619,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.987892966540728,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.44084462881391,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.506024814507092,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.882491056186592,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Big Sioux Bud - Lemon Cherry Gelato - Pre-pack 3.5",
+      "brandName": "BIG",
+      "cartUnit": "g",
+      "price": 25,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": "lemon-cherry-gelato",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Lemon Cherry Gelato is a hybrid weed strain made from a genetic cross between Sunset Sherbet and Girl Scout Cookies. Lemon Cherry Gelato is 25% THC, making this strain an ideal choice for experienced cannabis consumers. Leafly customers tell us Lemon Cherry Gelato effects include tingly,  relaxed, and euphoric. Medical marijuana patients often choose Lemon Cherry Gelato when dealing with symptoms associated with anxiety, pain, and stress. Bred by Backpackboyz, Lemon Cherry Gelato features an aroma of lime, berries, and citrus with flavors of lemon, and sweet fruit. The dominant terpene of this strain is caryophyllene. If you’ve smoked, dabbed, or consumed Lemon Cherry Gelato, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 280,
+          "score": 0.418334963609429,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 215,
+          "score": 0.0652342160236559,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 200,
+          "score": 0.145375137557596,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 136,
+          "score": -0.312079454844701,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 112,
+          "score": 0.666295318177491,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 109,
+          "score": 0.519063233355872,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 105,
+          "score": -0.0437116448088404,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 84,
+          "score": -0.379533973767266,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 77,
+          "score": -0.120043775319149,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 76,
+          "score": -0.157081871497442,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 75,
+          "score": -0.252701583789088,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 61,
+          "score": -0.23500184024135,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 53,
+          "score": 0.0784710095630007,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Dakota Green Terp Ranch - LBD - Pre-pack 3.5g",
+      "brandName": "Dakota Green Terp Ranch",
+      "cartUnit": "g",
+      "price": 25,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Dakota Green Terp Ranch - Turbo Diesel - Pre-pack 3.5g",
+      "brandName": "Dakota Green Terp Ranch",
+      "cartUnit": "g",
+      "price": 30,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "turbo-diesel",
+      "strainCategory": "Hybrid",
+      "strainDescription": null,
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 0.627865276488669,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 1.94100929846542,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.429295528045172,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.513175637771846,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.100865706898589,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.784522587616189,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.297172058825458,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.44546453246812,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.263693896453337,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.549383697378866,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.13196724639282,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.10318403348043,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.05320843338546,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Garden Valley Agriculture - Romulan Cherry Pie - Pre-pack 3.5g",
+      "brandName": "Garden Valley Agriculture",
+      "cartUnit": "g",
+      "price": 30,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": "romulan",
+      "strainCategory": "Indica",
+      "strainDescription": "Romulan is an indica marijuana strain made by crossing North American Indica with White Rhino. Named after the alien Star Trek race, this pine-scented strain is revered for its potent and therapeutic qualities. You can expect Romulan to deliver intense, cerebral effects that eventually give way to sedation and relaxation. Medical marijuana patients choose this strain to help treat symptoms related to muscle spasms and nerve damage. Growers say Romulan produces dense, frosty buds and is a popular choice among growers in the Pacific Northwest.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 404,
+          "score": -0.0512728734577195,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 365,
+          "score": 1.84468631855436,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 300,
+          "score": -0.417257446266029,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 296,
+          "score": -0.162152672070221,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 186,
+          "score": 0.455398511323196,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 171,
+          "score": -0.753798547381017,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 116,
+          "score": -0.0860216334936059,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 109,
+          "score": -0.231649639342525,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 99,
+          "score": -0.704517532951212,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 98,
+          "score": -0.743195783184322,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 58,
+          "score": -0.292622028641484,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 56,
+          "score": -0.706913203584056,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 38,
+          "score": -0.948085652021282,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Dakota Green Terp Ranch - Clementine - Pre-pack 3.5g",
+      "brandName": "Dakota Green Terp Ranch",
+      "cartUnit": "g",
+      "price": 30,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/strains/photos/QNQ0kFSQ9Cf1v5ffgbWl_Clementine.png",
+      "strainName": "clementine",
+      "strainCategory": "Sativa",
+      "strainDescription": "Clementine is a energizing sativa-dominant strain that is made by crossing Tangie with Lemon Skunk. This strain is loved for its sweet taste and citrus aroma. Leafly users say Clementine is perfect for a wake and bake or activating your third eye to increase your focus. Clementine has won awards including the best sativa concentrate in 2015.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 307,
+          "score": 0.877741136654235,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 274,
+          "score": 1.11976538542439,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 262,
+          "score": 1.86433208034514,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 206,
+          "score": 1.10001159226002,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 190,
+          "score": -0.263612748885486,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 186,
+          "score": 0.801282740729547,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 175,
+          "score": -1.11020560492775,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 151,
+          "score": 1.03517790951449,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 81,
+          "score": -0.0344222107371455,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 77,
+          "score": -0.170848273920565,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 63,
+          "score": -0.465562959491914,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 51,
+          "score": -0.0720984274260356,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 20,
+          "score": -0.972071150896062,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Garden Valley Agriculture - Black Rose - Pre-pack 3.5g",
+      "brandName": "Garden Valley Agriculture",
+      "cartUnit": "g",
+      "price": 30,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Belushi's Farm - Lemon V - Pre-pack 3.5",
+      "brandName": "Belushi's Farm",
+      "cartUnit": "g",
+      "price": 35,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "FTH - Acapulco Gold - Blasting Cap Balm 6g",
+      "brandName": "From The Hills",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": "acapulco-gold",
+      "strainCategory": "Sativa",
+      "strainDescription": "Acapulco Gold is a rare sativa marijuana strain. As one of the most well-known strains, Acapulco Gold has been likened to dinner at a five-star restaurant. This strain produces effects that are motivating and energizing. This strain comes from the area in and around Acapulco, Mexico, and its orange hairs resemble a gold nugget, with gold, green, and brown colors and plenty of resin on the buds. An aroma of burnt toffee lingers when the bud is broken up. Acapulco Gold has a reputation for being one of the best cannabis strains ever created, and it's becoming more difficult to find. ",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 360,
+          "score": 0.56965690592513,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 330,
+          "score": 0.935584808319367,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 283,
+          "score": 0.118350304408809,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 260,
+          "score": 1.16948344507035,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 251,
+          "score": 0.935889841796742,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 230,
+          "score": -1.05522964716402,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 201,
+          "score": 0.471392000665021,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 153,
+          "score": 0.55582936553845,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 149,
+          "score": 0.437777471403071,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 100,
+          "score": -0.237691577005154,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 95,
+          "score": 0.352315789195673,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 84,
+          "score": -0.27594107828908,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 42,
+          "score": -0.811113058850795,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Badlands - Soak n' Fizz - Bath Salts 40mg",
+      "brandName": "Badlands Cannabis",
+      "cartUnit": "each",
+      "price": 40,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "High Hills - CherryRezBun  - Rosin Sauce 1g Jar",
+      "brandName": "High Hills",
+      "cartUnit": "each",
+      "price": 45,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "FTH - Live Rosin Jam - Super Lemon Haze - 1g Jar",
+      "brandName": "From The Hills",
+      "cartUnit": "each",
+      "price": 55,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": "super-lemon-haze",
+      "strainCategory": "Sativa",
+      "strainDescription": "Super Lemon Haze, sometimes called \"SLH,\" is a sativa-dominant hybrid marijuana strain of Lemon Skunk and Super Silver Haze and two time Cannabis Cup winner from Green House Seeds. Super Lemon Haze is a kief-caked multi-colored wonder. As the name states this strain has real lemony characteristics. The smell is zesty, citrusy, and a little sweet. As for the taste, it's everything one would expect from the namesake; tart and sweet like lemonheads candy - not quite as sharp as one might expect. The effects are uniquely energetic and lively, may not be the best strain for those of us that are naturally wound-up tight.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1173,
+          "score": 0.46736028070131,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1131,
+          "score": 1.88618062040195,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1121,
+          "score": 0.971449602546512,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1016,
+          "score": 0.303880650003532,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 825,
+          "score": 0.883074951719851,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 706,
+          "score": 0.565191386933282,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 608,
+          "score": -1.4811618749336,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 591,
+          "score": 0.832865890915625,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 421,
+          "score": 0.153561194083774,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 383,
+          "score": -0.0736748794006657,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 298,
+          "score": -0.217638562922043,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 274,
+          "score": 0.16163995580479,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 123,
+          "score": -0.864946445765895,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "High Hills - Live Rosin Badder - Super Boof - 1g Jar",
+      "brandName": "From The Hills",
+      "cartUnit": "each",
+      "price": 60,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "super-boof",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Super Boof is a zingy hybrid weed strain made by crossing Black Cherry Punch and Tropicana Cookies. It has the same chunky, deep green buds as its parents that look wet with silver calyxes. The effects of Super Boof are believed to be intensely relaxing and giggly. Reviewers on Leafly say this strain makes them feel euphoric, creative and focused. Medical marijuana patients say they buy Super Boof for gastrointestinal disorders, depression, and fibromyalgia. Super Boof regularly tests at 28% THC. The dominant terpene is myrcene, which translates to earthy, and cherry notes. The original breeder of the Super Boof strain is California's Blockhead, who named it \"Blockberry.\" Grower Mobile Jay selected a variety and named it Superboof.",
+      "effects": {
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 49,
+          "score": 0.635919850242219,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 41,
+          "score": -0.590212094587285,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 40,
+          "score": -0.231148455522457,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 30,
+          "score": 1.12432375724006,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": 0.68408864104074,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": -0.570876370846206,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": 0.0774617258486296,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 22,
+          "score": -0.0255261161495184,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 0.207939617427662,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": -0.0335993176641417,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.272257451062266,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.3476664636062,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": 0.177272815759318,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "High Hills - Live Rosin - Super Boof - 1g Jar",
+      "brandName": "From The Hills",
+      "cartUnit": "each",
+      "price": 60,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "super-boof",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Super Boof is a zingy hybrid weed strain made by crossing Black Cherry Punch and Tropicana Cookies. It has the same chunky, deep green buds as its parents that look wet with silver calyxes. The effects of Super Boof are believed to be intensely relaxing and giggly. Reviewers on Leafly say this strain makes them feel euphoric, creative and focused. Medical marijuana patients say they buy Super Boof for gastrointestinal disorders, depression, and fibromyalgia. Super Boof regularly tests at 28% THC. The dominant terpene is myrcene, which translates to earthy, and cherry notes. The original breeder of the Super Boof strain is California's Blockhead, who named it \"Blockberry.\" Grower Mobile Jay selected a variety and named it Superboof.",
+      "effects": {
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 49,
+          "score": 0.635919850242219,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 41,
+          "score": -0.590212094587285,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 40,
+          "score": -0.231148455522457,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 30,
+          "score": 1.12432375724006,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": 0.68408864104074,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": -0.570876370846206,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": 0.0774617258486296,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 22,
+          "score": -0.0255261161495184,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 0.207939617427662,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": -0.0335993176641417,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.272257451062266,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.3476664636062,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": 0.177272815759318,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "High Hills - Live Rosin Badder - Lotto 95 - 1g Jar",
+      "brandName": "From The Hills",
+      "cartUnit": "each",
+      "price": 60,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "FTH - Cherry Gar-See-Ya - Live Rosin 1st Press Gold 1g Jar",
+      "brandName": "Press",
+      "cartUnit": "each",
+      "price": 65,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "FTH - Pink Runtz - Live Rosin Crumble 1g Jar",
+      "brandName": "From The Hills",
+      "cartUnit": "each",
+      "price": 65,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": "pink-runtz",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Pink Runtz is a hybrid marijuana strain and a phenotype of the original Runtz, which crosses Zkittlez with Gelato. The hype around this strain has been firmly established - and for good reason. Pink Runtz features an aroma that is sweet and fruity like candy. This strain produces uplifting effects that are known to be long-lasting. Growers say Pink Runtz is distinguished by an extremely dense bud structure with dark green-to-purple hues. ",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 162,
+          "score": 0.619014066618071,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 151,
+          "score": -0.0981238934212935,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 113,
+          "score": -0.148937116876134,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 103,
+          "score": 1.43580752012781,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 102,
+          "score": 0.0154213739846181,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 78,
+          "score": 0.829065136400233,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 55,
+          "score": 0.0430626468057656,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 50,
+          "score": 0.0801021073535802,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 49,
+          "score": -0.443165505732862,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": -0.263610134642146,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 44,
+          "score": -0.587952399568715,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 38,
+          "score": -0.381508576581121,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 31,
+          "score": -0.0046553645334649,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "FTH - Roastmellow - Live Rosin 90/120 Hash 1g Jar",
+      "brandName": "From The Hills",
+      "cartUnit": "each",
+      "price": 65,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "FTH - Live Rosin Batter - Bay 11 - 1g Jar",
+      "brandName": "From The Hills",
+      "cartUnit": "each",
+      "price": 65,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "bay-11",
+      "strainCategory": "Sativa",
+      "strainDescription": "Bay 11, also known as \"Granddaddy Bay 11,\" is a potent sativa marijuana strain with unspecified genetics. Its dense, pale buds are coated in amber resin with a sweet, fruity aroma that initiates immediate relaxation. A favorite strain for patients needing daytime relief, Bay 11 eases pain while boosting appetite. Bay 11 has a 67 day flowering period indoors, and outdoor gardens will be ready for harvest near the end of October. Bay 11 was bred by Grand Daddy Purp",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 53,
+          "score": 0.89139904022066,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": 1.98484543081839,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 43,
+          "score": 0.836024196766601,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 36,
+          "score": -0.71719203554287,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 36,
+          "score": 1.13723951605637,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 31,
+          "score": -0.372404767201207,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": 0.577271552026653,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 19,
+          "score": 0.244535672076191,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 0.324296756213052,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.099124321621485,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.164323781232467,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.480902707726431,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.848438902566179,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "FTH - White Devil - Live Rosin Crumble 1g Jar",
+      "brandName": "From The Hills",
+      "cartUnit": "each",
+      "price": 65,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "devil",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Bred by Mr. Nice Seeds, Devil is a cross of an old Afghan strain and Afghan Skunk. Devil is a potent beast with big, juicy nugs exploding off the stalks with stark white trichomes that exude a thick skunky, earthy, and piney aroma. With just a few puffs you can expect to be taken into a deep state of relaxation with a long-lasting, sedative high. ",
+      "effects": {
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 2.35759922968334,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 1.01214336565392,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.83056801002557,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.488953017686849,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.539607805040706,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.906235167145661,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.274110504022363,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.437458540769512,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.131550718226865,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.2355860101322,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.18760023180282,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.36945172142738,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.39150056361579,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "FTH - Strawberry Diesel Cookies - Live Rosin Crumble 1g Jar",
+      "brandName": "From The Hills",
+      "cartUnit": "each",
+      "price": 65,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": "strawberry-diesel-cookies",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Strawberry Diesel Cookies is a hybrid marijuana strain from Oni Seed Company made by crossing Strawberry Diesel with Tropicana Cookies. This strain features a sweet, gassy flavor profile and is a popular choice for dabbing. The effects of strawberry diesel will make you feel uplifted.",
+      "effects": {
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.0179363127483288,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.908321494129086,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.59611233917221,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.14132677038683,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.350668716005321,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.0702136671948661,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.0629561047429101,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.348463220229291,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.376115459567903,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.0244992379852,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.17766070108204,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.0452902394316,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.835206699155085,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Badlands - Gummies - Peach 100mg",
+      "brandName": "Badlands Cannabis",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Badlands - Gummies - Strawberry 100mg",
+      "brandName": "Badlands Cannabis",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "FTH - White Devil - Live Rosin Gold Mine Gummies 50mg 2pk",
+      "brandName": "From The Hills",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Bad River Cannabis - Royale with Cherries - Live Rosin Gummies 100mg",
+      "brandName": "Bad River Cannabis",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": "royale-with-cheese",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Royale With Cheese is a hybrid marijuana strain made by crossing MAC with Royal Goo. It’s a popular strain choice for fans of the movie Pulp Fiction. Royale with Cheese offers a unique terpene profile ranging from cookies to funky rare cheese.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.23567162754347,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.68831904944792,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 1.45955660428158,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 1.03147285922958,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.0772615002597917,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.40945624672817,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.860348971030085,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.945959464881392,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.906429769794736,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.04417641442338,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.837649895418426,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.06234629590104,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.669680051404676,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Bad River Cannabis - Tropical - Live Rosin Gummies 100mg",
+      "brandName": "Bad River Cannabis",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "DNS - Cosmic Cubez - Indica - Live Rosin Edible 100mg",
+      "brandName": "Dakota Natural Solutions",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "DNS - Cosmic Cubez - Sativa - Live Rosin Edible 100mg",
+      "brandName": "Dakota Natural Solutions",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "DNS - Live Rosin Gummies - Indica - Razzleberry 100mg",
+      "brandName": "Dakota Natural Solutions",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "DNS - Live Rosin Gummies - Sativa - Razzleberry 100mg",
+      "brandName": "Dakota Natural Solutions",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Bad River Cannabis - Grape - Live Rosin Gummies 100mg",
+      "brandName": "Bad River Cannabis",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Lifted Labs - Island Time - Live Rosin Gummies 100mg",
+      "brandName": "Island",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/v7BoTu4CRgu0fwC7NU5B_Island_Symbol_Full%201.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Lifted Labs - Palisade Peach - Live Rosin Gummies 100mg",
+      "brandName": "Lifted Labs",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Badlands - Caramels 100mg",
+      "brandName": "Badlands Cannabis",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Lifted Labs - Electrazity (Blue Rasp) - Live Rosin Gummies 100mg",
+      "brandName": "Lifted Labs",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Bad River Cannabis - Lemon - Live Rosin Gummies 100mg",
+      "brandName": "Bad River Cannabis",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "DNS - Live Rosin Gummies - Sativa - Strawberry 100mg",
+      "brandName": "Dakota Natural Solutions",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Lifted Labs - Strawberry Fields - Live Rosin Gummies 100mg",
+      "brandName": "Lifted Labs",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Lifted Labs - Citrus Stand (Lemon) - Live Rosin Gummies 100mg",
+      "brandName": "Lifted Labs",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "High Hills - Black Ice - .5g Rosin Vape",
+      "brandName": "High Hills",
+      "cartUnit": "each",
+      "price": 45,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": "black-ice",
+      "strainCategory": "Indica",
+      "strainDescription": "A cross between hybrids Black Domina and White Widow, Black Ice is an indica-dominant hybrid that is a reliable sedative. Although this flower has a pleasant aroma, its potency sets it apart from the rest. A product of Moon Seeds, Black Ice offers a high yield with an impressive THC content, making this strain optimal for pain and insomnia relief.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 56,
+          "score": 0.654414997576893,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 45,
+          "score": 2.12962745658044,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": -1.03377376297163,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 23,
+          "score": -0.887911362032926,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 20,
+          "score": 0.571918774441952,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 0.20024669007774,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -1.3116103418174,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.52013815191546,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.855527209327471,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.12721253406611,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -1.11214121086853,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -1.0252019848308,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -1.08658615507993,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "DNS - Indica - Live Rosin .5g Vape",
+      "brandName": "Dakota Natural Solutions",
+      "cartUnit": "each",
+      "price": 45,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Dakota Herb - Original Glue - Live Rosin .5g Vape",
+      "brandName": "BIG",
+      "cartUnit": "each",
+      "price": 45,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": "original-glue",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Gorilla Glue is a hybrid weed strain made from a genetic cross between Chem’s Sister, Sour Dubb, and Chocolate Diesel. This strain is 37% sativa and 63% indica. “Gorilla Glue”, also known as “Original Glue” or “GG4”, is a potent strain that delivers heavy-handed euphoria and relaxation, leaving you feeling “glued” to the couch. Its chunky, resin-covered buds fill the room with pungent earthy and sour aromas inherited from its parent strains. Gorilla Glue is 20% THC, making this strain an ideal choice for experienced cannabis consumers. Leafly customers tell us Gorilla Glue effects include feeling relaxed, sleepy, and hungry. Medical marijuana patients often choose Gorilla Glue when dealing with symptoms associated with stress, anxiety, and pain. Bred by GG Strains LLC, Gorilla Glue features flavors like pungent, pine, and earthy. The dominant terpene of this strain is caryophyllene. The average price of Gorilla Glue typically ranges from $10-$15 per gram. Gorilla Glue is a multiple award-winning strain that has taken first place in both the Michigan and Los Angeles 2014 Cannabis Cups, as well as the High Times Jamaican World Cup in 2015. It is a fast-growing strain that produces large yields of sticky buds with a flowering time of 9-10 weeks. If you’ve smoked, dabbed, or consumed Gorilla Glue, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2807,
+          "score": 0.632650247763171,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2174,
+          "score": 0.273499819555211,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2067,
+          "score": 0.402003347469301,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1527,
+          "score": 0.0255343925727109,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1248,
+          "score": 0.63135401654094,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1127,
+          "score": 0.588179260881216,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 934,
+          "score": -0.166143094756621,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 905,
+          "score": 0.293446453379968,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 855,
+          "score": -0.253336534703897,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 759,
+          "score": 0.106688970901271,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 695,
+          "score": -0.0189373059485113,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 692,
+          "score": -0.276299639319774,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 535,
+          "score": 0.152923006843285,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "High Hills - Dyno Nuggies - .5g Rosin Vape",
+      "brandName": "High Hills",
+      "cartUnit": "each",
+      "price": 45,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "High Hills -  Goose on the Loose - .5g Rosin Vape",
+      "brandName": "High Hills",
+      "cartUnit": "each",
+      "price": 45,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "High Hills - Dante's Inferno - .5g Rosin Vape (2)",
+      "brandName": "High Hills",
+      "cartUnit": "each",
+      "price": 45,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": "dantes-inferno",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Dante’s Inferno is a cannabis strain, that combines Oreoz and Devil Driver. Breeders Clearwater Genetics and Tiki Madman teamed up on the strain. Dante's Inferno can smell sweet and creamy, and is known for it's beautiful, blingy look. This indica hybrid has lots of cookies genetics in it for a relaxing effect.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.377350055484004,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.812961736769028,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.60357526272185,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": 0.673805101897023,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": 0.0694556360048829,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.769048232561313,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.125619893376913,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -1.17830964508976,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.147510045417002,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.211425183603862,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.423613088348868,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.315797940680883,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -1.08857488585047,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "DNS - Ghost Magic OG - Live Rosin .5g Vape",
+      "brandName": "Ghost.",
+      "cartUnit": "each",
+      "price": 50,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Big Sioux Bud - Trop Cherry - Kief 1g Jar",
+      "brandName": "BIG",
+      "cartUnit": "each",
+      "price": 25,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": "trop-cherry",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Trop Cherry (aka Tropicana Cherry, or Cherry Trop) is a modern marijuana strain from Relentless Genetics. Trop Cherry is a cross of Tropicana Cookies and Cherry Cookies f3. Trop Cherry smells like a dank tangerines and cherry, with a functional daytime high. Relentless Genetics works out of Colorado and also does Rozay, and Frozay. A Trop Cherry just took first place in a Michigan Cannabis Cup in 2022.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": -0.069801679405574,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": -0.759256764605272,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": -0.166921355306873,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": 0.128727027186468,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 19,
+          "score": 0.374641578765139,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": 0.343047044249456,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": 0.137927472887538,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -0.0673799899166569,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.256086249675815,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": 0.0071429395576173,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.679835384722923,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.716149533015004,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.91974644795619,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Badlands -  Awake Oil Tincture 300mg",
+      "brandName": "Badlands Cannabis",
+      "cartUnit": "each",
+      "price": 40,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Badlands -  Sleep Oil Tincture 300mg",
+      "brandName": "Badlands Cannabis",
+      "cartUnit": "each",
+      "price": 40,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "DNS -  Indica Tincture 419mg",
+      "brandName": "Dakota Natural Solutions",
+      "cartUnit": "each",
+      "price": 60,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    }
+  ]
+}

@@ -1,0 +1,1461 @@
+{
+  "dispensary": {
+    "name": "Big Sky Herbals & Edibles LLC",
+    "address1": "1637 Idaho St",
+    "coverPhotoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery365932/HYyHZD6SmqWAuQSAGha7_LeaflyBanner2.jpg",
+    "country": "US",
+    "city": "Missoula",
+    "description": "Big Sky Herbals & Edibles is a woman owned business serving Montana cannabis patients since 2011. We work with cancer survivors, TBI (Traumatic Brain Injury) patients and everyone in between to find the most effective treatments using the natural remedies found in the herb Cannabis.\n\nLori is the cannabis “provider” listed under the Montana legal cannabis providers. Linda is the grower for Lori’s patients. Between the two of them, and their dedicated employees, Big Sky Herbals & Edibles runs smoothly to provide our patients with the cleanest products available.\n\n\nLori excels as the store manager and bud tender. With her gregarious personality and willingness to listen she works closely with each patient to better understand their needs. By offering 16 different varieties of flower the inventory encompasses the gamut of healing properties. She can direct patients to a particular strain with her detailed understanding of terpenes and how they can assist a patient in choosing a strain. With such a variety of flower we also are able to offer a huge variety of products from concentrates like Diamond & Shatter to our Edible selections to healing salves and tinctures.\n\nLinda works hard making sure the cultivation of each strain we offer is done in the cleanest, most eco-friendly and organic way possible. Her time is dedicated to ensuring each strain is tended personally with their own idiosyncratic tendencies addressed and appreciated.  From testing the water seasonally to only hand spraying with organic food-safe oils our flowers flourish from babies to harvest. We love our flowers and refuse to use practices found elsewhere that can impact the final products. Our products have been tested since early 2018 and have NEVER failed.\n\n",
+    "email": "bigskyherbals@gmail.com",
+    "flags": [
+      "US",
+      "adaAccessible",
+      "dispensary",
+      "licensed",
+      "medical",
+      "pickup",
+      "preorderConfigured",
+      "recreational",
+      "storefront",
+      "womanOwned"
+    ],
+    "locations": [
+      {
+        "lat": 46.8736487,
+        "lon": -114.0220125
+      }
+    ],
+    "logoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery365932/T6cEMF2cQvqRbnOg2VpH_Snip20220408_1.png",
+    "mapMarkerLocations": [
+      {
+        "city": "Missoula",
+        "index": 0,
+        "label": "Missoula,MT",
+        "state": "MT",
+        "country": "US",
+        "latitude": "46.8736487",
+        "longitude": "-114.0220125"
+      }
+    ],
+    "phone": "(406) 926-1222",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery365932/HYyHZD6SmqWAuQSAGha7_LeaflyBanner2.jpg"
+      },
+      {
+        "id": 1165892,
+        "bigThumb": null,
+        "created": "2022-04-08T23:02:57.231Z",
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery365932/hf7vfhOFSt6TjvyqbaYB_IMG_2608.JPG",
+        "lastModified": "2022-04-08T23:02:57.231Z",
+        "smallThumb": null,
+        "user": null
+      }
+    ],
+    "primaryLocation": {
+      "lat": 46.8736487,
+      "lon": -114.0220125
+    },
+    "state": "MT",
+    "tags": [
+      "storefront",
+      "licensed",
+      "medical",
+      "recreational"
+    ],
+    "website": "https://bigskyherbals.com/",
+    "zip": "59801"
+  },
+  "products": [
+    {
+      "name": "Afghan",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/menu/3rSqcyAiRbimz22w7JQf_IMG_5308.JPG",
+      "strainName": "afghani",
+      "strainCategory": "Indica",
+      "strainDescription": "Afghani, also known as \"Afghan\" and \"Afghanistan,\" is a potent indica marijuana strain. This strain delivers a deep state of relaxation and euphoria. The flavors Afghani produces are sweet and earthy. Medical marijuana patients most commonly turn to this strain to treat insomnia, pain, and stress disorders. Afghani is named after its geographic origin, where the earliest varieties of cannabis are believed to have grown. Breeders worldwide have come to treasure this strain for its heavy resin production which is passed on genetically. ",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 381,
+          "score": 0.558011605315298,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 307,
+          "score": 2.06869420730766,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 242,
+          "score": -0.344937654340942,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 235,
+          "score": -0.130595077317271,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 158,
+          "score": 0.611536499434559,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 127,
+          "score": -0.823921467552676,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 95,
+          "score": -0.105691531151738,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 92,
+          "score": -0.544893244277708,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 80,
+          "score": -0.233610944638166,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 76,
+          "score": -0.751658483174737,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 51,
+          "score": -0.613199877070629,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 40,
+          "score": -0.843752908768476,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 40,
+          "score": -0.377231101686305,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Pure Indica",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/menu/iPtQAaZvQa24dLuOu2wk_IMG_5344.JPG",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Chocolope",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/menu/b17ehK8jSs2tEA6G95jh_jMRpJ8xBQnO4CGV3gjP6iw_thumb_7ea.jpg",
+      "strainName": "chocolope",
+      "strainCategory": "Sativa",
+      "strainDescription": "Chocolope, also known as \"D-Line,\" is a popular sativa marijuana strain made by crossing Chocolate Thai with Cannalope Haze. The result is a delicious homage to the chocolate strains that were popular in the 1980s. Chocolope's hefty buds give earthy, sweet coffee flavors that provide a dreamy, cerebral effect. Consumers report a strong, euphoric mental shift that is great when coping with depression or stress.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 641,
+          "score": 0.538914380676628,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 628,
+          "score": 1.11596264821208,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 521,
+          "score": 1.44947570393185,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 512,
+          "score": 0.136954521595032,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 409,
+          "score": 0.701562937861591,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 366,
+          "score": -1.28403455979271,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 362,
+          "score": 0.476491888784105,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 279,
+          "score": 0.58362900037533,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 192,
+          "score": -0.0690522788941663,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 139,
+          "score": -0.502793783890916,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 117,
+          "score": -0.510344222000233,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 113,
+          "score": -0.104514400352078,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 74,
+          "score": -0.819748967146076,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Chronic Widow",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/menu/w2Cd18ZYTcS1YzFklp5N_dcWdWblHQWiSx1EcLs96Nw_thumb_7bc.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Raspberry Kush",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/menu/QwF4XlqS5SdzakYM5Adt_fe1XUDOHQXaLdGtGWalt0w_thumb_616.jpg",
+      "strainName": "raspberry-kush",
+      "strainCategory": "Indica",
+      "strainDescription": "Raspberry Kush is a great-tasting indica strain whose raspberries and cream aroma will keep you coming back for more. This strain may leave newer consumers feeling pretty lazy, but many find this Kush to be a creative flower, making it great for music, art, and talking with friends.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 187,
+          "score": 0.0704534188494915,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 154,
+          "score": 0.245881150926391,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 145,
+          "score": -0.203783628618339,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 105,
+          "score": -0.240544560387021,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 103,
+          "score": 0.721665799621159,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 92,
+          "score": 0.193155644446054,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 66,
+          "score": 0.0785538347339478,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 58,
+          "score": -0.431646876737993,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 51,
+          "score": -0.102851600706386,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 50,
+          "score": -0.196120967699724,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 46,
+          "score": -0.219120411472391,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 45,
+          "score": -0.443598771432517,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 43,
+          "score": 0.178225985882398,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Amnesia Haze",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/menu/SDWRVO8RGaN1WmHZm26Q_8-Pf7eclSMu3vcJklwnJgg_thumb_7d0.jpg",
+      "strainName": "amnesia-haze",
+      "strainCategory": "Sativa",
+      "strainDescription": "With earthy flavors of lemons and citrus, Amnesia Haze is the perfect sativa strain to start your day with a smile. The uplifting, energetic buzz is one you won’t soon forget. Its genetics have been traced back to the South Asian and Jamaican landrace strains, and this Cannabis Cup winner (1st place 2004, 1st place Sativa Cup 2012) has since been popularized in the coffee shops of Amsterdam.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 834,
+          "score": 0.552551695105443,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 745,
+          "score": 0.469451848758337,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 696,
+          "score": 0.649989136576086,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 536,
+          "score": 0.892799981156623,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 514,
+          "score": -1.13662759062292,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 494,
+          "score": 0.546002128963593,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 397,
+          "score": 0.766787132518256,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 393,
+          "score": 0.676187679663848,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 352,
+          "score": -0.0327801002275816,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 351,
+          "score": 0.355864583032971,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 218,
+          "score": -0.304780632896287,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 190,
+          "score": -0.306062104471346,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 163,
+          "score": -0.0033061146695591,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Trainwreck",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/menu/YdlawbgxRNWtBhjnxER9_joSwDiNoQ-S6z9FU2kEHew_thumb_798.jpg",
+      "strainName": "trainwreck",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Trainwreck is a mind-bending, potent sativa with effects that hit like a freight train. Mexican and Thai sativas were bred with Afghani indicas to produce this Northern California staple, passing on a sweet lemon and spicy pine aroma. Trainwreck begins its speedy hurtle through the mind with a surge of euphoria, awakening creativity and happiness. Migraines, pain, and arthritis are mowed down by Trainwreck’s high-THC content, and many patients also use it for relief of anxiety, ADD/ADHD, and PTSD.",
+      "effects": {
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1407,
+          "score": 0.685757135130541,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1312,
+          "score": 0.182659074651977,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1173,
+          "score": 0.52849117386575,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1008,
+          "score": -0.92227669769398,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 863,
+          "score": 0.52643562827131,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 819,
+          "score": 0.606800175777449,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 654,
+          "score": 0.0494235843651407,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 596,
+          "score": 0.462149775251371,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 557,
+          "score": 0.277684360013166,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 553,
+          "score": 0.168051607557687,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 433,
+          "score": -0.0100819617240091,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 422,
+          "score": -0.214863359918805,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 313,
+          "score": 0.0854487668590909,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Maui",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/menu/MYyzPugQRySIep5qFo7d_UNADJUSTEDNONRAW_thumb_622.jpg",
+      "strainName": "maui",
+      "strainCategory": "Sativa",
+      "strainDescription": "Maui, also known as \"Maui OG\" is a sativa marijuana strain. A relative to Hawaiian sativa strains, Maui lives up to its tropical reputation. The musky overtones for this easy sativa are complemented by its fruity aftertaste and floral aroma. Maui tends to be head heavy and delivers a slow cerebral sensation that becomes more prominent over time. ",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 60,
+          "score": 0.0003558737941788,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 55,
+          "score": 0.430794254182074,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 45,
+          "score": -0.42554078620191,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 44,
+          "score": -1.13052030343926,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 41,
+          "score": 0.473904122327683,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 40,
+          "score": 0.609904619686819,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 35,
+          "score": 0.818109781220795,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 34,
+          "score": 0.159696631144489,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 21,
+          "score": -0.0133878068825303,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": -0.327732714123209,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.53146263348742,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.583021835724564,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -0.284555397501401,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Cheese",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/menu/ACmutFP7ScmtX7a1NyTn_P5Jj-ymWTzCiwgI19sND3Q_thumb_7a9.jpg",
+      "strainName": "cheese",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Cheese, also known as \"Dinafem Cheese,\" is an indica-dominant hybrid marijuana strain from the U.K. named for its sharply sour aroma. Cheese has achieved widespread popularity for its unique flavor and consistent potency. With origins that stretch back to the late 1980s, Cheese is said to descend from a Skunk #1 phenotype whose pungent aroma made it stand out. Breeders like Big Buddha Seeds later introduced Afghani indica genetics to increase Cheese’s trichome production and yields. The resulting strain is now well-known for its relaxed, happy effects that gently ease you into a blissful state of mind.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 634,
+          "score": -0.330923454097256,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 632,
+          "score": 0.116987379875172,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 552,
+          "score": 0.0244343139452603,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 444,
+          "score": -0.0796697669806911,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 377,
+          "score": 0.7746555045339,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 341,
+          "score": 0.432945733423686,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 310,
+          "score": -0.0451059221274272,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 262,
+          "score": 0.204995521831661,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 233,
+          "score": 0.102552875053776,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 221,
+          "score": -0.456207243931239,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 196,
+          "score": -0.115294220164508,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 187,
+          "score": -0.389856738970112,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 89,
+          "score": -0.372970740475779,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Hindu Kush",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "g",
+      "price": 10,
+      "description": "THC: 20% CBD: <LOQ\nCultivated by Millerville Farms",
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/menu/buIAwboTQjW7L2PIUhzl_IMG_5328.JPG",
+      "strainName": "hindu-kush",
+      "strainCategory": "Indica",
+      "strainDescription": "Hindu Kush, also known as \"Hindi Kush,\" is a pure indica marijuana strain named after the mountain range stretching 500 miles between Pakistan and Afghanistan where it originated. The harsh climate of its homeland has conditioned this strain to express a thick, protective coat of crystal trichomes cherished by hash makers worldwide. With a subtle sweet and earthy sandalwood aroma, Hindu Kush induces a deep sense of calm that helps bring relief to those suffering pain, nausea, and stress disorders.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 636,
+          "score": 0.258927871893133,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 477,
+          "score": 1.58780106264174,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 462,
+          "score": 0.0642653805733472,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 458,
+          "score": -0.244923791847558,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 307,
+          "score": -0.405682327992158,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 291,
+          "score": 0.635728791721823,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 211,
+          "score": -0.280959007052459,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 192,
+          "score": -0.428541390063799,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 183,
+          "score": 0.0442755256414691,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 148,
+          "score": -0.285936756715799,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 120,
+          "score": -0.417682546443038,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 81,
+          "score": -0.307653597662303,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 61,
+          "score": -0.910557879015981,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "RMG-CBD",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://images.leafly.com/flower-images/trainwreck.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sour Diesel",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/menu/s3IuRoRQTqO2UgiCNlKd_-OxN02beRxuPlUNFEnq6tQ_thumb_586.jpg",
+      "strainName": "sour-diesel",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Sour Diesel, also known as \"Sour D\" and \"Sour Deez,\" is a popular hybrid marijuana strain made by crossing Chemdawg and Super Skunk. Sour Diesel effects are dreamy, cerebral, fast-acting and energizing. This strain features a pungent flavor profile that smells like diesel. Medical marijuana patients choose Sour Diesel to help relieve symptoms associated with depression, pain, and stress. Fun fact: Sour Diesel first became popular in the early 1990s and has been legendary ever since.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3705,
+          "score": 0.509557973798407,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3264,
+          "score": 0.766964566830226,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3109,
+          "score": 0.249243124575229,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2987,
+          "score": 1.40537923419611,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2450,
+          "score": 0.764746114148141,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2206,
+          "score": -1.2255509889637,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1913,
+          "score": 0.285621729249149,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1871,
+          "score": 0.86468221299485,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1483,
+          "score": 0.348732118182451,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1470,
+          "score": 0.233988162913149,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1005,
+          "score": -0.128375061582672,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 905,
+          "score": 0.230074289944962,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 641,
+          "score": -0.62381369011211,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Big Sky Alcohol Tincture 1 oz Bottle",
+      "brandName": "Big Sky Herbals & Edibles",
+      "cartUnit": "each",
+      "price": 40,
+      "description": "1 oz of our House Blend using MAU, SKA, AMH, PIN, HDK & RMG (CBD)\nExtracted in Organic Cane Spirits",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/menu/Vo16qulfTJqaR2eU1ZrO_IMG_2861.JPG",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Big Sky Coconut Alcohol Tincture 1oz",
+      "brandName": "Big Sky Herbals & Edibles",
+      "cartUnit": "each",
+      "price": 50,
+      "description": "1 oz of our House Blend using MAU, SKA, AMH, PIN, HDK & RMG (CBD)\nExtracted in Organic Coconut Spirits",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/menu/hb4s9MURSL2S0AKCYg9Z_IMG_2716.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Wana Strawberry Lemonade Gummies 1:1",
+      "brandName": "Wana Brands",
+      "cartUnit": "each",
+      "price": 28,
+      "description": "These gummies balance notes of bright citrus with lush strawberry undertones. They’re infused with both CBD and terpene-enhanced THC distillate in a balanced 1:1 ratio, offering psychoactive effects while promoting relaxation and tranquility.\n100mg THC | 100mg CBD per package\n10mg THC | 10mg CBD per piece\n\nVegan and Gluten-Free\nSweetened with Organic Ingredients (No High-Fructose Corn Syrup)\nAll-Natural Flavors and Colors\nEnhanced with 30+ Terpenes\nChild-Proof, Food-Safe, Sustainable Packaging",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/9HMUlp6FT8emW5mWM48d_Wana-Universal_Hero-REC-1to1-StrawLemonade.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Wana Mango Gummies",
+      "brandName": "Wana Brands",
+      "cartUnit": "each",
+      "price": 26,
+      "description": "Infused with a motivating, terpene-enhanced sativa blend, these tropics-inspired gummies contain notes of refreshing sweetness, elevated by a tangy citrus burst.\n100mg THC per package\n10mg THC per piece\n\nVegan and Gluten-Free\nSweetened with Organic Ingredients (No High-Fructose Corn Syrup)\nAll-Natural Flavors and Colors\nEnhanced with 30+ Terpenes\nChild-Proof, Food-Safe, Sustainable Packaging\n*Packaging may vary depending on location. ",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/0WVSdweoSdqfaQfPKdU6_Wana-Universal_Hero-REC-Mango_Sativa.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Wana Blueberry Gummies",
+      "brandName": "Wana Brands",
+      "cartUnit": "each",
+      "price": 26,
+      "description": "A Wana classic, Infused with a terpene-enhanced indica blend, these not-too-sweet, not-too-tart gummies evoke feelings of relaxation and calm. The perfect way to wind down after a busy day. \n100mg THC per package\n10mg THC per piece\n\nVegan and Gluten-Free\nSweetened with Organic Ingredients (No High-Fructose Corn Syrup)\nAll-Natural Flavors, Colors, and Sweeteners.\nEnhanced with 30+ Terpenes\nChild-Proof, Food-Safe, Sustainable Packaging",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/Fn3hx4YqSAy4v02QDRGY_Wana-Universal_Hero-REC-Blueberry_Indica.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Wana Watermelon Gummies",
+      "brandName": "Wana Brands",
+      "cartUnit": "each",
+      "price": 26,
+      "description": "These refreshingly fruity gummies are infused with a terpene-enhanced hybrid blend to deliver a mild, balanced experience.\n100mg THC per package\n10mg THC per piece\n\nVegan and Gluten-Free\nSweetened with Organic Ingredients (No High-Fructose Corn Syrup)\nAll-Natural Flavors and Colors\nEnhanced with 30+ Terpenes\nChild-Proof, Food-Safe, Sustainable Packaging\nWana Brand Indica Sour Gummies \n*Packaging may vary depending on location.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/42HAg7zQkCGdwmib9nWw_Wana-Universal_Hero-REC-Watermelon_Hybrid.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Lollipop",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "each",
+      "price": 10,
+      "description": "Strawberry",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/menu/JHorMRZVTFWYcJLqtWHE_P7Eqof7YRzySB5Z6Wb1MLw_thumb_13ab.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Baked Bites - Chocolate Bites",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "each",
+      "price": 14,
+      "description": "Chocolate Bites - 4 pcs pkg",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/menu/4J8YfMK2QHefMhCy8jeB_2023-04-22-11.20.57%20ZS%20DMap.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Baked Bites - Gooey Chewy Granola",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "each",
+      "price": 13,
+      "description": "Package of 2",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/menu/runUMd5jRRGXE1BNDUo0_XnTbM559TQep30hNKDVG8g_thumb_13b0.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Coconut Oil Disc",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "each",
+      "price": 14,
+      "description": "Cannabis infused Coconut Oil Discs (1/4tsp) Package of 4",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/menu/GqzT8hmXT5iQRRHGx6L0_-o5GdIhgTfSbYlk3X1fJZw_thumb_13af.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Baked Bites - PB Choc Bites - 5pcs Pkg",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "each",
+      "price": 16,
+      "description": "5 pcs pkg -  PB Choc Bites",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/menu/XmVbMpbRQeyAiGaiOnKE_2023-04-22-11.17.05%20ZS%20PMax.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Mobius Raspberry Lemonade",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "100 mg THC Raspberry Lemonade beverage strikes the perfect balance between luscious ripe raspberry and tart, refreshing lemon. This zesty combination will awaken your soul and leave your taste buds longing for more.\nRapid onset Nano emulsion, Vegan and Gluten-Free.\n\nMöbius™ beverages can be enjoyed chilled right out of the bottle or mixed to create your own unique beverage concoctions. Superb taste and great effects - that's the Möbius experience. Enjoy!\n\n\n",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/menu/CmLyNIqSROWvbH3OqOFV_THC%20Raspberry%20Lemonade%20(1).png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Mobius Huckleberry",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "THC Wild Huckleberry is almost impossible to describe as it is one of the world's tastiest wild berries. Think of an alchemy of rhubarb-cranberry-red and black currants-blueberry all wrapped in tangy tart sweetness. Lucious and delightful... and predictably wild!\nRapid onset Nano emulsion, Vegan and Gluten Free.\n\nMöbius™ Quick Acting beverages can be enjoyed chilled right out of the bottle or mixed to create your own unique beverage concoctions. Superb taste and great effects - that's the Möbius experience. Enjoy!",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/menu/zFOuLddEQAaPUT9tWFQF_Mobius_Huckleberry_100_THC-2-Single.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Mobius Mango 1:1",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "1:1 THC:CBD Mango beverage is no wannabe flavor. The taste and depth of real mangoes will gobsmack you in the mouth and make you think the juice of freshly-picked, sun-ripened fruit is running down your chin.\nRabid Onset Nano emulsion.\n\nMöbius™ beverages can be enjoyed chilled right out of the bottle or mixed to create your own unique beverage concoctions. Superb taste and great effects - that's the Möbius experience. Enjoy!",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/menu/WZFXfTqDSvSHbSOklMMH_1_1%20Mango.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Mobius Strawberry 1:1",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "1:1 THC:CBD Strawberry beverage is straight from the strawberry fields and infused with summer. Ripe and luscious red fruit flavors will brighten your day in any season.\nRapid onset Nano emulsion, Vegan and Gluten Free.\n\nMöbius™ beverages can be enjoyed chilled right out of the bottle or mixed to create your own unique beverage concoctions. Superb taste and great effects - that's the Möbius experience. Enjoy!",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/menu/NRjwEZgQSkC7o9aOqoE4_1_1%20Strawberry.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Blood Orange 1:1",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 20,
+      "description": " 1:1 THC:CBD Blood Orange beverage is a bright crush of citrus notes with depth. The Pure cane sugar from Hawaii plays harmony for this mouthwatering explosion of big orange squeeze. \nRapid onset Nano emulsion, Vegan and Gluten Free.\n\nMöbius™ beverages can be enjoyed chilled right out of the bottle or mixed to create your own unique beverage concoctions. Superb taste and great effects - that's the Möbius™ experience. Enjoy!",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/menu/hRLiSB8bTPGRyEzRVkYu_1_1%20Blood%20Orange.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Mobius Tropical Punch 1:1",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "1:1 THC:CBD Tropical Punch is your vacation in a bottle. Citrus, pineapple, and a touch of guava will remind you that one can take the flavor out of paradise, but not the paradise out of the flavor.\nRapid onset Nano emulsion, Vegan and Gluten Free.\n\nMöbius™ beverages can be enjoyed chilled right out of the bottle or mixed to create your own unique beverage concoctions. Superb taste and great effects - that's the Möbius experience. Enjoy!\n\n\n",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/menu/6jL68EN3TQecHKxOLKgA_1_1%20Tropical%20Punch.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Blood Orange 20:1 CBD/THC",
+      "brandName": "Wana Brands",
+      "cartUnit": "each",
+      "price": 28,
+      "description": "20:1 Hybrid CBD/THC Gummies",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/menu/JzEG5d1xSsigfTn1VWuS_Wana-MT-MED-ClassicSour-BloodOrange_20-1%20(1).png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Wana Strawberry Margarita Quick Gummies 1:1",
+      "brandName": "Wana Brands",
+      "cartUnit": "each",
+      "price": 30,
+      "description": "Sweet and citrusy (with a hint of salt), these fast-acting gummies are infused with a balanced ratio of CBD and THC.\n100mg THC | 100mg CBD per package\n10mg THC | 10mg CBD per piece\n\n5-15 Minute Onset with a 2-4 Hour Duration\nDelivers a Cerebral “Smoker’s High”\nVegan and Gluten-Free\nSweetened with Organic Ingredients (No High-Fructose Corn Syrup)\nAll-Natural Flavors and Colors\nEnhanced with a Proprietary Blend of 30+ Terpenes\nChild-Proof, Food-Safe, Sustainable Packaging\n*Arizona label pictured. Labels may look different in your state.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/FVsaAhDETqa03R9W2uxQ_Wana-AZ-StrawberryMarg-HERO.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Peach Bellini Fast-acting",
+      "brandName": "Wana Brands",
+      "cartUnit": "each",
+      "price": 30,
+      "description": "These fast-acting peach gummies will add some zip to your day with their bubbly blend of 30+ uplifting terpenes.\n100mg THC per package\n10mg THC per piece\n\nVegan and Gluten-Free\nSweetened with Organic Ingredients (No High-Fructose Corn Syrup)\nAll-Natural Flavors and Colors\nEnhanced with 30+ Terpenes\nChild-Proof, Food-Safe, Sustainable Packaging\n*Arizona label pictured. Labels may look different in your state.\n",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/vZpFWQm1TiYb0083fTF8_Wana-AZ-Peachbellini-Hero.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Montana Magic Salve",
+      "brandName": "Big Sky Herbals",
+      "cartUnit": "each",
+      "price": 35,
+      "description": "Salve",
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/menu/fAG9sFO2TVGuxcpaDnV5_UNADJUSTEDNONRAW_thumb_13ac.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Hand pipes",
+      "brandName": "Misc",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "Misc size hand pipes",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/menu/7cKgcuiTkiPkZnoZWOov_IMG_3168.JPG",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Water Pipes",
+      "brandName": "On Point Glass",
+      "cartUnit": "each",
+      "price": 30,
+      "description": "Misc On Point hand pipes & water pipes",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/menu/hwUSY8EdR4SGqLHqRxqh_cabinet1.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Multi Layer Perc Water Pipes",
+      "brandName": "High Point Glass",
+      "cartUnit": "each",
+      "price": 45,
+      "description": "Misc. sizes of perc water pipes ",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/menu/65mo1TrCXWpdpY9cRQh3_cabinet2.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Full-Spectrum CBD Oil for Pets",
+      "brandName": "Innovations CBD ",
+      "cartUnit": "each",
+      "price": 25,
+      "description": "CBD is a popular product for people and pets. Innovative CBD offers a Full-Spectrum CBD Oil for Pets that is all-natural, safe, and ideal for promoting wellness. Our CBD + CBDa formula is a unique blend of CBD and other cannabinoids that work together to provide the maximum benefits. ",
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/menu/L60y8N70SnmEzBVxmePj_Innovative%20CBD%20Pet%20Image.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Full-Spectrum CBD Oil for Pets",
+      "brandName": "Innovation CBD",
+      "cartUnit": "each",
+      "price": 45,
+      "description": "CBD is a popular product for people and pets. Innovative CBD offers a Full-Spectrum CBD Oil for Pets that is all-natural, safe, and ideal for promoting wellness. Our CBD + CBDa formula is a unique blend of CBD and other cannabinoids that work together to provide the maximum benefits. ",
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/menu/ecRrHPJYS1GYSN1PHHtw_Innovative%20CBD%20Pet%20Image.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    }
+  ]
+}

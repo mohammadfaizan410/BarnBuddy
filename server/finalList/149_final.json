@@ -1,0 +1,4229 @@
+{
+  "dispensary": {
+    "name": "High Mountain - Glendive",
+    "address1": "53 Montana Highway 16",
+    "coverPhotoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery370264/aB7oGIi0QcuSDUAG3Bd4_10.png",
+    "country": "US",
+    "city": "Glendive",
+    "description": "High Mountain offers hyper-local cannabis, grown the Montana way by Montanans, producing a premium range of recreational and medicinal cannabis. Our strains are raised with the best techniques resulting in the finest product in the region. We offer not only heritage strains, but also upcoming and trending strains as well. We know exactly where and how our product is cultivated, so you can be sure you’re only getting the best when you shop High Mountain. Our dispensary is an experience in itself, where you are inspired by Montana beauty and the spirit of adventure…\nat High Mountain, Take Adventure with You.",
+    "email": "info@highmountainmt.com",
+    "flags": [
+      "US",
+      "adaAccessible",
+      "atm",
+      "birthdayDiscount",
+      "dispensary",
+      "firstResponderDiscount",
+      "firstTimeCustomerDiscount",
+      "industryDiscount",
+      "licensed",
+      "medical",
+      "militaryDiscount",
+      "parkingAvailable",
+      "pickup",
+      "preorderConfigured",
+      "recreational",
+      "seniorDiscount",
+      "storefront",
+      "veteranDiscount"
+    ],
+    "locations": [
+      {
+        "lat": 47.11302,
+        "lon": -104.73711
+      }
+    ],
+    "logoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery370264/sECYueccTAjKv0dWHv2G_HighMountain-Icon_RGB_dark.jpg",
+    "mapMarkerLocations": [
+      {
+        "city": "Glendive",
+        "index": 0,
+        "label": "Glendive, MT",
+        "state": "MT",
+        "country": "US",
+        "latitude": 47.11302,
+        "longitude": -104.73711
+      }
+    ],
+    "phone": "4064207007",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery370264/aB7oGIi0QcuSDUAG3Bd4_10.png"
+      }
+    ],
+    "primaryLocation": {
+      "lat": 47.11302,
+      "lon": -104.73711
+    },
+    "state": "MT",
+    "tags": [
+      "recreational",
+      "storefront",
+      "licensed",
+      "medical"
+    ],
+    "website": "https://highmountainmt.com/",
+    "zip": "59330"
+  },
+  "products": [
+    {
+      "name": "Phantom Cookies - .5g Preroll",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 6,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "phantom-cookies",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Phantom Cookies, also known as \"Phantom Cookie,\" is a sativa-dominant hybrid marijuana strain from Northern California that crosses a flavorful Cherry Pie with the resin-heavy Granddaddy Purple. Green and purple hues weave through the buds beneath a crystalline layer of trichomes, from which sprout Phantom Cookies’ electric orange hairs. Its aroma is an intricate blend of earthiness and roasted nuts, accented by sweeter notes of grape and berry. Next comes this hybrid’s crushing euphoria which shakes the mind awake with creativity and happiness. Increase the dose and the brain and body will be overcome with a relaxing haze that dulls nausea, stress, and pain while sharpening the appetite. Phantom Cookies will be ready to harvest outdoors at the beginning of October, but indoor growers will wait 8 to 9 weeks for buds to finish flowering.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 119,
+          "score": 0.783663380564318,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 110,
+          "score": 0.0163039337844884,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 99,
+          "score": 0.825315993354743,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 98,
+          "score": 0.421993413086917,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 65,
+          "score": 0.512171272263583,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 60,
+          "score": 0.54323833578383,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 54,
+          "score": 0.194048382324692,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": 0.358859781595716,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": 0.46177273674234,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 42,
+          "score": 0.338943310602492,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 31,
+          "score": -0.0811984147317735,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": -0.432631030008593,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": 0.0984523204157285,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Huckleberry - 1g Preroll",
+      "brandName": "Tom Trusler",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/strains/photos/ck4MuaqPSiqlAQnvAzWE_Huckleberry_1080.png",
+      "strainName": "huckleberry",
+      "strainCategory": "Hybrid",
+      "strainDescription": "The origins and genetics of Huckleberry are under debate, but there is no disputing the strain’s unmistakable berry aroma. The flower is compact, light green in color, and generally covered in orange hairs. Huckleberry plants have a flowering time of 8-9 weeks and produce average yields. They might be a bit tricky for the novice grower. The effects of this strain are on the milder side and largely reported as relaxing, cutting through stress without the cloudiness. Undoubtedly, this strain is best known for its intense fruity smell and taste, similar to its relative Blueberry.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 82,
+          "score": 0.272960330387746,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 77,
+          "score": -0.368406042259189,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 73,
+          "score": 0.212467416999998,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 58,
+          "score": 0.041077800332599,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 40,
+          "score": 0.062040467785496,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 39,
+          "score": -0.013108369996855,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 36,
+          "score": 0.281138673188159,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 32,
+          "score": -0.0547634078221208,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": 0.115405201515832,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 28,
+          "score": -0.119643637635622,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": -0.122422951883795,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 21,
+          "score": -0.338490737639466,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.198587313311887,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Phantom Cookies - Bong Buddies",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 25,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "phantom-cookies",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Phantom Cookies, also known as \"Phantom Cookie,\" is a sativa-dominant hybrid marijuana strain from Northern California that crosses a flavorful Cherry Pie with the resin-heavy Granddaddy Purple. Green and purple hues weave through the buds beneath a crystalline layer of trichomes, from which sprout Phantom Cookies’ electric orange hairs. Its aroma is an intricate blend of earthiness and roasted nuts, accented by sweeter notes of grape and berry. Next comes this hybrid’s crushing euphoria which shakes the mind awake with creativity and happiness. Increase the dose and the brain and body will be overcome with a relaxing haze that dulls nausea, stress, and pain while sharpening the appetite. Phantom Cookies will be ready to harvest outdoors at the beginning of October, but indoor growers will wait 8 to 9 weeks for buds to finish flowering.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 119,
+          "score": 0.783663380564318,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 110,
+          "score": 0.0163039337844884,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 99,
+          "score": 0.825315993354743,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 98,
+          "score": 0.421993413086917,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 65,
+          "score": 0.512171272263583,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 60,
+          "score": 0.54323833578383,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 54,
+          "score": 0.194048382324692,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": 0.358859781595716,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": 0.46177273674234,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 42,
+          "score": 0.338943310602492,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 31,
+          "score": -0.0811984147317735,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": -0.432631030008593,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": 0.0984523204157285,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Purple Animal Cookies - 7g",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 80,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/maui-prod-products/305f1149-04a5-49ff-9a3c-cd14e52fc378--bbdf49f9-c9ea-4f54-a040-47479ae4b7f2.jpeg?version=1705782485",
+      "strainName": "purple-animal-cookies",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Purple Animal Cookies by CannaVenture Seeds is an indica-dominant cross with beautiful coloration and potent effects. The strain was bred by crossing Animal Cookies with LVPK, and is generally a Cookie-dominant cross of these genetics. This leads to a sweet, earthy aroma and happy, relaxing effects that intensify with continued consumption. Purple Animal Cookies’ happy, sedating buzz makes it an ideal fit for the end of the workday.  ",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.513565745173012,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.328214035458809,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.0573952298284412,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.343869633218519,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.958355196022442,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.325340886091339,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.0721288993925104,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.106660120066554,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.0794485608446504,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.421998312112164,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.0694782253204611,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.845821449819989,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.845194562107147,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Major White - .5g Preroll",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 6,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Purple Blue Dream - .5g Preroll",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 6,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/maui-prod-products/305f1149-04a5-49ff-9a3c-cd14e52fc378--d9d7dd01-2434-4545-8767-7b7f0b4e03ee.jpeg?version=1708793814",
+      "strainName": "blue-dream",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Blue Dream is a sativa-dominant hybrid marijuana strain made by crossing Blueberry with Haze. This strain produces a balanced high, along with effects such as cerebral stimulation and full-body relaxation. Blue dream is 18% THC but has a low CBD percentage, making this potent strain a fan favorite of both novice and veteran cannabis consumers. In terms of flavor, Blue Dream is reported to smell and taste like sweet berries. Medical marijuana patients often use Blue Dream to treat symptoms of depression, chronic pain, and nausea. Blue Dream originated in California and has since achieved legendary status among West Coast strains and has quickly become one of the most-searched-for strains in the Leafly database. The average price per gram of Blue Dream is $20. Strains similar to Blue Dream include Blue Dream CBD, Double Dream, and Blue Magoo.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6345,
+          "score": 0.44683313670513,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5683,
+          "score": 0.383597662092797,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5480,
+          "score": -0.451819709817197,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5318,
+          "score": 0.576836356227495,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4152,
+          "score": 0.697137087300004,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3358,
+          "score": 0.459917227273715,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2971,
+          "score": 0.0822743602476977,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2491,
+          "score": 0.355270340781644,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2393,
+          "score": 0.123853100403895,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2363,
+          "score": 0.200758725598536,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1665,
+          "score": -0.329931194246194,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1622,
+          "score": -0.2177224296247,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1359,
+          "score": 0.0585516579503882,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Green Crack - .5g Preroll",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 6,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://images.leafly.com/flower-images/green-crack.png",
+      "strainName": "green-crack",
+      "strainCategory": "Sativa",
+      "strainDescription": "Green Crack, also known as \"Green Crush\" and \"Mango Crack,\" is a potent sativa marijuana strain made by crossing Skunk #1 with an unknown indica. This strain is beloved by many consumers for its energizing effects. But don’t let the name fool you: this is pure cannabis. Few strains compare to Green Crack’s sharp energy and focus as it induces an invigorating mental buzz that keeps you going throughout the day. With a tangy, fruity flavor redolent of mango, Green Crack is a great daytime strain that may help consumers fight fatigue, stress, and depression. Because the name \"Green Crack\" perpetuates a negative image of cannabis, some people have taken to calling this strain Cush (with a ‘C’) or Green Cush instead.",
+      "effects": {
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3314,
+          "score": 2.23855046188711,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2945,
+          "score": 0.309641662786728,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2861,
+          "score": 0.875179341130263,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2323,
+          "score": -0.0764689923961969,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2253,
+          "score": 1.01499777713537,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2101,
+          "score": 0.800559934108703,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1695,
+          "score": 1.02052120993515,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1396,
+          "score": -1.68356738293227,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1110,
+          "score": 0.154559169198277,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 948,
+          "score": -0.154646030126701,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 759,
+          "score": -0.254461397874471,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 689,
+          "score": 0.108619101217434,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 349,
+          "score": -0.837559637942281,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Purple Animal Cookies - .5g Preroll",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 8,
+      "description": "A little treat before bed is never a bad thing, and if you enjoy strains that mellow you out in the best way possible, Purple Animal Cookies might be right up your alley. Said to be bred by CannaVenture Seeds, this low profile strain is a cross between Animal Cookies and LVPK. Her Cookie genetics shine through beautifully, making her a must-try for recreational and medical users alike.\n\nThere’s a fair bit of mystery that surrounds Purple Animal Cookies, and narrowing down her potency is just the tip of the iceberg. Many will describe that these beautifully colored nugs offer a strong high, so we’d guess that she’s near, if not exceeds, the 20% mark. Although her moniker would lead one to believe that her flavors and aromas are intensely sweet, this note only comes through a little bit and blends with earth and trees for a balanced experience. While many indica-dominant hybrids are great at imparting feelings of relaxation, Purple Animal Cookies takes that concept to another level. Right off the bat, users will notice every muscle in their body softening and as you sink into sedation, your mood will soar. Happiness runs through you from head to toe and while you won’t necessarily feel the need to shout it from the rooftops, you and your couch will know that euphoria is alive and well. Prepare to fall asleep with this strain, especially if you continue to enjoy her throughout the evening. Individuals who struggle with depression and anxiety are often looking for ways to get happy and stay there, making Purple Animal Cookies an ideal option. Not only is this bud great for addressing mental woes but you can count on her to help with a wide range of physical issues too. Relaxation is so prevalent that nearly any type of physical pain will be subdued, including migraines, symptoms of arthritis, and more. Again, depending on how large of a dose you choose, this strain can offer significantly strong effects. Assuming you can locate this bud at your neighborhood dispensary, Purple Animal Cookies might easily become one of your new favorite strains. Clear your calendar, grab a blanket, and pace yourself with this intensely sedating gal - no matter what happened during the day, you’ll be able to wipe the slate clean and fall asleep with a smile on your face.",
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/maui-prod-products/305f1149-04a5-49ff-9a3c-cd14e52fc378--0ced2b7d-332b-4071-8a55-ab5d270140ab.jpeg?version=1708223296",
+      "strainName": "purple-animal-cookies",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Purple Animal Cookies by CannaVenture Seeds is an indica-dominant cross with beautiful coloration and potent effects. The strain was bred by crossing Animal Cookies with LVPK, and is generally a Cookie-dominant cross of these genetics. This leads to a sweet, earthy aroma and happy, relaxing effects that intensify with continued consumption. Purple Animal Cookies’ happy, sedating buzz makes it an ideal fit for the end of the workday.  ",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.513565745173012,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.328214035458809,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.0573952298284412,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.343869633218519,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.958355196022442,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.325340886091339,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.0721288993925104,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.106660120066554,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.0794485608446504,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.421998312112164,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.0694782253204611,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.845821449819989,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.845194562107147,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "White Runtz - .5g 5pk ",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 30,
+      "description": "The balanced hybrid known as White Runtz is a favorite of Runtz fans, fans of citrus, and anyone who craves stress relief. Like most Runtz strains, it has Gelato and Zkittlez in its genetic lineage, the results, in this case, being creamy, sleepy, fruity, and a bag of giggles. The long-lasting experience of enjoying White Runtz is enjoyed by most who can find it, though it remains a bit of an exclusive offering by the Cookies growers out of California. It’s so good that Runtz has pretty much locked down the sale of seeds. But if you can find the buds, you’re in for a treat. The plant grows large, thick nugs shaped like spades. They’re deep green with frosty crystal trichomes and thin amber hairs. White Runtz offers tropical fruit and sweet cream flavors. Some consumers say it reminds them of ice cream. While smoking the strain, hints of diesel arise. White Runtz’s effect is a calming, tingly sense of relaxation. It starts traveling up your back, up to your neck, and then proceeds to relax your whole body. This makes the strain perfect for watching movies, going to a spa and getting a massage, or doing nothing at all. The flavor is full of notes of tropical citrus, earth, and sweet cream. It’s a major kick-back that gives you the chance to enjoy your evening by feeling creative and relaxed without having to contend with your normal dose of stress and anxiety.\n\nWhite Runtz is a particular favorite for sufferers of chronic pain conditions due to its ability to relieve muscle cramps and spasms. Chronic issues related to back pain, menstrual issues, arthritis, and more can be helped by relieving muscle tension using a dose of White Runtz. The bonus is that you’ll get to see what all the fuss is about with the famous tropical cream and fruity earth flavors. You may not be able to grow it for yourself, but if you go to the source, you’ll be able to learn its secrets.",
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/maui-prod-products/305f1149-04a5-49ff-9a3c-cd14e52fc378--490cfe4e-39bf-490a-b55e-96bebb37dc89.jpeg?version=1708222721",
+      "strainName": "white-runtz",
+      "strainCategory": "Hybrid",
+      "strainDescription": "White Runtz is a potent hybrid marijuana strain made by crossing Gelato and Zkittlez. White Runtz produces long-lasting effects that are relaxing and tingly. This strain features a sweet flavor profile that coats your senses. White Runtz is noted for having striking white trichomes that make its buds look white like snow. Medical marijuana patients choose White Runtz to help relieve symptoms associated with chronic pain, anxiety and stress.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 202,
+          "score": 0.488136565567336,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 148,
+          "score": -0.0124916235087112,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 137,
+          "score": 0.0606580349043063,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 105,
+          "score": -0.147672360737799,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 94,
+          "score": 1.03584204405491,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 69,
+          "score": 0.145327804160636,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 66,
+          "score": 0.152684869638691,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 65,
+          "score": -0.232320240168701,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 60,
+          "score": -0.366859776675933,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 56,
+          "score": 0.0072634235974141,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 42,
+          "score": -0.262203944400177,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 38,
+          "score": -0.534754979877677,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 30,
+          "score": -0.13615491657384,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Black Cherry Runtz - 3.5g",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 35,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "cherry-runtz",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Cherry Runtz is a hybrid weed strain made by crossing Runtz and Cherry Pie, with the big, beautiful purple buds to match. The effects of Cherry Runtz are believed to be euphoric and tingly. Reviewers on Leafly say Cherry Runtz makes them feel aroused, giggly, and sleepy. Cherry Runtz has 17% THC and 1% CBG. The dominant terpene in this strain is limonene, with a lavender aroma and flavors of berry and rose. Medical marijuana patients say they buy this strain when mitigating symptoms of anxiety, depression, and insomnia. The original breeder of Cherry Runtz is Elev8 Seeds.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 20,
+          "score": 0.322492478236812,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": 0.0247213463010853,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": -0.614945000360599,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -0.296002726824198,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.734108383722855,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.298735451303704,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.0170416406023843,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.155815659177529,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 0.645394509555871,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.747826104671305,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.572865785272698,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.788499892222554,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.92105709880245,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Apple Fritter - 3.5g",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 35,
+      "description": "Apple Fritter | Hybrid | Sour Apple x Animal Cookies | 3.5g | Apple Fritter or Apple Fritters was bred by Lumpy's Flowers and is now a staple strain for many brands. User's report a sweet earthy vanilla aroma that contains notes of fruity apples. Flavor follows a sweet creamy vanilla, with blasts of sweet apples tucked inside. Apple Fritter is famous for making the High Times' 2016 \"Worldest Strongest Strains\" list, this cultivar hits hard and carries a delicious and unique flavor. Many consumers report a happy and euphoric high that leaves a tingle and relaxing stone to the body. Many users report major munchies when consuming this strain, so maybe have a snack near by when consuming. An excellent choice for inducing appetite or dealing with stress.",
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/maui-prod-products/305f1149-04a5-49ff-9a3c-cd14e52fc378--5ce25662-b87b-468a-919f-3d2a6ef46a6a.jpeg?version=1707950456",
+      "strainName": "apple-fritter",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Apple Fritter, a true hybrid weed strain, is known for its powerful and relaxing high. Put out by Lumpy’s Flowers, the Apple Fritter marijuana strain is a reported cross of Sour Apple and Animal Cookies. According to Leafly reviewers, Apple Fritter’s effects include feeling relaxed, giggly, and tingly. It's a great hybrid, combining the stone of GSC with the energy of a diesel. Apple Fritter cannabis has a flavor and aroma that come off as sweet and earthy, with a light, cheesy, apple pastry influence.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 372,
+          "score": 0.666321932397815,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 238,
+          "score": -0.249903478351725,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 217,
+          "score": -0.193503526098294,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 165,
+          "score": -0.350676226765334,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 135,
+          "score": 0.611378455714149,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 128,
+          "score": 0.420249717773314,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 117,
+          "score": 0.100376839803947,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 103,
+          "score": -0.393049085022934,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 97,
+          "score": -0.0995068810396868,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 93,
+          "score": -0.477275074571835,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 87,
+          "score": -0.0776781181117568,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 66,
+          "score": -0.542382810340304,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 44,
+          "score": -0.277444493639265,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Phantom Cookies - 3.5g",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 35,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "phantom-cookies",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Phantom Cookies, also known as \"Phantom Cookie,\" is a sativa-dominant hybrid marijuana strain from Northern California that crosses a flavorful Cherry Pie with the resin-heavy Granddaddy Purple. Green and purple hues weave through the buds beneath a crystalline layer of trichomes, from which sprout Phantom Cookies’ electric orange hairs. Its aroma is an intricate blend of earthiness and roasted nuts, accented by sweeter notes of grape and berry. Next comes this hybrid’s crushing euphoria which shakes the mind awake with creativity and happiness. Increase the dose and the brain and body will be overcome with a relaxing haze that dulls nausea, stress, and pain while sharpening the appetite. Phantom Cookies will be ready to harvest outdoors at the beginning of October, but indoor growers will wait 8 to 9 weeks for buds to finish flowering.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 119,
+          "score": 0.783663380564318,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 110,
+          "score": 0.0163039337844884,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 99,
+          "score": 0.825315993354743,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 98,
+          "score": 0.421993413086917,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 65,
+          "score": 0.512171272263583,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 60,
+          "score": 0.54323833578383,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 54,
+          "score": 0.194048382324692,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": 0.358859781595716,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": 0.46177273674234,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 42,
+          "score": 0.338943310602492,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 31,
+          "score": -0.0811984147317735,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": -0.432631030008593,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": 0.0984523204157285,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Code Red - 1g 5pk",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 40,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/maui-prod-products/305f1149-04a5-49ff-9a3c-cd14e52fc378--11d226fa-e3c1-40fa-97b0-f758beba48ed.jpeg?version=1707924934",
+      "strainName": "code-red",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Code Red is a 2022 strain from Exotic Genetix, crossing Red Runtz x Scotty 2 Hotty.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 0.627865276488669,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 2.73254508172022,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.429295528045172,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.100865706898589,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 1.07842358920103,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.683373084775455,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.297172058825458,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.25820512077991,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -1.91603681382134,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.293305584674344,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.13196724639282,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.10318403348043,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.0749531457192,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Citrus Rush - 3.5g",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 45,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/maui-prod-products/305f1149-04a5-49ff-9a3c-cd14e52fc378--79bad097-8796-4b9d-be64-93d6a2d5c435.jpeg?version=1706996154",
+      "strainName": "citrus-rush",
+      "strainCategory": "Hybrid",
+      "strainDescription": "A collaboration between Archive Seed Bank and ORGNKID, Citrus Rush is a cross between Skunk Tangerine and Do-Si-Dos that produces frosty, potent buds. Balancing the dominant flavors of the two strains, Citrus Rush’s flavor profile is smooth like ice cream. This strain offers a powerful high that can be invigorating in small doses, but is more sedative in large quantities.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": 1.20318377994131,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 1.23431284147347,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 2.24953534371938,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.292914507946137,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.375326991636755,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 1.50589080450185,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 0.885755497245634,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 0.982827333892359,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 0.847931125470288,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.0555525781580139,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.485523507639819,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.0949060947996072,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.10488498510593,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Purple Animal Cookies - 3.5g",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 45,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/maui-prod-products/305f1149-04a5-49ff-9a3c-cd14e52fc378--611b5ad5-685b-46e9-a38e-94be811e4ffc.jpeg?version=1706214343",
+      "strainName": "purple-animal-cookies",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Purple Animal Cookies by CannaVenture Seeds is an indica-dominant cross with beautiful coloration and potent effects. The strain was bred by crossing Animal Cookies with LVPK, and is generally a Cookie-dominant cross of these genetics. This leads to a sweet, earthy aroma and happy, relaxing effects that intensify with continued consumption. Purple Animal Cookies’ happy, sedating buzz makes it an ideal fit for the end of the workday.  ",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.513565745173012,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.328214035458809,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.0573952298284412,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.343869633218519,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.958355196022442,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.325340886091339,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.0721288993925104,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.106660120066554,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.0794485608446504,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.421998312112164,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.0694782253204611,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.845821449819989,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.845194562107147,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Code Red - 7g",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 65,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/maui-prod-products/305f1149-04a5-49ff-9a3c-cd14e52fc378--f9ffdf66-f914-4cfa-9997-d1def743c749.jpeg?version=1707318722",
+      "strainName": "code-red",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Code Red is a 2022 strain from Exotic Genetix, crossing Red Runtz x Scotty 2 Hotty.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 0.627865276488669,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 2.73254508172022,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.429295528045172,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.100865706898589,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 1.07842358920103,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.683373084775455,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.297172058825458,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.25820512077991,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -1.91603681382134,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.293305584674344,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.13196724639282,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.10318403348043,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.0749531457192,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Kiwi Runtz - 14g",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 125,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://images.leafly.com/flower-images/runtz-nug-image.jpg",
+      "strainName": "runtz",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Runtz, also known as \"Runtz OG,\" is a rare type of  hybrid marijuana strain. Runtz is made by Cookies Fam by crossing  Zkittlez with Gelato and it is loved for its incredibly fruity flavor profile that smells just like a bag of the sugary candy we all know and love. Because of the rising popularity of this cannabis strain, it's no surprise Runtz was named Leafly Strain of the Year in 2020. Runtz is celebrated for its creamy smoke that is smooth and welcoming. This strain of weed produces euphoric highs and uplifting effects that are known to be long-lasting. Purple Caper Seeds released the same cross under the name Gelato Zkittlez.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 578,
+          "score": 0.773893642902247,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 522,
+          "score": -0.065037201203133,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 456,
+          "score": 0.287622715855734,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 405,
+          "score": 0.357654300467257,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 297,
+          "score": 1.07236731837918,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 269,
+          "score": 0.196991160737892,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 251,
+          "score": 0.637512833586077,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 235,
+          "score": 0.192424943022045,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 201,
+          "score": -0.220708814978844,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 195,
+          "score": 0.0971999216166252,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 165,
+          "score": 0.0319621209567711,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 130,
+          "score": -0.38185615447403,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 121,
+          "score": 0.136486430356239,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Rainbow Belts 3.0 - 14g ",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 150,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/maui-prod-products/305f1149-04a5-49ff-9a3c-cd14e52fc378--b9f2632e-f53c-4007-aaca-ee4be218f17d.jpeg?version=1708716142",
+      "strainName": "rainbow-belt",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Rainbow Belts, also known as \"Rainbow Belt,\" is an indica marijuana strain made from by crossing Moonbow with Zkittlez. The effects of Rainbow Belts are mostly calming. Consumers say this strain offers a euphoric high that leaves you feeling happy and relaxed. Rainbow Belts is 20% THC, making this strain an ideal choice for cannabis consumers with a high THC tolerance. Rainbow Belts has sedating qualities so it's best to enjoy this strain during the evening hours. The flavor and aroma of this strain may remind you of sweet and fruity candy. Medical marijuana patients choose Rainbow Belts to relieve symptoms associated with insomnia. This strain is bred by Archive Seed Bank and Purple City Genetics.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": 0.195110300279345,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 39,
+          "score": 0.378521661770144,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 36,
+          "score": -0.1278318083214,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 23,
+          "score": -0.409016701859207,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 19,
+          "score": -0.0635886097641772,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 0.436075026111054,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": 0.272266332892727,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": -0.0493367442537761,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -0.325110259547901,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -0.469293935849081,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.905642925297983,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.0908158335311361,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.94240865048129,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Sour Punch - Live Sugar",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 50,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": "sour-punch",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Sour Punch is a hybrid weed strain that can refer to multiple strains made from different genetic crosses. These include crosses between Sour Diesel and Purple Punch, Super Silver Haze and The One, and Panama Punch and Sour Diesel. Sour Punch is 20% THC and 1% CBG, making this strain an ideal choice for experienced cannabis consumers. Leafly customers tell us Sour Punch effects include energetic, talkative and uplifted. Medical marijuana patients often choose Sour Punch when dealing with symptoms associated with depression, bipolar disorder, and anxiety. Bred by different breeders, including In-House Genetics and Best Bud Seeds, Sour Punch features flavors like blue cheese, chemical, and coffee. The dominant terpene of this strain is carene. The average price of Sour Punch typically ranges from $25–$45. If you’ve smoked, dabbed, or consumed Sour Punch, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.816975647639573,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 2.43419635887398,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": 1.2931615502446,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.885380269486422,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 1.11018749375006,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.881543702519658,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 1.00636494862295,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.45133807220608,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.415444742433952,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.0092123309178847,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -1.68402819874214,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.774076312783705,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.396848512168236,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Code Red - Live Diamonds",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 60,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": "code-red",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Code Red is a 2022 strain from Exotic Genetix, crossing Red Runtz x Scotty 2 Hotty.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 0.627865276488669,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 2.73254508172022,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.429295528045172,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.100865706898589,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 1.07842358920103,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.683373084775455,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.297172058825458,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.25820512077991,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -1.91603681382134,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.293305584674344,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.13196724639282,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.10318403348043,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.0749531457192,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Red White & Blue Dream - Wax",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 30,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "blue-dream",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Blue Dream is a sativa-dominant hybrid marijuana strain made by crossing Blueberry with Haze. This strain produces a balanced high, along with effects such as cerebral stimulation and full-body relaxation. Blue dream is 18% THC but has a low CBD percentage, making this potent strain a fan favorite of both novice and veteran cannabis consumers. In terms of flavor, Blue Dream is reported to smell and taste like sweet berries. Medical marijuana patients often use Blue Dream to treat symptoms of depression, chronic pain, and nausea. Blue Dream originated in California and has since achieved legendary status among West Coast strains and has quickly become one of the most-searched-for strains in the Leafly database. The average price per gram of Blue Dream is $20. Strains similar to Blue Dream include Blue Dream CBD, Double Dream, and Blue Magoo.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6345,
+          "score": 0.44683313670513,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5683,
+          "score": 0.383597662092797,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5480,
+          "score": -0.451819709817197,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5318,
+          "score": 0.576836356227495,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4152,
+          "score": 0.697137087300004,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3358,
+          "score": 0.459917227273715,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2971,
+          "score": 0.0822743602476977,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2491,
+          "score": 0.355270340781644,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2393,
+          "score": 0.123853100403895,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2363,
+          "score": 0.200758725598536,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1665,
+          "score": -0.329931194246194,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1622,
+          "score": -0.2177224296247,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1359,
+          "score": 0.0585516579503882,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Green Crack - Shatter",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 30,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "green-crack",
+      "strainCategory": "Sativa",
+      "strainDescription": "Green Crack, also known as \"Green Crush\" and \"Mango Crack,\" is a potent sativa marijuana strain made by crossing Skunk #1 with an unknown indica. This strain is beloved by many consumers for its energizing effects. But don’t let the name fool you: this is pure cannabis. Few strains compare to Green Crack’s sharp energy and focus as it induces an invigorating mental buzz that keeps you going throughout the day. With a tangy, fruity flavor redolent of mango, Green Crack is a great daytime strain that may help consumers fight fatigue, stress, and depression. Because the name \"Green Crack\" perpetuates a negative image of cannabis, some people have taken to calling this strain Cush (with a ‘C’) or Green Cush instead.",
+      "effects": {
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3314,
+          "score": 2.23855046188711,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2945,
+          "score": 0.309641662786728,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2861,
+          "score": 0.875179341130263,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2323,
+          "score": -0.0764689923961969,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2253,
+          "score": 1.01499777713537,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2101,
+          "score": 0.800559934108703,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1695,
+          "score": 1.02052120993515,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1396,
+          "score": -1.68356738293227,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1110,
+          "score": 0.154559169198277,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 948,
+          "score": -0.154646030126701,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 759,
+          "score": -0.254461397874471,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 689,
+          "score": 0.108619101217434,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 349,
+          "score": -0.837559637942281,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Orange Cream - .5g Cart",
+      "brandName": "The Clear",
+      "cartUnit": "g",
+      "price": 35,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/yoo4Aj2gQZy2kG9l2adE_The-Clear-Logo-Vertical-Gold-WEB.png",
+      "strainName": "orange-cream",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Orange Cream, also known as \"Orange Cream #26,\" is a hybrid marijuana strain from Exotic Genetix that crosses Orange Valley OG and Cookies and Cream. Expect a smooth citrus flavor profile with intoxicating effects. Orange Cream brings back the connection between OG and Cookies genetics, making this strain a must-try for connoisseurs or citrus terp lovers.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": 0.215292822153183,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": -0.63873094730622,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": 0.821401121628609,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": -0.893842958660293,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": 0.282760465297801,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.878590336965709,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.0568112667369933,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.267596373937209,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.109504678128878,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.64075418063029,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.169393086287291,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -1.09541382088052,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.825939461043573,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Lemon Larry - Live Sugar Diamonds",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 50,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "larry-og",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Larry OG, also known as \"Lemon Larry,\" \"Sour Larry,\" and \"Zour Larry\" is yet another member of the famous ocean-grown strain family. Originally created in Orange County, this indica marijuana strain is a cross between OG Kush and SFV OG. Larry OG produces a potent yet easy body buzz that will allow you to relax while getting things done. The effects of Larry OF are happy but not overwhelming. Like other members of the OG family, this strain has a very clean and piney aroma. The nugs tend to be dense and feature distinct burnt orange hairs that are longer than average.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 392,
+          "score": 0.113152484424299,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 357,
+          "score": 0.304982293998197,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 269,
+          "score": -0.191002827540966,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 262,
+          "score": 0.143358700090802,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 175,
+          "score": 0.086107943731099,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 167,
+          "score": 0.410854004381787,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 149,
+          "score": 0.138073736174226,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 146,
+          "score": -0.220537518452599,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 132,
+          "score": -0.106899111079057,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 126,
+          "score": 0.126724013151686,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 119,
+          "score": -0.0218181296776746,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 108,
+          "score": -0.0710014084281049,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 70,
+          "score": -0.0720781017405492,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Tiki Tom - Live Diamonds",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 60,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": "tiki-tom",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Tiki Tom is a hybrid weed strain made from a genetic cross between Tahiti Lime and Gary Payton. This strain is 80% sativa and 20% indica. Known for its tropical vibes and uplifting effects, Tiki Tom is like a mini vacation in each puff. Tiki Tom has a moderate THC content of around 20%, making it a versatile choice suitable for both beginners and experienced cannabis consumers. This strain is perfect for enhancing your mood and sparking your imagination, making it a favorite among artists and socializers. Medical marijuana patients often choose Tiki Tom when dealing with symptoms associated with stress, and anxiety, providing relief from mental and physical discomfort. Bred by Elev8 Seeds, Tiki Tom features flavors like tropical fruit, citrus, and a hint of earthiness. The dominant terpene in this strain is limonene, which contributes to its refreshing and invigorating aroma. If you've had the pleasure of experiencing Tiki Tom, share your thoughts by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.924657691129405,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 1.25968176350648,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 2.08384415057168,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 2.04963986978558,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.06187322913333,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.664062187645252,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.647868291386037,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.622570502381555,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.714258228680746,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.681493400188269,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.28914387177134,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.630009551405248,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.504153403654267,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Power - Moon Rocks - 1.5g Infused Bud",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 60,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "power",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Power is a hybrid weed strain made from a genetic cross between Gary Payton and Scotty2hotty. This strain is 60% sativa and 40% indica. Power is known for its high THC content, averaging around 20-25%, making this strain an ideal choice for experienced cannabis consumers. Bred by Exotic Genetix, Power features myrcene as the dominant terpene. The average price of Power typically ranges from $10-$15 per gram. We are still learning about Powers effects, flavors, and medical uses. If you've smoked, dabbed, or consumed Power, please tell us about your experience by leaving a strain review.",
+      "effects": {
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 2.84889954136829,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.924657691129405,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 2.00895758725629,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 2.04963986978558,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.06187322913333,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.647868291386037,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.622570502381555,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.714258228680746,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.45338691105509,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.681493400188269,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.783956168820189,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.28914387177134,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.504153403654267,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Yeti Sticks - 0.65g Diamond Infused Preroll",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 15,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "TC - Disp - Tater Salad - Wax",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 22.5,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Purple Blue Dream - Wax",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 30,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "blue-dream",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Blue Dream is a sativa-dominant hybrid marijuana strain made by crossing Blueberry with Haze. This strain produces a balanced high, along with effects such as cerebral stimulation and full-body relaxation. Blue dream is 18% THC but has a low CBD percentage, making this potent strain a fan favorite of both novice and veteran cannabis consumers. In terms of flavor, Blue Dream is reported to smell and taste like sweet berries. Medical marijuana patients often use Blue Dream to treat symptoms of depression, chronic pain, and nausea. Blue Dream originated in California and has since achieved legendary status among West Coast strains and has quickly become one of the most-searched-for strains in the Leafly database. The average price per gram of Blue Dream is $20. Strains similar to Blue Dream include Blue Dream CBD, Double Dream, and Blue Magoo.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6345,
+          "score": 0.44683313670513,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5683,
+          "score": 0.383597662092797,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5480,
+          "score": -0.451819709817197,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5318,
+          "score": 0.576836356227495,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4152,
+          "score": 0.697137087300004,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3358,
+          "score": 0.459917227273715,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2971,
+          "score": 0.0822743602476977,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2491,
+          "score": 0.355270340781644,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2393,
+          "score": 0.123853100403895,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2363,
+          "score": 0.200758725598536,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1665,
+          "score": -0.329931194246194,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1622,
+          "score": -0.2177224296247,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1359,
+          "score": 0.0585516579503882,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Lime Green Skunk - Shatter",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 30,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": "lime-green-skunk",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Happy and relaxed, Lime Green Skunk is the laid-back daughter of Super Skunk and Northern Lights. The “Lime Green” description holds true for both its coloring and aroma. This strain features vibrant lime-colored leaves with a hefty amount of burnt orange hairs. The taste is a strong, sweet citrus, and the smell is equally as tropical. Great for daytime smoking, LGS produces sativa-like energizing effects while still providing a calm and floaty buzz.",
+      "effects": {
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": 1.67786724457705,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": 0.855810906351192,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.0012594674069349,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": 0.890271755264245,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -1.28881280634019,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.558290928332875,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.375946230308181,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 0.491940518135475,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 0.404451265734973,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.187542033864135,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.246525150132264,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.479594615306712,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.0487873943516601,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Sunset Larry - Wax",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 30,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": "sunset",
+      "strainCategory": "Indica",
+      "strainDescription": "Sunset, also known as \"Sunset OG,\" is an indica marijuana strain made by crossing Grown by Canadian LP Leafs By Snoop, Sunset is a THC powerhouse with heavily physical effects. Flavors are earthy and spicy, bringing about euphorically sedative effects. Lovers of couchlock strains or any patients seeking relief from anxiety and/or pain should definitely give Sunset a try. ",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 53,
+          "score": 1.33559669511286,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 32,
+          "score": 1.76264519805389,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": -0.376938792984675,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 22,
+          "score": -0.843388139222611,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 20,
+          "score": 1.0446807855254,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": 0.0501931078677169,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.29588140933298,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -1.11335735679228,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -0.197462417153006,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.58259080910355,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.177669418674812,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -1.087883657575,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -1.05623540646603,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Citrus Animal Cookies - Batter",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 30,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "animal-cookies",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Animal Cookies, also known as \"Animal Crackers,\" is a hybrid marijuana strain made by crossing two legendary strains, GSC and Fire OG. True to its name, Animal Cookies has a sweet, sour aroma with heavy full-body effects that will impress any veteran consumer. This potent medicine might be overkill for mild symptoms, but its ability to obliterate severe pain and insomnia is unprecedented.  Questions about Animal Cookies    Is Animal Cookies an indica or sativa?   Animal Cookies is a hybrid, meaning it has both indica and sativa qualities.   How does Animal Cookies make you feel?   Consumers report Animal Cookies makes you feel relaxed, happy, and euphoric.   How does Animal Cookies taste?   Animal Cookies taste earthy, sweet, and pungent.   What terpenes are in Animal Cookies?   Animal Cookies features a peppery terpene profile with caryophyllene as the dominant terpene.   What strains are similar to Animal Cookies?   Strains similar to Animal Cookies include Mendo Breath, Sherbert, and Creme Brulee.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 578,
+          "score": 0.594709889520335,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 452,
+          "score": 0.271533801651993,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 407,
+          "score": 0.242792481496613,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 315,
+          "score": 0.0077497172395878,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 251,
+          "score": 0.569179021240917,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 208,
+          "score": 0.362550427398095,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 194,
+          "score": -0.168118813496535,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 172,
+          "score": 0.233847583696282,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 166,
+          "score": 0.0983196826381324,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 158,
+          "score": -0.39929441217477,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 141,
+          "score": -0.0502016869796924,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 136,
+          "score": -0.329894763444757,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 94,
+          "score": -0.02626127048084,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Chem Dawg - Wax",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 30,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": "chemdawg",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Chemdawg, officially named \"Chemdog,\" is a hybrid marijuana strain grown and spread by the breeder Chemdog since 1991. In a Leafly interview, Chemdog relates how Chemdog came from what was thought to be Northern California bag seed, via a Colorado Grateful Dead concert. Chem 91, Chem 4, and Chem Sis are all variations on Chemdog. The original name Chemdog came from two names for the same bud \"Chem\" and \"Dog bud.\" Chemdog evolved into the variation 'Chemdawg' over time and distance as other growers and breeders propagated it, with the latter name becoming more dominant. Leafly customers tell us Chemdawg effects include feeling euphoric, uplifted, and creative. Medical marijuana patients often choose Chemdawg when dealing with symptoms associated with stress, anxiety, and pain. Chemdog is a staple strain in cannabis and may be a source of powerhouse strains like Sour Diesel and OG Kush, Chemdog is known for its distinct, diesel-like aroma. Pungent and sharp, you’ll be able to smell this strain from a mile away. Cannabis newbies be warned: Chemdog tends to be very potent. Consumers can expect to have a cerebral experience, coupled with a strong heavy-bodied feeling. ",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1031,
+          "score": 0.248132583319698,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1030,
+          "score": 0.527716429200222,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 971,
+          "score": -0.385647406577548,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 862,
+          "score": 0.410417254626417,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 602,
+          "score": 0.329044826179539,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 491,
+          "score": 0.19632127358692,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 459,
+          "score": -0.092173074061663,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 444,
+          "score": 0.236738892832628,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 411,
+          "score": 0.280996297371194,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 394,
+          "score": 0.146029876451858,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 348,
+          "score": 0.0483002983350509,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 327,
+          "score": -0.207594198989418,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 220,
+          "score": -0.0083812286892204,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Purple Reign - Wax",
+      "brandName": "Tom Trusler",
+      "cartUnit": "g",
+      "price": 30,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "purple-reign",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Combining Royal Purple Kush with a Royal Purple Kush x Recon OG cross, Purple Reign was created by the team at Ethos Genetics. A big producer with a fruity, grapefruit, and berry terpene profile, Purple Reign is as flavorful as it is pretty. Give this strain a shot next time you want a tasty treat to wind down with at the end of the day.\n\n ",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": 1.12731750969467,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.328214035458809,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.343869633218519,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.958355196022442,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.730271075439533,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 0.241153829198375,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 0.334893243442946,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 0.432568311935781,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.0721288993925104,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.391609193756627,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.421998312112164,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.515323669774454,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.0694782253204611,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Green Crack - Budder",
+      "brandName": "Tom Trusler",
+      "cartUnit": "g",
+      "price": 30,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": "green-crack",
+      "strainCategory": "Sativa",
+      "strainDescription": "Green Crack, also known as \"Green Crush\" and \"Mango Crack,\" is a potent sativa marijuana strain made by crossing Skunk #1 with an unknown indica. This strain is beloved by many consumers for its energizing effects. But don’t let the name fool you: this is pure cannabis. Few strains compare to Green Crack’s sharp energy and focus as it induces an invigorating mental buzz that keeps you going throughout the day. With a tangy, fruity flavor redolent of mango, Green Crack is a great daytime strain that may help consumers fight fatigue, stress, and depression. Because the name \"Green Crack\" perpetuates a negative image of cannabis, some people have taken to calling this strain Cush (with a ‘C’) or Green Cush instead.",
+      "effects": {
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3314,
+          "score": 2.23855046188711,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2945,
+          "score": 0.309641662786728,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2861,
+          "score": 0.875179341130263,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2323,
+          "score": -0.0764689923961969,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2253,
+          "score": 1.01499777713537,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2101,
+          "score": 0.800559934108703,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1695,
+          "score": 1.02052120993515,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1396,
+          "score": -1.68356738293227,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1110,
+          "score": 0.154559169198277,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 948,
+          "score": -0.154646030126701,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 759,
+          "score": -0.254461397874471,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 689,
+          "score": 0.108619101217434,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 349,
+          "score": -0.837559637942281,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Rainbow Belts 3.0 - Shatter",
+      "brandName": "High Mountain",
+      "cartUnit": "g",
+      "price": 30,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": "rainbow-belt",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Rainbow Belts, also known as \"Rainbow Belt,\" is an indica marijuana strain made from by crossing Moonbow with Zkittlez. The effects of Rainbow Belts are mostly calming. Consumers say this strain offers a euphoric high that leaves you feeling happy and relaxed. Rainbow Belts is 20% THC, making this strain an ideal choice for cannabis consumers with a high THC tolerance. Rainbow Belts has sedating qualities so it's best to enjoy this strain during the evening hours. The flavor and aroma of this strain may remind you of sweet and fruity candy. Medical marijuana patients choose Rainbow Belts to relieve symptoms associated with insomnia. This strain is bred by Archive Seed Bank and Purple City Genetics.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": 0.195110300279345,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 39,
+          "score": 0.378521661770144,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 36,
+          "score": -0.1278318083214,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 23,
+          "score": -0.409016701859207,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 19,
+          "score": -0.0635886097641772,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 0.436075026111054,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": 0.272266332892727,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": -0.0493367442537761,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -0.325110259547901,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -0.469293935849081,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.905642925297983,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.0908158335311361,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.94240865048129,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Forge Canna - Uplift - Tablets",
+      "brandName": "Forge Canna",
+      "cartUnit": "each",
+      "price": 24,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sinful Shooter - Strawberry",
+      "brandName": "Sinful Brands",
+      "cartUnit": "each",
+      "price": 16,
+      "description": "Taste the perfect blend of bright and crisp lemonade with sweet and fruity strawberry. This is a consumer favorite and perfect on a hot day. You can expect to feel the fast acting THC infusion in as little as 15 minutes.\n\n-100mg of fast acting THC per bottle\n-Bitter-free, sweet & flavorful\n-Discreet & small packaging\n-Made with real juice\n\nRecommended for: Concerts, Nightlife, Sporting Events, Parties\n\nIngredients: Water, Lemon Juice, Sugar, MCT Oil, Natural Flavor, Marijuana Distillate , Potassium Sorbate, Sodium Benzoate, Red 40, Aspartame",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/iz5xyDFeSysbZD49kI61_Strawberry-Shooter-square.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Mobius - Tropical Punch - 1:1",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 18,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://storage.googleapis.com/maui-prod-products/305f1149-04a5-49ff-9a3c-cd14e52fc378--00c4ca9b-8b16-440e-bd22-8f2625a07906.png?version=1706214091",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sinful Shooter - Peach 1:1",
+      "brandName": "Sinful Brands",
+      "cartUnit": "each",
+      "price": 16,
+      "description": "Taste a sweet ripe peach with each sip. This is a great flavor to make your own infused Peach tea. You can expect to feel the fast acting THC infusion in as little as 15 minutes.\n\n-100 mg fast acting THC per bottle\n-100 mg fast acting CBD per bottle\n-Bitter-free, sweet & flavorful\n-Discreet & small packaging\n-Made with real apple juice\n\nRecommended for: Concerts, Nightlife, Sporting Events, Parties\n\nIngredients: Water, Lemon Juice, Sugar, MCT Oil, Natural Flavor, Marijuana Distillate, CBD, Potassium Sorbate, Sodium Benzoate, Yellow 6, Aspartame",
+      "productCategory": "Edible",
+      "imageUrl": "https://storage.googleapis.com/maui-prod-products/305f1149-04a5-49ff-9a3c-cd14e52fc378--96359116-d888-40b1-b749-899d4d13f4df.png?version=1708792992",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sinful Shooter - Green Apple",
+      "brandName": "Sinful Brands",
+      "cartUnit": "each",
+      "price": 16,
+      "description": "Like a fresh picked apple! Enjoy the tart, crisp and sweet flavor of green apple. Sinful's Green Apple holds its own or tastes great in a Sinful mocktail. Try freezing for a bit for an infused treat on a hot day. Sip, savor, and repeat.\n\n-Made with real apple juice\n-100mg of marijuana extract per bottle\n-10 servings per bottle\n-10 calories per serving\n-Fast acting",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/MINaJVlNTBOlmKnTzs4K_GreenApple16square.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sinful Shooter - Mango 1:1",
+      "brandName": "Sinful Brands",
+      "cartUnit": "each",
+      "price": 16,
+      "description": "Taste the tropics! Enjoy the creamy and fruity fresh flavor of mango. You can expect to feel the fast acting THC infusion in as little as 15 minutes.\n\n-100 mg fast acting THC per bottle\n-100 mg fast acting CBD per bottle\n-Bitter-free, sweet & flavorful\n-Discreet & small packaging\n-Made with real juice\n\nRecommended for: Concerts, Nightlife, Sporting Events, Parties\n\nIngredients: Water, Lemon Juice, Sugar, MCT Oil, Natural Flavor, Marijuana Distillate, CBD, Potassium Sorbate, Sodium Benzoate, Yellow 6, Aspartame",
+      "productCategory": "Edible",
+      "imageUrl": "https://storage.googleapis.com/maui-prod-products/305f1149-04a5-49ff-9a3c-cd14e52fc378--f88dfac8-29af-4cf5-a532-3cfad5b71930.png?version=1708792888",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Mobius - Mango - 1:1",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 18,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://storage.googleapis.com/maui-prod-products/305f1149-04a5-49ff-9a3c-cd14e52fc378--1ccd6861-33b8-49a0-b814-a7219b2c2bf2.png?version=1706214069",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Inspire - Green Apple",
+      "brandName": "High Road Edibles",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "A balanced and uplifting experience using hybrid cannabis strains. 20 individual servings of 5mg THC. Made with full spectrum cannabis extract. Gluten free.\n\nIngredients\nGlucose, Sucrose, Kosher Gelatin, Sorbitol, Citric Acid, Natural and Artificial Flavor, Marijuana Oil Extract, Artificial Coloring.\n\nActivation & Onset\nStart with 1 gummy. Wait at least 2 hours for full effect.\n\nStorage\nBest if package is stored below 75°F.\n\nAllergy Warning\nPackaged in the same facility as peanuts, tree nuts, wheat, soy and milk products.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/SSax0bVBSIaiMSpAhB87_Gummy-Green-Apple-THC-v2-2x.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Unwind - Blood Orange",
+      "brandName": "High Road Edibles",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "Intended to create a calm and relaxing experience using indica cannabis strains. 20 individual servings of 5mg. Made with full spectrum cannabis extract. Gluten free.\n\nIngredients\nGlucose, Sucrose, Kosher Gelatin, Sorbitol, Citric Acid, Natural and Artificial Flavor, Marijuana Oil Extract, Artificial Coloring.\n\nActivation & Onset\nStart with 1 gummy. Wait at least 2 hours for full effect.\n\nStorage\nBest if package is stored below 75°F.\n\nAllergy Warning\nPackaged in the same facility as peanuts, tree nuts, wheat, soy and milk products.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/WkJRl8BpRwCXrGNxvHl5_Gummy-Blood-Orange-THC-2x.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Unwind - Dark Chocolate w/ Sea Salt",
+      "brandName": "High Road Edibles",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "Intended to create a calm and relaxing experience using indica cannabis strains. 20 individual servings of 5mg THC. Made with full spectrum cannabis extract.\n\nIngredients\nDark Chocolate (Cacao beans, cane sugar, cocoa butter, sunflower lecithin, vanilla beans), Marijuana Oil Extract, Sea Salt\n\nActivation & Onset\nStart with 1 piece. Wait at least 2 hours for full effect.\n\nStorage\nBest if package is stored below 75°F.\n\nAllergy Warning\nPackaged in the same facility as peanuts, tree nuts, wheat, soy and milk products.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/pgCaiChCSs2kniqPfaFt_Chocolate-Sea-Salt-THC-2x.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Recharge - Strawberry",
+      "brandName": "High Road Edibles",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "Developed to promote an energizing and euphoric experience using sativa cannabis strains 20 individual servings of 5mg THC. Made with full spectrum cannabis extract. Gluten free.\n\nIngredients\nGlucose, Sucrose, Kosher Gelatin, Sorbitol, Citric Acid, Natural and Artificial Flavor, Marijuana Oil Extract, Artificial Coloring.\n\nActivation & Onset\nStart with 1 gummy. Wait at least 2 hours for full effect.\n\nStorage\nBest if package is stored below 75°F.\n\nAllergy Warning\nPackaged in the same facility as peanuts, tree nuts, wheat, soy and milk products.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/PqCvp3dUSJOP06kXalV1_Gummy-Strawberry-THC-2x.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Unwind - Cookies & Cream",
+      "brandName": "High Road Edibles",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "Intended to create a calm and relaxing experience using indica cannabis strains. 20 individual servings of 5mg. Made with full spectrum cannabis extract.\n\nIngredients\nWhite Chocolate (Cane sugar, cocoa butter, full cream milk, lactose, sunflower lecithin, vanilla beans), Cookies (Enriched Flour (Wheat flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Cookies Sugar, Cocoa Processed with Alkali, Palm Oil, High Fructose Corn Syrup, Chocolate Liquor, Salt, Corn Flour, Dextrose, Sodium Bicarbonate, Soy Lecithin) and Marijuana Oil Extract.\n\nActivation & Onset\nStart with 1 piece. Wait at least 2 hours for full effect.\n\nStorage\nBest if package is stored below 75°F.\n\nAllergy Warning\nPackaged in the same facility as peanuts, tree nuts, wheat, soy and milk products.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/jHhYvxRLQaeranmrGf7u_Chocolate-Cookies-Cream-THC-2x.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Slumber - Blueberry - 1:1",
+      "brandName": "High Road Edibles",
+      "cartUnit": "each",
+      "price": 24,
+      "description": "Intended to help you sleep restfully using indica cannabis strains and ratio of THC + CBN. 20 individual servings of 5mg THC + 5mg CBN. Made with full spectrum cannabis extract. Gluten free.\n\nIngredients\nGlucose, Sucrose, Kosher Gelatin, Sorbitol, Citric Acid, Natural and Artificial Flavor, Marijuana Oil Extract, CBN, Artificial Coloring.\n\nActivation & Onset\nStart with 1 gummy. Wait at least 2 hours for full effect.\n\nStorage\nBest if package is stored below 75°F.\n\nAllergy Warning\nPackaged in the same facility as peanuts, tree nuts, wheat, soy and milk products.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/tyKbO9INRMfUNXQ4Vi5T_Gummies-THC-Ratio-Blueberry-v2.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Raspberry Renew - CBG",
+      "brandName": "High Road Edibles",
+      "cartUnit": "each",
+      "price": 24,
+      "description": "Created to help focus and heal with a natural boost using hybrid cannabis strains and ratio of THC + CBG. 20 individual servings of 5mg THC + 5mg CBG. Made with full spectrum cannabis extract. Gluten free.\n\nIngredients\nGlucose, Sucrose, Kosher Gelatin, Sorbitol, Citric Acid, Natural and Artificial Flavor, Marijuana Oil Extract, CBG, Artificial Coloring.\n\nActivation & Onset\nStart with 1 gummy. Wait at least 2 hours for full effect.\n\nStorage\nBest if package is stored below 75°F.\n\nAllergy Warning\nPackaged in the same facility as peanuts, tree nuts, wheat, soy and milk products.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/WLddlqpWSdb0uWjVwaKP_Gummies-THC-Ratio-Raspberry-v2.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Realign Gummies - Huckleberry 1:1",
+      "brandName": "High Road Edibles",
+      "cartUnit": "each",
+      "price": 24,
+      "description": "A mellow and balanced experience using hybrid cannabis and an equal ratio of THC + CBD. 20 individual servings of 5mg THC + 5mg CBD. Made with full spectrum cannabis extract. Gluten free.\n\nIngredients\nGlucose, Sucrose, Kosher Gelatin, Sorbitol, Citric Acid, Natural and Artificial Flavor, Marijuana Oil Extract, CBD, Artificial Coloring.\n\nActivation & Onset\nStart with 1 gummy. Wait at least 2 hours for full effect.\n\nStorage\nBest if package is stored below 75°F.\n\nAllergy Warning\nPackaged in the same facility as peanuts, tree nuts, wheat, soy and milk products.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/iqLcVQwRbiWhvGR1nRqQ_Gummy-Huckleberry-THC-2x.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sinful - Pomegranate",
+      "brandName": "Sinful Brands",
+      "cartUnit": "each",
+      "price": 25,
+      "description": "Enjoy a tart flavor with a underlying sweetness that every Sinful Pomegranate delivers. Each bottle contains 100mg of fast-acting THC, making it the ideal way to relax after a long day. Try freezing for a bit for an infused treat on a hot day. Sip, savor, and repeat.\n\n-Made with real juice\n-100mg of marijuana extract per bottle\n-10 servings per bottle\n-10 calories per serving\n-Fast acting",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/LPYIwvu2RKSwSYRHaVRV_Pomegranate16square.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sinful - Huckleberry Lemonade",
+      "brandName": "Sinful Brands",
+      "cartUnit": "each",
+      "price": 25,
+      "description": "Montana huckleberries in a bottle! Taste the bright, crisp and sweet flavor of lemonade with the added punch of huckleberry. You can expect to feel the fast acting THC infusion in as little as 15 minutes.\n\n- Made with real lemon juice\n- 100mg of marijuana extract per bottle\n- 10 servings per bottle\n- 10 calories per serving\n- Fast acting\n\nIngredients: Water, Lemon Juice, Erythritol, Sugar, MCT Oil, Citric Acid, Natural Flavors, Marijuana Distillate, Potassium Sorbate, Sodium Benzoate, Red 40, Blue 1, Red 3, Salt, Stevia Leaf Extract",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/ducqQIA8TzaWWIg0rOA5_Huckleberry16sq.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sinful - Orange Vanilla ",
+      "brandName": "Sinful Brands",
+      "cartUnit": "each",
+      "price": 25,
+      "description": "Citrusy tang meets the warmth of Madagascar Vanilla. Sinful’s Orange Vanilla is the perfect duet that’ll make your mouth sing. Each bottle contains 100mg of fast-acting THC, making it the ideal way to relax after a long day. Try freezing for a bit for an infused treat on a hot day. Sip, savor, and repeat.\n\n-Made with real juice\n-100mg of marijuana extract per bottle\n-10 servings per bottle\n-10 calories per serving\n-Fast acting",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/GQft0AwkQlWM9ebW5Dux_OrangeVanilla16square.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": ".99 Rolling Papers",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 0.99,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "OCB - Cones",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Hemp Wick",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "High Mountain Branded - BIC Lighter",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "RAW - King Size Papers",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Zig Zag - Cones",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Boveda - Humidity Pouch",
+      "brandName": "Boveda 2-Way Humidity Control",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Mini Glass Hitter",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 2.5,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "King Palm - Cones",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 3,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Metal Dab Tool",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 3,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "High Mountain Branded - Clipper Lighter",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 3,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Glass Dab Tool",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 3,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Dugout - Metal",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 3,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Pure Hemp - Cones",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 3,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Dab Slick",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 4,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "RAW Pack - Paper & Tips",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 4,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "White Rhino - Chillum",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 5,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Glass One Hitter",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 5,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Tank Top",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Hat",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "T-Shirt",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Hat - 710",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Shirt - 710 ",
+      "brandName": "High Mountain",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    }
+  ]
+}

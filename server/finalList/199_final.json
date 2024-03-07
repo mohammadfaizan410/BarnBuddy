@@ -1,0 +1,1089 @@
+{
+  "dispensary": {
+    "name": "N8V Grown - Harlem",
+    "address1": "42443 US Highway 2",
+    "coverPhotoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery366192/PkR5TuNeTNSRvhfG4WO9_Snip20220518_45.png",
+    "country": "US",
+    "city": "Harlem",
+    "description": "N8V Grown is an Native American owned and operated dispensary with 3 service Locations!",
+    "email": "n8vgrown@gmail.com",
+    "flags": [
+      "US",
+      "dispensary",
+      "dualLicense",
+      "licensed",
+      "medical",
+      "pickup",
+      "preorderConfigured",
+      "recreational",
+      "storefront"
+    ],
+    "locations": [
+      {
+        "lat": 48.40847,
+        "lon": -108.49873
+      },
+      {
+        "lat": 48.5288466,
+        "lon": -108.7914561
+      }
+    ],
+    "logoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery366192/AU7vS3ztQ7m1pQg9rlbw_Snip20220518_47.png",
+    "mapMarkerLocations": [
+      {
+        "city": "Harlem",
+        "index": 0,
+        "label": "Harlem,MT",
+        "state": "MT",
+        "country": "US",
+        "latitude": "48.5288466",
+        "longitude": "-108.7914561"
+      }
+    ],
+    "phone": "4063523770",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery366192/PkR5TuNeTNSRvhfG4WO9_Snip20220518_45.png"
+      }
+    ],
+    "primaryLocation": {
+      "lat": 48.40847,
+      "lon": -108.49873
+    },
+    "state": "MT",
+    "tags": [
+      "dualLicense",
+      "storefront",
+      "licensed"
+    ],
+    "website": "https://n8vgrown.com/",
+    "zip": "59526"
+  },
+  "products": [
+    {
+      "name": "Apogee Gardens - Pink Love - 3.5g Prepackaged",
+      "brandName": "Apogee Gardens",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "N8V Grown - Tropical Slushy - 1g Prepackaged",
+      "brandName": null,
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "N8V Grown - Apples and Bananas - 1g Prepackaged",
+      "brandName": null,
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "apples-and-bananas",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Apples and Bananas is a potent hybrid indica weed strain made from a genetic cross between  Blue Power, Gelatti and other strains. Apples and Bananas is 23% THC or higher, making this strain an ideal choice for experienced cannabis consumers. Leafly customers tell us Apples and Bananas' effects include happiness,  euphoria, and feeling uplifted. Medical marijuana patients often choose Apples and Bananas when dealing with symptoms associated with anxiety, depression, and stress. Bred by Cookies and Compound Genetics, the full genetic is ((Platinum Cookies x Granddaddy Purple) x Blue Power) x Gelatti. Apples and Bananas features flavors like apple, pear and tree fruit. The dominant terpene of this strain is myrcene. The average price of Apples and Bananas typically ranges from $35-$45. If you’ve smoked, dabbed, or consumed Apples and Bananas, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 157,
+          "score": 0.710875925341307,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 135,
+          "score": -0.254432951175272,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 124,
+          "score": 0.242445396003882,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 115,
+          "score": 0.425108879421789,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 66,
+          "score": -0.0024241171648717,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 55,
+          "score": -0.0280052585840723,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 54,
+          "score": 0.196327195207878,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 52,
+          "score": -0.304900289283669,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": 0.0658092793686694,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 43,
+          "score": 0.460581792474457,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 37,
+          "score": -0.372889014780745,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 33,
+          "score": -0.339441840146522,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 27,
+          "score": -0.589071117176688,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "N8V Grown - Apple Tarts - 1g Prepackaged",
+      "brandName": null,
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "tarts",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Tarts is a hybrid weed strain made from a genetic cross between Wojo Mints and Grease Monkey. This strain is 50% sativa and 50% indica. Tarts is 32.6% THC, making this strain an ideal choice for experienced cannabis consumers. Bred by Grassroots, the average price of Tarts typically ranges from $10-$15 per gram. We are still learning about Tarts’ effects, flavors, and medical uses. If you've smoked, dabbed, or consumed Tarts, please tell us about your experience by leaving a strain review.",
+      "effects": {},
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Northstar Evolution - Super Boof - 3.5g Prepackaged",
+      "brandName": null,
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/strains/photos/f7EWFqFoRDyfOE89z4FP_SuperBoof%20by%20virgin%20(Ryan%20Herron%20for%20Leafly).jpg",
+      "strainName": "super-boof",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Super Boof is a zingy hybrid weed strain made by crossing Black Cherry Punch and Tropicana Cookies. It has the same chunky, deep green buds as its parents that look wet with silver calyxes. The effects of Super Boof are believed to be intensely relaxing and giggly. Reviewers on Leafly say this strain makes them feel euphoric, creative and focused. Medical marijuana patients say they buy Super Boof for gastrointestinal disorders, depression, and fibromyalgia. Super Boof regularly tests at 28% THC. The dominant terpene is myrcene, which translates to earthy, and cherry notes. The original breeder of the Super Boof strain is California's Blockhead, who named it \"Blockberry.\" Grower Mobile Jay selected a variety and named it Superboof.",
+      "effects": {
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 49,
+          "score": 0.635919850242219,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 41,
+          "score": -0.590212094587285,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 40,
+          "score": -0.231148455522457,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 30,
+          "score": 1.12432375724006,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": 0.68408864104074,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": -0.570876370846206,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": 0.0774617258486296,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 22,
+          "score": -0.0255261161495184,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 0.207939617427662,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": -0.0335993176641417,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.272257451062266,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.3476664636062,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": 0.177272815759318,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "2g Prepackaged (MOG)",
+      "brandName": "N8V Grown",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "marshmallow-og",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Marshmallow OG is a hybrid weed strain made from a genetic cross between Chemdog, Triangle OG, and Jet Fuel Gelato. Marshmallow OG is 20% THC, making this strain an ideal choice for experienced cannabis consumers. Leafly customers tell us Marshmallow OG effects include relaxation,  hunger, and happiness. Medical marijuana patients often choose Marshmallow OG when dealing with symptoms associated with anxiety, stress, and depression. Bred by Compound Genetics, Marshmallow OG features flavors like butter, vanilla, and pepper. The dominant terpene of this strain is Limonene. The average price of Marshmallow OG typically ranges from $35-$45. If you’ve smoked, dabbed, or consumed Marshmallow OG, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 155,
+          "score": 1.19266382033469,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 106,
+          "score": 0.330705564655036,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 75,
+          "score": -0.315750694654204,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 74,
+          "score": 0.0518574589440863,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 66,
+          "score": 1.02916668907791,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 43,
+          "score": 0.11065741255232,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 41,
+          "score": 0.204202191667703,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 38,
+          "score": 0.171399761049945,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 32,
+          "score": -0.536280561659227,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 31,
+          "score": -0.104582360399101,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": -0.662313234950812,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 20,
+          "score": -0.0990921659186566,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.86482509639323,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "N8V Grown - Tropical Slushy - 2g Prepackaged",
+      "brandName": null,
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "N8V Grown - Apple Tarts - 2g Prepackaged",
+      "brandName": null,
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": "tarts",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Tarts is a hybrid weed strain made from a genetic cross between Wojo Mints and Grease Monkey. This strain is 50% sativa and 50% indica. Tarts is 32.6% THC, making this strain an ideal choice for experienced cannabis consumers. Bred by Grassroots, the average price of Tarts typically ranges from $10-$15 per gram. We are still learning about Tarts’ effects, flavors, and medical uses. If you've smoked, dabbed, or consumed Tarts, please tell us about your experience by leaving a strain review.",
+      "effects": {},
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "N8V Grown - Apple Tarts - 3.5g Prepackaged",
+      "brandName": null,
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Buzz Genetics - Ductape - 1g Prepackaged",
+      "brandName": null,
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Silver Fruit - 3.5g Prepackaged",
+      "brandName": "Apogee Gardens",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Buzz Genetics - LA Kush Cake - 1g Prepackaged",
+      "brandName": null,
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "la-kush-cake",
+      "strainCategory": "Hybrid",
+      "strainDescription": "LA Kush Cake, also known as \"Los Angeles Kush Cake\" and \"LA Kush Cake #11,\" is a hybrid marijuana strain. This cross of the popular Wedding Cake and Kush Mints comes from Liberty Health Sciences and Seed Junky Genetics. La Kush Cake is an indica-dominant strain that smells like vanilla and has an earthy peppermint taste. It’s an easy, smooth hitter, and effects take a while to come on. This is a beautiful flower, with green and purple buds covered in frosty trichomes. It’s great for relaxing and winding down at the end of the night without much else to do. Questions about LA Kush Cake    Is LA Kush Cake an indica or sativa?   LA Kush Cake is a hybrid strain, meaning it features qualities of both indica and sativa.   How does LA Kush Cake make you feel?   LA Kush Cake makes you feel relaxed, euphoric, and aroused.   How does LA Kush Cake taste?   LA Kush Cake tastes earthy with vanilla and pepper undertones.   What terpenes are in LA Kush Cake?   LA Kush Cake features limonene as the dominant terpene.    What strains are similar to LA Kush Cake?   Strains similar to LA Kush Cake include Super Sour Diesel, Platinum Punch Remix, and Liberty Haze.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 144,
+          "score": 0.8708122528538,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 94,
+          "score": 0.236845684942335,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 83,
+          "score": -0.37654531005369,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 69,
+          "score": 0.902671124573709,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 56,
+          "score": 1.50003719133573,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 55,
+          "score": -0.507730098959882,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 49,
+          "score": 0.393036858179636,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 40,
+          "score": 0.240799307376533,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 40,
+          "score": -0.321186712055608,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 38,
+          "score": 0.0825737889673285,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 32,
+          "score": -0.541961977924258,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": -0.374658215081062,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": -0.750329894060408,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Silver Fruit - 1g Prepackaged",
+      "brandName": "Apogee Gardens",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Apogee Gardens - Blackout Bobby - 2g Prepackaged",
+      "brandName": "Apogee Gardens",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Kush Mints - 2g Prepackaged",
+      "brandName": null,
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": "kush-mints",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Kush Mints is a hybrid weed strain made from a genetic cross between Animal Mints and Bubba Kush. This strain is 50% sativa and 50% indica. Kush Mints is a potent and flavorful strain that has a minty and cookie-like aroma and flavor, with hints of gas and pine. It has a balanced high that is both relaxing and euphoric, with a pleasant body buzz and a creative mind. Kush Mints is 28% THC, making this strain an ideal choice for experienced cannabis consumers. Leafly customers tell us Kush Mints effects include feeling relaxed, euphoric, and aroused. Medical marijuana patients often choose Kush Mints when dealing with symptoms associated with anxiety, stress, and depression. Bred by Mr. Nice Seeds, Kush Mints features flavors like mint, menthol, and pine. The dominant terpene of this strain is limonene. The average price of Kush Mints typically ranges from $15-$20 per gram. Kush Mints is a rare and exclusive strain that is not widely available, so if you find it at your local dispensary, don’t hesitate to try it out. If you’ve smoked, dabbed, or consumed Kush Mints, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 247,
+          "score": 0.677186663929887,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 187,
+          "score": 0.522739854684191,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 184,
+          "score": 0.190816965066963,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 116,
+          "score": -0.241759321017362,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 87,
+          "score": 0.364116587212834,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 81,
+          "score": 0.160955610330027,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 79,
+          "score": -0.203506451777249,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 70,
+          "score": 0.193523417919164,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 69,
+          "score": 0.0909277073842379,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 67,
+          "score": 0.659866979480341,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 66,
+          "score": -0.398632354607243,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 57,
+          "score": -0.0898698013902881,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 46,
+          "score": -0.504369789515515,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "1g Prepackaged (MOG)",
+      "brandName": "N8V Grown",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "marshmallow-og",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Marshmallow OG is a hybrid weed strain made from a genetic cross between Chemdog, Triangle OG, and Jet Fuel Gelato. Marshmallow OG is 20% THC, making this strain an ideal choice for experienced cannabis consumers. Leafly customers tell us Marshmallow OG effects include relaxation,  hunger, and happiness. Medical marijuana patients often choose Marshmallow OG when dealing with symptoms associated with anxiety, stress, and depression. Bred by Compound Genetics, Marshmallow OG features flavors like butter, vanilla, and pepper. The dominant terpene of this strain is Limonene. The average price of Marshmallow OG typically ranges from $35-$45. If you’ve smoked, dabbed, or consumed Marshmallow OG, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 155,
+          "score": 1.19266382033469,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 106,
+          "score": 0.330705564655036,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 75,
+          "score": -0.315750694654204,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 74,
+          "score": 0.0518574589440863,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 66,
+          "score": 1.02916668907791,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 43,
+          "score": 0.11065741255232,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 41,
+          "score": 0.204202191667703,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 38,
+          "score": 0.171399761049945,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 32,
+          "score": -0.536280561659227,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 31,
+          "score": -0.104582360399101,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": -0.662313234950812,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 20,
+          "score": -0.0990921659186566,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.86482509639323,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Apogee Gardens - Pink Love - 1g Prepackaged",
+      "brandName": "Apogee Gardens",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Buzz Genetics - Global Fire - 2g Prepackaged",
+      "brandName": null,
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Power Plant - Blood Orange Gummies - 1 Pack",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 18,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Apogee Gardens - Blueberry RSO Indica Gummies - 1 Pack",
+      "brandName": "Apogee Gardens",
+      "cartUnit": "each",
+      "price": 18,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Power Plant - Sour Apple Gummies - Pack",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 18,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Power Plant - Huckleberry Gummies - 1 Pack",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 18,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Spark1 - Milk Chocolate Bar - 75 mg",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 19,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Farm406 - Blood Orange Mobius - 1 Bottle",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Farm406 - Raspberry Lemonade Mobius - 1 Bottle",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Farm406 - Blueberry Mobius - 1 Bottle",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Farm406 - Huckleberry Mobius - 1 Bottle",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Marimint - Gummy Crunch - 1 Pack",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Farm406 - Tropical Punch Mobius - 1 Bottle",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Farm406 - Mango Mobius - 1 Bottle",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Farm406 - Strawberry Mobius - 1 Bottle",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Farm406 - Pineapple Mobius - 1 Bottle",
+      "brandName": "Mobius",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    }
+  ]
+}

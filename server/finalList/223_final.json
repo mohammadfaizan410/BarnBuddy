@@ -1,0 +1,90 @@
+{
+  "dispensary": {
+    "name": "Pluto Cannabis",
+    "address1": "10104 111 AVE NW",
+    "coverPhotoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery366318/MklwMPVfSKSealwusxN6_20220608_115948.jpg",
+    "country": "CA",
+    "city": "Edmonton",
+    "description": "A local dispensary that appreciates festivals with discounts! please view our web page for current products",
+    "email": "info@plutocannabis.ca",
+    "flags": [
+      "CA",
+      "adaAccessible",
+      "asianOwned",
+      "birthdayDiscount",
+      "dispensary",
+      "petFriendly",
+      "recreational",
+      "storefront",
+      "womanOwned"
+    ],
+    "locations": [
+      {
+        "lat": 53.559184,
+        "lon": -113.494919
+      },
+      {
+        "lat": 53.5590739,
+        "lon": -113.4940025
+      }
+    ],
+    "logoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery366318/o8QNJ7h7TM2wZxS7C63D_L.Nick-US-2721-20--20Tianyu-20Zhuu-20--20Logo-20Design-01.jpg",
+    "mapMarkerLocations": [
+      {
+        "city": "Edmonton",
+        "index": 0,
+        "label": "Edmonton,AB",
+        "state": "AB",
+        "country": "CA",
+        "latitude": "53.5590739",
+        "longitude": "-113.4940025"
+      }
+    ],
+    "phone": "8258880666",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery366318/MklwMPVfSKSealwusxN6_20220608_115948.jpg"
+      },
+      {
+        "id": 1170305,
+        "bigThumb": null,
+        "created": "2022-06-08T18:33:03.678Z",
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery366318/EMSIHzBVSDiR7pNaK4YZ_20220608_115943.jpg",
+        "lastModified": "2022-06-08T18:33:03.678Z",
+        "smallThumb": null,
+        "user": null
+      },
+      {
+        "id": 1170304,
+        "bigThumb": null,
+        "created": "2022-06-08T18:33:03.284Z",
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery366318/shnIHFGtTv2JZ3o7DQ7p_20220608_115953.jpg",
+        "lastModified": "2022-06-08T18:33:03.284Z",
+        "smallThumb": null,
+        "user": null
+      },
+      {
+        "id": 1170303,
+        "bigThumb": null,
+        "created": "2022-06-08T18:33:02.916Z",
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery366318/8s7wjbd1TUe4r94dEedm_Grand-opening-poster-20(1).jpg",
+        "lastModified": "2022-06-08T18:33:02.916Z",
+        "smallThumb": null,
+        "user": null
+      }
+    ],
+    "primaryLocation": {
+      "lat": 53.559184,
+      "lon": -113.494919
+    },
+    "state": "AB",
+    "tags": [
+      "recreational",
+      "storefront"
+    ],
+    "website": "http://plutocannabis.ca",
+    "zip": "T5G 0B3"
+  },
+  "products": []
+}

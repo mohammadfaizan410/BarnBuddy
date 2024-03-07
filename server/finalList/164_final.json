@@ -1,0 +1,1177 @@
+{
+  "dispensary": {
+    "name": "King Green Industries",
+    "address1": "100 Columbia Mountain Dr",
+    "coverPhotoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery349770/poQNoGJGTisOkM7NHLDc_IMG_2529.jpg",
+    "country": "US",
+    "city": "Columbia Falls",
+    "description": "Organic, Soil Grown, Solventless is how we do things. We are the only recreationally legal dispensary in America that is running long flowering landraces and heavyweight long flowering Sativa to the public. Indica and modern poly-hybrids also stay stocked on our shelves. KGI is the only biodynamic dispensary in NW Montana. Patient education is what we live for, come get some free knowledge, free smells, and clean high grade herb from the budtenders at KGI. ",
+    "email": "kgindustries.mt@gmail.com",
+    "flags": [
+      "US",
+      "adaAccessible",
+      "atm",
+      "birthdayDiscount",
+      "dispensary",
+      "firstResponderDiscount",
+      "firstTimeCustomerDiscount",
+      "industryDiscount",
+      "licensed",
+      "militaryDiscount",
+      "nativeAmericanDiscount",
+      "parkingAvailable",
+      "petFriendly",
+      "pickup",
+      "preorderConfigured",
+      "seniorDiscount",
+      "storefront",
+      "studentDiscount",
+      "veteranDiscount"
+    ],
+    "locations": [
+      {
+        "lat": 48.3506821,
+        "lon": -114.2415499
+      },
+      {
+        "lat": 48.3504914,
+        "lon": -114.2415286
+      }
+    ],
+    "logoUrl": "https://images.leafly.com/menu/8oaNXLeIRdSe4gZR8zCU_KGI-Circle-Logo-Complete.png",
+    "mapMarkerLocations": [
+      {
+        "city": "Columbia Falls",
+        "index": 0,
+        "label": "Columbia Falls,MT",
+        "state": "MT",
+        "country": "US",
+        "latitude": "48.3504914",
+        "longitude": "-114.2415286"
+      }
+    ],
+    "phone": "4062533269",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery349770/poQNoGJGTisOkM7NHLDc_IMG_2529.jpg"
+      }
+    ],
+    "primaryLocation": {
+      "lat": 48.3506821,
+      "lon": -114.2415499
+    },
+    "state": "MT",
+    "tags": [
+      "storefront",
+      "licensed"
+    ],
+    "website": "kinggreenindustries.com",
+    "zip": "59912"
+  },
+  "products": [
+    {
+      "name": "Organic Tropical Zlurpeez",
+      "brandName": "Good Deeds Organics",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Organic Fudge Truffles #3 ",
+      "brandName": "Good Deeds Organics",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Organic Docta Clean",
+      "brandName": "Ninepipe Organics",
+      "cartUnit": "g",
+      "price": 10,
+      "description": "Lineage: Malawi x NL5 Haze\n2.77% Terpenes",
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Organic Doap",
+      "brandName": "Good Deeds Organics",
+      "cartUnit": "g",
+      "price": 10,
+      "description": "Lineage: Soap x Devil Driver\nTotal Terpenes: 2.29%\n",
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Organic Agent Orange",
+      "brandName": "Good Deeds Organics",
+      "cartUnit": "g",
+      "price": 20,
+      "description": "Lineage: Orange Skunk x Jacks Cleaner x Space Queen\n\nOrganically grown with teas and soil amendments by Good Deeds Organics.",
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": "agent-orange",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Agent Orange is a well-balanced hybrid marijuana strain with uplifting and motivating effects. Agent Orange has an aroma of fresh-cut citrus and is an excellent mood enhancer if you are feeling lethargic or depressed. This strain can be made by combining Orange Velvet with the bold Jack the Ripper. Bred by MzJill Genetics, Agent Orange buds have pigments of both deep maroon and purple.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 538,
+          "score": 0.525186117734146,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 473,
+          "score": 0.77401709615912,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 378,
+          "score": -0.885613839098643,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 373,
+          "score": -0.229777055996647,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 353,
+          "score": 0.919979255668421,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 304,
+          "score": 0.431481110494326,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 274,
+          "score": 0.268851505209807,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 232,
+          "score": 0.558848941964322,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 198,
+          "score": 0.218673256297378,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 197,
+          "score": 0.11440912860509,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 140,
+          "score": -0.17118122992881,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 93,
+          "score": -0.125385287581194,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 90,
+          "score": -0.640314569483636,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Organic Killer Bees #1",
+      "brandName": "Ninepipe Organics",
+      "cartUnit": "g",
+      "price": 35,
+      "description": "Lineage: Killer Malawi x NL Haze x Moonbow\nTerps: 2.28%",
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": "killer-bees",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Killer Bees is a hybrid weed strain made from a genetic cross between (Malawi Gold x NL Haze F2) and Moonbow. This strain is 70% sativa and 30% indica. Killer Bees is a buzzworthy strain known for its uplifting and energetic effects. It's a great choice for experienced cannabis consumers looking for a stimulating experience. With a THC content averaging around 20%, Killer Bees packs a potent punch, making it ideal for those seeking a strong and euphoric high. Leafly customers report that Killer Bees' effects include feeling creative, happy, and focused. Medical marijuana patients often choose Killer Bees when dealing with symptoms associated with depression, fatigue, and stress. Its sativa-dominant genetics can provide a much-needed energy boost and mood elevation. Bred by Archive Seed Bank, Killer Bees features flavors like sweet tropical fruit, hints of spice, and a touch of earthiness. The dominant terpene in this strain is limonene, contributing to its uplifting and mood-enhancing properties. The average price of Killer Bees typically ranges from $12 to $18 per gram, reflecting its potency and quality. Killer Bees is a strain that lives up to its name, delivering a buzzing, uplifting experience that's perfect for those in search of creative inspiration and motivation. If you've had the pleasure of trying Killer Bees, please share your insights by leaving a strain review",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 2.03122887820107,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 1.1703857978847,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 2.16299839576488,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.399400881085573,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.69555229825558,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.52046709359871,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.00592517397337,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -1.46152569302922,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.277236880392911,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.105232483149194,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.81092115730628,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.05710243699321,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.984306364424838,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Organic Oreoz",
+      "brandName": "Good Deeds Organics",
+      "cartUnit": "g",
+      "price": 10,
+      "description": "Lineage: Secret Weapon x Cookies and Cream\nTerps: 1.73%",
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "oreoz",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Oreoz, also known a \"Oreo Cookies\" and \"Oreos,\" is a potent hybrid marijuana strain made by crossing Cookies and Cream with Secret Weapon. This strain produces a long-lasting and relaxing high. Consumers should take caution as the high potency of Oreoz may be overwhelming to those new to cannabis. This strain has an aroma reminiscent of campfire s'mores, with extra delicious hints of chocolate and diesel. Medical marijuana patients use Oreoz to help relieve symptoms associated with appetite loss, insomnia, chronic stress and depression.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 205,
+          "score": 0.659438414761602,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 159,
+          "score": 0.301846537443154,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 130,
+          "score": 0.0092657027168718,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 98,
+          "score": 0.984307755879654,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 83,
+          "score": -0.504908557477902,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 73,
+          "score": 0.27252344916977,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 57,
+          "score": -0.389259689841265,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 55,
+          "score": 0.10637045200515,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 54,
+          "score": -0.420191332218228,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 46,
+          "score": -0.128134769388151,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 46,
+          "score": -0.198283245153304,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 33,
+          "score": -0.60801266721044,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": -0.255803288999565,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Organic Double Kush Mints 120u Piattella",
+      "brandName": "Good Deeds Organics x Handi Hash",
+      "cartUnit": "g",
+      "price": 55,
+      "description": "This is some new style hash combined with old style curing technique.\n\nTotal Cannabinoids: 90.02%\nTotal Terpenes: 6.14%",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/A2fsBESTJ6OWG5u4aXbE_HASH-logo-300x300.png",
+      "strainName": "kush-mints",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Kush Mints is a hybrid weed strain made from a genetic cross between Animal Mints and Bubba Kush. This strain is 50% sativa and 50% indica. Kush Mints is a potent and flavorful strain that has a minty and cookie-like aroma and flavor, with hints of gas and pine. It has a balanced high that is both relaxing and euphoric, with a pleasant body buzz and a creative mind. Kush Mints is 28% THC, making this strain an ideal choice for experienced cannabis consumers. Leafly customers tell us Kush Mints effects include feeling relaxed, euphoric, and aroused. Medical marijuana patients often choose Kush Mints when dealing with symptoms associated with anxiety, stress, and depression. Bred by Mr. Nice Seeds, Kush Mints features flavors like mint, menthol, and pine. The dominant terpene of this strain is limonene. The average price of Kush Mints typically ranges from $15-$20 per gram. Kush Mints is a rare and exclusive strain that is not widely available, so if you find it at your local dispensary, don’t hesitate to try it out. If you’ve smoked, dabbed, or consumed Kush Mints, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 247,
+          "score": 0.677186663929887,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 187,
+          "score": 0.522739854684191,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 184,
+          "score": 0.190816965066963,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 116,
+          "score": -0.241759321017362,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 87,
+          "score": 0.364116587212834,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 81,
+          "score": 0.160955610330027,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 79,
+          "score": -0.203506451777249,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 70,
+          "score": 0.193523417919164,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 69,
+          "score": 0.0909277073842379,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 67,
+          "score": 0.659866979480341,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 66,
+          "score": -0.398632354607243,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 57,
+          "score": -0.0898698013902881,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 46,
+          "score": -0.504369789515515,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Organic Double Kush Mints 73-119u Live Rosin ",
+      "brandName": "Good Deeds Organics",
+      "cartUnit": "g",
+      "price": 50,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "kush-mints",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Kush Mints is a hybrid weed strain made from a genetic cross between Animal Mints and Bubba Kush. This strain is 50% sativa and 50% indica. Kush Mints is a potent and flavorful strain that has a minty and cookie-like aroma and flavor, with hints of gas and pine. It has a balanced high that is both relaxing and euphoric, with a pleasant body buzz and a creative mind. Kush Mints is 28% THC, making this strain an ideal choice for experienced cannabis consumers. Leafly customers tell us Kush Mints effects include feeling relaxed, euphoric, and aroused. Medical marijuana patients often choose Kush Mints when dealing with symptoms associated with anxiety, stress, and depression. Bred by Mr. Nice Seeds, Kush Mints features flavors like mint, menthol, and pine. The dominant terpene of this strain is limonene. The average price of Kush Mints typically ranges from $15-$20 per gram. Kush Mints is a rare and exclusive strain that is not widely available, so if you find it at your local dispensary, don’t hesitate to try it out. If you’ve smoked, dabbed, or consumed Kush Mints, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 247,
+          "score": 0.677186663929887,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 187,
+          "score": 0.522739854684191,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 184,
+          "score": 0.190816965066963,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 116,
+          "score": -0.241759321017362,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 87,
+          "score": 0.364116587212834,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 81,
+          "score": 0.160955610330027,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 79,
+          "score": -0.203506451777249,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 70,
+          "score": 0.193523417919164,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 69,
+          "score": 0.0909277073842379,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 67,
+          "score": 0.659866979480341,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 66,
+          "score": -0.398632354607243,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 57,
+          "score": -0.0898698013902881,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 46,
+          "score": -0.504369789515515,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Organic Thai Nigerian 73-119u Live Rosin",
+      "brandName": "King Green Industries",
+      "cartUnit": "g",
+      "price": 100,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "thai",
+      "strainCategory": "Sativa",
+      "strainDescription": "Thai refers to a cannabis variety that grows natively in Thailand and was brought to the U.S. in the 70s and 80s. This pure sativa landrace is sometimes called “Thai Sticks” because of the way its buds are traditionally dried and tied into long sticks. This original Thai variety has given rise to many strains we commonly see on the market today, including Voodoo, Juicy Fruit, and the classic Haze. Thai induces powerful but comfortable effects and has a distinct fruity, citrus aroma. This strain is a challenge for growers outside tropical climates, but greenhouse gardens make this grow possible for experts patient enough for Thai’s long growth cycle and slow flowering.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 68,
+          "score": 0.352774997197645,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 60,
+          "score": 1.51160766615056,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 58,
+          "score": -0.549490709403931,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 56,
+          "score": 1.24194793998334,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 51,
+          "score": 0.951385494360066,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 46,
+          "score": 0.000436026107152,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 36,
+          "score": -0.865492565492027,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": 0.147976911924588,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 20,
+          "score": -0.0858370670654557,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 20,
+          "score": -0.244322069550206,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 19,
+          "score": -0.218101517046307,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": 0.0598740392236248,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -0.731063448489638,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Organic Guava Ganja Popsicles (23mg)",
+      "brandName": "King Green Industries",
+      "cartUnit": "each",
+      "price": 4,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Organic Mango Ganja Popsicles",
+      "brandName": "King Green Industries",
+      "cartUnit": "each",
+      "price": 4,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Organic Guava Ganja Popsicles (99mg)",
+      "brandName": "King Green Industries",
+      "cartUnit": "each",
+      "price": 6,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Green Tea (500ml)",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 10,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Elderberry Hash Pops",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 10,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sweet Tea (500ml) (medical only)",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Organic Cherry Lemon Lime Gummies",
+      "brandName": "King Green Industries",
+      "cartUnit": "each",
+      "price": 17.5,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Organic Sativa Blend Live Rosin Pen",
+      "brandName": "King Green Industries",
+      "cartUnit": "g",
+      "price": 35,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Organic Grinch Mints Live Rosin Pen",
+      "brandName": "Good Deeds Organics",
+      "cartUnit": "g",
+      "price": 55,
+      "description": "Total Cannabinoids: 79.28%\nTotal Terpenes: 5.68%",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/menu/vjqQxyUQIKYJZ6b59pml_grinch%20mints.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Organic Shishkaberry x Herijuana Live Rosin Pen",
+      "brandName": "King Green Industries",
+      "cartUnit": "g",
+      "price": 60,
+      "description": "Total Cannabinoids: 85.14%\nTotal Terpenes: 6.37%",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": "shishkaberry",
+      "strainCategory": "Indica",
+      "strainDescription": "Shishkaberry, or “Kish,” is an indica-dominant hybrid that came about from crossing DJ Short Blueberry with an unknown Afghani strain. This plant will mature in 8 to 9 weeks and should yield a fairly high amount of flowers. Shiskaberry’s buds have a fruit and berry aroma and will be painted with shades of purple. Its initial head buzz is happy and good for finishing things up or being social, but will slip into a lazy high over time.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 181,
+          "score": 0.167022877068556,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 152,
+          "score": 0.107280065349149,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 122,
+          "score": -0.192810308963733,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 102,
+          "score": -0.175918306150983,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 97,
+          "score": 0.727652045714712,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 65,
+          "score": 0.248479930076465,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 64,
+          "score": 0.127375301012273,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 64,
+          "score": -0.26693979327379,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 61,
+          "score": 0.220005447878577,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 50,
+          "score": -0.523673391504122,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": -0.122275346816878,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 38,
+          "score": -0.524384213039163,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 37,
+          "score": 0.0801414811273212,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Organic Thai Nigerian Live Rosin Pen",
+      "brandName": "King Green Industries",
+      "cartUnit": "g",
+      "price": 80,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": "thai",
+      "strainCategory": "Sativa",
+      "strainDescription": "Thai refers to a cannabis variety that grows natively in Thailand and was brought to the U.S. in the 70s and 80s. This pure sativa landrace is sometimes called “Thai Sticks” because of the way its buds are traditionally dried and tied into long sticks. This original Thai variety has given rise to many strains we commonly see on the market today, including Voodoo, Juicy Fruit, and the classic Haze. Thai induces powerful but comfortable effects and has a distinct fruity, citrus aroma. This strain is a challenge for growers outside tropical climates, but greenhouse gardens make this grow possible for experts patient enough for Thai’s long growth cycle and slow flowering.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 68,
+          "score": 0.352774997197645,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 60,
+          "score": 1.51160766615056,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 58,
+          "score": -0.549490709403931,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 56,
+          "score": 1.24194793998334,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 51,
+          "score": 0.951385494360066,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 46,
+          "score": 0.000436026107152,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 36,
+          "score": -0.865492565492027,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": 0.147976911924588,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 20,
+          "score": -0.0858370670654557,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 20,
+          "score": -0.244322069550206,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 19,
+          "score": -0.218101517046307,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": 0.0598740392236248,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -0.731063448489638,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Ites, Gold & Green Chillum",
+      "brandName": "Upstream Glass",
+      "cartUnit": "each",
+      "price": 5,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Small Full Moon Pendant",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 35,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Medium Full Moon Pendant",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 45,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Cactus Pendant",
+      "brandName": "Upstream Glass",
+      "cartUnit": "each",
+      "price": 85,
+      "description": "hand crafted in Columbia Falls, MT by @upstreamglass",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/menu/OYvtt0LqTVOoFK2aP8dg_20230719_195124.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    }
+  ]
+}

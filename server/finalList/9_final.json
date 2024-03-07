@@ -1,0 +1,1915 @@
+{
+  "dispensary": {
+    "name": "Higher Love - Ironwood (REC)",
+    "address1": "824 E Cloverland Dr",
+    "coverPhotoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery362986/Qex0grmzRR2GqHAWMgI3_HL_leafly_cover_0002_IRW.jpg",
+    "country": "US",
+    "city": "Ironwood",
+    "description": "Here at Higher Love we provide you with exceptional cannabis, grown organically. We’re on a mission—a mission to empower others on their wellness journey. Whether you’re seeking relief from chronic pain or are looking for a natural means to relax your mind & body, we are at your service. Regardless of your past experience (or lack thereof) with cannabis, we have the tools to help you make the right decision about which product is best suited to your needs. \n\nAs a reminder, this menu is a sample of our full product list. To view our FULL MENU and place an order, visit out website and select your location to shop now!",
+    "email": "info@findhigherlove.com ",
+    "flags": [
+      "US",
+      "adaAccessible",
+      "atm",
+      "birthdayDiscount",
+      "dispensary",
+      "firstResponderDiscount",
+      "firstTimeCustomerDiscount",
+      "licensed",
+      "militaryDiscount",
+      "nativeAmericanDiscount",
+      "parkingAvailable",
+      "pickup",
+      "recreational",
+      "seniorDiscount",
+      "storefront",
+      "studentDiscount",
+      "veteranDiscount",
+      "womanOwned"
+    ],
+    "locations": [
+      {
+        "lat": 46.4635185,
+        "lon": -90.1549718
+      },
+      {
+        "lat": 46.4635186,
+        "lon": -90.1549333
+      }
+    ],
+    "logoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery362986/EqccGP7wRwS2rm5eyqxI_HL_leafly_logo.jpg",
+    "mapMarkerLocations": [
+      {
+        "city": "Ironwood",
+        "index": 0,
+        "label": "Ironwood,MI",
+        "state": "MI",
+        "country": "US",
+        "latitude": "46.4635186",
+        "longitude": "-90.1549333"
+      }
+    ],
+    "phone": "9069327288",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery362986/Qex0grmzRR2GqHAWMgI3_HL_leafly_cover_0002_IRW.jpg"
+      }
+    ],
+    "primaryLocation": {
+      "lat": 46.4635185,
+      "lon": -90.1549718
+    },
+    "state": "MI",
+    "tags": [
+      "recreational",
+      "storefront",
+      "licensed"
+    ],
+    "website": "https://findhigherlove.com",
+    "zip": "49938"
+  },
+  "products": [
+    {
+      "name": "Higher Love Crescendo Pre-Packaged 1G",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 5,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/e6a01c8f-c432-4a95-ae23-6c9d0e564e85.jpg",
+      "strainName": "crescendo",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Bred by Ethos Genetics, Crescendo  crosses Chemdog, I-95, and Mandarin Cookies to create this THC-dominant hybrid. Its terpene profile produces sweet, earthy, and citrus aromas with gassy, kushy, and sweet cookie dough flavors. Buds are large in size and mostly green with purple accents.\n\n ",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": 1.0095612643881,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 22,
+          "score": -0.0505783711124502,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": -0.0302670529802162,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": 1.37473728623984,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.215148951729155,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.599134413307071,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.147507443819049,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.338625241854918,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.127272926638619,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.987892966540728,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.44084462881391,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.506024814507092,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.882491056186592,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Higher Love Diamond Breath Buds",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 8,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/menu/wzpThhSD2hhmXvUzZ6WQ_MicrosoftTeams-image%20(10).png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Higher Love Shishkaberry Buds",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 8,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/b3c694c9-8e6a-42cf-ae01-4f65811a3e4d.jpg",
+      "strainName": "shishkaberry",
+      "strainCategory": "Indica",
+      "strainDescription": "Shishkaberry, or “Kish,” is an indica-dominant hybrid that came about from crossing DJ Short Blueberry with an unknown Afghani strain. This plant will mature in 8 to 9 weeks and should yield a fairly high amount of flowers. Shiskaberry’s buds have a fruit and berry aroma and will be painted with shades of purple. Its initial head buzz is happy and good for finishing things up or being social, but will slip into a lazy high over time.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 181,
+          "score": 0.167022877068556,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 152,
+          "score": 0.107280065349149,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 122,
+          "score": -0.192810308963733,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 102,
+          "score": -0.175918306150983,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 97,
+          "score": 0.727652045714712,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 65,
+          "score": 0.248479930076465,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 64,
+          "score": 0.127375301012273,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 64,
+          "score": -0.26693979327379,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 61,
+          "score": 0.220005447878577,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 50,
+          "score": -0.523673391504122,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": -0.122275346816878,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 38,
+          "score": -0.524384213039163,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 37,
+          "score": 0.0801414811273212,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Higher Love Grimm Glue Pre-Packaged 1G",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 5,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/9d735ec8-0ecc-45d6-9c94-573cfba33a43.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Higher Love Island Sweet Skunk Buds",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 6,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/menu/MgQcCvd7Qwm9984iSMcU_MicrosoftTeams-image%20(10).png",
+      "strainName": "island-sweet-skunk",
+      "strainCategory": "Sativa",
+      "strainDescription": "Island Sweet Skunk is a sativa marijuana strain made by crossing Sweet Pink Grapefruit with Skunk #1. This strain is often enjoyed for its energetic and uplifting effects. Island Sweet Skunk (sometimes known as Sweet Island Skunk) offers a sweet, skunky flavor with undertones of grapefruit. This strain also comes in a CBD variety to help medical marijuana patients treat symptoms associated with chronic anxiety, inflammation and muscle spasms. Growers say Island Sweet Skunk has a flowering time of 7-8 weeks. This strain comes in buds that are green with bright yellow and orange hairs.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 427,
+          "score": 0.530948862956272,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 409,
+          "score": 1.036502452917,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 381,
+          "score": 1.70609706614959,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 344,
+          "score": 0.154009462402901,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 290,
+          "score": 0.843072076290093,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 269,
+          "score": 0.706615290409112,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 227,
+          "score": -1.40876000570015,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 206,
+          "score": 0.781022136995539,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 121,
+          "score": -0.14110082596253,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 116,
+          "score": -0.276408119378295,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 81,
+          "score": -0.0385755773678881,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 77,
+          "score": -0.521620092785113,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 53,
+          "score": -0.789945936399569,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Higher Love Gastro Pop Buds",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 8,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/menu/bGrnjtZ1QQioDwKBMWmA_HL%20Gastro%20Pop.png",
+      "strainName": "gastro-pop",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Gastro Pop is a modern weed strain from top breeder Compound Genetics. Gastro Pop is a cross of Apples &amp; Bananas and Grape Gas. There are multiple variants of Gastro Pop called phenotypes that are numbered. Top phenos include Gastro Pop #5 and Gastro Pop #28.  Compound Genetics considered the parent Grape Gas as one of their 'royal families'—superb for making crosses. Gastro Pop has an elite, dramatic look and spicy, sugary, grape, purple fizzy aroma to match. The indica hybrid effects are perfect for relaxing and stoking the appetite for dinner or dessert. You’ll also find Grape Gas powering Pink Certz, Stay Puft, and Glitter Bomb.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 30,
+          "score": 0.527312859981357,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": -0.48709644403779,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": -0.204798733290778,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": 0.517872201774994,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.159048443094099,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 1.13520472134744,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.043084915821875,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.0254870791850122,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.269250545680287,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.57150914503203,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -1.30963772872943,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.451516140019736,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -1.1444236720037,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Higher Love Grimm Glue Buds",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 8,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/73f86d75-6086-4b78-9952-c71e302fff59.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Higher Love Crescendo RBx1 Buds",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 8,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/a0303bbb-6418-4e35-b024-42f2090fe2b6.jpg",
+      "strainName": "crescendo",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Bred by Ethos Genetics, Crescendo  crosses Chemdog, I-95, and Mandarin Cookies to create this THC-dominant hybrid. Its terpene profile produces sweet, earthy, and citrus aromas with gassy, kushy, and sweet cookie dough flavors. Buds are large in size and mostly green with purple accents.\n\n ",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": 1.0095612643881,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 22,
+          "score": -0.0505783711124502,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": -0.0302670529802162,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": 1.37473728623984,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.215148951729155,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.599134413307071,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.147507443819049,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.338625241854918,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.127272926638619,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.987892966540728,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.44084462881391,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.506024814507092,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.882491056186592,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Higher Love Sherb Cake Buds",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 8,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/1f22d998-70fe-48d4-afdc-31cf2a7b4980.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Higher Love LA Kush Cake Buds",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/16b90293-7fc2-47dd-91ae-618b9b57e255.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Higher Love Sour Princess Buds",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/2b5705d5-90ce-4e08-9939-cf12a9c243d9.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Higher Love Deep Breath Buds",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/c6b7f823-258f-4205-9f73-1731cca289fd.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Higher Love Tokyo Drip Buds",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/cdba68f7-fdf0-4227-9546-e2ac7d703f18.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Higher Love Sherbanger Buds",
+      "brandName": "Love!",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/ee76bb9b-78c0-477d-a1f9-0470269a2e73.jpg",
+      "strainName": "sherbanger",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Sherbanger is a weed strain mixing Sherbert with Karma Genetics' Headbanger. Headbanger is Sour D x Biker Kush. Sherbanger smells like fuel-drenched Sherbert, and has hybrid effects that pair well with afternoon and evening activities.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.303808076880386,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.15916652623589,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.111279327474529,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.794010654409794,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 0.154882215375705,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.123221374526593,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.0021937087992319,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.157678759458653,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.0737228380823105,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.248245589559586,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.825781860062876,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.0065246034248167,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -1.6750454019006,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Higher Love Banana Cookies Buds",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 12,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/390d2068-af23-4d05-afe2-01b6e72afa2c.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Higher Love Watermelon Buds",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 12,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/ad9200a5-51a7-4933-bad6-2e25e9e2de04.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Higher Love Fire Kush Buds",
+      "brandName": "Love!",
+      "cartUnit": "g",
+      "price": 12,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Higher Love Hawaiian Diesel Buds",
+      "brandName": "Higher Love",
+      "cartUnit": "g",
+      "price": 12,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/b58e0df8-ac45-4382-9cef-4b7a5ab64491.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Pyramid Caribbean Punch Budder",
+      "brandName": "Pyramid",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Pyramid Truffle Cake Budder",
+      "brandName": "Pyramid",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": "truffle-cake",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Truffle Cake is an indica-dominant weed strain made from a genetic cross between Gorilla Butter F2 and Pancakes. Truffle Cake is 25% THC, making this strain an ideal choice for experienced cannabis consumers. Leafly customers tell us Truffle Cake effects include uplifted, relaxed, and happy. Medical marijuana patients often choose Truffle Cake when dealing with symptoms associated with anxiety, depression, and pain. Bred by In House Genetics, Truffle Cake features flavors like chestnut, butter, and earth. The dominant terpene of this strain is caryophyllene. The average price of Truffle Cake typically ranges from $45–$75. If you’ve smoked, dabbed, or consumed Truffle Cake, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 28,
+          "score": 0.645693956580977,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 23,
+          "score": 0.478810815978891,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 20,
+          "score": 0.696211275978199,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 19,
+          "score": 0.186136790761652,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.194489725600519,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.022148560715397,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.347978795053387,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.466971486021741,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.244247493380738,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 0.298841276616636,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.355087784518824,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.674938703292944,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.664573236777113,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Pyramid Red Pop Budder",
+      "brandName": "Pyramid",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "faygo-red-pop",
+      "strainCategory": "Indica",
+      "strainDescription": "Produced by 710 Savant, Red Pop (also known as Faygo Red Pop) is an indica strain that took 1st place as live resin in the 2015 High Times Michigan Cannabis Cup. This Afghani cross was named after a well-known Michigan soda and blooms with large rosy calyxes.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": 1.13118836127059,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": 0.365977199632366,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.230676660848123,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 1.62999876632165,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.912666811665581,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 0.114049423527192,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.0804056091107749,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.670896744202614,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.439614159823433,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.587606361294353,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.900091348872155,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.903044110784654,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.569387036378882,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Light Sky Farms Road Kill OG Live Resin",
+      "brandName": "Light Sky Farms",
+      "cartUnit": "each",
+      "price": 22,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Light Sky Farms Super Boof Live Resin",
+      "brandName": "Light Sky Farms",
+      "cartUnit": "each",
+      "price": 22,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": "super-boof",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Super Boof is a zingy hybrid weed strain made by crossing Black Cherry Punch and Tropicana Cookies. It has the same chunky, deep green buds as its parents that look wet with silver calyxes. The effects of Super Boof are believed to be intensely relaxing and giggly. Reviewers on Leafly say this strain makes them feel euphoric, creative and focused. Medical marijuana patients say they buy Super Boof for gastrointestinal disorders, depression, and fibromyalgia. Super Boof regularly tests at 28% THC. The dominant terpene is myrcene, which translates to earthy, and cherry notes. The original breeder of the Super Boof strain is California's Blockhead, who named it \"Blockberry.\" Grower Mobile Jay selected a variety and named it Superboof.",
+      "effects": {
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 49,
+          "score": 0.635919850242219,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 41,
+          "score": -0.590212094587285,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 40,
+          "score": -0.231148455522457,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 30,
+          "score": 1.12432375724006,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": 0.68408864104074,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": -0.570876370846206,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": 0.0774617258486296,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 22,
+          "score": -0.0255261161495184,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 0.207939617427662,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": -0.0335993176641417,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.272257451062266,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.3476664636062,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": 0.177272815759318,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Light Sky Farms Frost Donkey Live Resin",
+      "brandName": "Frost",
+      "cartUnit": "each",
+      "price": 22,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Known Gangsta Boo Cold Cure Hash Rosin",
+      "brandName": "Known.",
+      "cartUnit": "each",
+      "price": 50,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/f1486930-5cb5-4bfd-88eb-e28c8ddd482b.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Known Race Fuel Cold Cure Hash Rosin",
+      "brandName": "Known.",
+      "cartUnit": "each",
+      "price": 55,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/a5c3bf0c-a80a-4b65-ad1d-d28dd56a5927.jpg",
+      "strainName": "race-fuel-og",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Race Fuel OG (aka Race Fuel) by Archive Seeds is a potent hybrid steeped in gassy, earthy genetics. Created from the “High Octane” OG phenotype of OG Kush x Face Off OG, Race Fuel OG harnesses the intense diesel fuel aroma of “High Octane” while incorporating the deep body effects as well as citrus and pine aromas from Face Off OG. Race Fuel’s strong OG Kush backbone gives it mid-range potency with flavor to spare. The strain’s effects hit with a rush of energy to the head and settles down into a cozy, weighted stone that can help abate anxiety, ADD, minor pain, and a lack of appetite. ",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": 0.0472820325533977,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 22,
+          "score": 0.529468815975444,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 21,
+          "score": 0.114410066183571,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 0.356840730661683,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": 0.975550590086702,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": 1.34606650668728,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": 0.876286516282979,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.267662214366321,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": 0.426528401537967,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.320005435589116,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.233714405980608,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.623774401690451,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.148076669348363,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Higher Love Spirit of Detroit #3 Cured Resin 5G Banger Bucket",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 55,
+      "description": "Concentrated cannabis products come in a wide variety of consistencies, compositions, and potencies. Cannabinoids are isolated and removed from plant material via extraction, agitation, compression, or other methods to create generally a very potent product. Concentrates have an immediate activation time and are generally used by experienced consumers.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/b300b734-e179-434c-a13a-83fdc0dcc079.jpg",
+      "strainName": "spirit-of-detroit",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Spirit Of Detroit is a hybrid weed strain that is a genetic cross between East Side OG and Pure Michigan. Spirit Of Detroit is known for its balanced hybrid nature, offering a combination of both indica and sativa effects that cater to a wide range of cannabis consumers. Spirit Of Detroit typically contains a THC content that varies depending on the specific phenotype, but it often falls within the range of 18% to 24%. This moderate to high THC level makes it a versatile choice suitable for both beginners and experienced cannabis consumers. Leafly customers report that Spirit Of Detroit effects include feeling relaxed, uplifted, and euphoric. This strain is often associated with inducing a sense of tranquility and happiness, making it a suitable choice for various occasions. Medical marijuana patients frequently choose Spirit Of Detroit to address symptoms associated with stress, anxiety, depression, and chronic pain. Its balanced hybrid genetics provide therapeutic relief without excessive sedation. Spirit Of Detroit is bred by 3rd Coast Genetics. If you've had the opportunity to smoke, dab, or consume Spirit Of Detroit, we encourage you to share your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.924657691129405,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 3.52840291362394,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.06187322913333,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.664062187645252,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.647868291386037,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.622570502381555,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.714258228680746,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.45338691105509,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.681493400188269,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.783956168820189,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.28914387177134,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.630009551405248,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.799022881729231,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Frootz Mango Gummies 200mg",
+      "brandName": "Frootz",
+      "cartUnit": "each",
+      "price": 5,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Frootz Orange Gummies 200mg",
+      "brandName": "Frootz",
+      "cartUnit": "each",
+      "price": 5,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Monster Xtracts Passion Fruit Gummies 200mg",
+      "brandName": "Monster Medibles",
+      "cartUnit": "each",
+      "price": 8,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Zoobies Fruit Gummies 200mg",
+      "brandName": "Zoobies",
+      "cartUnit": "each",
+      "price": 10,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Zoobies Sour Fruit Gummies 200mg",
+      "brandName": "Zoobies",
+      "cartUnit": "each",
+      "price": 10,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Zoobies Midnight Fruit Gummies 1:1:1 | THC:CBD:CBN 100mg",
+      "brandName": "Zoobies",
+      "cartUnit": "each",
+      "price": 10,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "True North Sweet Summer Peach Gummies 200mg",
+      "brandName": "True North Collective MI",
+      "cartUnit": "each",
+      "price": 10,
+      "description": "True North Confections Sweet Summer Peach premium THC infused gummies are gluten free and made with local Michigan farm sourced beet sugar and natural flavors.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/788f7988-8f6a-434c-86dd-5fa18583c3b1.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Keef Orange Kush Drink 100mg",
+      "brandName": "Keef Boost",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Keef Purple Passion Drink 100mg",
+      "brandName": "Keef Boost",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Keef Blue Razzberry Drink 100mg",
+      "brandName": "Keef Boost",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Keef Bubba Kush Drink 100mg",
+      "brandName": "Keef Boost",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Higher Love Best Buds Lighter",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/bf23c88a-240c-450d-bff1-ad37190dd2d4.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Orange (L)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/3383e949-d512-46a9-9074-3364e9008b29.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Unisex - Black (L)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "Come in and snag one of our Higher Love T-Shirts! These shirts are designed to be comfortable and breathable and will accompany you on any adventure. Found exclusively at Higher Love.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/cfdb7432-ceb1-411d-99a2-2edcd16004de.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Unisex - Black (S)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "Come in and snag one of our Higher Love T-Shirts! These shirts are designed to be comfortable and breathable and will accompany you on any adventure. Found exclusively at Higher Love.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/e233bb3c-607a-4014-9268-ec2580cb7b0a.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Orange (M)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/4a3ff6ec-8999-4221-9647-4cfece471464.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Orange (S)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/bd22327a-56f8-4e55-bf14-5001d83f7c7c.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Women's - Vino Red (XS)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "Come in and snag one of our Higher Love T-Shirts! These shirts are designed to be comfortable and breathable and will accompany you on any adventure. Found exclusively at Higher Love.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/6b93f0c1-669d-447c-a748-ea00348b1c20.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Olive Green (XL)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "Come in and snag one of our Higher Love T-Shirts! These shirts are designed to be comfortable and breathable and will accompany you on any adventure. Found exclusively at Higher Love.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/ef6f0190-c434-4ed6-b189-b8096b62f99f.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Rebel Blue (L)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "Come in and snag one of our Higher Love T-Shirts! These shirts are designed to be comfortable and breathable and will accompany you on any adventure. Found exclusively at Higher Love.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/6bd56a1e-d13e-423f-8d7b-72dbbc1b78e9.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Women's - Vino Red (XL)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "Come in and snag one of our Higher Love T-Shirts! These shirts are designed to be comfortable and breathable and will accompany you on any adventure. Found exclusively at Higher Love.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/2c77bc16-73cc-4b88-b0bb-60c991397c24.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Rebel Blue (S)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "Come in and snag one of our Higher Love T-Shirts! These shirts are designed to be comfortable and breathable and will accompany you on any adventure. Found exclusively at Higher Love.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/58cf601e-be31-4ef9-8721-9156138b04d3.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Women's - Black (L)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "Come in and snag one of our Higher Love T-Shirts! These shirts are designed to be comfortable and breathable and will accompany you on any adventure. Found exclusively at Higher Love.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/7d25ac19-214d-46ee-a951-c36abdbb3d9b.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Rebel Blue (XL)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "Come in and snag one of our Higher Love T-Shirts! These shirts are designed to be comfortable and breathable and will accompany you on any adventure. Found exclusively at Higher Love.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/9de0ffde-3e27-4c99-9d6c-5193544cced8.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Rebel Blue (2XL)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "Come in and snag one of our Higher Love T-Shirts! These shirts are designed to be comfortable and breathable and will accompany you on any adventure. Found exclusively at Higher Love.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/57936f72-d79e-4e01-994c-10cc3c69037b.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Rebel Blue (M)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "Come in and snag one of our Higher Love T-Shirts! These shirts are designed to be comfortable and breathable and will accompany you on any adventure. Found exclusively at Higher Love.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/fc24b4a0-7aa8-4293-82b2-eb1acb0bf794.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Women's - Black (S)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "Come in and snag one of our Higher Love T-Shirts! These shirts are designed to be comfortable and breathable and will accompany you on any adventure. Found exclusively at Higher Love.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/5458bab5-d5c9-4282-8c42-2083c09efcc8.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Women's - Black (XL)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "Come in and snag one of our Higher Love T-Shirts! These shirts are designed to be comfortable and breathable and will accompany you on any adventure. Found exclusively at Higher Love.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/95ae5a5a-a53e-4284-8870-2e8e16344c6a.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Classic Logo Tee - Olive Green (3XL)",
+      "brandName": "Higher Love",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "Come in and snag one of our Higher Love T-Shirts! These shirts are designed to be comfortable and breathable and will accompany you on any adventure. Found exclusively at Higher Love.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/a1152935-321d-4fc2-a353-77ba424c95c6.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    }
+  ]
+}

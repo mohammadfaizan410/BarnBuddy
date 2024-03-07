@@ -1,0 +1,57 @@
+{
+  "dispensary": {
+    "name": "Jane <> Leafly Test Store",
+    "address1": "335 Stedman St",
+    "coverPhotoUrl": null,
+    "country": "US",
+    "city": "Ketchikan",
+    "description": null,
+    "email": null,
+    "flags": [
+      "US",
+      "dispensary",
+      "licensed",
+      "pickup",
+      "preorderConfigured",
+      "recreational",
+      "storefront"
+    ],
+    "locations": [
+      {
+        "lat": 55.3404685,
+        "lon": -131.6394329
+      },
+      {
+        "lat": 55.3422222,
+        "lon": -131.6461112
+      }
+    ],
+    "logoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery337421/nnJONUgQTsmtKyjDsfig_Snip20220519_63.png",
+    "mapMarkerLocations": [
+      {
+        "city": "Ketchikan",
+        "index": 0,
+        "label": "Ketchikan,AK",
+        "state": "AK",
+        "country": "US",
+        "latitude": "55.3422222",
+        "longitude": "-131.6461112"
+      }
+    ],
+    "phone": null,
+    "photos": [],
+    "primaryLocation": {
+      "lat": 55.3404685,
+      "lon": -131.6394329
+    },
+    "state": "AK",
+    "tags": [
+      "recreational",
+      "storefront",
+      "licensed"
+    ],
+    "website": null,
+    "zip": "99901"
+  },
+  "products": []
+}

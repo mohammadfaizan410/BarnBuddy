@@ -1,0 +1,58 @@
+{
+  "dispensary": {
+    "name": "Spiritleaf - McPhillips",
+    "address1": "110-2136 McPhillips St.",
+    "coverPhotoUrl": "https://images.leafly.com/menu/zOz8DOcfTuCXilx6UXrb_Spiritleaf-Banner.jpeg",
+    "country": "CA",
+    "city": "Winnipeg",
+    "description": "",
+    "email": null,
+    "flags": [
+      "CA",
+      "dispensary",
+      "licensed",
+      "pickup",
+      "preorderConfigured",
+      "recreational",
+      "storefront"
+    ],
+    "locations": [
+      {
+        "lat": 49.9487606,
+        "lon": -97.1527699
+      }
+    ],
+    "logoUrl": "https://images.leafly.com/menu/WieFs4tqRFSsz3OWhbPg_spirileaf_logo_2.jpg",
+    "mapMarkerLocations": [
+      {
+        "city": "Winnipeg",
+        "index": 0,
+        "label": "Winnipeg,MB",
+        "state": "MB",
+        "country": "CA",
+        "latitude": "49.9487606",
+        "longitude": "-97.1527699"
+      }
+    ],
+    "phone": "(204) 560-4633",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://images.leafly.com/menu/zOz8DOcfTuCXilx6UXrb_Spiritleaf-Banner.jpeg"
+      }
+    ],
+    "primaryLocation": {
+      "lat": 49.9487606,
+      "lon": -97.1527699
+    },
+    "state": "MB",
+    "tags": [
+      "recreational",
+      "storefront",
+      "licensed"
+    ],
+    "website": "www.spiritleaf.ca",
+    "zip": "R2V 3C8"
+  },
+  "products": []
+}

@@ -1,0 +1,3507 @@
+{
+  "dispensary": {
+    "name": "Greenhouse Farmacy",
+    "address1": "1541 S. 3rd West",
+    "coverPhotoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery300388/IRievBNTpWuKGL1rJoAF_IMG_2132.jpg",
+    "country": "US",
+    "city": "Missoula",
+    "description": "Greenhouse Farmacy is a Clean Green Certified medical marijuana dispensary proudly serving the Missoula community the very best selection of medicinal and lifestyle cannabis products. Dedicated to providing premium cannabis products, we strive to educate our community and patient members about the medical science of cannabis and to offer a comfortable, clean, and safe environment for them to access their chosen medicine.\n\n\nWe’re local. We care. We’re Greenhouse Farmacy.",
+    "email": "info.greenhousefarmacy@gmail.com",
+    "flags": [
+      "US",
+      "adaAccessible",
+      "atm",
+      "birthdayDiscount",
+      "dispensary",
+      "medical",
+      "militaryDiscount",
+      "parkingAvailable",
+      "pickup",
+      "preorderConfigured",
+      "recreational",
+      "storefront",
+      "studentDiscount",
+      "veteranDiscount",
+      "womanOwned"
+    ],
+    "locations": [
+      {
+        "lat": 46.866795,
+        "lon": -114.02027
+      },
+      {
+        "lat": 46.86679230000001,
+        "lon": -114.0202275
+      }
+    ],
+    "logoUrl": "https://leafly-public.imgix.net/dispensary/logos/9sgJAXUcQTOyrlK9vmma_leafly-logo.png",
+    "mapMarkerLocations": [
+      {
+        "city": "Missoula",
+        "index": 0,
+        "label": "Missoula, MT",
+        "state": "MT",
+        "country": "United States",
+        "latitude": 46.86679230000001,
+        "longitude": -114.0202275
+      }
+    ],
+    "phone": "4069266420",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery300388/IRievBNTpWuKGL1rJoAF_IMG_2132.jpg"
+      }
+    ],
+    "primaryLocation": {
+      "lat": 46.866795,
+      "lon": -114.02027
+    },
+    "state": "MT",
+    "tags": [
+      "medical",
+      "storefront",
+      "recreational"
+    ],
+    "website": "http://www.greenhousefarmacy.com",
+    "zip": "59801"
+  },
+  "products": [
+    {
+      "name": "Georgia Pie 1g Flower",
+      "brandName": "Burn Extracts",
+      "cartUnit": "g",
+      "price": 15,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/411218/original/Georgia%20Pie%20Flower%20.png?1662676573",
+      "strainName": "georgia-pie",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Georgia Pie is a potent hybrid marijuana strain bred by Seed Junkie Genetics. This strain is known for having a delicious aroma that smells and tastes just like fresh peach cobbler. Smoking Georgia Pie will immerse you with an intense body and head high. Because of its potency, Georgia Pie is best reserved for those who have a high THC tolerance. Medical marijuana patients choose this strain because of its ability to relieve symptoms associated with chronic pain. Georgia Pie nugs have bunches of striking orange hairs and trichomes that are thick and tinted with purple, orange, and green.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 102,
+          "score": 0.375340964792637,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 88,
+          "score": 0.387173281434266,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 74,
+          "score": 0.154344948136429,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 72,
+          "score": 0.46498136193045,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": 0.719721356877022,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 39,
+          "score": 0.461756597542254,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 37,
+          "score": -0.144224524944462,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 34,
+          "score": 0.314826728321855,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": -0.119399261122141,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": -0.422482619926731,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": -0.0713139907064598,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": -0.346847597069569,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 23,
+          "score": 0.267911214191785,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Georgia Pie 7g Flower",
+      "brandName": "Burn Extracts",
+      "cartUnit": "g",
+      "price": 66,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/411146/original/Georgia%20Pie%20Flower%20.png?1662669736",
+      "strainName": "georgia-pie",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Georgia Pie is a potent hybrid marijuana strain bred by Seed Junkie Genetics. This strain is known for having a delicious aroma that smells and tastes just like fresh peach cobbler. Smoking Georgia Pie will immerse you with an intense body and head high. Because of its potency, Georgia Pie is best reserved for those who have a high THC tolerance. Medical marijuana patients choose this strain because of its ability to relieve symptoms associated with chronic pain. Georgia Pie nugs have bunches of striking orange hairs and trichomes that are thick and tinted with purple, orange, and green.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 102,
+          "score": 0.375340964792637,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 88,
+          "score": 0.387173281434266,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 74,
+          "score": 0.154344948136429,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 72,
+          "score": 0.46498136193045,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": 0.719721356877022,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 39,
+          "score": 0.461756597542254,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 37,
+          "score": -0.144224524944462,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 34,
+          "score": 0.314826728321855,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": -0.119399261122141,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": -0.422482619926731,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": -0.0713139907064598,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": -0.346847597069569,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 23,
+          "score": 0.267911214191785,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Georgia Pie 3.5g Flower",
+      "brandName": "Burn Extracts",
+      "cartUnit": "g",
+      "price": 43,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/411190/original/Georgia%20Pie%20Flower%20.png?1662673813",
+      "strainName": "georgia-pie",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Georgia Pie is a potent hybrid marijuana strain bred by Seed Junkie Genetics. This strain is known for having a delicious aroma that smells and tastes just like fresh peach cobbler. Smoking Georgia Pie will immerse you with an intense body and head high. Because of its potency, Georgia Pie is best reserved for those who have a high THC tolerance. Medical marijuana patients choose this strain because of its ability to relieve symptoms associated with chronic pain. Georgia Pie nugs have bunches of striking orange hairs and trichomes that are thick and tinted with purple, orange, and green.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 102,
+          "score": 0.375340964792637,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 88,
+          "score": 0.387173281434266,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 74,
+          "score": 0.154344948136429,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 72,
+          "score": 0.46498136193045,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 47,
+          "score": 0.719721356877022,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 39,
+          "score": 0.461756597542254,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 37,
+          "score": -0.144224524944462,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 34,
+          "score": 0.314826728321855,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": -0.119399261122141,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": -0.422482619926731,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": -0.0713139907064598,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": -0.346847597069569,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 23,
+          "score": 0.267911214191785,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Sun-Up Sativa Blend 2g Shake",
+      "brandName": "Greenhouse Farmacy ",
+      "cartUnit": "g",
+      "price": 12,
+      "description": "This concise House Blend is comprised of the following popular Sativa strains, listed in order of most to least in blend:  Sour Diesel, Bruce Banner, Lemon Skunk, Headbanger, and Hawaiian OG.",
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/478219/original/Blue%20Cheese%20shake%20.png?1675107081",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Ol' Grandpappy's Blend 2g Shake ",
+      "brandName": "Greenhouse Farmacy ",
+      "cartUnit": "g",
+      "price": 8.4,
+      "description": "This House Blend is comprised of the following strains from Cotton's Cannabis Club, in equal portions:  WTF, Blueberry x Pineapple Express, THC Snow, Northern Lights,  Lemon Haze, and Miracle Alien Cookies.",
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/600683/original/Shake%20Pic%20-%20Summer%20Breeze%20%20%281%29.png?1698792816",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sundown Indica Blend 2g Shake",
+      "brandName": "Greenhouse Farmacy ",
+      "cartUnit": "g",
+      "price": 12,
+      "description": "This concise House Blend is comprised of the following popular Indica strains, listed in order of most to least in blend:  Modified Grapes, Gorilla Lights, Yumboldt, Platinum Huckleberry, and Blue Lights",
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/478214/original/Sour%20Diesel%20shake%20.png?1675106805",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sun-Up Sativa Blend 1/2 oz Shake",
+      "brandName": "Greenhouse Farmacy ",
+      "cartUnit": "g",
+      "price": 50,
+      "description": "This concise House Blend is comprised of the following popular Sativa strains, listed in order of most to least in blend:  Sour Diesel, Bruce Banner, Lemon Skunk, Headbanger, and Hawaiian OG.",
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/612324/original/Blue%20Cheese%20shake%20.png?1701802340",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "PJ's Garlic Crusher 7g Flower",
+      "brandName": "Greenhouse Farmacy ",
+      "cartUnit": "g",
+      "price": 60,
+      "description": "Strain is GMO x Pure Michigan",
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/518012/original/Garlic%20Crusher%20.png?1681430073",
+      "strainName": "garlic-bud",
+      "strainCategory": "Indica",
+      "strainDescription": "Garlic Bud is a classic indica strain from the 90's, bred by The Seed Bank (now known as Sensi Seeds) using Afghani genetics. Its name is only loosely tied to Garlic Bud's aroma, which smells a lot more like tangy musk and spice than anything you'd throw in your stir fry. This pungent-smelling indica expresses a duality of effects: heavy body effects that crush insomnia and pain coupled with an invigorating cerebral buzz. A 7 or 8 week flowering time is all Garlic Bud needs to reach full maturation, finishing with sizeable yields.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 43,
+          "score": 0.347281217422772,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 32,
+          "score": -0.079103905484164,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": -0.396065466283997,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 20,
+          "score": 0.560349885825488,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": 0.0859201512510558,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.994931595934009,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -0.071584949212622,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -0.144421806775227,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -0.56914358427073,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -0.183373355669183,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": 0.29520770439715,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.72046250526989,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.981825108904332,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Garlic Breath 21 7g Flower",
+      "brandName": "Borealis Natural Gardens",
+      "cartUnit": "g",
+      "price": 60,
+      "description": "Garlic Breath is an indica-dominant hybrid marijuana strain made by crossing GMO with Mendo Breath. This strain features a pungent and savory flavor profile that may remind you of freshly-peeled garlic with spicy undertones. Garlic Breath produces physically relaxing effects that gradually become sedating as you continue to consume. Medical marijuana patients choose this strain to help relieve symptoms associated with insomnia, stress and depression. \n\nvia: Leafly",
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/481792/original/Garlic%20Breath%2021%20Flower%20.png?1675705745",
+      "strainName": "garlic-breath",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Garlic Breath is an indica-dominant hybrid marijuana strain made by crossing GMO with Mendo Breath. This strain features a pungent and savory flavor profile that may remind you of freshly-peeled garlic with spicy undertones. Garlic Breath produces physically relaxing effects that gradually become sedating as you continue to consume. Medical marijuana patients choose this strain to help relieve symptoms associated with insomnia, stress and depression. Garlic Breath was originally bred by ThugPug genetics. If you've smoked, dabbed or consumed Garlic Breath, tell us about it by leaving a review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 93,
+          "score": 0.715515247327865,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 54,
+          "score": -0.455414789381485,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 51,
+          "score": -0.301615452477204,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 46,
+          "score": 0.882707319342474,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 38,
+          "score": -0.462464621384382,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 34,
+          "score": 0.624322277738713,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 33,
+          "score": 0.395250194529243,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": 0.0519072160066038,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 23,
+          "score": -0.470517428862193,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 23,
+          "score": -0.501956836910939,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": -0.464007148560399,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.502136953687974,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -0.331517885986915,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Soccer Mom 7g Flower",
+      "brandName": "Borealis Natural Gardens",
+      "cartUnit": "g",
+      "price": 66,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/614684/original/Soccer%20Mom%20Flower%20.png?1702491057",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Santa's Little Helper Blend 2g Shake ",
+      "brandName": "Greenhouse Farmacy ",
+      "cartUnit": "g",
+      "price": 9.6,
+      "description": "This House Blend is comprised of the following strains, listed in order of most to least in blend:  Yumbodlt, Gorilla Lights, Sour Diesel, Bruce Banner, Hawaiian OG,  Northern Lights, Afgooey, Lemon Skunk, Headbanger, Garlic Crusher, and Platinum Huckleberry. ",
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/445379/original/Blue%20Dream%20shake%20.png?1668634026",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "LA Pure Kush 1g Flower",
+      "brandName": "Borealis Natural Gardens",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/621393/original/LA%20Pure%20Kush%20Flower%20.png?1704410568",
+      "strainName": "pure-kush",
+      "strainCategory": "Indica",
+      "strainDescription": "Clear your schedule because Pure Kush is one potent indica. A longtime favorite for pain relief, this strain will leave you feeling heavily sedated. Pure Kush’s strength begins with a signature kush aroma that is extremely pungent and skunky. Its head-heavy sensations may be complemented by a relaxing body feeling, giving Pure Kush its reputation as a powerful medical strain.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 147,
+          "score": -0.164601446179512,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 138,
+          "score": 1.83899450649893,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 122,
+          "score": -0.231766555575216,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 118,
+          "score": -0.0320485462461173,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 87,
+          "score": 0.894040449113885,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 56,
+          "score": 0.253627095901022,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 55,
+          "score": -0.953078516517878,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 36,
+          "score": -0.765552253351828,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 35,
+          "score": -0.400197434324872,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 35,
+          "score": -0.75861155172121,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 28,
+          "score": -0.520023912039585,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": -0.418401923365582,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": -0.91152504359917,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "East Bae 1g Flower",
+      "brandName": "Borealis  Natural Gardens",
+      "cartUnit": "g",
+      "price": 10,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/607123/original/East%20Bae%20Flower%20%20%281%29.png?1700254647",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "New Year, New Blend 2g Shake",
+      "brandName": "Greenhouse Farmacy ",
+      "cartUnit": "g",
+      "price": 12,
+      "description": "This House Blend is comprised of the following strains, listed in order of most to least in blend:  Blueberry, Yumboldt, MT Silvertip, Afgooey, Blue Lights, Modified Grapes, and Lemon Skunk. ",
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/616178/original/Shake%20Pic%20-%20Summer%20Breeze%20%20%281%29.png?1702926609",
+      "strainName": "new-carpet",
+      "strainCategory": "Sativa",
+      "strainDescription": "New Carpet is a sativa cannabis strain bred by AJ, aka Asshole Joe (of Sour Diesel fame) and released in 2020. This strain is made from a genetic cross of Five Legends Haze x NYC Cuban Haze x Top Dawg's Nige. This is a straight Haze project, emitting that same chemical odor that unrolling a fresh rug brings. Expect energetic, heady Haze effects. If you've smoked, dabbed, or grown New Carpet, please leave us a review!",
+      "effects": {},
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Bundle Up Blend 2g Shake ",
+      "brandName": "Greenhouse Farmacy ",
+      "cartUnit": "g",
+      "price": 12,
+      "description": "This House Blend is comprised of the following strains, listed in order of most to least in blend:  Blue Cheese, Lemon Skunk, Bickett OG, Dome Piece, Duct Tape, Apricot Scone, Platinum Huckleberry, and MT Silvertip. ",
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/603533/original/Harvest%20Blend%20shake.png?1699556667",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "ODD 1g Flower",
+      "brandName": "Borealis Natural Gardens",
+      "cartUnit": "g",
+      "price": 13,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/615601/original/ODD%20Flower%20.png?1702677188",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Chiquita Banana 1g Flower ",
+      "brandName": "Quaking Aspen",
+      "cartUnit": "g",
+      "price": 13,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/605353/original/Chiquita%20Banana%20Flower%20.png?1699993851",
+      "strainName": "chiquita-banana",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Chiquita Banana by Utoptia Farms takes the Banana OG cut to the next level. A cross between parent strains OG Kush and Banana, Chiquita Banana leads with a potent heady sizzle (likely brought on by the enormous quantity of THC) which then melds into a Kush-esque body buzz that is relaxing but not sedative. These Kush effects continue to gain potency over time, “creeping” over the body. This powerful hybrid is an outstanding option for patients struggling to hurdle their tolerance barrier, and its effects are also well-suited for those suffering from chronic pain or nausea.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": 1.69695046529468,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 23,
+          "score": 0.26123553190331,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 21,
+          "score": 0.730229004012008,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 19,
+          "score": 0.787216756520029,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": 1.40948950324194,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": 0.572297505024382,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.441444248401876,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.0809927288621711,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.209013288947231,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.0772528438159689,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.0806482939502427,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.611988140379538,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.0506301919132623,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "PJ's MT Silvertip 1g Flower",
+      "brandName": "Greenhouse Farmacy ",
+      "cartUnit": "g",
+      "price": 13,
+      "description": "Montana Silvertip is a Granddaddy Purple and Super Silver Haze hybrid cross that inherits the name of its homeland. Typical medical applications for Montana Silvertip include ADD/ADHD, migraines, and anxiety.\n\nvia: Leafly",
+      "productCategory": "Flower",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/490139/original/Mt%20Silvertip%20new%20pic%20.png?1677090382",
+      "strainName": "montana-silvertip",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Montana Silvertip is a Granddaddy Purple and Super Silver Haze hybrid cross that inherits the name of its homeland. Typical medical applications for Montana Silvertip include ADD/ADHD, migraines, and anxiety.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 72,
+          "score": 0.549351514119185,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 67,
+          "score": 0.820522090639226,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 48,
+          "score": 0.446047648711676,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 43,
+          "score": -0.208925710588839,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 38,
+          "score": 0.613818083837745,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 35,
+          "score": 0.478891617916182,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 28,
+          "score": 0.252402768364566,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": 0.448454794837584,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 20,
+          "score": 0.0347196405369854,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 19,
+          "score": -0.122997130003559,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": -0.201461549270757,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": -0.454268505641157,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": -0.0131120186107523,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "MSO RSO Sativa 1g Syringe",
+      "brandName": "RSO",
+      "cartUnit": "each",
+      "price": 31,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/285594/original/Newer%20RSO%20.png?1644360245",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sativa RSO Tincture (30mL)",
+      "brandName": "RSO",
+      "cartUnit": "g",
+      "price": 20.5,
+      "description": "One gram of Greenhouse Farmacy Sativa RSO suspended in MCT oil. \n30 mL bottle with 1mL dropper.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/285543/original/Tincture.png?1644357867",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "MSO RSO 1:1 Indica 1g Syringe",
+      "brandName": "RSO",
+      "cartUnit": "g",
+      "price": 31,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/285592/original/Newer%20RSO%20.png?1644360156",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Green Roads 600mg pet oil",
+      "brandName": "Green Roads CBD | Pharmacist-Formulated Hemp & CBD Products",
+      "cartUnit": "each",
+      "price": 60,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sun God Aja Pet Oil Level 1",
+      "brandName": "Sun God Medicinals - OLCC Division",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/drRCBDZASMA1spRFLde6_TribalSun%20burnt%20orange.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Pirate Milk 1g Shatter",
+      "brandName": "BIG",
+      "cartUnit": "g",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/624005/original/Shatter%202%20pic%20.png?1705012566",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sun God Heka Pet Oil Level 1",
+      "brandName": "Sun God Medicinals - OLCC Division",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/drRCBDZASMA1spRFLde6_TribalSun%20burnt%20orange.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Duct x Cake 1g Shatter",
+      "brandName": "Best",
+      "cartUnit": "g",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/623183/original/Duct%20x%20Cake%20Shatter%20.png?1704915754",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sloth Sweat 1g Shatter",
+      "brandName": "BIG",
+      "cartUnit": "g",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/606902/original/Blueberry%20diesel%20shatter%20.png?1700244488",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Garlic Drip 1g Shatter",
+      "brandName": "BIG",
+      "cartUnit": "g",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/582840/original/Shatter%20OMFO%20.png?1694628331",
+      "strainName": "garlic-drip",
+      "strainCategory": "Hybrid",
+      "strainDescription": null,
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.216816245503916,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 0.189314150953543,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.233359321534569,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.744996500020318,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.601118365176573,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.516919450538207,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.13968979754642,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.274110504022363,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.3791124314058,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.652501641579412,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.437458540769512,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.84393501872171,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.2355860101322,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Green Roads Pet Oil 60mg CBD",
+      "brandName": "Green Roads CBD | Pharmacist-Formulated Hemp & CBD Products",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Banana Punch 1g Shatter ",
+      "brandName": "BIG",
+      "cartUnit": "g",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/447803/original/Shatter%202%20pic%20.png?1669054855",
+      "strainName": "banana-punch",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Banana Punch is an evenly balanced hybrid marijuana strain made by crossing Banana OG with Purple Punch. This strain produces sedating effects that can be felt from head-to-toe. Banana Punch tastes like hazey berries with notes of freshly cut pineapple and of course, bananas. Conumers say this strain is a \"creeper strain\", which means the high will come on slower than you might expect, so take it easy with this one until you know how it effects your body. Growers say Banana Punch flowers into nugs that are cakey and covered in a heavy layer of purple and orange trichomes. Medical marijuana patients choose this strain to help relieve symptoms associated with anxiety, appetite loss and stress. Questions about Banana Punch    Is Banana Punch an indica or sativa?   Banana Punch is a hybrid strain with both indica and sativa qualities.   How does Banana Punch make you feel?   Banana Punch makes you feel happy, relaxed, and tingly.   How does Banana Punch taste?   Banana Punch tastes tropical and sweet with notes of citrus.   What terpenes are in Banana Punch?   Banana Punch features limonene as the dominant terpene.    What strains are similar to Banana Punch?   Strains similar to Banana Punch include Banana Sherbet, Ice, Banana Kush, and i-95.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 66,
+          "score": 0.542244309089814,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 48,
+          "score": 0.0129607380470598,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 39,
+          "score": 1.70637786227903,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 34,
+          "score": -0.533486044700662,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": -0.419045854527008,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 28,
+          "score": 0.500101619240439,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": 0.0282549344055268,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 22,
+          "score": 0.306855186197265,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 20,
+          "score": -0.319471689677356,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.222882994791852,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.427250122493108,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -0.665571870214338,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.192170999680107,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Paw cbd Feline 150mg Hemp Oil",
+      "brandName": "Paw CBD",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/I1Tsz8bLRoqD2SxjUbr3_PawCBD_Logo_4C_Vert_square.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sipz Multi Pack",
+      "brandName": "Pocket Fives",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/eYfdtuGQJKiwjr51m59Q_Pocket-Fives-leafly.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Paw CBD Chews 300mg hip+joint",
+      "brandName": "Paw CBD",
+      "cartUnit": "each",
+      "price": 25,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/I1Tsz8bLRoqD2SxjUbr3_PawCBD_Logo_4C_Vert_square.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Medterra Pets 300mg Unflavored",
+      "brandName": "Medterra",
+      "cartUnit": "each",
+      "price": 25,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Medterra Pets 300mg Chicken",
+      "brandName": "Medterra",
+      "cartUnit": "each",
+      "price": 25,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "paw CBD Soft chews 300mg calming",
+      "brandName": "Paw CBD",
+      "cartUnit": "each",
+      "price": 25,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/I1Tsz8bLRoqD2SxjUbr3_PawCBD_Logo_4C_Vert_square.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Booted + Zooted Pineapple Cured Resin Gummies (1:1 THC/CBD)",
+      "brandName": "Booted + Zooted",
+      "cartUnit": "each",
+      "price": 18,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/438716/original/Booted%20Zooted%20Pineapple%201to1.png?1667509813",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Mad Tasty Kiwi Watermelon Hemp Drink",
+      "brandName": "Mad Tasty",
+      "cartUnit": "each",
+      "price": 6,
+      "description": "Kiwi watermelon flavored 25mg hemp drink by Mad Tasty",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Smoking Dog Shot 100mg Peach Mango",
+      "brandName": "smoking dog",
+      "cartUnit": "each",
+      "price": 10,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Smoking Dog Fruit Punch 100mg",
+      "brandName": "smoking dog",
+      "cartUnit": "each",
+      "price": 14,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Gron Hazelnut Medallions",
+      "brandName": "Grön",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "Our seasonal Mint Medallions are back! Beautiful icy-cool Willamette Valley peppermint, completely enrobed in our single origin sourced, fair trade, and vegan dark chocolate and infused with 50mg THC. Get them while you can! These peppermint patties are only around for a limited time. 🌱",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/hBcuzcmYSV2ianbQIJe8_2020-MintMedallions_Leaflink_0002_3.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Giraffe Nuts CBD Scotch Single 15mg CBD",
+      "brandName": "Giraffe Nuts",
+      "cartUnit": "each",
+      "price": 1.75,
+      "description": "Each caramel is carefully made, ensuring great quality and a decadent taste. These old fashioned treats include 15mg of CBD per caramel\n- 10 Caramels Per package",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sipz Black Cherry Infused Craft Seltzer",
+      "brandName": "Sipz",
+      "cartUnit": "each",
+      "price": 2,
+      "description": "Infused Craft Seltzer with 2mg of THC & CBD.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sipz Guava Passionfruit Infused Craft Seltzer",
+      "brandName": "Sipz",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sipz Grapefruit Infused Craft Seltzer",
+      "brandName": "Sipz",
+      "cartUnit": "each",
+      "price": 2,
+      "description": "Infused Craft Seltzer with 2mg of THC & CBD.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Crescent 9 Ginger Lemonade THC Seltzer 5mg",
+      "brandName": "Crescent Canna",
+      "cartUnit": "each",
+      "price": 3.5,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/9atlcyJKQOugkoUWi27i_Untitled-design-(67).png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Giraffe Nuts 50mg Creamy Vanilla",
+      "brandName": "Giraffe Nuts",
+      "cartUnit": "each",
+      "price": 3.75,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Giraffe Nuts 50mg Atlantic Sea Salt",
+      "brandName": "Giraffe Nuts",
+      "cartUnit": "each",
+      "price": 3.75,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Giraffe Nuts 50mg  Pumpkin Spice Caramel",
+      "brandName": "Giraffe Nuts",
+      "cartUnit": "each",
+      "price": 3.75,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "MedTerra Delight Social Tonic Guava Passionfruit",
+      "brandName": "Medterra",
+      "cartUnit": "each",
+      "price": 5,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "MedTerra Delight Social Tonic Grapefruit",
+      "brandName": "Medterra",
+      "cartUnit": "each",
+      "price": 5,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Oleo 25mg Coconut Single Pack",
+      "brandName": "Oleo",
+      "cartUnit": "each",
+      "price": 5,
+      "description": "25mg coconut single pack",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Treatibles Pumpkin Hard Pet Chew Small Dog",
+      "brandName": "Treatibles",
+      "cartUnit": "each",
+      "price": 5,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "MedTerra Delight Social Tonic Black Cherry",
+      "brandName": "Medterra",
+      "cartUnit": "each",
+      "price": 5,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Vessel Compass Gunmetal Vape Battery",
+      "brandName": "Vessel®",
+      "cartUnit": "each",
+      "price": 49,
+      "description": "The Compass features an incredible high-capacity battery, our signature tuned airflow and an unparalleled ergonomic design that feels like it belongs in your hand.\n- Features a protected, cartridge drop-in design\n- Fits most 510 thread cartridges (cartridge not included)\n- Features cartridge swivel for proper mouthpiece alignment\n- Powered by a high-quality 550mAh lithium-ion rechargeable battery core\n- 3-LEDs indicate battery life and power settings\n- Four (4) power/voltage settings (Low 2.8V, Medium 3.2V, High 3.6V)\n- USB-C charging port + cable\n- Dimensions: 2.625\"L x 1.625\"W x 0.75\"D\n- Weight: 66g\n- Six (6) month limited warranty",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/pkrkIiOTRHyxoWRyKmnM_Compass%20gun.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Vuber Atlas Atomizer",
+      "brandName": "Vuber",
+      "cartUnit": "each",
+      "price": 8,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Marijuana Packaging Vape Battery",
+      "brandName": "Marijuana Packaging",
+      "cartUnit": "each",
+      "price": 12,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Vuber Atlas Top w/Atomizer",
+      "brandName": "Vuber",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Ooze quad battery",
+      "brandName": "Ooze",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Ooze Connectar",
+      "brandName": "Stache Products",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "Ooze ConNectar instantly transforms any regular 510 thread vape pen battery into a nectar collector device. Typical dab attachments to enjoy concentrates with a standard vape battery screw onto the top of the device, and then you load the wax into a chamber and on top of a coil. With the ConNectar, you save a few steps and there is no need to handle those sticky substances! \n\nAttaching the black ConNectar to the battery is a breeze. Separate the three pieces of the ConNectar for the easiest application. Screw the airflow base, or the little piece underneath the plastic straw, directly onto the battery as you would an oil cartridge. Slide the straw mouthpiece over and push it all the way down into place, then screw the Clapton Coil tip on and you now have a fully functioning nectar collector in your hand! \n\nEach dab you take with the ConNectar is rich and flavorful thanks to the Clapton coil technology. These coils provide a large surface area for the concentrates to vaporize, which allows you to really taste the terpenes in your extracts. These coils have varying temperatures throughout, which delivers a thick, delicious cloud and provides different flavor notes. We recommend trying out different temperature levels with each new strain you bring home. Different terpene flavors are more pronounced at different power levels! \n\nWe highly recommend using an Ooze Slim Twist Pen with the ConNectar. It’s the perfect shape to fit right under the mouthpiece, and the temperature dial allows you to hone in on the perfect heat level for your specific strain. That precise adjustment is crucial when using the Clapton coil. Never waste your product because your tip is too hot and destroys the terpenes, or because your tip is not hot enough to vaporizer the concentrate. Calibrate the battery to your exact liking and fine-tune your own experience!",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/7aVjgMQPqk4OdXprppeA_Screen-Shot-2021-07-22-at-11.00.48-AM.png",
+      "strainName": "the-ooze",
+      "strainCategory": "Indica",
+      "strainDescription": "The Ooze is an 80/20 indica-dominant cross of Green Crack and White Fire Alien OG. With effects that sedate and relax, The Ooze takes its title seriously. Employ this heavyweight in the evening to stimulate appetite and encourage rest, or look to this strain for contending with strong social anxiety. Just don’t plan on doing too much too fast. ",
+      "effects": {
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 2.32973388551743,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 2.52136600024499,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.163675066707191,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.546103355137854,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.69351378216688,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.760464186275357,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.467238742975427,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.230323372770468,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 1.26383478335922,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.966589310852109,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.06181008298171,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.01889795459797,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.941470067425015,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Vuber Pilot Battery",
+      "brandName": "Vuber",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Vuber Atlas Battery w/Charger",
+      "brandName": "Vuber",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "CCell Palm Battery",
+      "brandName": "Hamilton Devices",
+      "cartUnit": "each",
+      "price": 23,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/VFvTVXJRR2uhI1zYrt5f_%E6%96%B0%E5%BB%BA%E9%A1%B9%E7%9B%AE-(3).png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Bloom Farms Rose' .5g Vapor Pen",
+      "brandName": "Bloom Farms",
+      "cartUnit": "g",
+      "price": 24,
+      "description": "Actually, Rosé season has just begun. With the refreshing seasonal bouquet of sparkling blush wine and notes of passionfruit, now you can Rosé all day minus the hangover. All-natural and alcohol-free.\n\n0.5 g uncut oil (250 mg CBD)\nNon-intoxicating, alcohol-free\n60+% cannabinoids: CBD, CBC, CBG, CBN\nFDA food-grade material (BPA/BPS-free)\nFlavor: refreshing rosé with hints of passionfruit\nOptimized for vape up to 300+ puffs",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/DLzS3sGKQZSmz8CU8lik_BLOOM_FARMS_Logo1.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Bloom Farms Champagne .5g CBD Vapor Pen",
+      "brandName": "Bloom Farms",
+      "cartUnit": "g",
+      "price": 24,
+      "description": "• 0.5 g uncut oil (250 mg CBD)\n• 60+% cannabinoids content\n• Includes CBC, CBG and CBN\n• Flavor: sparkling wine with tropical notes\n• No buttons, no preheating, no waiting\n• Optimized for vape up to 300+ puffs\n\nMade with Love \nBorn out of our deep roots in California, we work with responsible farmers across the US to craft the finest CBD products available. Our vape line is made with uncut oil that’s cleanly extracted.\n\nConvenience Without Compromise\nMini Vapor Pen is build on the same hardware as our rechargeable HIGHLIGHTER® Vapor Battery. Ready to go when you open it, the petite all-in-one is breath-activated and contains the same amount of oil as our Cartridge. Button-free operation and no preheating required.\n\nOptimized for a Clean, Smooth Experience\nWhile most hemp oil on the market uses VG or PG to simulate ideal viscosity, our oil is pure and clean. We use only the cleanest extraction methods, so you know exactly what you’re getting: all-natural, broad-spectrum oil high in cannabinoids (including CBC, CBG and CBN). \n\nFeeling Good, Doing Good \nCustomers and community drive everything we do, and this pillar extends to our 1-for-1 pledge: For every product sold, we donate a healthy meal to a food-insecure person.\n\nIngredients \nWhole-Plant Hemp Extract, Natural Flavor*\n*natural flavor may contain traces of coconut",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/zzuvMbWTQAqoqY70rqDD_800-champagne-mini-vapor-pen_720x.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Bloom Farms Natural .5g CBD Vapor Pen",
+      "brandName": "Bloom Farms",
+      "cartUnit": "g",
+      "price": 24,
+      "description": "Enjoy the pure essence of true California with our unflavored whole-plant hemp extract in a mini vapor pen. Uncut broad-spectrum oil is high in cannabinoids (including CBD, CBC and CBG) with a pleasing authentic taste.\n\n0.5 g oil (250 mg CBD)\nNon-intoxicating\n60+% cannabinoids: CBD, CBC, CBG, CBN\nSlim comfortable mouthpiece & BPA/BPS-free tank\nUnflavored: the pure essence of true California\nOptimized for vape up to 300+ puffs",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/DLzS3sGKQZSmz8CU8lik_BLOOM_FARMS_Logo1.jpg",
+      "strainName": "natural-gas",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Natural Gas is an indica-dominant hybrid weed strain made from a genetic cross between GMO and Cherry Valley. This strain is 70% indica and 30% sativa. Natural Gas is a rare and exclusive strain from Kind Tree Cannabis, a cannabis company that focuses on organic and sustainable cultivation practices. Natural Gas is 19-28% THC, making this strain an ideal choice for experienced cannabis consumers who can handle a potent high. Leafly customers tell us Natural Gas effects include feeling relaxed, calm, and sedated. Medical marijuana patients often choose Natural Gas when dealing with symptoms associated with chronic pain, insomnia, and anxiety. Bred by Kind Tree Cannabis, Natural Gas features flavors like diesel, earthy, and berry. The dominant terpene of this strain is myrcene, which is often associated with a citrus aroma and relaxing effects. The average price of Natural Gas typically ranges from $31-$60 per eighth. Natural Gas is a beautiful strain with tight dense buds covered in frosty trichomes. The buds have a sweet and musky cookies smell that reminds some users of Skittles candy. If you’ve smoked, dabbed, or consumed Natural Gas, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 1.45955660428158,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 1.03147285922958,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.400999744514276,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 1.26386349131912,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.867690465171192,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.40945624672817,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.860348971030085,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.92910584996751,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.906429769794736,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.71707408803645,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.837649895418426,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.06234629590104,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.669680051404676,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Mixed Berry .5 gram Distillate Cartridge",
+      "brandName": "Greenhouse Farmacy ",
+      "cartUnit": "g",
+      "price": 25,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/621177/original/New%20GF%20Distillate%20Half%20Gram%20Cart%20.png?1704399739",
+      "strainName": "mixed-berry",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Mixed Berry is a hybrid weed strain made from a genetic cross between unknown parent strains. This strain is 50% sativa and 50% indica. Mixed Berry is 15.5% THC, making this strain an ideal choice for experienced cannabis consumers. Bred by unknown breeders, the average price of Mixed Berry typically ranges from $10-$15 per gram. We are still learning about Mixed Berry’s effects, flavors, and medical uses. If you've smoked, dabbed, or consumed Mixed Berry, please tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.144744441543339,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -0.161333968060641,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.956984078631068,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.461378376158304,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": 1.49704701519874,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.0004897183984027,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -1.05703791678742,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 0.178088882990765,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.879750874127008,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.265207749874615,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.20520799884066,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.408308839193274,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.637296715410842,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Blueberry .5 gram Distillate Cartridge",
+      "brandName": "Greenhouse Farmacy ",
+      "cartUnit": "g",
+      "price": 25,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/601123/original/New%20GF%20Distillate%20Half%20Gram%20Cart%20.png?1698877044",
+      "strainName": "blueberry",
+      "strainCategory": "Indica",
+      "strainDescription": "Blueberry, also known as \"Berry Blue,\" is an indica marijuana strain made by crossing Purple Thai with Thai. A true A-List cannabis strain, Blueberry’s legendary status soared to new heights after claiming the High Times’ Cannabis Cup 2000 for Best indica. The long history of the strain goes back to the late 1970s when American breeder DJ Short was working with a variety of exotic landrace strains. However, throughout the decades of Blueberry’s cultivation, the genetics have been passed around, due in large part to DJ Short working with multiple seed banks and breeders. The sweet flavors of fresh blueberries combine with relaxing effects to produce a long-lasting sense of euphoria. Many consumers utilize the effects of Blueberry to help contend with pain and stress, while connoisseurs and growers admire the strain for its colorful hues and high THC content.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1265,
+          "score": 0.326810880368469,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1051,
+          "score": 0.222079799973782,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 886,
+          "score": 0.0219059226029824,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 774,
+          "score": 1.11740411248578,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 596,
+          "score": -0.412614899905286,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 497,
+          "score": 0.383044933360152,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 384,
+          "score": -0.398480381640835,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 338,
+          "score": -0.027083449893125,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 329,
+          "score": -0.135803585582749,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 285,
+          "score": -0.674890150041421,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 241,
+          "score": -0.39155226266679,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 188,
+          "score": -0.712692689915244,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 187,
+          "score": -0.180086678852992,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Pineapple Orange Cream .5 gram Distillate Cartridge",
+      "brandName": "Greenhouse Farmacy ",
+      "cartUnit": "g",
+      "price": 25,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/601128/original/New%20GF%20Distillate%20Half%20Gram%20Cart%20.png?1698877245",
+      "strainName": "orange-cream",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Orange Cream, also known as \"Orange Cream #26,\" is a hybrid marijuana strain from Exotic Genetix that crosses Orange Valley OG and Cookies and Cream. Expect a smooth citrus flavor profile with intoxicating effects. Orange Cream brings back the connection between OG and Cookies genetics, making this strain a must-try for connoisseurs or citrus terp lovers.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": 0.215292822153183,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": -0.63873094730622,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": 0.821401121628609,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": -0.893842958660293,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": 0.282760465297801,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.878590336965709,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.0568112667369933,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.267596373937209,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.109504678128878,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.64075418063029,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.169393086287291,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -1.09541382088052,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.825939461043573,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Honeydew Boba .5 gram Distillate Cartridge",
+      "brandName": "Greenhouse Farmacy ",
+      "cartUnit": "g",
+      "price": 25,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/533506/original/New%20GF%20Distillate%20Half%20Gram%20Cart%20.png?1684870517",
+      "strainName": "honeydew-boba",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Honeydew Boba is a sativa dominant hybrid weed strain made from a genetic cross between Dirty Old SOG Super Silver Haze and Appalachia. This strain is 70% sativa and 30% indica. Honeydew Boba is named for its amazing flavor that resembles a refreshing boba drink with sweet notes of fruity tapioca and a hint of spice. Honeydew Boba is 33.13% THC, making this strain an ideal choice for experienced cannabis consumers who are looking for a potent and uplifting high. Leafly customers tell us Honeydew Boba effects include feeling hungry, euphoric, and sleepy. Medical marijuana patients often choose Honeydew Boba when dealing with symptoms associated with stress, anxiety, and depression. Bred by General Admission, a brand of Decibel Cannabis, Honeydew Boba features flavors like honey, apricot, and flowery. The dominant terpene of this strain is myrcene, which is known for its relaxing and sedating properties. The average price of Honeydew Boba typically ranges from $15-$20 per gram or pre-roll. Honeydew Boba is available in both flower and distillate forms, as well as infused joints that are dusted with premium kief for an extra kick. If you’ve smoked, dabbed, or consumed Honeydew Boba, tell us about your experience by leaving a strain review on Leafly.",
+      "effects": {
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.87159708855604,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 1.411222539804,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.400999744514276,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 1.26386349131912,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 1.3662631399933,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.867690465171192,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.836762205108839,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.40945624672817,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.88241788172745,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.823534870183379,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.92910584996751,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.837649895418426,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.669680051404676,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Shirley Temple .5 gram Distillate Cartridge",
+      "brandName": "Temple Extracts",
+      "cartUnit": "g",
+      "price": 25,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/572219/original/New%20GF%20Distillate%20Half%20Gram%20Cart%20.png?1692394987",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Honey Chaps .5 gram Distillate Cartridge",
+      "brandName": "Greenhouse Farmacy ",
+      "cartUnit": "g",
+      "price": 25,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/621127/original/New%20GF%20Distillate%20Half%20Gram%20Cart%20.png?1704395442",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "kush queen relieve 10mg bath bomb",
+      "brandName": "Kush Queen",
+      "cartUnit": "each",
+      "price": 6,
+      "description": null,
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/3fWpd55bQWWJXKAjjApm_leafly-kqlogo.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Kush Queen Relax 10mg CBD Mini Bath Bomb",
+      "brandName": "Kush Queen",
+      "cartUnit": "each",
+      "price": 6,
+      "description": "Our Relax CBD Bath Bomb was created to not only relax the body, but to help stabilize the mood as well. A beautiful blend of Lavender, Chamomile and Frankincense come together to assist in the overall body and mind relief while giving your immune system the healthy boost it needs.\n\nHow it Works:  Our Relax bath bombs were created with the Entourage Effect in mind. The Entourage Effect occurs when you combine cannabinoids with terpenes/essential oils. Each blend is more than a scent, it is an experience. Our nourishing Relax bath bombs combine the power of organic essential oils and cannabinoids to create effect-specific full-body experiences.",
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/3fWpd55bQWWJXKAjjApm_leafly-kqlogo.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "kush queen sleep 10mg bath bomb",
+      "brandName": "Kush Queen",
+      "cartUnit": "each",
+      "price": 6,
+      "description": null,
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/3fWpd55bQWWJXKAjjApm_leafly-kqlogo.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "The Body Shop Hemp Chapstick ",
+      "brandName": "The Body Shop ",
+      "cartUnit": "each",
+      "price": 10,
+      "description": null,
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_topicals.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Woof Queen Relieve For Dogs",
+      "brandName": "Kush Queen",
+      "cartUnit": "each",
+      "price": 10,
+      "description": "Henlo frens we made Bath Bomb for Doggos by Doggos, with 10mg CBD, colloidal oatmeal for coat health and peppermint essential oil for relief. 10% of every Woof Queen Bath Bomb is donated to Rescue & Freedom Project.",
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/3fWpd55bQWWJXKAjjApm_leafly-kqlogo.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Kush Queen Love 25mg Bath Bomb",
+      "brandName": "Kush Queen",
+      "cartUnit": "each",
+      "price": 13,
+      "description": "Our Love CBD Bath Bomb was created to up the romance and reduce the stress. Whether you are soaking alone or with a partner, you will enjoy the soothing benefits of our hand-selected essential oils. Relax your body and mind and slip into a more sensual headspace.\n\nHow it Works:  Our Love bath bombs were created with the Entourage Effect in mind. The Entourage Effect occurs when you combine cannabinoids with terpenes/essential oils. Each blend is more than a scent, it is an experience. Our nourishing Love bath bombs combine the power of organic essential oils and cannabinoids to create effect-specific full-body experiences.\n\nThe Science: So why would you use a CBD bath bomb? Your skin is your largest organ and is a powerful tool for absorbing cannabinoids and balancing your endocannabinoid system. As you soak in the tub, your body absorbs the essential oils and the CBD, like a sponge. A bath bomb is a full-body topical application that allows for unparalleled all-over relief. These powerful molecules work together with your endocannabinod system creating a synergistic effect.\n\nThe Kush Queen Promise: Every bath bomb is handmade with the highest quality ingredients, sourced in the USA and never tested on animals.\n\nEssential Oils [Ylang Ylang, Orange, Patchouli], Cannabidiol, Sodium Bicarbonate, Magnesium Sulfate, Citric Acid, Pure Olive Oil, Food Grade Color (Color Yellow # 6, Color Red # 40, Citric Acid, Sodium Benzoate and Color Caramel Acid)",
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/K7kinHPYRU6NSS8AI2sA_leafly-love25.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Nature's Garden Bath Bomb ",
+      "brandName": "Nature's",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/JbDDDd3R5ysSjyXK8HGI_NaturesProfileLeafly340x340.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Infinite Hemp CBD Dark Matter Soap 100mg ",
+      "brandName": "Infinite CBD",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_topicals.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Infinite Wellness Balm 100mg",
+      "brandName": "Infinite CBD",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_topicals.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Kush Queen Relax 100mg Bath Bomb ",
+      "brandName": "Kush Queen",
+      "cartUnit": "each",
+      "price": 16,
+      "description": null,
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/3fWpd55bQWWJXKAjjApm_leafly-kqlogo.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Infinite Freezing Point Cream 250mg 2oz",
+      "brandName": "Infinite CBD",
+      "cartUnit": "each",
+      "price": 18,
+      "description": null,
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_topicals.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Cannuka CBD Cleansing Body Bar ",
+      "brandName": "Cannuka ",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "The rich, full lather of Cannuka's luxurious Cleansing Body Bar leaves you feeling refreshed and pampered. Surprisingly soft, our oversized hand-cut Cleansing Body Bar lathers instantly and results in clean, conditioned, smooth-as-silk skin. Use every day for an indulgent, hydrating hemp-infused bathing experience.",
+      "productCategory": "Topical",
+      "imageUrl": "https://s3.amazonaws.com/gb-customer-uploads/paperclip/images/133078/original/Cannuka2020WebProductimages-BodyBar2_650x650.png?1623536212",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Kush Queen Relieve 250mg  Bath Bomb ",
+      "brandName": "Kush Queen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/3fWpd55bQWWJXKAjjApm_leafly-kqlogo.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Huckleberry Vinn's 200mg Lav Pep Salve",
+      "brandName": "Huckleberry Vinn's",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_topicals.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Kush Queen Black Magic 250mg Bath Bomb ",
+      "brandName": "Kush Queen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/3fWpd55bQWWJXKAjjApm_leafly-kqlogo.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Kush Queen 1:1 relieve Bath Bomb",
+      "brandName": "Kush Queen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "Our Relieve Bath Bomb is the ultimate combination of essential oils for maximum pain relief. We carefully selected each oil to support the relief of sore muscles and aching bones while also lifting away stress and offering mental clarity.\n\nTake it HIGHer: If you are looking for a more stimulating bath with even deeper relaxation, try one of our delicious flower products before dipping into your blissful bath. You can find our THC products at a participating dispensary near you.\n\nGive it a try: Follow up your Relieve bath with our Melt lotion for some next level relief and extra silky smooth skin.\n\nOur Promise: All of our nourishing bath bombs are hand made with  essential oil blends and lab tested full spectrum cannabis extract, with no  preservatives. We use high quality FD&C certified colorants, so it will never stain your tub and is safe for use in food, drugs & cosmetics.\n\nDirections: Fill tub with hot water, drop in your bath bomb and enjoy! For best results allow yourself at least 30 minutes to soak and enjoy the full effects of the cannabis and essential oils.\n\nIngredients: 100% Organic Essential oils [Clove,Birch, Rosemary, Black Pepper & Coriander], Cannabis, Sodium Bicarbonate, Epsom Salt, Citric Acid,  Extra Virgin Olive Oil, FD&C Color.\n",
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/Vi3X4iUrQG6Q7cMrXrOV_leafly-relieveCA.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Moss Rocket Bath Salts 200mg",
+      "brandName": "MOSS",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "Bath salts 250 mg cbd. Vanilla Chai & Citrus Rose",
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_topicals.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Foria Intimacy Melts",
+      "brandName": "Foria",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Topical",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_topicals.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Vuber Silicone Suction Cup Pen Holder",
+      "brandName": "Vuber",
+      "cartUnit": "each",
+      "price": 1,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Glass Screens",
+      "brandName": "Greenhouse Farmacy ",
+      "cartUnit": "each",
+      "price": 1,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Brass Screens-5 pack",
+      "brandName": "Marijuana Packaging",
+      "cartUnit": "each",
+      "price": 1.5,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "stainless steel screens 5 pack",
+      "brandName": "Marijuana Packaging",
+      "cartUnit": "each",
+      "price": 1.5,
+      "description": "These pipe screens rely on simplicity of design to optimize your smoking experience. The high quality metallic material offers up a highly efficient filter, keeping any bothersome ash from ruining a perfectly good time. Each box offers up 100 screens with 5 screens per pack.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Vuber Silicone Wax Container Slick",
+      "brandName": "Vuber",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Metal Dab Tool",
+      "brandName": "Marijuana Packaging",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Clear Eyes Pocket Pals",
+      "brandName": "Clear Eyes",
+      "cartUnit": "each",
+      "price": 3,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Word For Word Pin",
+      "brandName": "Word for Word",
+      "cartUnit": "each",
+      "price": 5,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "metal grinder 63mm",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 10,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "special blue torch",
+      "brandName": "Special Blue",
+      "cartUnit": "each",
+      "price": 10,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Vessel Magnetic Charging Cable",
+      "brandName": "Vessel®",
+      "cartUnit": "each",
+      "price": 10,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/oHGHrsRj2ct2sZt8KeBw_VESSEL%20Logo%20Registered.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Mclleveen Metal Works Dab Tool ",
+      "brandName": "Mclleveen Metal Works ",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Planetary Design Little Cups ",
+      "brandName": "Plaetary Design ",
+      "cartUnit": "each",
+      "price": 16,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "green monkey grider",
+      "brandName": "green monkey",
+      "cartUnit": "each",
+      "price": 17,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Blaze Bags Canna Puck",
+      "brandName": "BlazeBags",
+      "cartUnit": "each",
+      "price": 20,
+      "description": " Carry up to five grams of your favorite ground-up herb wherever you go!\n  Small and compact!  Weighs just over an OZ.  Carry anywhere\n  Aircraft aluminum keeps UV light out, preserves your stash and is INDESTRUCTABLE!!!!\nCarry up to five grams of your favorite ground-up herb wherever you go!\n  Small and compact!  Weighs just over an OZ.  Carry anywhere\n  Aircraft aluminum keeps UV light out, preserves your stash and is INDESTRUCTABLE!!!!\n  Interlocking rubber sealed system makes the CannaPuck smell and water proof.  Submerge it in water for as long as you like.  Its contents always comes out dry! ",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Gold Rim metal grinder 56mm",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Blaze Bags Baby Stash",
+      "brandName": "Stash",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "  “Great for what your still working on!”  Store your half smoked blunts, joints, cigarettes etc. in here for a totally smell proof transport!\n  Take the BabyStash anywhere!! The BabyStash’s small 3 x 6 in footprint makes it easy to carry and conceal.  \n  A front compartment for your lighters or leftover stash with rubber sealed zippers\n  Protect and preserve your contents with our five layer activated filter fabric!\n  Comes in four stylish colors!  Collect all four today!",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Viking axe 63mm grinder",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 28,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Glass Joint tips",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 1,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "I-Tal Hempwick",
+      "brandName": "Marijuana Packaging",
+      "cartUnit": "each",
+      "price": 1,
+      "description": "The I-Tal Hemp Wick is an organic and all natural way to light your tobacco or herbal blends. It's made with organic hemp and coated with beeswax to allow the wick to burn nicely. Simply light the wick with a lighter or a candle and extinguish after each use. These will prevent the harmful and unnatural butane toxins from contaminating your smoke.",
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Juicy Jays Blueberry Jones",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 1.5,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "juicy hemp wraps ",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 1.5,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "zig zag hemp wraps",
+      "brandName": "ZIG-ZAG",
+      "cartUnit": "each",
+      "price": 1.5,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/f5fwbqLSRGu4fGCw0f1d_Screen%20Shot%202020-06-18%20at%205.29.51%20PM.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "skunk brand wraps",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 1.5,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": "skunk-1",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Skunk #1 is a hybrid marijuana strain that has influenced cannabis on a global scale, parenting a horde of Skunk crosses since it first bloomed in the late 1970s. Sacred Seed Co. originally bred Skunk #1 using diverse genetics from around the world; Afghani, Acapulco Gold, and Colombian Gold varieties converged through an intricate selective breeding process that spanned several generations, and finally the genetic cornerstone of countless cannabis hybrids was born. The original Skunk #1 gave rise to several variations that were later harvested in the gardens of Sensi Seeds, Dutch Passion, Flying Dutchmen, Nirvana Seeds, and Royal Queen Seeds. As its name suggests, Skunk #1 buds radiate with an aromatic blend of sour skunkiness and subtle earthy notes. This hybrid offers elevated creativity through its high-energy buzz, while stress and appetite loss melt away with Skunk #1’s potency.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 238,
+          "score": 0.412776889827972,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 210,
+          "score": 0.310014593744325,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 186,
+          "score": -0.720745770748432,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 164,
+          "score": 0.0778819172686963,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 143,
+          "score": 0.488099719058834,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 130,
+          "score": 0.78712956484303,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 128,
+          "score": 0.469261349281513,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 109,
+          "score": 0.0301459215993498,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 90,
+          "score": 0.208523709466651,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 84,
+          "score": 0.174513854944043,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 72,
+          "score": -0.202849214540182,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 51,
+          "score": -0.404034535734404,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 34,
+          "score": -0.300461109090175,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "raw organic hemp rolling papers",
+      "brandName": "RAW",
+      "cartUnit": "each",
+      "price": 1.6,
+      "description": "RAW Rolls give you the freedom to create any size smoke you want!  Got a bunch of friends over?  Roll it nice and big!  Smoking along and in a hurry?  Roll it short and sweet!  The RAW Organic Hemp Rolls contains ~16 feet of the purest naturally unrefined RAW Organic Hemp 1¼ Paper for RAW fanatics to choose their own size of paper from.",
+      "productCategory": "Other",
+      "imageUrl": "https://images.leafly.com/products/photos/PrCEPsXRuxXvD7ty3i4w_OrganicRoll5m.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "cigarette chillum ",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "color glass tip",
+      "brandName": "Color Cannabis",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Greenhouse Farmacy Small Child Proof Bag",
+      "brandName": "Proof",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Elements 1 1/4' Rice Papers",
+      "brandName": "Elements",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Medterra Mending Mushrooms Liquid Pouch",
+      "brandName": "Medterra",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Medterra Beautiful Mind Liquid Pouch",
+      "brandName": "Medterra",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "RAW BLACK Rolling Papers 1 1/4\"",
+      "brandName": "RAW",
+      "cartUnit": "each",
+      "price": 2.5,
+      "description": "RAW Black Paper is double pressed extra-fine for the thinnest unbleached rolling paper we have ever made. This unique artisan paper is produced in the Alcoy region of Spain where the dry Valencian winds make humidity optimally low.  RAW Black 1¼ is so thin that it allows you to truly taste your terps!  RAW Black was created for a new generation as the next level of top shelf smoking materials.  It’s like a Ferrari, it only runs on premium gas!\n\n50 leaves per pack\n24 packs per box",
+      "productCategory": "Other",
+      "imageUrl": "https://ams.iqmetrix.net/images/622ac172-c4b0-4156-bf98-64c8e7f60e92",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "RAW Rolling Papers 1 1/4\"",
+      "brandName": "Marijuana",
+      "cartUnit": "each",
+      "price": 2.5,
+      "description": "Natural rolling papers",
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/menu-items/photos/FYEyXqJR36SAwCKipxgu_RAW%20Classic%201.25.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Clipper Reusable Lighter",
+      "brandName": "Clipper",
+      "cartUnit": "each",
+      "price": 2.5,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Randy's Rolling Papers",
+      "brandName": "Randy’s",
+      "cartUnit": "each",
+      "price": 2.5,
+      "description": "Wire rolling papers",
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Clipper Lighters Matte",
+      "brandName": "Marijuana Packaging",
+      "cartUnit": "each",
+      "price": 2.5,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    }
+  ]
+}

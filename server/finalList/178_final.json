@@ -1,0 +1,2979 @@
+{
+  "dispensary": {
+    "name": "Seed of Life Labs - Fairview ",
+    "address1": "13177 Montana - 200",
+    "coverPhotoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery375400/GRgZpjnmSc2vD7SGYyMP_Snip20230217_36.png",
+    "country": "US",
+    "city": "Fairview",
+    "description": "Seed of Life Labs is excited to bring the highest quality product in combination with an extraordinary experience to Montana. Guided by a rigorous belief that any shopping experience should be more than just a transaction, we focus on hospitality and individuality. Voted Billings Gazette Best Dispensary 2020, 2021 AND 2022, our wide variety of Cannabis cup award-winning products, our team of passionate and dedicated cannabis experts will direct you toward what products will work best for you. With competitive pricing, enticing customer reward programs and convenient locations, our team at Seed of Life Labs is striving to bring you the future of Cannabis, now.",
+    "email": null,
+    "flags": [
+      "US",
+      "adaAccessible",
+      "atm",
+      "birthdayDiscount",
+      "dispensary",
+      "dualLicense",
+      "licensed",
+      "medical",
+      "militaryDiscount",
+      "parkingAvailable",
+      "pickup",
+      "preorderConfigured",
+      "recreational",
+      "seniorDiscount",
+      "storefront",
+      "veteranDiscount"
+    ],
+    "locations": [
+      {
+        "lat": 47.81706510000001,
+        "lon": -104.0837446
+      }
+    ],
+    "logoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery375400/KP7xWdxdQliC8BUuKW3l_Snip20230217_35.png",
+    "mapMarkerLocations": [
+      {
+        "city": " Fairview",
+        "index": 0,
+        "label": " Fairview,MT",
+        "state": "MT",
+        "country": "US",
+        "latitude": "47.81706510000001",
+        "longitude": "-104.0837446"
+      }
+    ],
+    "phone": "4067425536",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery375400/GRgZpjnmSc2vD7SGYyMP_Snip20230217_36.png"
+      }
+    ],
+    "primaryLocation": {
+      "lat": 47.81706510000001,
+      "lon": -104.0837446
+    },
+    "state": "MT",
+    "tags": [
+      "dualLicense",
+      "storefront",
+      "licensed"
+    ],
+    "website": "https://www.seedoflifelabs.com/",
+    "zip": "59221"
+  },
+  "products": [
+    {
+      "name": "Tahitian Treat- Preroll(1g)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "each",
+      "price": 5,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/f9bffcd0-0c10-4ea7-85cb-cc00862c7282_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Dog Walker - flower(1g)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "each",
+      "price": 5,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/28050ba5-6858-43c7-b177-f8959516bf15_medium",
+      "strainName": "dogwalker-og",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Dogwalker OG is a balanced hybrid marijuana strain made by crossing Albert Walker OG with Chemdawg 91. Dogwalker OG effects are cerebral, calming, and promote focus. When consumed in large doses, these effects intensify into a deep sleepyness. This strain features a complex flavor profile that is woody and skunky. Medical marijuana patients choose this strain to help relieve symptoms associated with pain and appetite loss.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 185,
+          "score": 0.578747304476197,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 136,
+          "score": 0.0708865236587443,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 123,
+          "score": 0.0751826642098336,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 97,
+          "score": -0.0800626922214287,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 82,
+          "score": 0.597395707529302,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 79,
+          "score": 0.24683238495801,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 66,
+          "score": 0.339383691183078,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 60,
+          "score": -0.220788061827082,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 56,
+          "score": 0.253627095901022,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 39,
+          "score": -0.427889631732911,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 38,
+          "score": -0.248521341023559,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 35,
+          "score": -0.400197434324872,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 27,
+          "score": -0.129214617744037,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Sasquatch Bait- PREROLL(1 Gram)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "each",
+      "price": 5,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/ac788d4a-b8e5-4c94-9303-b53aa03960f3/products/fe4d9e89-28d0-4333-be03-4b1de8945e5c_medium",
+      "strainName": "sasquatch",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Sasquatch is a hybrid marijuana strain bred by Pacific Northwest Growers. We're still learning about the flavors and effects of Sasquatch - if you've smoked, dabbed, or consumed this strain before, tell us about it by leaving a review.",
+      "effects": {
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 2.44076795539902,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.760464186275357,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.69749707123653,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.81043098214293,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.685621727743057,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.230323372770468,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.58324775552558,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.991595728768549,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.924017054084291,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -2.29133199137943,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.06181008298171,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.17428653722498,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.752443375279881,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Maiden Voyage - Flower(Loose)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "g",
+      "price": 9.75,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/1d56b555-cbaa-43d5-9d52-d8ad21871aa2_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Dessert Runtz- Flower- Fairview(Loose)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "g",
+      "price": 9.75,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "dessert-runtz",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Dessert Runtz is a hybrid weed strain made from a genetic cross between Cookies &amp; Cream and Runtz. This strain is a creation of Exotic Genetix, a breeder known for producing exotic and flavorful strains. Dessert Runtz has a mouthwatering aroma of sweet cream, vanilla, and candy that will make you crave dessert. Dessert Runtz is 29% THC, making this strain an ideal choice for experienced cannabis consumers. Leafly customers tell us Dessert Runtz effects include happy, relaxed, and hungry. Medical marijuana patients often choose Dessert Runtz when dealing with symptoms associated with depression, nausea, and appetite loss. Bred by Exotic Genetix, Dessert Runtz features flavors like cream, vanilla, and candy. The dominant terpene of this strain is myrcene. The average price of Dessert Runtz typically ranges from $50-$70 per eighth. Dessert Runtz is a great strain to enjoy in the evening, as it will make you feel blissful and cozy. This strain also has a munchies-inducing effect that can help you satisfy your sweet tooth. If you’ve smoked, dabbed, or consumed Dessert Runtz, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.946001408376444,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 1.1703857978847,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.479522869794575,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.52046709359871,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 2.42394368421756,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.348082254612208,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.128698273222937,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.133539926632554,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.68752266080404,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.03033351474532,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.08637886547991,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.25235261090594,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.00376217062897,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Apple Sundae(Loose)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "g",
+      "price": 9.75,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/ac788d4a-b8e5-4c94-9303-b53aa03960f3/products/01f4bff7-869c-4ef3-8b86-db193dcd5ef5_medium",
+      "strainName": "apple-sundae",
+      "strainCategory": "Sativa",
+      "strainDescription": "Apple Sundae is a hybrid weed strain made by crossing Apple Juice with Sundae Driver. The effects of Apple Sundae are believed to be euphoric and relaxing. Reviewers on Leafly say this strain makes them feel uplifted, giggly and energetic. Apple Sundae has 18% THC. The dominant terpene is pinene, with a profile that emits a sour, fruity aroma and a taste akin to buttery apples. Medical marijuana patients say they buy Apple Sundae during episodes of chronic fatigue, depression, and eye pressure. The original breeder of Apple Sundae is Cannarado Genetics.",
+      "effects": {
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 19,
+          "score": 1.26918992959301,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": 0.289411224493258,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": -0.332176070586286,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.723840053709652,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -0.693012889017412,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.0170416406023843,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.174266040792932,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 0.12012871211108,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 0.0523005107864441,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.338668336671795,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.443267640461479,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.700074803182399,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.429953841718318,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Sugar High FLOWER(Loose)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "g",
+      "price": 9.75,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/ac788d4a-b8e5-4c94-9303-b53aa03960f3/products/16a90f37-bf34-4459-a2dc-6ee6c17dc080_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Lazar-Flower(Loose)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "g",
+      "price": 9.75,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/77a47b76-77ec-4128-8f88-d5e981c77ede_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "MAC-FLOWER(Loose)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "g",
+      "price": 9.75,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/ac788d4a-b8e5-4c94-9303-b53aa03960f3/products/ef60ab5f-284c-489c-9ff0-c198d3deb1bf_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Creme Royal #5(Loose)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "g",
+      "price": 9.75,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "royal",
+      "strainCategory": "Hybrid",
+      "strainDescription": null,
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.396935519017738,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 1.70777126418378,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.781398518116521,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.906235167145661,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -1.19177141188121,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.277122067076812,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.406902401557005,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.12594982058514,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -2.52375452360803,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.18760023180282,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.0972003254349,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.39150056361579,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.876588361092687,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Detroit Breath-Flower-Fairview(Loose)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "g",
+      "price": 9.75,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Palm Fruit- FLOWER(Loose)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "g",
+      "price": 9.75,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/396ebdc1-658a-4d0d-ac70-b7d958ab7548_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Dog Walker - flower(Loose)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "g",
+      "price": 9.75,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/28050ba5-6858-43c7-b177-f8959516bf15_medium",
+      "strainName": "dogwalker-og",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Dogwalker OG is a balanced hybrid marijuana strain made by crossing Albert Walker OG with Chemdawg 91. Dogwalker OG effects are cerebral, calming, and promote focus. When consumed in large doses, these effects intensify into a deep sleepyness. This strain features a complex flavor profile that is woody and skunky. Medical marijuana patients choose this strain to help relieve symptoms associated with pain and appetite loss.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 185,
+          "score": 0.578747304476197,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 136,
+          "score": 0.0708865236587443,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 123,
+          "score": 0.0751826642098336,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 97,
+          "score": -0.0800626922214287,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 82,
+          "score": 0.597395707529302,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 79,
+          "score": 0.24683238495801,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 66,
+          "score": 0.339383691183078,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 60,
+          "score": -0.220788061827082,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 56,
+          "score": 0.253627095901022,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 39,
+          "score": -0.427889631732911,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 38,
+          "score": -0.248521341023559,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 35,
+          "score": -0.400197434324872,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 27,
+          "score": -0.129214617744037,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Jokerz(Loose)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "g",
+      "price": 9.75,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/64f87435-1445-4217-a473-64011bfe17fd_medium",
+      "strainName": "jokerz",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Jokerz is an indica-dominant hybrid weed strain made by crossing White Runtz with Jet Fuel Gelato. Jokerz effects are believed to be more relaxing than energizing. Consumers who have smoked this strain say Jokerz makes you feel relaxed, happy, and sleepy. Jokerz is believed to be less potent than other strains, but in high doses may be overwhelming to novice cannabis consumers. The flavor and aroma of Jokerz is earthy. The original breeder of this strain is Compound Genetics. Jokerz took first place in the 2022 Leaf Bowl in Oregon.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": -0.317656280975124,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 22,
+          "score": 0.0573639604146857,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 0.713690332886015,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": 0.0105367874564444,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": -1.63889835551612,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.439952471803396,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -1.26534706259964,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.526960760008615,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.658545594669387,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.585867468475946,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.652158551907945,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.453157307988718,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -1.10944949096239,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Devine Gelato- FLOWER(Loose)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "g",
+      "price": 9.75,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/ac788d4a-b8e5-4c94-9303-b53aa03960f3/products/98730531-ab9d-4dad-ba2d-e665491bde3b_medium",
+      "strainName": "gelato",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Gelato, also known as \"Larry Bird\" and \"Gelato #42\" is an evenly-balanced hybrid marijuana strain made from a crossing of Sunset Sherbet and Thin Mint Girl Scout Cookies. With its balance of indica &amp; sativa, this strain produces a euphoric high accompanied by strong feelings of relaxation. Consumers who have smoked Gelato say the effects of the strain come on quickly. You'll be left feeling numb to pain, relaxed, but mentally stimulated and productive. As far as potency goes, Gelato boasts a THC level of 21%, making it an ideal choice for medical marijuana patients seeking relief for pain, fatigue, and insomnia. Novice consumers may want to approach this THC powerhouse with caution, but those armed with a high THC tolerance will delight in the heavy-handed effects this strain offers. In terms of taste, Gelato is sweet and features fruity and creamy flavors and aromas. According to growers, this strain produces buds that bloom in dark purple hues and are illuminated by fiery orange hairs and a shiny white coating of crystal resin. The average price per gram of Gelato is $12. Because Gelato has reached a legendary status among cannabis connoisseurs, it comes as no surprise it's been used to make a variety of other high-quality Gelato strains, including Gelato #3, Gelato #33, Gelato #41, and Gelato #45.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1262,
+          "score": 0.346524060244583,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1136,
+          "score": 0.500457556329022,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1064,
+          "score": 0.56856042413683,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 844,
+          "score": 0.310670575260145,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 603,
+          "score": 0.295363903612753,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 480,
+          "score": -0.0543923288261507,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 466,
+          "score": 0.285113227292715,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 415,
+          "score": 0.195699843461487,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 397,
+          "score": 0.198635148564089,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 392,
+          "score": -0.0288107132451138,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 377,
+          "score": -0.161358727844517,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 366,
+          "score": 0.0913960150875434,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 344,
+          "score": 0.520863092882834,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Platinum Gelato(Loose)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "g",
+      "price": 9.75,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": "platinum-gelato",
+      "strainCategory": "Hybrid",
+      "strainDescription": null,
+      "effects": {
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 3.05849520475603,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.946001408376444,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 3.00446837213855,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.644060889859231,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.348082254612208,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -1.46152569302922,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.982816908070797,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.0518246848356489,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.133539926632554,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.984306364424838,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.13132045384191,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.25235261090594,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.802101369605003,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "LMNT- Flower- Fairview(Loose)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "g",
+      "price": 9.75,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Napa Cream- Flower- Fairview(Loose)",
+      "brandName": "Seed of Life Labs",
+      "cartUnit": "g",
+      "price": 9.75,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": "cream",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Cream is a hybrid weed strain made from a genetic cross between Wedding Cake and Gelato #33. Cream is 14% THC, making this strain an ideal choice for beginner cannabis consumers. Leafly customers tell us Cream effects include feeling focused,  aroused, and tingly. Medical marijuana patients often choose Cream when dealing with symptoms associated with muscle spasms, pain, and depression. Bred by Cream Crop Co, Cream features flavors like flowery, berry, and pungent. The dominant terpene of this strain is Myrcene. The average price of Cream typically ranges from $30-$40. If you’ve smoked, dabbed, or consumed Cream, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": -0.363368010248491,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": -0.243116927220434,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": 0.0357622304865676,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.0484307167125073,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": 0.16824567853071,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.37256254859962,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.36954550641411,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.0452170575864797,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 0.45173240879571,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.535290695205661,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.514480946210752,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.595354725404446,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.783520348370668,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Dessert Runtz-Shatter(.5g)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/ba0d2420-4e8e-483f-9c55-0c4c28359334_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Wedding Sunset Shatter(500mg)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/5968a96d-3014-454e-94b5-a56cf6112048_medium",
+      "strainName": "wedding-sunset",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Wedding Sunset is a hybrid weed strain made from a genetic cross between Wedding Cake and Sunset Sherbert. This strain is 40% sativa and 60% indica. Wedding Sunset is 17% THC, making this strain an ideal choice for experienced cannabis consumers. Bred by unknown breeders, the average price of Wedding Sunset typically ranges from $10-$15 per gram. We are still learning about Wedding Sunset’s effects, flavors, and medical uses. If you've smoked, dabbed, or consumed Wedding Sunset, please tell us about your experience by leaving a strain review.",
+      "effects": {},
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Sour Sage(500mg)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/7a97fc7c-7ece-4506-b093-cad8793ff2e6_medium",
+      "strainName": "sage",
+      "strainCategory": "Hybrid",
+      "strainDescription": "S.A.G.E., a.k.a. Sativa Afghani Genetic Equilibrium, is a well-balanced Haze crossed with a robust indica. This award-winner has a spicy sandalwood flavor combined with a long-lasting and uplifting high.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 131,
+          "score": 0.485863377719953,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 120,
+          "score": 0.486161673226899,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 114,
+          "score": 0.710748980082667,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 102,
+          "score": -0.675591170766929,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 77,
+          "score": 0.487771046596449,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 73,
+          "score": 0.570347927445144,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 66,
+          "score": 0.228359337923741,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 48,
+          "score": 0.0982074641799499,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 43,
+          "score": 0.102933108245316,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 35,
+          "score": -0.153009198215237,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 31,
+          "score": 0.183283877423522,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 30,
+          "score": -0.385113923637095,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": -0.45852276302411,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Palm Fruit Shatter(500)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/86355dc6-a3c2-45b3-900c-b355cd7641a3_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Southern Oregon Kush(Shatter 500mg)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/052a2f4a-e7f0-43b6-abdf-ee2ddc4adbfe/products/3a408218-a4f1-458a-b114-53ff633f1293_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "MAC1 Shatter(0.5g)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/052a2f4a-e7f0-43b6-abdf-ee2ddc4adbfe/products/dd65a854-472a-4a7a-a370-dcc890d19fc5_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Napa Cream Shatter(500mg)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 15,
+      "description": "Napa Cream",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/2ef70fc3-d264-489c-a5b6-96443c38de78_medium",
+      "strainName": "cream",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Cream is a hybrid weed strain made from a genetic cross between Wedding Cake and Gelato #33. Cream is 14% THC, making this strain an ideal choice for beginner cannabis consumers. Leafly customers tell us Cream effects include feeling focused,  aroused, and tingly. Medical marijuana patients often choose Cream when dealing with symptoms associated with muscle spasms, pain, and depression. Bred by Cream Crop Co, Cream features flavors like flowery, berry, and pungent. The dominant terpene of this strain is Myrcene. The average price of Cream typically ranges from $30-$40. If you’ve smoked, dabbed, or consumed Cream, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": -0.363368010248491,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": -0.243116927220434,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": 0.0357622304865676,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.0484307167125073,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": 0.16824567853071,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.37256254859962,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.36954550641411,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.0452170575864797,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 0.45173240879571,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.535290695205661,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.514480946210752,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.595354725404446,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.783520348370668,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Detroit Breath Shatter(500mg)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/052a2f4a-e7f0-43b6-abdf-ee2ddc4adbfe/products/ebef9dbf-8897-427e-8b57-25350058b90a_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Kens OG Batter(500 Mg)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "kens-kush",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Ken’s Kush is a potent hybrid cannabis strain bred by Ken Estes that crosses his famous Granddaddy Purple with the equally esteemed OG Kush and Sour Diesel. Together these parents pass on a flavor profile of sweet berries, sour skunk, and grassy earth. Dreamy relaxation pours over the mind and body, helping you feel serene without the sedation typically associated with heavy indica varieties.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": 1.6067329176065,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 19,
+          "score": 1.04356454134893,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": 0.911461638718474,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": 2.62054485684189,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": 0.829936001786529,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.851950182517976,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.368631691025631,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.48151232105261,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.468090902091563,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": 0.461333391851128,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.033914000925612,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.0304911543536579,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.22850506335991,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Meow Badder(1000mg)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "Meow Badder",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/c806f3d2-bbc3-46e3-8b89-341e6832f649_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Iced Out Mintz Sugar(Iced Out Mintz .5mg)",
+      "brandName": "Out",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/KmFbuKq5S3irSeYgd0xj_Logo-with-tagline-300x211.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Gelato(Distillate Cartridge)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 26.02,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/989a3872-db53-4118-ab0c-7ab2708a09f6_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Grape Ape(Fairview .5)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 26.02,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Zkittlez Crumble(1000mg)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/052a2f4a-e7f0-43b6-abdf-ee2ddc4adbfe/products/10121fea-cec2-45ec-9c57-7b3eefdd2669_medium",
+      "strainName": "zkittlez",
+      "strainCategory": "Indica",
+      "strainDescription": "The Original Z (popularly known under an infringing candy name) is an indica hybrid marijuana strain bred from an alleged mix of Grape Ape and Grapefruit that is crossed with another undisclosed strain. This sweet, tropical confection-flavored cultivar came to market in the 2010s. According to the story, the cultivar came from an individual dubbed Gas Station Bob. Working as Terp Hogz, the growers Fields and Tony Mendo popularized Z with the help of 3rd Gen Family's Brandon Parker—growing the strain, entering it into contests, and making new crosses. The Original Z won 1st Place at the 2016 Emerald Cup, the 2023 King of Z Hill, and has placed in several Cannabis Cups in San Francisco and Michigan. Both Terp Hogz and 3rd Gen Fam—as well as other breeders—continue to refine the varietal.  In 2023, Terp Hogz announced they will use the name \"The Original Z,\" as part of a settlement with a candy company over alleged trademark infringement.  This strain features medium-sized, spongy green colas that with a sweet, tropical blend of fruit flavors. The effects of The Original Z are calming, leaving consumers focused, alert, and happy while relaxing the body to help unwind any time of day.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 615,
+          "score": 0.858038051655318,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 434,
+          "score": 0.169647634630582,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 347,
+          "score": -0.153179114727118,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 291,
+          "score": -0.137840425733804,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 255,
+          "score": 0.611905992153107,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 244,
+          "score": 0.68505023782208,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 187,
+          "score": -0.175071445181939,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 169,
+          "score": -0.341350238737482,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 167,
+          "score": 0.118430694124858,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 152,
+          "score": 0.064118465922656,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 128,
+          "score": -0.155221916038552,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 115,
+          "score": -0.466115209633353,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 106,
+          "score": 0.106504814995518,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Napa Cream Shatter(1000mg)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 30,
+      "description": "Napa Cream",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/2ef70fc3-d264-489c-a5b6-96443c38de78_medium",
+      "strainName": "cream",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Cream is a hybrid weed strain made from a genetic cross between Wedding Cake and Gelato #33. Cream is 14% THC, making this strain an ideal choice for beginner cannabis consumers. Leafly customers tell us Cream effects include feeling focused,  aroused, and tingly. Medical marijuana patients often choose Cream when dealing with symptoms associated with muscle spasms, pain, and depression. Bred by Cream Crop Co, Cream features flavors like flowery, berry, and pungent. The dominant terpene of this strain is Myrcene. The average price of Cream typically ranges from $30-$40. If you’ve smoked, dabbed, or consumed Cream, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": -0.363368010248491,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": -0.243116927220434,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": 0.0357622304865676,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.0484307167125073,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": 0.16824567853071,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.37256254859962,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.36954550641411,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.0452170575864797,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 0.45173240879571,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.535290695205661,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.514480946210752,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.595354725404446,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.783520348370668,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Wedding Sunset Shatter(1000mg)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/5968a96d-3014-454e-94b5-a56cf6112048_medium",
+      "strainName": "wedding-sunset",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Wedding Sunset is a hybrid weed strain made from a genetic cross between Wedding Cake and Sunset Sherbert. This strain is 40% sativa and 60% indica. Wedding Sunset is 17% THC, making this strain an ideal choice for experienced cannabis consumers. Bred by unknown breeders, the average price of Wedding Sunset typically ranges from $10-$15 per gram. We are still learning about Wedding Sunset’s effects, flavors, and medical uses. If you've smoked, dabbed, or consumed Wedding Sunset, please tell us about your experience by leaving a strain review.",
+      "effects": {},
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Palm Fruit Shatter(1000mg)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/86355dc6-a3c2-45b3-900c-b355cd7641a3_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Soll Badder(1000mg)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/ac788d4a-b8e5-4c94-9303-b53aa03960f3/products/243879c0-d479-4007-9803-40d361702bb9_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Capsules(21.7)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 5,
+      "description": "THC Capsules",
+      "productCategory": "Edible",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/052a2f4a-e7f0-43b6-abdf-ee2ddc4adbfe/products/ca6db0e0-409c-4c06-af73-20397cd67077_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Pretzels(Pretzels- 57.51mg)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 12,
+      "description": "Pretzels",
+      "productCategory": "Edible",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/052a2f4a-e7f0-43b6-abdf-ee2ddc4adbfe/products/6233f529-6a4e-4b7d-ba33-cf98c55fbd0f_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Bevvies(PricklyPear-SOLL)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/490e252d-fea3-4338-bf85-42df26da985b/products/f6e18b21-7257-4efc-90d5-3fb6c3fb5c71_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Peach Mango Gummies(90.19)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/ac788d4a-b8e5-4c94-9303-b53aa03960f3/products/db4310aa-94e0-4c98-b29f-a7ffe0fb0103_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sinful(BlueRazz- SOLL)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Caramels(90 Mg)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/052a2f4a-e7f0-43b6-abdf-ee2ddc4adbfe/products/9ffd80a8-9d05-4ee9-91cd-c9dbca70f086_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "HighRoad(Crunch-SOLL)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "HighRoad(CookieNCrem-SOLL)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "HighRoad(Toff&Almond-SOLL)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Strawberry Hard Candy(74.66)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/15b6b072-c4d6-4b96-9c8f-bafe24595645_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "HighRoad(Cherry&Almonds-SOLL)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Smokiez- SOLL(Watermelon)",
+      "brandName": "Smokiez Edibles",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/0ac3e603-ed6d-4ee3-8268-6a744bc8fed5_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Pineapple Gummy(90.93)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/cb99fa93-c6dd-4394-88b2-be3e763075ae_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Hard Candy- Fairview(Watermelon)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Hard Candy- Fairview(Strawberry)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "HighRoad(BirthCake - SOLL)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Bevvies(PomLemon-SOLL)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/490e252d-fea3-4338-bf85-42df26da985b/products/f6e18b21-7257-4efc-90d5-3fb6c3fb5c71_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "OrngVnillaShooter(90mg-SOLL)",
+      "brandName": "Sinful Brands",
+      "cartUnit": "each",
+      "price": 20,
+      "description": "Citrusy tang meets the warmth of Madagascar Vanilla. Sinful’s Orange Vanilla is a duet that’ll make your mouth sing. Each bottle contains 100mg of fast-acting THC, making it the ideal way to relax after a long day. Try freezing for a bit for an infused treat on a hot day. Sip, savor, and repeat.\n\n-100mg of fast acting THC per bottle\n-Bitter-free, sweet & flavorful\n-Discreet & small packaging\n-Made with real juice\n\nRecommended for: Concerts, Nightlife, Sporting Events, Parties\n\nIngredients: Water, Lemon Juice, Sugar, MCT Oil, Natural Flavor, Marijuana Distillate , Potassium Sorbate, Sodium Benzoate, Yellow 6, Aspartame",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/mfovq6axQEKvnkzhVITX_Orange-Vanilla-Shooter-square.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sour Diesel(Distillate Cartridge)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 26.02,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/f40d2884-5512-4319-a1da-b9cfab2dcbc2_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Grape Ape(Distillate Cartridge)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 26.02,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/13816e52-a200-43ee-a454-4e42e9e3c47f_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Strawberry Cough(.5g)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 26.02,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/09f53f89-d36d-4479-96c1-bfd042e0f048/products/06eda785-ebc6-4e56-b76d-291a9e7747e1_medium",
+      "strainName": "strawberry-cough",
+      "strainCategory": "Sativa",
+      "strainDescription": "Known for its sweet smell of fresh strawberries and an expanding sensation that can make even the most seasoned consumer cough, Strawberry Cough is a potent sativa marijuana strain with mysterious genetic origins. However, Strawberry Cough is thought to be a cross of Haze and Strawberry Fields. The skunky, berry flavors will capture your senses while the cerebral, uplifting effects provide an aura of euphoria that is sure to leave a smile on your face. Strawberry Cough is a great solution in times of elevated stress. ",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1402,
+          "score": 0.669035972349508,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1283,
+          "score": 1.018462027185,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1137,
+          "score": 0.282963927649776,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 983,
+          "score": 1.16752428440628,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 917,
+          "score": -0.950856185284595,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 750,
+          "score": 0.404744780492878,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 687,
+          "score": 0.273964698996178,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 634,
+          "score": 0.730456413004718,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 544,
+          "score": 0.374287251716076,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 428,
+          "score": -0.0852934283374094,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 361,
+          "score": -0.135515229540973,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 283,
+          "score": 0.0642946547110952,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 176,
+          "score": -0.768070943782898,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Mac 1 HTE(0.5)",
+      "brandName": "Seed of Life Labs Kitchen",
+      "cartUnit": "each",
+      "price": 28.46,
+      "description": null,
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_cartridge.png",
+      "strainName": "mac-1",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Mac 1, also known as \"The MAC,\" is a hybrid marijuana strain that crosses Alien Cookies F2 with Miracle 15. Mac 1 is a popular strain that consumers turn to for upbeat and balancing effects. But Mac 1 is special because not just anyone can grow it. In fact, growers of Mac 1 (Capulator's Cut) have been carefully selected by the breeder in order to protect the quality of this versitile flower. Mac 1 is an instagram worthy strain, with eye-poppingly gorgeous buds that are nearly white and drenched in milky trichomes. Mac 1 comes through with a smooth, creamy, and funky terpene profile you can enjoy day and night.    ",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 242,
+          "score": 0.32135299269738,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 235,
+          "score": 0.511187550105931,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 231,
+          "score": -0.285265488469022,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 220,
+          "score": 0.693171990940685,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 144,
+          "score": 0.599303912902185,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 125,
+          "score": 0.183586017293791,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 120,
+          "score": 0.0783037148030086,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 99,
+          "score": 0.35929215823556,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 89,
+          "score": 0.123402175009469,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 80,
+          "score": -0.115571871819598,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 77,
+          "score": 0.0003506338370559,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 55,
+          "score": -0.477818687149681,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 50,
+          "score": -0.0171596446808634,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "AIOVape(Orange-SOLL)",
+      "brandName": "Sano Gardens",
+      "cartUnit": "each",
+      "price": 50,
+      "description": "Orchard vapes boldly deliver natural fruit and flora flavors combined with high potency D9THC. Orchard oil combines proprietary cannabis science with bold flavor and respectfully extracted cannabinoids. Not just another flavored vape, Orchard provides <80% THC in a convenient All-In-One vape. Fully charged and ready to enjoy so you can experience the delicious and discreet flavors on the go. Just like everything manufactured by Sano Gardens, Orchard vapes contain live terpenes because we believe that a little live makes everything taste better.\nAvailable in 300mg and 1g all in one units. NEW 1G cartridge.",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/0CsPfB2kSbGdLcqBYNBu_orange.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "AIOVape(Lime-SOLL)",
+      "brandName": "Sano Gardens",
+      "cartUnit": "each",
+      "price": 50,
+      "description": "Orchard vapes boldly deliver natural fruit and flora flavors combined with high potency D9THC. Orchard oil combines proprietary cannabis science with bold flavor and respectfully extracted cannabinoids. Not just another flavored vape, Orchard provides <80% THC in a convenient All-In-One vape. Fully charged and ready to enjoy so you can experience the delicious and discreet flavors on the go. Just like everything manufactured by Sano Gardens, Orchard vapes contain live terpenes because we believe that a little live makes everything taste better.\nAvailable in 300mg and 1g all in one units. NEW 1G cartridge ",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/O9Xiq6p0T1G0VeOLUgpb_Lime.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "One Hitter($1)",
+      "brandName": "SOLL Merchandise",
+      "cartUnit": "each",
+      "price": 1,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sillicone Dab Containers(Mushroom)",
+      "brandName": "AFG Distribution",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Glass Chillum $2($2)",
+      "brandName": "AFG Distribution",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "stickers(Stickers ($4))",
+      "brandName": "AFG Distribution",
+      "cartUnit": "each",
+      "price": 4,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Grinder($6)",
+      "brandName": "SOLL Merchandise",
+      "cartUnit": "each",
+      "price": 6,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sillicone Dab Containers(6pc)",
+      "brandName": "AFG Distribution",
+      "cartUnit": "each",
+      "price": 8,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Glass Pipe($10)",
+      "brandName": "AFG Distribution",
+      "cartUnit": "each",
+      "price": 10,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "stash jar(3\")",
+      "brandName": "Stash",
+      "cartUnit": "each",
+      "price": 12,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "4.5\" Hand Pipe(2 In 1)",
+      "brandName": "AFG Distribution",
+      "cartUnit": "each",
+      "price": 12,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Dab Straw $10(Freezable Dab Straws $12)",
+      "brandName": "AFG Distribution",
+      "cartUnit": "each",
+      "price": 12,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Pulsar VV Battery($30)",
+      "brandName": "Pulsar Vaporizers",
+      "cartUnit": "each",
+      "price": 30,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Ash Catcher(Milkyway Ash Catcher)",
+      "brandName": "AFG Distribution",
+      "cartUnit": "each",
+      "price": 40,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Dry Herb Vaporizer $80($43)",
+      "brandName": "HERB",
+      "cartUnit": "each",
+      "price": 43,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "water pipe($124)",
+      "brandName": "AFG Distribution",
+      "cartUnit": "each",
+      "price": 124,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Glass Water Bong($140)",
+      "brandName": "AFG Distribution",
+      "cartUnit": "each",
+      "price": 140,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Rolling Papers($2)",
+      "brandName": "SOLL Merchandise",
+      "cartUnit": "each",
+      "price": 2,
+      "description": "Rolling Papers $2",
+      "productCategory": "Other",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/ac788d4a-b8e5-4c94-9303-b53aa03960f3/products/1400d658-6b5f-4c46-a9cc-df505af519fb_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Lighter(2.00)",
+      "brandName": "SOLL Merchandise",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "King Palm($3)",
+      "brandName": "SOLL Merchandise",
+      "cartUnit": "each",
+      "price": 3,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Rolling Papers(SOL Papers)",
+      "brandName": "SOLL Merchandise",
+      "cartUnit": "each",
+      "price": 3,
+      "description": "Rolling Papers $2",
+      "productCategory": "Other",
+      "imageUrl": "https://storage.googleapis.com/weaveiq-media/ac788d4a-b8e5-4c94-9303-b53aa03960f3/products/1400d658-6b5f-4c46-a9cc-df505af519fb_medium",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Poster($6)",
+      "brandName": "SOLL Merchandise",
+      "cartUnit": "each",
+      "price": 6,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "250 Loyalty points Gift Card $25($25 Gift Card)",
+      "brandName": "SOLL Merchandise",
+      "cartUnit": "each",
+      "price": 25,
+      "description": "HOLIDAY GIFT CARD 250 in Loyalty points $25",
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": "loyality",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Loyalty is an indica-dominant hybrid bred by TSL Farms in Los Angeles. This Animal Pie and OG Kush cross shows off its uniquely colored buds with purple hues throughout. Consumers look to this strain to get creative, and it may also provide relief from migraines, pain, and stress.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 1.54668556395753,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 3.58317539620841,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 2.51933709916257,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 1.44366687229092,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 2.47254729194691,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.308243885681647,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.19874186015995,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.85316417903039,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.887487788535666,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.0969953732787239,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.0727492229817792,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.0049803154928145,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.165634526544423,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "SOLL Shirt($25)",
+      "brandName": "SOLL Merchandise",
+      "cartUnit": "each",
+      "price": 25,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Grinder($25)",
+      "brandName": "AFG Distribution",
+      "cartUnit": "each",
+      "price": 25,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Bong/Rig($30)",
+      "brandName": "SOLL Merchandise",
+      "cartUnit": "each",
+      "price": 30,
+      "description": "Glass Bong",
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Hoodie(45$)",
+      "brandName": "SOLL Merchandise",
+      "cartUnit": "each",
+      "price": 45,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    }
+  ]
+}

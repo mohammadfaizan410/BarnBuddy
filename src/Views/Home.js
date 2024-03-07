@@ -9,6 +9,84 @@ export default function Home() {
     const [featuredProducts, setFeaturedProducts] = React.useState([]);
 
 
+    
+// _id
+// 65ea2b1303a646bc817495f8
+// user_id
+// 65ea2b1203a646bc81749346
+// name
+// "Gypsy Greens - Chehalis"
+// address1
+// "1570 N National Ave"
+// coverPhotoUrl
+// "https://images.leafly.com/menu/CfQxyWMvSG2Yk4xd1sZV_chehalis_7.JPG"
+// country
+// "US"
+// city
+// "Chehalis"
+// description
+// "Our entry into the cannabis industry developed organically out of our …"
+// email
+// "Gypsygreens@outlook.com"
+
+// flags
+// Array (8)
+
+// locations
+// Array (2)
+// logoUrl
+// "https://images.leafly.com/menu/wOWqBPMnSOGFTzzgmAsm_leafly-logo-.png"
+
+// mapMarkerLocations
+// Array (1)
+// phone
+// "(360) 996-4030"
+
+// photos
+// Array (20)
+
+// primaryLocation
+// Object
+// state
+// "WA"
+
+// tags
+// Array (3)
+// website
+// "https://www.gypsygreens420.com"
+// zip
+// "98532"
+
+// products
+// Array (empty)
+// instore_purchasing
+// false
+// claimed
+// false
+// business_type
+// "greenstore"
+
+// deals
+// Array (empty)
+
+// reviews
+// Array (empty)
+
+// filters
+// Array (empty)
+// registration_date
+// 2024-03-07T21:01:07.772+00:00
+
+// followers
+// Array (empty)
+
+// opening_hours
+// Array (empty)
+// isFeatured
+// false
+// isTopRated
+// false
+
 
     useEffect(() => { 
         setBusinessArray([{

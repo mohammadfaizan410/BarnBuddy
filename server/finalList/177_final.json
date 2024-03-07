@@ -1,0 +1,304 @@
+{
+  "dispensary": {
+    "name": "Armadillo Buds- Fairview",
+    "address1": "420 Ellery Ave",
+    "coverPhotoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery381217/XOILzWOsQeCPzIHsBEGm_WOOD-20LOGO.jpg",
+    "country": "US",
+    "city": "Fairview",
+    "description": "Welcome to Armadillo Buds , we are family owned and operated, grown locally so our patients and customers alike receive the freshest product available.  Our company believes in product over profits come see why  passion prevails. ",
+    "email": "armadillobuds@gmail.com",
+    "flags": [
+      "US",
+      "adaAccessible",
+      "atm",
+      "birthdayDiscount",
+      "dispensary",
+      "firstTimeCustomerDiscount",
+      "licensed",
+      "medical",
+      "militaryDiscount",
+      "parkingAvailable",
+      "pickup",
+      "preorderConfigured",
+      "recreational",
+      "storefront",
+      "veteranDiscount",
+      "womanOwned"
+    ],
+    "locations": [
+      {
+        "lat": 47.8524405,
+        "lon": -104.0443975
+      }
+    ],
+    "logoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery381217/4qLN5b6pRnO4sjVsB7F6_logo.jpeg",
+    "mapMarkerLocations": [
+      {
+        "city": "Fairview",
+        "index": 0,
+        "label": "Fairview,MT",
+        "state": "MT",
+        "country": "US",
+        "latitude": "47.8524405",
+        "longitude": "-104.0443975"
+      }
+    ],
+    "phone": "4069410791",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery381217/XOILzWOsQeCPzIHsBEGm_WOOD-20LOGO.jpg"
+      },
+      {
+        "id": 1211166,
+        "bigThumb": null,
+        "created": "2023-12-09T01:51:02.474Z",
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery381217/8kU91cWGSW6dUFGngZwU_zkittles-20nug",
+        "lastModified": "2023-12-09T01:51:02.474Z",
+        "smallThumb": null,
+        "user": null
+      }
+    ],
+    "primaryLocation": {
+      "lat": 47.8524405,
+      "lon": -104.0443975
+    },
+    "state": "MT",
+    "tags": [
+      "recreational",
+      "storefront",
+      "licensed",
+      "medical"
+    ],
+    "website": "https://www.armadillobuds.biz/",
+    "zip": "59221"
+  },
+  "products": [
+    {
+      "name": "Big Bomb",
+      "brandName": "Armadillo Buds",
+      "cartUnit": "g",
+      "price": 68,
+      "description": "Hybrid. Dense, Skunky Buds. With long lasting effects. Been known to help with pain and arthritis. ",
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Ripped off Maraschino Badder",
+      "brandName": "Ripped off Maraschino Badder",
+      "cartUnit": "g",
+      "price": 45,
+      "description": "Sativa leaning Hybrid. ",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Red Pop Punch Sugar",
+      "brandName": "Red Pop Punch Sugar",
+      "cartUnit": "g",
+      "price": 45,
+      "description": "Sativa Leaning Hybrid.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "White Apple Badder",
+      "brandName": "White Apple Badder",
+      "cartUnit": "g",
+      "price": 45,
+      "description": "Sativa leaning Hybrid.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Terple Landslide Sugar",
+      "brandName": "Terple Landslide Sugar",
+      "cartUnit": "g",
+      "price": 45,
+      "description": "Indica Leaning Hybrid.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "THC Gummies",
+      "brandName": "Armadillo Buds ",
+      "cartUnit": "each",
+      "price": 12.3,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "orchard ",
+      "brandName": "Sano Gardens",
+      "cartUnit": "g",
+      "price": 50,
+      "description": "Orchard vapes boldly deliver natural fruit and flora flavors combined with high potency D9THC. Orchard oil combines proprietary cannabis science with bold flavor and respectfully extracted cannabinoids. Not just another flavored vape, Orchard provides <80% THC in a convenient All-In-One vape. Fully charged and ready to enjoy so you can experience the delicious and discreet flavors on the go. Just like everything manufactured by Sano Gardens, Orchard vapes contain live terpenes because we believe that a little live makes everything taste better",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/menu/lE3CCABURDee0NH6g9OQ_melon%20melody.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "orchard ",
+      "brandName": "Sano Gardens",
+      "cartUnit": "g",
+      "price": 50,
+      "description": "Orchard vapes boldly deliver natural fruit and flora flavors combined with high potency D9THC. Orchard oil combines proprietary cannabis science with bold flavor and respectfully extracted cannabinoids. Not just another flavored vape, Orchard provides <80% THC in a convenient All-In-One vape. Fully charged and ready to enjoy so you can experience the delicious and discreet flavors on the go. Just like everything manufactured by Sano Gardens, Orchard vapes contain live terpenes because we believe that a little live makes everything taste better",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/menu/KG3aidzQFmrh2NsR10Jt_orange%20slice.jpg",
+      "strainName": "orange-juice",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Orange Juice, bred by Gage Green Genetics, mixes one of their staple strains Joseph (Underdog OG bag seed) with a cross of California Orange and OG Kush. An indica-driven hybrid, Orange Juice erupts with a blast of orange and lemon notes that combine with diesel undertones to create an inviting aroma and a mouthful of sweet earthy citrus. The effects of Orange Juice are relatively balanced, producing a relaxed body with a happy and uplifted head buzz.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 30,
+          "score": 0.288671028262491,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 27,
+          "score": 0.438567873536534,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": 0.840227039719262,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": 0.474682155429076,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": 0.471832398722129,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": 0.711715736357233,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": 0.643356195422823,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": 0.299491364761423,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -0.127885161179992,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": 0.271301146658466,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": 0.0380034628618548,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.347217726229023,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.0825395011436157,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "orchard ",
+      "brandName": "Sano Gardens",
+      "cartUnit": "g",
+      "price": 50,
+      "description": "Orchard vapes boldly deliver natural fruit and flora flavors combined with high potency D9THC. Orchard oil combines proprietary cannabis science with bold flavor and respectfully extracted cannabinoids. Not just another flavored vape, Orchard provides <80% THC in a convenient All-In-One vape. Fully charged and ready to enjoy so you can experience the delicious and discreet flavors on the go. Just like everything manufactured by Sano Gardens, Orchard vapes contain live terpenes because we believe that a little live makes everything taste better",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leafly-public.imgix.net/menu/wsPOPtt1RnKdxLht8h3y_lively%20lime.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    }
+  ]
+}

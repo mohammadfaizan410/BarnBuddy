@@ -89,22 +89,40 @@ const productSchema = new mongoose.Schema({
     type: String,
   },
 
-  title: {
+  name: {
     type: String,
   },
 
-  description: {
+  brandName : {
     type: String,
   },
-
-  categories: {
-    type: [String],
+  cartUnit : {
+    type: String,
   },
-
   price: {
     type: Number,
   },
-
+  description: {
+    type: String,
+  },
+  productCategory: {
+    type : String,
+  },
+  imageUrl : {
+    type: String,
+  },
+  strainName : {
+    type: String,
+  },
+  strainCategory : {
+    type : String,
+  },
+  strainDescription: {
+    type : String,
+  },
+  strainNucleusImageSvg : {
+    type: String,
+  },
   followers: {
     type: [String],
   },
@@ -115,13 +133,8 @@ const productSchema = new mongoose.Schema({
       ref: "Review",
     },
   ],
-
-  featured_image: {
-    type: String,
-  },
-
-  images: {
-    type: [String],
+  isFeatured : {
+    type: Boolean,
   },
 });
 
@@ -131,30 +144,60 @@ const businessSchema = new mongoose.Schema({
     ref: "User",
   },
 
-  title: {
+  name: {
     type: String,
   },
-
+  address1  : {
+    type: String,
+  },
+  coverPhotoUrl : {
+    type: String,
+  },
+  country: {
+    type: String,
+  },
+  city: {
+    type: String,
+  },
   description: {
     type: String,
   },
-
-  website_link: {
-    type: String,
-  },
-
-  location: {
-    type: String,
-  },
-
   email: {
     type: String,
   },
-
+  flags: {
+    type: [String],
+  },
+  locations : {
+    type: [Object],
+  },
+  logoUrl : {
+    type: String,
+  },
+  mapMarkerLocations : {
+    type: [Object],
+  },
   phone: {
     type: String,
   },
-
+  photos : {
+    type: [Object],
+  },
+  primaryLocation : {
+    type: Object,
+  },
+  state : {
+    type: String,
+  },
+  tags : {
+    type: [String],
+  },
+  website: {
+    type: String,
+  },
+  zip : { 
+    type: String,
+  },
   //TODO: Add a product schema
   products: {
     type: [String],
@@ -169,17 +212,8 @@ const businessSchema = new mongoose.Schema({
   },
 
   business_type: {
-    type: [String],
-  },
-
-  banner_image: {
     type: String,
   },
-
-  avatar: {
-    type: String,
-  },
-
   //TODO: Add a deals schema
   deals: {
     type: [String],
@@ -203,6 +237,12 @@ const businessSchema = new mongoose.Schema({
 
   opening_hours: {
     type: [String],
+  },
+  isFeatured : {
+    type: Boolean,
+  },
+  isTopRated : {
+    type: Boolean,
   },
 });
 

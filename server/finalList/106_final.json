@@ -1,0 +1,57 @@
+{
+  "dispensary": {
+    "name": "iDeal Naturals",
+    "address1": "316 Reynolds St",
+    "coverPhotoUrl": null,
+    "country": "US",
+    "city": "Billings",
+    "description": null,
+    "email": null,
+    "flags": [
+      "US",
+      "dispensary",
+      "licensed",
+      "medical",
+      "recreational",
+      "storefront"
+    ],
+    "locations": [
+      {
+        "lat": 45.8041578,
+        "lon": -108.4400141
+      },
+      {
+        "lat": 45.8041446,
+        "lon": -108.439978
+      }
+    ],
+    "logoUrl": "https://images.leafly.com/menu/KLlA1oRcRXmruEG1RVS7_ideal.jpg",
+    "mapMarkerLocations": [
+      {
+        "city": "Billings",
+        "index": 0,
+        "label": "Billings,MT",
+        "state": "MT",
+        "country": "US",
+        "latitude": "45.8041446",
+        "longitude": "-108.439978"
+      }
+    ],
+    "phone": "(406) 601-1191",
+    "photos": [],
+    "primaryLocation": {
+      "lat": 45.8041578,
+      "lon": -108.4400141
+    },
+    "state": "MT",
+    "tags": [
+      "medical",
+      "storefront",
+      "licensed",
+      "recreational"
+    ],
+    "website": "https://www.idealnaturals.net/",
+    "zip": "59101"
+  },
+  "products": []
+}

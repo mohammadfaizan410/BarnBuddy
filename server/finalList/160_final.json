@@ -1,0 +1,2890 @@
+{
+  "dispensary": {
+    "name": "Grizzly Pine - Whitefish",
+    "address1": "701 Spokane Ave",
+    "coverPhotoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery368373/BjzFJUtxQ16LdfTIGoth_IMG_5656.jpg",
+    "country": "US",
+    "city": "Whitefish",
+    "description": null,
+    "email": "Kgibson@grizzlypine.com",
+    "flags": [
+      "US",
+      "dispensary",
+      "licensed",
+      "medical",
+      "pickup",
+      "preorderConfigured",
+      "recreational",
+      "storefront"
+    ],
+    "locations": [
+      {
+        "lat": 48.4050854,
+        "lon": -114.3350874
+      },
+      {
+        "lat": 48.4050743,
+        "lon": -114.3350447
+      }
+    ],
+    "logoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery368373/BgfL5stYQtScyLSDHVLf_landscape_bear-20only_Single-20Color-20Logo_Signature-01-01-01.png",
+    "mapMarkerLocations": [
+      {
+        "city": "Whitefish",
+        "index": 0,
+        "label": "Whitefish,MT",
+        "state": "MT",
+        "country": "US",
+        "latitude": "48.4050743",
+        "longitude": "-114.3350447"
+      }
+    ],
+    "phone": "406-224-3525",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery368373/BjzFJUtxQ16LdfTIGoth_IMG_5656.jpg"
+      }
+    ],
+    "primaryLocation": {
+      "lat": 48.4050854,
+      "lon": -114.3350874
+    },
+    "state": "MT",
+    "tags": [
+      "recreational",
+      "storefront",
+      "licensed",
+      "medical"
+    ],
+    "website": "https://grizzlypine.com/grizzly-pine-whitefish-mt-recreational-marijuana/",
+    "zip": "59937"
+  },
+  "products": [
+    {
+      "name": "Plat. Candy Kush",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 40,
+      "description": "Genetics: Platinum OG x Candy Land; Hybrid; Primary Terpene Aromas: Orange, Hops, and Lavender; The Platinum Candy Kush strain is an Indica-dominant hybrid asserts itself as one of the “heaviest” strains around. Platinum OG is purported to stem from three strains: Master Kush, OG Kush, and a third unknown parent. Flowers are lime green and plump, with prominent orange hairs and a platinum coating thanks to the abundance of THC crystals. A brief, heady onset settles into a powerful physical sedation suitable for nighttime use and pain, stress, or anxiety relief, making this precious strain a robust healer. Then this is married to: Candyland, a gold medalist of the 2012 KushCon, is a sativa-dominant hybrid bred from Granddaddy Purple and Bay Platinum Cookies. Golden hairs weave through Candyland’s thick coat of sugar-like trichomes and highlight the compact, camouflage-colored buds. Patients turn to Candyland when trying to moderate pain, muscle tension, and sour moods. Candyland offers uplifting and stimulating effects, making it a perfect strain for social gatherings or creative pastimes. And bang, bang you get the beautiful Platinum Candy. Averaging around 35% THC, our Platinum Candy Kush boasts some of the highest THC percentages in the state. PCK is a must try for new customers and a favorite for our regulars",
+      "productCategory": "Flower",
+      "imageUrl": "https://strains.cdn.flowhub.com/pcj3e5JNqQzKpreQK/pcj3e5JNqQzKpreQK-1?version=1699489761",
+      "strainName": "kandy-kush",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Kandy Kush, also known as \"Candy Kush,\" is a hybrid marijuana strain and a favorite of DNA Genetics’ Reserva Privada line that combines two California classics, OG Kush (thought to be the “Christopher Wallace” cut) and Trainwreck, to make a tasty indica-dominant hybrid (although sativa phenotypes displaying more of the Trainwreck structure have been noted). Like the name suggests, the flavor is sweet like candy with a strong lemon-Kush scent. Popular with medicinal growers, Kandy Kush provides a potent body high with pronounced pain relief.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 284,
+          "score": 0.497743626221768,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 282,
+          "score": -0.0158421622818566,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 230,
+          "score": 0.141855714054763,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 223,
+          "score": 0.445805229480467,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 143,
+          "score": 0.668109081595272,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 123,
+          "score": 0.27498199237532,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 113,
+          "score": -0.17678804256548,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 97,
+          "score": -0.34379724822137,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 86,
+          "score": -0.070297281561386,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 82,
+          "score": -0.0597491142502389,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 79,
+          "score": -0.101715512017376,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 77,
+          "score": -0.360924497191047,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 54,
+          "score": -0.0455708914294572,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "KY Jealous",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 25,
+      "description": "Jealousy is known for its balancing effects. Those who have smoked this strain say it makes them feel mentally relaxed but physically energetic.",
+      "productCategory": "Flower",
+      "imageUrl": "https://strains.cdn.flowhub.com/ufc7GSAERq4s6Sgju/ufc7GSAERq4s6Sgju-1?version=1699217723",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Meathead",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 80,
+      "description": "Mendo Breath x Goliath, this strain is a powerful but well rounded Indica with an earthy taste and buds that smell like fruit cereal. Users experience a gentle onset of relaxation paired with a stony head high and a mood boost to boot.",
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Sasquatch Bait",
+      "brandName": "Good Good Farm",
+      "cartUnit": "g",
+      "price": 80,
+      "description": "Sasquatch Bait is a high-quality hybrid strain of craft cannabis, nitrogen-sealed for maximum freshness. A combination of Gorilla Butter and Secret Cheese, it offers a unique and robust flavor profile with notes of sweet and sour cheese and earthy and piney undertones.",
+      "productCategory": "Flower",
+      "imageUrl": "https://strains.cdn.flowhub.com/BDuGgo9uXrWpDPwEi/BDuGgo9uXrWpDPwEi-1?version=1699498221",
+      "strainName": "sasquatch",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Sasquatch is a hybrid marijuana strain bred by Pacific Northwest Growers. We're still learning about the flavors and effects of Sasquatch - if you've smoked, dabbed, or consumed this strain before, tell us about it by leaving a review.",
+      "effects": {
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 2.44076795539902,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.760464186275357,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.69749707123653,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.81043098214293,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.685621727743057,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.230323372770468,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.58324775552558,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.991595728768549,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.924017054084291,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -2.29133199137943,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.06181008298171,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.17428653722498,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.752443375279881,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Golden Goat",
+      "brandName": "Collective Elevation",
+      "cartUnit": "g",
+      "price": 15,
+      "description": "Golden Goat was created by accident in Topeka, Kansas, when a male Hawaiian-Romulan pollinated Mr. Dank's Island Sweet Skunk. The scent is described as being a combination of sweet, sour, and spicy, with a tropical fruit flavor. Its full-body effects provide a delightful rush of euphoria and creative spark.",
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/5RiLqFElTrGYhQJ11uZQ_Golden-Goat.png",
+      "strainName": "golden-goat",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Golden Goat was created by accident in Topeka, Kansas, when a male Hawaiian-Romulan pollinated Mr. Dank's Island Sweet Skunk. The scent is described as being a combination of sweet, sour, and spicy, with a tropical fruit flavor. Its full-body effects provide a delightful rush of euphoria and creative spark. Golden Goat's flowering time is 9 to 11 weeks, with a golden appearance closer to harvest.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 725,
+          "score": 0.747846955846142,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 633,
+          "score": 0.941130716373289,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 614,
+          "score": 0.475668000114678,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 528,
+          "score": 1.316650191201,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 498,
+          "score": -0.795880550961124,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 424,
+          "score": 0.638883330842536,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 374,
+          "score": 0.413886283659382,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 318,
+          "score": 0.71317271614595,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 238,
+          "score": 0.140519938740068,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 198,
+          "score": -0.198278947973641,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 195,
+          "score": -0.0551982021685514,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 158,
+          "score": 0.174640806224843,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 96,
+          "score": -0.731963133641642,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Pavé Runtz",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 20,
+      "description": "Pavé is a marijuana strain from Compound Genetics. It's a blingy, minty, gassy cross of Paris OG and The Menthol. The award-winning breeder currently sells Pavé seeds in new crosses Candy Pavé (Eye Candy x Pavé), and the strawberry-scented Strawberry Pave (Red Pop x Pavé). Pavé with the accento refers to jewelry so iced out you can’t see the metal setting.",
+      "productCategory": "Flower",
+      "imageUrl": "https://strains.cdn.flowhub.com/8hSGYXuF8ocR3yGLb/8hSGYXuF8ocR3yGLb-1?version=1699495317",
+      "strainName": "pav",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Pavé is a marijuana strain from Compound Genetics. It's a blingy, minty, gassy cross of Paris OG and The Menthol. The award-winning breeder currently sells Pavé seeds in new crosses Candy Pavé (Eye Candy x Pavé), and the strawberry-scented Strawberry Pave (Red Pop x Pavé). Pavé with the accento refers to jewelry so iced out you can’t see the metal setting. The strain screams 2022 in exotics—a white-out trichome blizzard burying a stacked, thick bud. Pavé also dumps hash. This crazy-high-THC hybrid adds some blinding, heady bling to any situation. Grab some sunglasses.",
+      "effects": {
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": 1.96123230700483,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": 3.15395627665591,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": 0.206689862912185,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": 0.350053133181584,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": 0.29016737576654,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 0.432568311935781,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.996033240059021,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.391609193756627,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 0.573547764980237,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.353790758888881,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.493790365132247,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.515323669774454,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.15010196786134,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Chocolope",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 25,
+      "description": "Chocolope, also known as \"D-Line,\" is a popular sativa made by crossing Chocolate Thai with Cannalope Haze. The result is a delicious homage to the chocolate strains that were popular in the 1980s. Chocolope's hefty buds give earthy, sweet coffee flavors that provide a dreamy, cerebral effect. Consumers report a strong, euphoric mental shift that is great when coping with depression or stress.",
+      "productCategory": "Flower",
+      "imageUrl": "https://strains.cdn.flowhub.com/TzZZiizCjFb3PRvYQ/TzZZiizCjFb3PRvYQ-1?version=1699496007",
+      "strainName": "chocolope",
+      "strainCategory": "Sativa",
+      "strainDescription": "Chocolope, also known as \"D-Line,\" is a popular sativa marijuana strain made by crossing Chocolate Thai with Cannalope Haze. The result is a delicious homage to the chocolate strains that were popular in the 1980s. Chocolope's hefty buds give earthy, sweet coffee flavors that provide a dreamy, cerebral effect. Consumers report a strong, euphoric mental shift that is great when coping with depression or stress.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 641,
+          "score": 0.538914380676628,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 628,
+          "score": 1.11596264821208,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 521,
+          "score": 1.44947570393185,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 512,
+          "score": 0.136954521595032,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 409,
+          "score": 0.701562937861591,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 366,
+          "score": -1.28403455979271,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 362,
+          "score": 0.476491888784105,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 279,
+          "score": 0.58362900037533,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 192,
+          "score": -0.0690522788941663,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 139,
+          "score": -0.502793783890916,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 117,
+          "score": -0.510344222000233,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 113,
+          "score": -0.104514400352078,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 74,
+          "score": -0.819748967146076,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Hypothermia",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 30,
+      "description": "Slurricane x Bluenicorn. This strain is known to have multiple effects ranging from focused and active to a partial couch lock effect. The stages of the high that comes from Hypothermia are an intense euphoric happiness that will happen shortly after you finish your smoke. This is followed by a seemingly equal intense body high that may or may not result in a couch lock effect.",
+      "productCategory": "Flower",
+      "imageUrl": "https://strains.cdn.flowhub.com/uFFLyB5f4WeXHxyMv/uFFLyB5f4WeXHxyMv-1?version=1699405680",
+      "strainName": "hypothermia",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Hypothermia is a hybrid weed strain made from a genetic cross between White Widow, AK-47, and Blueberry. This strain is a strong and pungent hybrid that has a herbal and earthy aroma with notes of citrus and pine. Hypothermia is 23-27% THC, making this strain an ideal choice for experienced cannabis consumers. Leafly customers tell us Hypothermia effects include relaxed, euphoric, and happy. Medical marijuana patients often choose Hypothermia when dealing with symptoms associated with pain, depression, and lack of appetite. Bred by Brothers In Farms, Hypothermia features flavors like earthy, citrus, and spicy/herbal. The dominant terpene of this strain is unknown, but it may contain some myrcene or caryophyllene based on its aroma and effects. The average price of Hypothermia typically ranges from $10-$20 per gram. This strain is a potent and relaxing hybrid that can help you feel calm and happy while easing your pain and anxiety. If you’ve smoked, dabbed, or consumed Hypothermia, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 1.48448277667472,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": 1.1703857978847,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.139226061448184,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 1.64085262626573,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.348082254612208,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.128698273222937,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.105232483149194,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.0518246848356489,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.133539926632554,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.81092115730628,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.68752266080404,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.03033351474532,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.13132045384191,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Summer Shandy",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 30,
+      "description": "Lemonhead OG x Platinum Candy Kush x Platinum Pound Cake; very uplifting, perfect for kicking back and relaxing in the afternoon or at the end of a long day.",
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Dosi Punch",
+      "brandName": "Borealis",
+      "cartUnit": "g",
+      "price": 30,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://strains.cdn.flowhub.com/BFffM5YdgyhmrzRuv/BFffM5YdgyhmrzRuv-1?version=1699221803",
+      "strainName": "dosi-punch",
+      "strainCategory": "Indica",
+      "strainDescription": "Bred by Symbiotic Genetics, Dosi Punch is a cross of Do-Si-Dos and Purple Punch F2. This indica-dominant strain comes in with flavors of grape, gas, and Cookies. Beautiful purple buds come blanketed in trichomes, and the THC-driven high is stoney, leaving consumers feeling happy and relaxed.\n\n ",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": 0.578360315259275,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 0.189890564588539,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": -0.238914600887675,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": 1.12679011727947,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": 1.02322980463465,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": -0.307588827410693,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.279033554542761,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": 0.0834151292937867,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.114111128293797,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.182466659179242,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.56531342489862,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.778496002998995,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -0.74911466576497,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Cold Snap",
+      "brandName": "Borealis",
+      "cartUnit": "g",
+      "price": 30,
+      "description": "Cold Snap is an indica-dominant cross of Biscotti and The Menthol exhibiting jagged, dark purple hues sparsely accented with dark green edges and thin orange pistils under a rich blanketing of snow-like resin. Cold Snap’s complex aroma and flavor are reminiscent of sweet fuel and mint, with more subtle notes of earth, pine, sour citrus, and vanilla that blossom when ground. Those looking for gas will find it here, but the depth and complexity of Cold Snap culminates in a truly unique and invigorating experience.",
+      "productCategory": "Flower",
+      "imageUrl": "https://strains.cdn.flowhub.com/5EenK5KbCwbLain2p/5EenK5KbCwbLain2p-1?version=1699395466",
+      "strainName": "cold-snap",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Cold Snap is a hybrid weed strain made from a genetic cross between Biscotti and The Menthol. Cold Snap is 19% THC and 1% CBG, making this cannabis strain an ideal choice for both beginners and experienced cannabis consumers. Leafly customers tell us Cold Snap’s effects include aroused, giggly, and relaxed. Medical marijuana patients often choose Cold Snap when dealing with symptoms associated with anxiety, lack of appetite and insomnia. Bred by WyEast Farms, Cold Snap features funky flavors like menthol, diesel, and blue cheese. The dominant terpene of this strain is caryophyllene. The average price of Cold Snap typically ranges from $25–$45. If you’ve smoked, dabbed, or consumed Cold Snap, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": 0.7021942958985,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.0125821608952351,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 1.18434512974468,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 1.97717851504695,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.586924498558151,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 0.656583226137958,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 0.461866273117915,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.98813352570654,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": 0.0116779518578791,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.476583088169858,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.740269624511932,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.664743942910268,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.972229507848564,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Lemonhead OG",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 30,
+      "description": "Genetics: C4 x OG Kush; Sativa; Primary Terpene Aromas: Hops, Cinnamon, and Lavender; Lemonhead OG by Royal Choice Farms is a gleeful Kush cut with bright, refreshing terpenes. Sweet on the nose and the palate, Lemonhead OG offers consumers a clean, zestful lemon flavor. Lemonhead OG is one of Grizzly Pine's most popular strains due to its strong lemon flavor and high THC percentage.",
+      "productCategory": "Flower",
+      "imageUrl": "https://strains.cdn.flowhub.com/o3ipTp87caMN9FQZc/o3ipTp87caMN9FQZc-1?version=1699387575",
+      "strainName": "lemonhead-og",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Lemonhead OG by Royal Choice Farms is a gleeful Kush cut with bright, refreshing terpenes. Sweet on the nose and the palate, this strain offers consumers a clean, zestful lemon flavor coupled with a lung-expanding mint/eucalyptus. As with many OG strains, euphoria takes the lead, elevating the consumer’s mood and provoking both smiles and laughter. The effects remain peppy as they transition into the body, leaving a warm and fuzzy sensation without being overly stimulating.   ",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 64,
+          "score": 0.770394226761925,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 64,
+          "score": 1.33785511530833,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 54,
+          "score": 0.960197366199372,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 49,
+          "score": 1.0006021998538,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 33,
+          "score": 1.43951453294012,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 32,
+          "score": 0.626601533369558,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 28,
+          "score": 0.389095616774607,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 26,
+          "score": 0.795741649800831,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": 0.351818802063124,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 19,
+          "score": 0.124976808749043,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": 0.0510503625530521,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.211407311207256,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.74159675609446,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Apple Fritter",
+      "brandName": null,
+      "cartUnit": "g",
+      "price": 30,
+      "description": "Apple Fritter, a true hybrid weed strain, is known for its powerful and relaxing high. Put out by Lumpy’s Flowers, the Apple Fritter marijuana strain is a reported cross of Sour Apple and Animal Cookies. It's a great hybrid, combining the stone of GSC with the energy of a diesel. Apple Fritter cannabis has a flavor and aroma that come off as sweet and earthy, with a light, cheesy, apple pastry influence.",
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/strains/photos/ziw0L3SZSIyM6uiLup73_AppleFritter%20(1).jpg",
+      "strainName": "apple-fritter",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Apple Fritter, a true hybrid weed strain, is known for its powerful and relaxing high. Put out by Lumpy’s Flowers, the Apple Fritter marijuana strain is a reported cross of Sour Apple and Animal Cookies. According to Leafly reviewers, Apple Fritter’s effects include feeling relaxed, giggly, and tingly. It's a great hybrid, combining the stone of GSC with the energy of a diesel. Apple Fritter cannabis has a flavor and aroma that come off as sweet and earthy, with a light, cheesy, apple pastry influence.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 372,
+          "score": 0.666321932397815,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 238,
+          "score": -0.249903478351725,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 217,
+          "score": -0.193503526098294,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 165,
+          "score": -0.350676226765334,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 135,
+          "score": 0.611378455714149,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 128,
+          "score": 0.420249717773314,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 117,
+          "score": 0.100376839803947,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 103,
+          "score": -0.393049085022934,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 97,
+          "score": -0.0995068810396868,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 93,
+          "score": -0.477275074571835,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 87,
+          "score": -0.0776781181117568,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 66,
+          "score": -0.542382810340304,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 44,
+          "score": -0.277444493639265,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Peach Disposable Vape - 0.5g",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 40,
+      "description": "Primary Terpenes; Limonene, Linalool + Geraniol. Our all-in-one disposable vape pens are perfect for on-the-go. No battery, no charger, just unpack and rip it. THC distillate is a purified butane cannabis extract. The clear golden concentrate is purged of all waxes, fats and oils during the filtration/distillation process using the most advanced technology to produce a pure thick clear oil. Our distillate/terp vapes contain distillate plus flavor-specific terpenes added back into oil after the process, resulting in a potent, smooth, and extremely flavorful product. \r\nOur Peach vape juice captures the fragrance of biting into a ripe peach balanced on a bed of floral and fruity aromatics while \r\ndelivering a balanced, hybrid effect.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://products.cdn.flowhub.com/WFkPQ4G9wzN5NTwaJ/WFkPQ4G9wzN5NTwaJ-1?version=1699376273",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Fresh Lemon Disposable Vape | 0.5g",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 30,
+      "description": "Primary Terpenes; Limonene + Citral. THC Distillate + Fresh Lemon Terpenes (Indica blend); Our distillate/terp vapes contain distillate plus flavor-specific terpenes added back into oil after the process, resulting in a potent, smooth, and extremely flavorful product. THC distillate is a purified butane cannabis extract. The clear golden concentrate is purged of all waxes, fats and oils during the filtration/distillation process using the most advanced technology to produce a pure thick clear oil. Terpene Flavor Profiles utilize the extensive aromatic versatility of terpenes to recreate bold, trendy & functional flavors. \r\nFresh Lemon Terpene Flavor captures the feeling of walking through a lemon orchard, with hints of flowers and fruit. Terpene Flavors are an effects-rich terpene base combined with a variety of other aromatic compounds. \r\nThe DOWN blend features our proprietary terpene mix to help you slow down and unwind.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://products.cdn.flowhub.com/7ouW27DaPtBMJjScf/7ouW27DaPtBMJjScf-1?version=1699138686",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Cherry Pie Distillate Cart - 0.5g",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 35,
+      "description": "THC distillate is a purified butane cannabis extract. The clear golden concentrate is purged of all waxes, fats and oils during the filtration/distillation process using the most advanced technology to produce a pure thick clear oil. Our distillate/terp vapes contain distillate plus flavor-specific terpenes added back into oil after the process, resulting in a potent, smooth, and extremely flavorful product.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://products.cdn.flowhub.com/XWaviDJ9PfH5xyDrK/XWaviDJ9PfH5xyDrK-1?version=1699496007",
+      "strainName": "cherry-pie",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Cherry Pie's parents are Granddaddy Purple and F1 Durb. With buds that are dense and full of orange hairs and a touch of purple, this hybrid strain smells of sweet and sour cherry pie. Leafly reviewers tell us that Cherry Pie’s effects include feeling giggly, happy, and euphoric.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1008,
+          "score": 0.18450771073451,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 963,
+          "score": 0.536596521122079,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 790,
+          "score": 0.208204646465797,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 693,
+          "score": 0.259874799408511,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 457,
+          "score": 0.113789683186446,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 420,
+          "score": 0.516209049522109,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 391,
+          "score": 0.0966891188411046,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 368,
+          "score": -0.184053273900342,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 355,
+          "score": 0.129756791979247,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 321,
+          "score": 0.14527676053874,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 300,
+          "score": -0.13349449292528,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 273,
+          "score": -0.0646278070121811,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 219,
+          "score": 0.154333860188857,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Fresh Lemon Distillate Cart - 0.5g",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 35,
+      "description": "Primary Terpenes; Limonene + Citral. THC Distillate + Fresh Lemon Terpenes (Indica blend); Our distillate/terp vapes contain distillate plus flavor-specific terpenes added back into oil after the process, resulting in a potent, smooth, and extremely flavorful product. THC distillate is a purified butane cannabis extract. The clear golden concentrate is purged of all waxes, fats and oils during the filtration/distillation process using the most advanced technology to produce a pure thick clear oil. Terpene Flavor Profiles utilize the extensive aromatic versatility of terpenes to recreate bold, trendy & functional flavors. \r\nFresh Lemon Terpene Flavor captures the feeling of walking through a lemon orchard, with hints of flowers and fruit. Terpene Flavors are an effects-rich terpene base combined with a variety of other aromatic compounds. \r\nThe DOWN blend features our proprietary terpene mix to help you slow down and unwind.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://products.cdn.flowhub.com/CxnLfMSfCiTtyyLY2/CxnLfMSfCiTtyyLY2-1?version=1699237598",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Green Apple Distillate Cart - 0.5g",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 35,
+      "description": "Primary Terpene; Limonene. THC Distillate + Green Apple Terpenes (Indica blend); Our distillate/terp vapes contain distillate plus flavor-specific terpenes added back into oil after the process, resulting in a potent, smooth, and extremely flavorful product. THC distillate is a purified butane cannabis extract. The clear golden concentrate is purged of all waxes, fats and oils during the filtration/distillation process using the most advanced technology to produce a pure thick clear oil. \r\nTerpene Flavor Profiles utilize the extensive aromatic versatility of terpenes to recreate bold, trendy & functional flavors.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://products.cdn.flowhub.com/eskhQGaFerBSoWkp2/eskhQGaFerBSoWkp2-1?version=1698803559",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Pineapple Express Distillate Cart - 0.5g",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 35,
+      "description": "Primary Terpenes; Caryophyllene, Pinene, Limonene. THC distillate is a purified butane cannabis extract. The clear golden concentrate is purged of all waxes, fats and oils during the filtration/distillation process using the most advanced technology to produce a pure thick clear oil. Our distillate/terp vapes contain distillate plus flavor-specific terpenes added back into oil after the process, resulting in a potent, smooth, and extremely flavorful product.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://products.cdn.flowhub.com/Ffcj69qfKW3bCDoKc/Ffcj69qfKW3bCDoKc-1?version=1699488875",
+      "strainName": "pineapple-express",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Pineapple Express is a sativa-dominant hybrid marijuana strain made by crossing Trainwreck with Hawaiian. While this strain rose to fame on the silver screen in 2008 amidst the release of Pineapple Express, it is a real strain that you can find on the shelves of dispensaries across the country.  Since then, this strain has become a favorite in the hearts and minds of cannabis lovers. Pineapple Express produces long-lasting energetic effects that you can feel right away. Pineapple Express is 18% THC and may make you feel buzzy, alert, and creative. The best time to smoke Pineapple Express is in the morning, afternoon, or early evening hours. In terms of flavor, this strain packs a punch to your pallet with bright citrus notes infused with pineapple and earthy pine, thanks to the terpenes of caryophyllene limonene and Ocimene. Medical marijuana patients choose Pineapple Express to relieve symptoms associated with depression, pain, and fatigue. The average price per gram of Pineapple Express is $20.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2174,
+          "score": 0.851042897959458,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1736,
+          "score": 0.760442129817286,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1613,
+          "score": 0.173857855481112,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1458,
+          "score": 1.1811219207934,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1398,
+          "score": -0.880510800207753,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1239,
+          "score": 0.643950025261596,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 975,
+          "score": 0.816404265908121,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 921,
+          "score": 0.63003529237183,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 911,
+          "score": 0.0883538418103257,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 721,
+          "score": 0.102730808346324,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 548,
+          "score": -0.101065958961,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 437,
+          "score": 0.114208898884403,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 293,
+          "score": -0.709411240081524,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Blue Raspberry Distillate Cart - 0.5g",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 35,
+      "description": "Primary Terpenes; Limonene + Myrcene. THC distillate is a purified butane cannabis extract. The clear golden concentrate is purged of all waxes, fats and oils during the filtration/distillation process using the most advanced technology to produce a pure thick clear oil. Our distillate/terp vapes contain distillate plus flavor-specific terpenes added back into oil after the process, resulting in a potent, smooth, and extremely flavorful product. Blue Raspberry will give you flashbacks to your childhood days, with heavy berry, fruit flavor forward with a citrus and almost licorice aftertaste.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://products.cdn.flowhub.com/d88Tr6bjLsMFsSb5x/d88Tr6bjLsMFsSb5x-1?version=1699480793",
+      "strainName": "blue-raspberry",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Blue Raspberry, also known as \"Blue Razz,\" is a potent hybrid marijuana strain believed to originate from a Raspberry Kush cross. While little is known about this mystery strain, it's commonly found in cartridges and consumers say it produces easy-going effects that are uplifting and enjoyable. Blue Raspberry offers a sweet flavor profile with skunky undertones. Medical marijuana patients choose this strain to help relieve symptoms associated with pain and headaches. Growers say Blue Raspberry has a flowering time of about 10-12 weeks when cultivated indoors. We're still learning about the flavors and effects of this strain - if you've smoked, dabbed or consumed Blue Raspberry, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 53,
+          "score": 0.505451311966877,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 43,
+          "score": 0.311053834988332,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 32,
+          "score": 0.179693683713751,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 30,
+          "score": -0.355937436184887,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": 0.394184951710934,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 0.221998158015043,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": 0.0439785606963888,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.15632697278493,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.0671409034209638,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -0.25508406092103,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -0.451537081895687,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -0.720742840212798,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.224396207332557,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Tropical Zkittles Distillate Cart - 0.5g",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 35,
+      "description": "Primary Terpenes; Mycrene, Limonene + Citronellal. THC distillate is a purified butane cannabis extract. The clear golden concentrate is purged of all waxes, fats and oils during the filtration/distillation process using the most advanced technology to produce a pure thick clear oil. Our distillate/terp vapes contain distillate plus flavor-specific terpenes added back into oil after the process, resulting in a potent, smooth, and extremely flavorful product.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://products.cdn.flowhub.com/fZ7qStRyDhhzihTyD/fZ7qStRyDhhzihTyD-1?version=1699487594",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Tropical Zkittles Disposable Vape - 0.5g",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 40,
+      "description": "Primary Terpenes; Mycrene, Limonene + Citronellal. THC distillate is a purified butane cannabis extract. The clear golden concentrate is purged of all waxes, fats and oils during the filtration/distillation process using the most advanced technology to produce a pure thick clear oil. Our distillate/terp vapes contain distillate plus flavor-specific terpenes added back into oil after the process, resulting in a potent, smooth, and extremely flavorful product.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://products.cdn.flowhub.com/2Z4WufqQcKNSXuCNL/2Z4WufqQcKNSXuCNL-1?version=1699210189",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Pineapple Express Disposable Vape | 0.5g",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 40,
+      "description": "Primary Terpenes; Caryophyllene, Pinene, Limonene. THC distillate is a purified butane cannabis extract. The clear golden concentrate is purged of all waxes, fats and oils during the filtration/distillation process using the most advanced technology to produce a pure thick clear oil. Our distillate/terp vapes contain distillate plus flavor-specific terpenes added back into oil after the process, resulting in a potent, smooth, and extremely flavorful product.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://products.cdn.flowhub.com/ihRMaLcnxnqnqT7rh/ihRMaLcnxnqnqT7rh-1?version=1699398295",
+      "strainName": "pineapple-express",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Pineapple Express is a sativa-dominant hybrid marijuana strain made by crossing Trainwreck with Hawaiian. While this strain rose to fame on the silver screen in 2008 amidst the release of Pineapple Express, it is a real strain that you can find on the shelves of dispensaries across the country.  Since then, this strain has become a favorite in the hearts and minds of cannabis lovers. Pineapple Express produces long-lasting energetic effects that you can feel right away. Pineapple Express is 18% THC and may make you feel buzzy, alert, and creative. The best time to smoke Pineapple Express is in the morning, afternoon, or early evening hours. In terms of flavor, this strain packs a punch to your pallet with bright citrus notes infused with pineapple and earthy pine, thanks to the terpenes of caryophyllene limonene and Ocimene. Medical marijuana patients choose Pineapple Express to relieve symptoms associated with depression, pain, and fatigue. The average price per gram of Pineapple Express is $20.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2174,
+          "score": 0.851042897959458,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1736,
+          "score": 0.760442129817286,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1613,
+          "score": 0.173857855481112,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1458,
+          "score": 1.1811219207934,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1398,
+          "score": -0.880510800207753,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1239,
+          "score": 0.643950025261596,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 975,
+          "score": 0.816404265908121,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 921,
+          "score": 0.63003529237183,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 911,
+          "score": 0.0883538418103257,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 721,
+          "score": 0.102730808346324,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 548,
+          "score": -0.101065958961,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 437,
+          "score": 0.114208898884403,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 293,
+          "score": -0.709411240081524,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Cherry Pie Disposable Vape - 0.5g",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 40,
+      "description": "THC distillate is a purified butane cannabis extract. The clear golden concentrate is purged of all waxes, fats and oils during the filtration/distillation process using the most advanced technology to produce a pure thick clear oil. Our distillate/terp vapes contain distillate plus flavor-specific terpenes added back into oil after the process, resulting in a potent, smooth, and extremely flavorful product.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://products.cdn.flowhub.com/47KtQM5tgFi83EtdG/47KtQM5tgFi83EtdG-1?version=1699141185",
+      "strainName": "cherry-pie",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Cherry Pie's parents are Granddaddy Purple and F1 Durb. With buds that are dense and full of orange hairs and a touch of purple, this hybrid strain smells of sweet and sour cherry pie. Leafly reviewers tell us that Cherry Pie’s effects include feeling giggly, happy, and euphoric.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1008,
+          "score": 0.18450771073451,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 963,
+          "score": 0.536596521122079,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 790,
+          "score": 0.208204646465797,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 693,
+          "score": 0.259874799408511,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 457,
+          "score": 0.113789683186446,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 420,
+          "score": 0.516209049522109,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 391,
+          "score": 0.0966891188411046,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 368,
+          "score": -0.184053273900342,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 355,
+          "score": 0.129756791979247,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 321,
+          "score": 0.14527676053874,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 300,
+          "score": -0.13349449292528,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 273,
+          "score": -0.0646278070121811,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 219,
+          "score": 0.154333860188857,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Purple Punch Disposable Vape - 0.5g",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 40,
+      "description": "Primary Terpenes; Caryophyllene, Limonene. THC distillate is a purified butane cannabis extract. The clear golden concentrate is purged of all waxes, fats and oils during the filtration/distillation process using the most advanced technology to produce a pure thick clear oil. Our distillate/terp vapes contain distillate plus flavor-specific terpenes added back into oil after the process, resulting in a potent, smooth, and extremely flavorful product.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://products.cdn.flowhub.com/8CRnndM2muFS9XDy7/8CRnndM2muFS9XDy7-1?version=1699477486",
+      "strainName": "purple-punch",
+      "strainCategory": "Indica",
+      "strainDescription": "Purple Punch is the sweet and sedating union of two indica-dominant classics. By breeding Larry OG with Granddaddy Purple, the astonishing trichome laden Purple Punch was born, smelling of grape candy, blueberry muffins, and tart Kool-Aid. The potency of this strain gives the consumer a one-two punch to the head and body, initially landing between the eyes and settling down into the limbs. Purple Punch is a delicious dessert strain that is best suited for after dinner. Its effects may help with managing nausea, stress, minor body aches, and sleeplessness.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1158,
+          "score": 1.15540748259059,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 748,
+          "score": 0.123602019824217,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 673,
+          "score": 1.54559141780141,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 638,
+          "score": -0.0308295669449325,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 416,
+          "score": -0.497753952279702,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 412,
+          "score": 0.611889084374892,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 283,
+          "score": 0.0718527414565906,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 263,
+          "score": 0.0485689576418938,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 231,
+          "score": -0.583488895990233,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 227,
+          "score": -0.631246948451187,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 190,
+          "score": -0.326678196255094,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 175,
+          "score": 0.0439322381047684,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 93,
+          "score": -0.888955931185073,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Blue Raspberry Disposable Vape - 0.5g",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 40,
+      "description": "Primary Terpenes; Limonene + Myrcene. Our all-in-one disposable vape pens are perfect for on-the-go. No battery, no charger, just unpack and rip it. \r\n\r\nTHC distillate is a purified butane cannabis extract. The clear golden concentrate is purged of all waxes, fats and oils during the filtration/distillation process using the most advanced technology to produce a pure thick clear oil. Our distillate/terp vapes contain distillate plus flavor-specific terpenes added back into oil after the process, resulting in a potent, smooth, and extremely flavorful product. Blue Raspberry will give you flashbacks to your childhood days, with heavy berry, fruit flavor forward with a citrus and almost licorice aftertaste.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://products.cdn.flowhub.com/vaujiyBYnyaX5Tcbs/vaujiyBYnyaX5Tcbs-1?version=1699137206",
+      "strainName": "blue-raspberry",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Blue Raspberry, also known as \"Blue Razz,\" is a potent hybrid marijuana strain believed to originate from a Raspberry Kush cross. While little is known about this mystery strain, it's commonly found in cartridges and consumers say it produces easy-going effects that are uplifting and enjoyable. Blue Raspberry offers a sweet flavor profile with skunky undertones. Medical marijuana patients choose this strain to help relieve symptoms associated with pain and headaches. Growers say Blue Raspberry has a flowering time of about 10-12 weeks when cultivated indoors. We're still learning about the flavors and effects of this strain - if you've smoked, dabbed or consumed Blue Raspberry, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 53,
+          "score": 0.505451311966877,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 43,
+          "score": 0.311053834988332,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 32,
+          "score": 0.179693683713751,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 30,
+          "score": -0.355937436184887,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": 0.394184951710934,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 0.221998158015043,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": 0.0439785606963888,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.15632697278493,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.0671409034209638,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -0.25508406092103,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -0.451537081895687,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -0.720742840212798,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.224396207332557,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Platinum Candy Kush Live Rosin",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 50,
+      "description": "Live Rosin is the champion for its solventless purity and terpene-packed flavor. Platinum Candy Kush Genetics: Platinum OG x Candy Land; Hybrid; Primary Terpene Aromas: Orange, Hops, and Lavender; The Platinum Candy Kush strain is an Indica-dominant hybrid asserts itself as one of the “heaviest” strains around. Platinum OG is purported to stem from three strains: Master Kush, OG Kush, and a third unknown parent.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": "kandy-kush",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Kandy Kush, also known as \"Candy Kush,\" is a hybrid marijuana strain and a favorite of DNA Genetics’ Reserva Privada line that combines two California classics, OG Kush (thought to be the “Christopher Wallace” cut) and Trainwreck, to make a tasty indica-dominant hybrid (although sativa phenotypes displaying more of the Trainwreck structure have been noted). Like the name suggests, the flavor is sweet like candy with a strong lemon-Kush scent. Popular with medicinal growers, Kandy Kush provides a potent body high with pronounced pain relief.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 284,
+          "score": 0.497743626221768,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 282,
+          "score": -0.0158421622818566,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 230,
+          "score": 0.141855714054763,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 223,
+          "score": 0.445805229480467,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 143,
+          "score": 0.668109081595272,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 123,
+          "score": 0.27498199237532,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 113,
+          "score": -0.17678804256548,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 97,
+          "score": -0.34379724822137,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 86,
+          "score": -0.070297281561386,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 82,
+          "score": -0.0597491142502389,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 79,
+          "score": -0.101715512017376,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 77,
+          "score": -0.360924497191047,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 54,
+          "score": -0.0455708914294572,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Summer Drip Sugar Wax - 1.0g",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 20,
+      "description": "Summer Shandy + Hypothermia dabs that will melt the worries away. A mixture of such powerful strains created one heady hybrid wax with a sugary sweet smoke backed by a hint of citrus. Loaded with Limonene and with notable amounts of Caryophyllene, the terpene profile on this one screams Good Vibes Only.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Summer Shandy Sugar Wax",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 20,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Platinum Candy Kush Sugar Wax - 1.0g",
+      "brandName": "Grizzly",
+      "cartUnit": "g",
+      "price": 35,
+      "description": "Genetics: Platinum OG x Candy Land; Hybrid; Primary Terpene Aromas: Orange, Hops, and Lavender; The Platinum Candy Kush strain is an Indica-dominant hybrid asserts itself as one of the “heaviest” strains around. Platinum OG is purported to stem from three strains: Master Kush, OG Kush, and a third unknown parent. A brief, heady onset settles into a powerful physical sedation suitable for nighttime use and pain, stress, or anxiety relief, making this precious strain a robust healer. Averaging around 35% THC, our Platinum Candy Kush boasts some of the highest THC percentages in the state. PCK is a must-try for new customers and a favorite for our regulars.\r\nWe pride ourselves on having the CLEANEST BHO in Bozeman. All of our concentrates are extracted from fresh flower and are purged for 72 hours before they are sent to a lab for testing.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://products.cdn.flowhub.com/uiuL8vJmyy3mXYYSs/uiuL8vJmyy3mXYYSs-1?version=1699491210",
+      "strainName": "kandy-kush",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Kandy Kush, also known as \"Candy Kush,\" is a hybrid marijuana strain and a favorite of DNA Genetics’ Reserva Privada line that combines two California classics, OG Kush (thought to be the “Christopher Wallace” cut) and Trainwreck, to make a tasty indica-dominant hybrid (although sativa phenotypes displaying more of the Trainwreck structure have been noted). Like the name suggests, the flavor is sweet like candy with a strong lemon-Kush scent. Popular with medicinal growers, Kandy Kush provides a potent body high with pronounced pain relief.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 284,
+          "score": 0.497743626221768,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 282,
+          "score": -0.0158421622818566,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 230,
+          "score": 0.141855714054763,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 223,
+          "score": 0.445805229480467,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 143,
+          "score": 0.668109081595272,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 123,
+          "score": 0.27498199237532,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 113,
+          "score": -0.17678804256548,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 97,
+          "score": -0.34379724822137,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 86,
+          "score": -0.070297281561386,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 82,
+          "score": -0.0597491142502389,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 79,
+          "score": -0.101715512017376,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 77,
+          "score": -0.360924497191047,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 54,
+          "score": -0.0455708914294572,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Blueberry Diesel Distillate Cart - 0.5g",
+      "brandName": "United Machining",
+      "cartUnit": "g",
+      "price": 35,
+      "description": "THC distillate is a purified butane cannabis extract. The golden concentrate is purged of all waxes, fats and oils during the filtration/distillation process using the most advanced technology to produce a pure thick clear oil.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_1.png",
+      "strainName": "blueberry-diesel",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Blueberry Diesel is a cross of two favorite strains, Blueberry and Sour Diesel. It is probably best known for its strong blueberry smell with hints of fuel from its Diesel lineage. Blueberry flavors overwhelm its sticky flowers, which should have plenty of trichomes and long orange hairs. Effects tend to be happy and relaxing but not too overwhelming, making this a popular choice for many kinds of consumers.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 169,
+          "score": 0.335790277925441,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 168,
+          "score": -0.15746740595971,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 162,
+          "score": 0.485158756389842,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 141,
+          "score": 0.474839419556482,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 79,
+          "score": 0.209316444431452,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 74,
+          "score": 0.310816047660388,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 71,
+          "score": -0.169097840328092,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 67,
+          "score": -0.215503044538414,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 60,
+          "score": 0.148807697751748,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 52,
+          "score": -0.11193288612455,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 50,
+          "score": -0.248341418308864,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 43,
+          "score": -0.258203245907028,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 29,
+          "score": -0.179469618623541,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "9mg Indica Green Apple Gummies (10pk)",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 16,
+      "description": "Our sour gummy squares are the best in the area! Each pack has 10 squares, providing easy incremental dosing. These gummies have been infused with a terpene blend for indica effects.\r\nSee our menu for current dosage.",
+      "productCategory": "Edible",
+      "imageUrl": "https://products.cdn.flowhub.com/wMZpJEEn7jbqHfWNR/wMZpJEEn7jbqHfWNR-1?version=1699392301",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "1:1 THC-CBD Tincture (500mg)",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 80,
+      "description": "30ml of our coconut oil-based tincture contains a 1:1 ratio of full spectrum THC distillate and CBD isolate. This tincture combines two usually separate medicines in to one convenient dose. It is flavorless, and can be used topically or orally.",
+      "productCategory": "Edible",
+      "imageUrl": "https://products.cdn.flowhub.com/WDDgrj8WnLokMoZtA/WDDgrj8WnLokMoZtA-1?version=1699386757",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "92mg Lemon Lime Bevvies",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 10,
+      "description": "Bevvies THC Cocktails are made with real fruit juice for that perfect fresh and bright taste! Packaged into a compact recyclable multi-dose resealable bottle that's easy to throw into a backpack and enjoy out on the trails! Check our menu for current dosage. INGREDIENTS: Water, Lime, Lemon, Sugar, Marijuana Distillate, Polysorbate, Soy Lecithin, Potassium Sorbate.\r\n\r\n\r\n\r\n• 100% Real Fruit Juice\r\n\r\n• Fast acting\r\n\r\n• No Refrigeration Needed\r\n\r\n• Accurate Dosage\r\n\r\n• The Perfect Mixer\r\n\r\n• Recyclable Bottles",
+      "productCategory": "Edible",
+      "imageUrl": "https://products.cdn.flowhub.com/wnWyarMjsh5KHZjvH/wnWyarMjsh5KHZjvH-1?version=1699487324",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "10mg Sativa Pina Colada Gummies (10pk)",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 16,
+      "description": "Our sour gummy squares are the best in the area! Each pack has 10 squares, providing easy incremental dosing. These gummies have been infused with a terpene blend for sativa effects.\r\nSee our menu for current dosage.",
+      "productCategory": "Edible",
+      "imageUrl": "https://products.cdn.flowhub.com/f3a8xFtYJdDfCLamz/f3a8xFtYJdDfCLamz-1?version=1699410463",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "10mg Lychee 1:1 Gummies (10PK)",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 18,
+      "description": "Our 1:1 gummy squares are the best in the area! Each pack has 10 squares providing easy incremental dosing. \r\nSee our menu for current dosage.",
+      "productCategory": "Edible",
+      "imageUrl": "https://products.cdn.flowhub.com/uMiZPj2iM8Dn6zivo/uMiZPj2iM8Dn6zivo-1?version=1699122239",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Peach Gummies (MED ONLY) - 11mg",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 5,
+      "description": "Our sour gummy squares are the best in the area! Each gummy bear has 11mg of THC (56mg THC per 5-pack), providing easy incremental dosing.",
+      "productCategory": "Edible",
+      "imageUrl": "https://products.cdn.flowhub.com/jvHkFpneCYR6c6qgS/jvHkFpneCYR6c6qgS-1?version=1699479049",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "2mg Hybrid Watermelon Lime Gummies (10pk)",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 5,
+      "description": "Our sour gummy squares are the best in the area! Each pack has 10 squares, providing easy incremental dosing. These gummies have been infused with a terpene blend for indica effects. See our menu for current dosage.",
+      "productCategory": "Edible",
+      "imageUrl": "https://products.cdn.flowhub.com/jwpxcgBbfr44yvxjx/jwpxcgBbfr44yvxjx-1?version=1699486044",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Alpenglo Nightcap 2pk",
+      "brandName": "Alpenglo",
+      "cartUnit": "each",
+      "price": 7,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Alpenglo Daybreak 2pk",
+      "brandName": "Alpenglo",
+      "cartUnit": "each",
+      "price": 7,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Alpenglo Recover 2 pk",
+      "brandName": "Alpenglo",
+      "cartUnit": "each",
+      "price": 10,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "4mg Sativa Strawberry Gummies (10 PK)",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 13,
+      "description": "Our sour gummy squares are the best in the area! Each pack has 10 squares, providing easy incremental dosing. These gummies have been infused with a terpene blend for sativa effects. See our menu for current dosage.",
+      "productCategory": "Edible",
+      "imageUrl": "https://products.cdn.flowhub.com/8AEgJG5m3euB3EXgy/8AEgJG5m3euB3EXgy-1?version=1699299952",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "5mg Indica Blue Raspberry Gummies (10PK)",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 13,
+      "description": "Our sour gummy squares are the best in the area! Each gummy square has 4.65mg of THC (46.51mg THC per 10-pack), providing easy incremental dosing. These gummies have been infused with a terpene blend for indica effects.",
+      "productCategory": "Edible",
+      "imageUrl": "https://products.cdn.flowhub.com/4op9E4SzEHru6HJYy/4op9E4SzEHru6HJYy-1?version=1699299952",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "93mg Prickly Pear Lemon Bevvies",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 15,
+      "description": "Bevvies THC Cocktails are made with real fruit juice for that perfect fresh and bright taste! Packaged into a compact recyclable multi-dose resealable bottle that's easy to throw into a backpack and enjoy out on the trails! Check our menu for current dosage. INGREDIENTS: Water, Blood Orange, Lemon, Sugar, Marijuana Distillate, Polysorbate, Soy Lecithin, Potassium Sorbate. \r\n• 100% Real Fruit Juice \r\n• Fast acting \r\n• No Refrigeration Needed \r\n• Accurate Dosage \r\n• The Perfect Mixer \r\n• Recyclable Bottles",
+      "productCategory": "Edible",
+      "imageUrl": "https://products.cdn.flowhub.com/TesDctjyLgAFq5JXQ/TesDctjyLgAFq5JXQ-1?version=1699472811",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "95mg Pomegranate Lemon Bevvies",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 15,
+      "description": "Bevvies THC Cocktails are made with real fruit juice for that perfect fresh and bright taste! Packaged into a compact recyclable multi-dose resealable bottle that's easy to throw into a backpack and enjoy out on the trails! Check our menu for current dosage. INGREDIENTS: Water, Pomegranate, Lemon, Sugar, Marijuana Distillate, Polysorbate, Soy Lecithin, Potassium Sorbate.\r\n\r\n\r\n\r\n• 100% Real Fruit Juice\r\n\r\n• Fast acting\r\n\r\n• No Refrigeration Needed\r\n\r\n• Accurate Dosage\r\n\r\n• The Perfect Mixer\r\n\r\n• Recyclable Bottles",
+      "productCategory": "Edible",
+      "imageUrl": "https://products.cdn.flowhub.com/sbYZtLstuKMk7sP4k/sbYZtLstuKMk7sP4k-1?version=1699487324",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "95mg Blackberry Lemon Bevvies",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 15,
+      "description": "Bevvies THC Cocktails are made with real fruit juice for that perfect fresh and bright taste! Packaged into a compact recyclable multi-dose resealable bottle that's easy to throw into a backpack and enjoy out on the trails! Check our menu for current dosage. INGREDIENTS: Water, Blackberry, Lemon, Sugar, Marijuana Distillate, Polysorbate, Soy Lecithin, Potassium Sorbate. • 100% Real Fruit Juice • Fast acting • No Refrigeration Needed • Accurate Dosage • The Perfect Mixer • Recyclable Bottles",
+      "productCategory": "Edible",
+      "imageUrl": "https://products.cdn.flowhub.com/6sbQJcotx3ue6d2rw/6sbQJcotx3ue6d2rw-1?version=1699489684",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "93mg Strawberry Lemon Bevvies",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 15,
+      "description": "Bevvies THC Cocktails are made with real fruit juice for that perfect fresh and bright taste! Packaged into a compact recyclable multi-dose resealable bottle that's easy to throw into a backpack and enjoy out on the trails! Check our menu for current dosage. \r\n\r\nINGREDIENTS: Water, Strawberry, Lemon, Sugar, Marijuana Distillate, Polysorbate, Soy Lecithin, Potassium Sorbate.\r\n\r\n• 100% Real Fruit Juice\r\n\r\n• Fast acting\r\n\r\n• No Refrigeration Needed\r\n\r\n• Accurate Dosage\r\n\r\n• The Perfect Mixer\r\n\r\n• Recyclable Bottles",
+      "productCategory": "Edible",
+      "imageUrl": "https://products.cdn.flowhub.com/ZbcbhQ4bQwdS7DQrJ/ZbcbhQ4bQwdS7DQrJ-1?version=1699490080",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "100mg Blood Orange Lime Bevvies",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 15,
+      "description": "Bevvies THC Cocktails are made with real fruit juice for that perfect fresh and bright taste! Packaged into a compact recyclable multi-dose resealable bottle that's easy to throw into a backpack and enjoy out on the trails! Check our menu for current dosage. INGREDIENTS: Water, Blood Orange, Lemon, Sugar, Marijuana Distillate, Polysorbate, Soy Lecithin, Potassium Sorbate.\r\n\r\n\r\n\r\n• 100% Real Fruit Juice\r\n\r\n• Fast acting\r\n\r\n• No Refrigeration Needed\r\n\r\n• Accurate Dosage\r\n\r\n• The Perfect Mixer\r\n\r\n• Recyclable Bottles",
+      "productCategory": "Edible",
+      "imageUrl": "https://products.cdn.flowhub.com/bByJvESmrpgPRXCCH/bByJvESmrpgPRXCCH-1?version=1699493786",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Alpenglo Ascend 2pk",
+      "brandName": "Ascend",
+      "cartUnit": "each",
+      "price": 16,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Stainless Steel Screens - 5pk",
+      "brandName": "AFG",
+      "cartUnit": "each",
+      "price": 0.5,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Raw - Classic Tips",
+      "brandName": "RAW",
+      "cartUnit": "each",
+      "price": 1,
+      "description": "RAW Original Tips are meticulously crafted from naturally unrefined long fibers using an original type Fourdrinier paper machine – we’ve spared no expense.  RAW Original Tips roll up smooth and have enough structural integrity to maintain their shape and rigidity even when wet.  We carefully lay out and cut the paper properly with the grain so they roll smoothly (instead of squaring as many other tips from inferior companies do).",
+      "productCategory": "Accessory",
+      "imageUrl": "https://products.cdn.flowhub.com/moaGfDuhkYtbRHmZu/moaGfDuhkYtbRHmZu-1?version=1697328639",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Raw Pro Tips",
+      "brandName": "AFG",
+      "cartUnit": "each",
+      "price": 1.5,
+      "description": "24 piece display\r\n21 cone tips per pack\r\nMulti-perforated for customization\r\nOfficial RAW product",
+      "productCategory": "Accessory",
+      "imageUrl": "https://products.cdn.flowhub.com/PRbxoopGMvHjqymAA/PRbxoopGMvHjqymAA-1?version=1696460360",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Zig Zag - Unbleached 1 1/4\"",
+      "brandName": "ZIG-ZAG",
+      "cartUnit": "each",
+      "price": 2,
+      "description": "At ZIG ZAG, we always put your happiness first. That is why we use top-quality materials and new manufacturing techniques that allow us to develop premium products used by people all over the world.\n\nThe amazing set of tobacco rolling papers is a must-have for people who enjoy a handmade roll. The papers are thin and made with natural flax plant fibers that ensure a clean and even burn. \n\nWhy is this product for you?\n\nOur premium rolling cigarette papers box includes 24 booklets with 32 papers each booklet. The rolling papers have a thin glue line made of natural gum Arabic to ensure an easier and more secure roll. The cigarette papers ensure a smooth, strong, and slow burn for a better experience. \n\nSome of the amazing features of this Rolling Paper:\n\nClassic rolling papers by ZIG ZAG;\nColor: unbleached;\nSize: 70 x 38 mm;\nEach box contains 24 booklets with 32 papers each;\nCompact and lightweight booklets;\nEasy to carry;\nSpecial thin natural gum Arabic line for easier rolling;\nMade using natural flax plant fibers;\nStrong, fine, and slow burn;\nNon-toxic materials;\nDoes not impact the taste of your smoke;\nCool design.\nEnjoy handmade cigarettes with the ZIG ZAG rolling papers!",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/gb2anjanQEic7lNbyMd9_Papers_Unbleached.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Elements - Magnetic Close Ultra Thin Rice Paper 11/4in",
+      "brandName": "Elements",
+      "cartUnit": "each",
+      "price": 2,
+      "description": "Made from pure rice paper which has been pressed to make a ultra thin rolling paper which creates a slow burning paper. Rice Paper. Sugar Gum, Ultra Thin. Size: 76mm x 44mm.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://products.cdn.flowhub.com/CybPnSJwtSsXimjzy/CybPnSJwtSsXimjzy-1?version=1695515364",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "CBD Rolling Papers - Kashmir 1 1/4\"",
+      "brandName": "Montana Hemp Co",
+      "cartUnit": "each",
+      "price": 2,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Bamboo Rolling Papers 1 1/4\"",
+      "brandName": "OCB Cones & Rolling Papers",
+      "cartUnit": "each",
+      "price": 2,
+      "description": "Another Kind of Grass.\n\nExperience the smooth, slow burn of America's only bamboo rolling papers. Expertly crafted with sustainably grown, responsibly harvested bamboo fibers and natural acacia gum, these papers are the pinnacle of sustainable enjoyment.\n",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/XxeUH5aTTO2McR4hyZPe_OCB_Bamboo_114_Left.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Color Logo Sticker",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 2,
+      "description": "A new take on our classic bear logo. Limited runs in purple, red, teal, and green.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://products.cdn.flowhub.com/DJx5cRiKTFG534buQ/DJx5cRiKTFG534buQ-1?version=1698273760",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Unbleached Cone - King Size 3pk",
+      "brandName": "OCB Cones & Rolling Papers",
+      "cartUnit": "each",
+      "price": 2.5,
+      "description": "Fast, Easy, Unadulterated Pleasure\n\nUltra-thin and crafted with natural, unbleached paper, our cones are shaped to help even the most inexperienced rollers enjoy a consistently satisfying smoke each and every time.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/nkdkLJRyRBOvqxdqP1n8_OCB_Unbleached_Cone_King_Right.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Zig Zag - King Size",
+      "brandName": "ZIG-ZAG",
+      "cartUnit": "each",
+      "price": 3,
+      "description": "Masterfully crafted for over 100 years, Zig Zag has been producing quality rolling papers that smokers from across the globe enjoy and stay loyal to! Made of durable and slow-burning paper, you can enjoy your favorite legal smoking herbs for longer when you roll with these Zig Zag papers. In the handy 100mm king size, you can get a bigger roll that you can enjoy for longer, allowing you to enjoy the flavor of your herbs all the more with these quality papers!",
+      "productCategory": "Accessory",
+      "imageUrl": "https://products.cdn.flowhub.com/8YB7BTroj6zcXKiAZ/8YB7BTroj6zcXKiAZ-1?version=1696010208",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "M3 USB Cord",
+      "brandName": "AUXO",
+      "cartUnit": "each",
+      "price": 3,
+      "description": "Need another USB charger for a 510 threaded vaporizer battery? We have plenty of extras for if you loose one of these small guys.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://products.cdn.flowhub.com/KSxCZep2pe9hE8JYn/KSxCZep2pe9hE8JYn-1?version=1697821744",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Zig Zag - Slow Burn Organic Hemp 1 1/4",
+      "brandName": "ZIG-ZAG",
+      "cartUnit": "each",
+      "price": 3,
+      "description": "Pure Hemp Fibers\nZig-Zag Organic Hemp papers are made from pure, non-gmo hemp fibers sourced from organic farms.  \n\nUnbleached\nOrganic Hemp 1 1/4 size\nUltra-Thin - 50 Papers per booklet; 24 booklets per carton\nMade from 100% renewable, pure hemp fibers. Sourced from Organic Farms",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/Cm9Jde5GSzIwwJPyAbyg_Hemp%201%201_4.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Lighters",
+      "brandName": "Clipper",
+      "cartUnit": "each",
+      "price": 3,
+      "description": "Representing the best of both worlds, Clipper lighters are both disposable and refillable. Better still, every Clipper lighter is equipped with a tough nylon body and a replaceable flint; which means your washing machine will never tragically claim another lighter from you ever again.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://products.cdn.flowhub.com/3zfdrDSTXrqiB9wYF/3zfdrDSTXrqiB9wYF-1?version=1699124840",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "OCB 1 1/4 Cones 6pk",
+      "brandName": "OCB Cones & Rolling Papers",
+      "cartUnit": "each",
+      "price": 4,
+      "description": "Pure and Simple.\n\nAmerica's first bamboo rolling papers, \npre-rolled into easy-to-use cones. Expertly crafted with sustainably grown, responsibly harvested bamboo fibers and natural acacia gum, sustainable rolling has never been this simple.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/products/photos/aJt7VQiJTySxvyp26AdP_OCB_Bamboo_114_Left.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Zig Zag Mini Unbleached Cones - 8pk",
+      "brandName": "ZIG-ZAG",
+      "cartUnit": "each",
+      "price": 5,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/f5fwbqLSRGu4fGCw0f1d_Screen%20Shot%202020-06-18%20at%205.29.51%20PM.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Lanyard",
+      "brandName": "Grizzly",
+      "cartUnit": "each",
+      "price": 5,
+      "description": "This Grizzly Pine lanyard will serve you in any of various functions, which include a means of attachment, restraint, & retrieval all while looking fashionable at the same time.",
+      "productCategory": "Accessory",
+      "imageUrl": "https://products.cdn.flowhub.com/9AaPNzuHTjsS3E7dr/9AaPNzuHTjsS3E7dr-1?version=1696628734",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Butane --300ml",
+      "brandName": "Luvbuds",
+      "cartUnit": "each",
+      "price": 5,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Magnetic Acrylic Grinder",
+      "brandName": "Luvbuds",
+      "cartUnit": "each",
+      "price": 6,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    }
+  ]
+}

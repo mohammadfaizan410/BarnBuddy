@@ -1,0 +1,115 @@
+{
+  "dispensary": {
+    "name": "Medicine Creek Caregivers - Wolf Point",
+    "address1": "315 1st Avenue North",
+    "coverPhotoUrl": "https://images.leafly.com/menu/stL0pLbSD7VB7RdJcG3Q_EBA22D78-0ED5-4C25-8C05-E7C5B5DF2613.jpeg",
+    "country": "US",
+    "city": "Wolf Point",
+    "description": "We make sure to offer quality cannabis and cannabis products for the most affordable prices in Montana!",
+    "email": "MedicineCreekCaregivers@gmail.com",
+    "flags": [
+      "US",
+      "atm",
+      "dispensary",
+      "dualLicense",
+      "licensed",
+      "medical",
+      "recreational",
+      "storefront"
+    ],
+    "locations": [
+      {
+        "lat": 48.0937553,
+        "lon": -105.6372288
+      },
+      {
+        "lat": 48.0905736,
+        "lon": -105.6405566
+      }
+    ],
+    "logoUrl": "https://images.leafly.com/menu/zWzUNvTTQAqM3AE9CFwy_FC56D516-A6D7-4432-948C-5EE7C8AF52A6.png",
+    "mapMarkerLocations": [
+      {
+        "city": "Wolf Point",
+        "index": 0,
+        "label": "Wolf Point, MT",
+        "state": "MT",
+        "country": "United States",
+        "latitude": 48.0905736,
+        "longitude": -105.6405566
+      }
+    ],
+    "phone": "406-653-1420",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://images.leafly.com/menu/stL0pLbSD7VB7RdJcG3Q_EBA22D78-0ED5-4C25-8C05-E7C5B5DF2613.jpeg"
+      },
+      {
+        "id": 1053389,
+        "bigThumb": null,
+        "created": "2020-02-14T20:03:09.555Z",
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/IDjngiPdSv61VeYpMAfv_CEEE6464-AAB5-4B9D-9358-1E96BE8F38CC.jpeg",
+        "lastModified": "2020-02-14T20:03:09.555Z",
+        "smallThumb": null,
+        "user": null
+      },
+      {
+        "id": 1053388,
+        "bigThumb": null,
+        "created": "2020-02-14T20:01:57.362Z",
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/oFixwhbxSUSZRa68QQB4_EA85C30C-AB71-4370-8B83-6C3B39F8BE77.jpeg",
+        "lastModified": "2020-02-14T20:01:57.362Z",
+        "smallThumb": null,
+        "user": null
+      },
+      {
+        "id": 1053387,
+        "bigThumb": null,
+        "created": "2020-02-14T20:00:35.751Z",
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/3sbr6JVjSSIE2QYhbTM6_3078EA8D-36A6-4A99-9597-7F69A922C812.jpeg",
+        "lastModified": "2020-02-14T20:00:35.751Z",
+        "smallThumb": null,
+        "user": null
+      },
+      {
+        "id": 1053386,
+        "bigThumb": null,
+        "created": "2020-02-14T19:59:38.538Z",
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/t4euP78FSja5I9srZc4o_D7485590-F18D-4F40-9922-2AA9DDDFF6F4.jpeg",
+        "lastModified": "2020-02-14T19:59:38.538Z",
+        "smallThumb": null,
+        "user": null
+      }
+    ],
+    "primaryLocation": {
+      "lat": 48.0937553,
+      "lon": -105.6372288
+    },
+    "state": "MT",
+    "tags": [
+      "storefront",
+      "licensed",
+      "dualLicense"
+    ],
+    "website": "https://www.medicinecreekcaregivers.com/",
+    "zip": "59201"
+  },
+  "products": [
+    {
+      "name": "Indica Mix (BHO)",
+      "brandName": null,
+      "cartUnit": "g",
+      "price": 7.5,
+      "description": null,
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_concentrate_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    }
+  ]
+}

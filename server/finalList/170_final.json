@@ -1,0 +1,58 @@
+{
+  "dispensary": {
+    "name": "Spiritleaf - Unicity",
+    "address1": "6 3653 Portage Ave",
+    "coverPhotoUrl": "https://images.leafly.com/menu/tqzNc5deQdyofC55cnxh_Spiritleaf-Banner.jpeg",
+    "country": "CA",
+    "city": "Winnipeg",
+    "description": "",
+    "email": null,
+    "flags": [
+      "CA",
+      "dispensary",
+      "licensed",
+      "pickup",
+      "preorderConfigured",
+      "recreational",
+      "storefront"
+    ],
+    "locations": [
+      {
+        "lat": 49.8833404,
+        "lon": -97.312852
+      }
+    ],
+    "logoUrl": "https://images.leafly.com/menu/t0k3yYxuTJatWswtNRvm_spirileaf_logo_2.jpg",
+    "mapMarkerLocations": [
+      {
+        "city": "Winnipeg",
+        "index": 0,
+        "label": "Winnipeg,MB",
+        "state": "MB",
+        "country": "CA",
+        "latitude": "49.8833404",
+        "longitude": "-97.312852"
+      }
+    ],
+    "phone": "(204) 895-4175",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://images.leafly.com/menu/tqzNc5deQdyofC55cnxh_Spiritleaf-Banner.jpeg"
+      }
+    ],
+    "primaryLocation": {
+      "lat": 49.8833404,
+      "lon": -97.312852
+    },
+    "state": "MB",
+    "tags": [
+      "recreational",
+      "storefront",
+      "licensed"
+    ],
+    "website": "www.spiritleaf.ca",
+    "zip": "R3K 2C6"
+  },
+  "products": []
+}

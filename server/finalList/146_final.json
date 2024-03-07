@@ -1,0 +1,2860 @@
+{
+  "dispensary": {
+    "name": "The Green Bee - Lakeside",
+    "address1": "7172 US Highway 93 S",
+    "coverPhotoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery367213/EznkZYJpTHyIJdcMltsa_4ec50012b8ce091140cabf7213ee01e6.png",
+    "country": "US",
+    "city": "Lakeside",
+    "description": "The Green Bee strives to provide high quality, organically grown cannabis that our patients can rely on. We only use the highest quality ingredients and never spray our plants with harsh pesticides! \n\nWe focus on the terpenes that are found in cannabis to help steer you towards a product that is going to work for you! \n\nLocated in Lakeside right next to Joe Blogs and just a stones throw from the marina.\n\nStop by today and see what the buzz is all about! ",
+    "email": "info@greenbeedispensary.com",
+    "flags": [
+      "US",
+      "adaAccessible",
+      "atm",
+      "birthdayDiscount",
+      "dispensary",
+      "dualLicense",
+      "firstTimeCustomerDiscount",
+      "licensed",
+      "medical",
+      "militaryDiscount",
+      "parkingAvailable",
+      "petFriendly",
+      "pickup",
+      "preorderConfigured",
+      "recreational",
+      "storefront",
+      "veteranDiscount"
+    ],
+    "locations": [
+      {
+        "lat": 48.3167599,
+        "lon": -114.3356653
+      },
+      {
+        "lat": 48.0217053,
+        "lon": -114.2260178
+      }
+    ],
+    "logoUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery367213/8wHZvYGYRPGQMUMVtKPg_greenbee_logo_dark.jpg",
+    "mapMarkerLocations": [
+      {
+        "city": "Lakeside",
+        "index": 0,
+        "label": "Lakeside,MT",
+        "state": "MT",
+        "country": "US",
+        "latitude": "48.0217053",
+        "longitude": "-114.2260178"
+      }
+    ],
+    "phone": "(509) 426-1584",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://leafly-public.imgix.net/dispensary/photos/gallery367213/EznkZYJpTHyIJdcMltsa_4ec50012b8ce091140cabf7213ee01e6.png"
+      }
+    ],
+    "primaryLocation": {
+      "lat": 48.3167599,
+      "lon": -114.3356653
+    },
+    "state": "MT",
+    "tags": [
+      "storefront",
+      "licensed",
+      "dualLicense"
+    ],
+    "website": "https://www.greenbeedispensary.com",
+    "zip": "59922"
+  },
+  "products": [
+    {
+      "name": "Swiss Cheese - Flower",
+      "brandName": "The Green Bee",
+      "cartUnit": "g",
+      "price": 15,
+      "description": "Swiss Cheese - Flower\nSwiss cheese is a great hybrid that helps with anxiety, depression, pain relief, and gives a calming but euphoric feeling without the munchies!",
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/f1733ed7-2f15-4a70-b09d-7e0207d0a1d6.jpg",
+      "strainName": "swiss-cheese",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Swiss Cheese is an indica-dominant hybrid marijuana strain. We're still learning about the flavors and effects of Swiss Cheese - if you've smoked, dabbed, or consumed this strain before, tell us about it by leaving a review.\n\n ",
+      "effects": {
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 2.25292435131906,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 0.546103355137854,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": 2.39014141008408,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.764885135738222,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.737089322273455,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.467238742975427,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": 0.230323372770468,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.58324775552558,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -2.29133199137943,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.17428653722498,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -1.93103919616901,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.941470067425015,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 0,
+          "score": -0.752443375279881,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Lemon Dosi - Flower - Sativa",
+      "brandName": "The Green Bee",
+      "cartUnit": "g",
+      "price": 17,
+      "description": "This sativa is great for helping with stress relief and relaxation with a euphoric effect!  This strain has lemon and floral scents!",
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/ef85057a-06bb-4d8b-85b6-504e19a32710.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "DarkBerry Boogie - Flower",
+      "brandName": "The Green Bee",
+      "cartUnit": "g",
+      "price": 15,
+      "description": "The Darkberry Boogie really lives up to its name. Its super purple appearance is its signature trait. It tastes of sweet spice and with hints of berries. Starts off like an indica but finishes like a sativa and is sure to delight the taste-buds.",
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/bcdc0e04-9a94-4422-bae9-559a0db8c912.jpg",
+      "strainName": "darkberry-boogie",
+      "strainCategory": "Indica",
+      "strainDescription": "Darkberry Boogie is an indica-dominant weed strain released by The Green Bee in 2020 and made from a genetic cross of Purple Kush x Raspberry Boogie. This is a relaxing strain with a palate of lush berry, earthy, and sharp pine notes. If you’ve smoked, dabbed, or consumed Darkberry Boogie, tell us about your experience by leaving a strain review.",
+      "effects": {},
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Wookie Lady - Flower",
+      "brandName": "The Green Bee",
+      "cartUnit": "g",
+      "price": 15,
+      "description": "Experience the power-packed Wookie Lady, a potent hybrid! This strain entices with an aromatic profile reminiscent of sweet sage and parsley, leaving a delightful diesel undertone. Elevating the experience, Wookie Lady is rich in Limonene, renowned for its stress-relieving and anxiety-reducing properties. As a bonus, the Myrcene content in this flower complements the Limonene, inducing a soothing, potentially couch-lock sensation.",
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/179cf391-3a7a-4908-8eae-97747e2ca7cd.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Jack Herer - Flower - Sativa",
+      "brandName": "The Green Bee",
+      "cartUnit": "g",
+      "price": 15,
+      "description": "The high from this flower is heady and distinctive.\nIt has a unique loamy smell and taste with hints of pine and trees. \nThis strain is effective for patients with mental or neurological disorders, including bipolar disorder, anxiety, migraines, PTSD, and ADHD.",
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/213c4565-51ff-4fe7-8294-8a15d4a76971.jpg",
+      "strainName": "jack-herer",
+      "strainCategory": "Sativa",
+      "strainDescription": "Jack Herer, also known as \"JH,\" \"The Jack,\" \"Premium Jack,\" and \"Platinum Jack\" is a sativa-dominant marijuana strain that has gained as much renown as its namesake, the marijuana activist and author of The Emperor Wears No Clothes. Combining a Haze hybrid with a Northern Lights #5 and Shiva Skunk cross, Sensi Seeds created Jack Herer hoping to capture both cerebral elevation and heavy resin production. Its rich genetic background gives rise to several different variations of Jack Herer, each phenotype bearing its own unique features and effects. Leafly reviewers tell us that Jack Herer’s effects include feeling energetic, creative, and uplifted. However, consumers typically describe this 55% sativa hybrid as blissful, clear-headed, and creative. Jack Herer was created in the Netherlands in the mid-1990s, where it was later distributed by Dutch pharmacies as a recognized medical-grade strain. Since then, this spicy, pine-scented strain has taken home numerous awards for its quality and potency.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2318,
+          "score": 0.497716392750335,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2169,
+          "score": 0.934697912497298,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2014,
+          "score": 1.60179698814297,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1883,
+          "score": 0.149613631845532,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1740,
+          "score": 1.07344681016904,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1541,
+          "score": 0.809207451469943,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1251,
+          "score": -1.40208056912323,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1108,
+          "score": 0.742610879695344,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 706,
+          "score": -0.0633612627271394,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 674,
+          "score": -0.209133090651467,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 511,
+          "score": -0.354693979554485,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 441,
+          "score": -0.0453875274302305,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 286,
+          "score": -0.797750818987046,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Chemdawg - Flower",
+      "brandName": "The Green Bee",
+      "cartUnit": "g",
+      "price": 15,
+      "description": "Chemdawg is known for its distinct, diesel-like aroma. Pungent and sharp, you’ll be able to smell this strain from a mile away. \nThis strain tends to be very potent. Expect to have a cerebral experience, coupled with a strong heavy-bodied feeling.",
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/16942807-ce36-4d09-a0ef-a02ba3135d6b.jpg",
+      "strainName": "chemdawg",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Chemdawg, officially named \"Chemdog,\" is a hybrid marijuana strain grown and spread by the breeder Chemdog since 1991. In a Leafly interview, Chemdog relates how Chemdog came from what was thought to be Northern California bag seed, via a Colorado Grateful Dead concert. Chem 91, Chem 4, and Chem Sis are all variations on Chemdog. The original name Chemdog came from two names for the same bud \"Chem\" and \"Dog bud.\" Chemdog evolved into the variation 'Chemdawg' over time and distance as other growers and breeders propagated it, with the latter name becoming more dominant. Leafly customers tell us Chemdawg effects include feeling euphoric, uplifted, and creative. Medical marijuana patients often choose Chemdawg when dealing with symptoms associated with stress, anxiety, and pain. Chemdog is a staple strain in cannabis and may be a source of powerhouse strains like Sour Diesel and OG Kush, Chemdog is known for its distinct, diesel-like aroma. Pungent and sharp, you’ll be able to smell this strain from a mile away. Cannabis newbies be warned: Chemdog tends to be very potent. Consumers can expect to have a cerebral experience, coupled with a strong heavy-bodied feeling. ",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1031,
+          "score": 0.248132583319698,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1030,
+          "score": 0.527716429200222,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 971,
+          "score": -0.385647406577548,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 862,
+          "score": 0.410417254626417,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 602,
+          "score": 0.329044826179539,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 491,
+          "score": 0.19632127358692,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 459,
+          "score": -0.092173074061663,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 444,
+          "score": 0.236738892832628,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 411,
+          "score": 0.280996297371194,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 394,
+          "score": 0.146029876451858,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 348,
+          "score": 0.0483002983350509,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 327,
+          "score": -0.207594198989418,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 220,
+          "score": -0.0083812286892204,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Ice Box Pie - Flower - Hybrid",
+      "brandName": "Triggers Relief",
+      "cartUnit": "g",
+      "price": 14,
+      "description": "Ice Box Pie is an extraordinary hybrid that delivers a perfect blend of relaxation, mood enhancement, and soothing relief from stress and pain. Its aromatic profile tantalizes with notes of sweetness, vanilla, and a subtle hint of skunkiness, making it an enticing choice for a satisfying experience.",
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_1.png",
+      "strainName": "ice-box",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Ice Box is a hybrid weed strain made from a genetic cross between Ice Cream Cake and Runtz. This strain is 50% sativa and 50% indica. Ice Box is 27.5% THC, making this strain an ideal choice for experienced cannabis consumers. Bred by Clearwater, the average price of Ice Box typically ranges from $10-$15 per gram. We are still learning about Ice Box’s effects, flavors, and medical uses. If you've smoked, dabbed, or consumed Ice Box, please tell us about your experience by leaving a strain review.",
+      "effects": {},
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Lemon OG - Flower - Indica",
+      "brandName": "The Green Bee",
+      "cartUnit": "g",
+      "price": 17,
+      "description": "Lemon OG is wonderfully sweet and earthy!\nIt has a strong citrus note that is entangled with tones of spicy pepper and pungent diesel. \nThis flower is well balanced by the uplifting and energetic influences.",
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/48d455c7-acef-4bae-acb0-2a9a93248617.jpg",
+      "strainName": "lemon-og",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Lemon OG, also known as \"Lemon OG Kush,\" is an indica-dominant marijuana strain. Anything this skunky indica-hybrid lacks in longevity, it makes up for in speed. A cross between the mythical Las Vegas Lemon Skunk and The OG #18, Lemon OG provides users with a quick-acting sleepy head sensation. While Lemon OG has inherited a skunky aroma from its kush relatives, this particular strain is mild tasting and pleasant smelling with fruity undertones. Lemon OG tends to feel more psychoactive than other members of the kush family, but still offers a heavy, medicated feel. The strain is great for stress relief and increasing appetite. These plants usually flower in 8-10 weeks.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 291,
+          "score": 0.3009828977911,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 226,
+          "score": -0.0019457078033351,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 212,
+          "score": 0.105672073002412,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 177,
+          "score": 0.0629401663063313,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 143,
+          "score": 0.641056539704706,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 132,
+          "score": 0.643284662418976,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 117,
+          "score": -0.0241991562364556,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 95,
+          "score": -0.284890015329836,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 88,
+          "score": 0.0519891687480207,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 82,
+          "score": 0.0331795303955405,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 82,
+          "score": 0.0263558892205763,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 67,
+          "score": -0.42185929856252,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 42,
+          "score": -0.205117678198534,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Super Lemon Haze - Flower",
+      "brandName": "The Green Bee",
+      "cartUnit": "g",
+      "price": 17,
+      "description": "A blend of Lemon Skunk and Super Silver Haze\nHeady, peppy, cerebral effects: arousal, creativity, energy, euphoria, and intense happiness. \nThis flower has a tart, zesty lemon flavor and aroma, with sweet notes of candy.",
+      "productCategory": "Flower",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/4f0ccf4e-4849-4422-8b27-724a17a5dd32.jpg",
+      "strainName": "super-lemon-haze",
+      "strainCategory": "Sativa",
+      "strainDescription": "Super Lemon Haze, sometimes called \"SLH,\" is a sativa-dominant hybrid marijuana strain of Lemon Skunk and Super Silver Haze and two time Cannabis Cup winner from Green House Seeds. Super Lemon Haze is a kief-caked multi-colored wonder. As the name states this strain has real lemony characteristics. The smell is zesty, citrusy, and a little sweet. As for the taste, it's everything one would expect from the namesake; tart and sweet like lemonheads candy - not quite as sharp as one might expect. The effects are uniquely energetic and lively, may not be the best strain for those of us that are naturally wound-up tight.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1173,
+          "score": 0.46736028070131,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1131,
+          "score": 1.88618062040195,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1121,
+          "score": 0.971449602546512,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1016,
+          "score": 0.303880650003532,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 825,
+          "score": 0.883074951719851,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 706,
+          "score": 0.565191386933282,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 608,
+          "score": -1.4811618749336,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 591,
+          "score": 0.832865890915625,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 421,
+          "score": 0.153561194083774,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 383,
+          "score": -0.0736748794006657,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 298,
+          "score": -0.217638562922043,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 274,
+          "score": 0.16163995580479,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 123,
+          "score": -0.864946445765895,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Crescendo - Flower - Hybrid",
+      "brandName": "Triggers Relief",
+      "cartUnit": "g",
+      "price": 17,
+      "description": "Crescendo flower is a remarkably soothing and sedative hybrid strain, known for its appetite-suppressing and pain-relieving properties. It boasts subtle notes of cinnamon, orange, and hops.",
+      "productCategory": "Flower",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_flower_2.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Jack Herer PC - Flower - Sativa",
+      "brandName": "The Green Bee",
+      "cartUnit": "g",
+      "price": 20,
+      "description": null,
+      "productCategory": "Flower",
+      "imageUrl": "https://images.leafly.com/flower-images/jack-herer.jpg",
+      "strainName": "jack-herer",
+      "strainCategory": "Sativa",
+      "strainDescription": "Jack Herer, also known as \"JH,\" \"The Jack,\" \"Premium Jack,\" and \"Platinum Jack\" is a sativa-dominant marijuana strain that has gained as much renown as its namesake, the marijuana activist and author of The Emperor Wears No Clothes. Combining a Haze hybrid with a Northern Lights #5 and Shiva Skunk cross, Sensi Seeds created Jack Herer hoping to capture both cerebral elevation and heavy resin production. Its rich genetic background gives rise to several different variations of Jack Herer, each phenotype bearing its own unique features and effects. Leafly reviewers tell us that Jack Herer’s effects include feeling energetic, creative, and uplifted. However, consumers typically describe this 55% sativa hybrid as blissful, clear-headed, and creative. Jack Herer was created in the Netherlands in the mid-1990s, where it was later distributed by Dutch pharmacies as a recognized medical-grade strain. Since then, this spicy, pine-scented strain has taken home numerous awards for its quality and potency.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2318,
+          "score": 0.497716392750335,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2169,
+          "score": 0.934697912497298,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2014,
+          "score": 1.60179698814297,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1883,
+          "score": 0.149613631845532,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1740,
+          "score": 1.07344681016904,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1541,
+          "score": 0.809207451469943,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1251,
+          "score": -1.40208056912323,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1108,
+          "score": 0.742610879695344,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 706,
+          "score": -0.0633612627271394,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 674,
+          "score": -0.209133090651467,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 511,
+          "score": -0.354693979554485,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 441,
+          "score": -0.0453875274302305,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 286,
+          "score": -0.797750818987046,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Gelato  - Concentrate",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 15,
+      "description": "Experience the enchanting effects of Gelato, where a euphoric high intertwines seamlessly with profound feelings of relaxation. While the physical sensations unfold powerfully, you'll discover a mental agility that allows you to remain productive and creative throughout the day. Crafted on June 7, 2023, this product isn't just a date—it's a mark of quality ensuring each encounter with Gelato is a harmonious balance of tranquility and mental vibrancy.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/c22fb388-866e-48fb-9705-0d2e97d9a0f8.jpg",
+      "strainName": "gelato",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Gelato, also known as \"Larry Bird\" and \"Gelato #42\" is an evenly-balanced hybrid marijuana strain made from a crossing of Sunset Sherbet and Thin Mint Girl Scout Cookies. With its balance of indica &amp; sativa, this strain produces a euphoric high accompanied by strong feelings of relaxation. Consumers who have smoked Gelato say the effects of the strain come on quickly. You'll be left feeling numb to pain, relaxed, but mentally stimulated and productive. As far as potency goes, Gelato boasts a THC level of 21%, making it an ideal choice for medical marijuana patients seeking relief for pain, fatigue, and insomnia. Novice consumers may want to approach this THC powerhouse with caution, but those armed with a high THC tolerance will delight in the heavy-handed effects this strain offers. In terms of taste, Gelato is sweet and features fruity and creamy flavors and aromas. According to growers, this strain produces buds that bloom in dark purple hues and are illuminated by fiery orange hairs and a shiny white coating of crystal resin. The average price per gram of Gelato is $12. Because Gelato has reached a legendary status among cannabis connoisseurs, it comes as no surprise it's been used to make a variety of other high-quality Gelato strains, including Gelato #3, Gelato #33, Gelato #41, and Gelato #45.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1262,
+          "score": 0.346524060244583,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1136,
+          "score": 0.500457556329022,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1064,
+          "score": 0.56856042413683,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 844,
+          "score": 0.310670575260145,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 603,
+          "score": 0.295363903612753,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 480,
+          "score": -0.0543923288261507,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 466,
+          "score": 0.285113227292715,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 415,
+          "score": 0.195699843461487,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 397,
+          "score": 0.198635148564089,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 392,
+          "score": -0.0288107132451138,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 377,
+          "score": -0.161358727844517,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 366,
+          "score": 0.0913960150875434,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 344,
+          "score": 0.520863092882834,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "White Wookie - Concentrate  - Indica",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 49,
+      "description": "Delve into the harmonious fusion of Wookie Lady and White Widow with White Wookie, an exceptional indica blend designed to alleviate anxiety, depression, and provide effective pain relief. Immerse yourself in the euphoric journey offered by this flavorful strain, promising not just relief but a delightful and well-rounded experience. Crafted with precision on June 19, 2023, this product isn't just a date—it's a guarantee that every moment spent with White Wookie is a nuanced exploration of therapeutic bliss and flavor.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/5f62a1c3-5e06-4aef-b5b5-aebd5a5cfc04.jpg",
+      "strainName": "white-wookie",
+      "strainCategory": "Hybrid",
+      "strainDescription": "White Wookie is a hybrid weed strain bred by The Green Bee from a genetic cross of Pink Lady x Brown Birdie and released in 2022. This strain is ideal for consumers and patients seeking pain relief, with an aromatic blend of pepper, floral, and lemon notes. If you’ve smoked, dabbed, or consumed White Wookie, tell us about your experience by leaving a strain review.",
+      "effects": {},
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Lemon Dosi - Concentrate",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 33,
+      "description": "Discover a steadfast companion for stress relief, anti-inflammatory benefits, and unwinding relaxation within this exceptional concentrate. Immerse yourself in the delightful symphony of lemon, floral, and citrus aromas, promising not just a product but an aromatic journey. Crafted with precision on May 15, 2023, this is more than just a date—it's a guarantee of freshness and quality in every invigorating drop.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/9d55a4d1-882c-47eb-8377-c394bf5c0310.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Jack Herer - Concentrate - Sativa",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 49,
+      "description": "Embark on a journey through the brilliance of Jack Herer Concentrate, a captivating sativa celebrated for its serene effects and potent pain relief. This outstanding strain goes above and beyond, extending its soothing touch to alleviate anxiety and depression, all while treating your taste buds to a delightful fusion of citrus and piney flavors. Crafted with care on June 16, 2023, this product isn't just a date—it's an assurance that every encounter with Jack Herer is a harmonious blend of therapeutic benefits and an exquisite palate experience.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/6cf252c3-02ee-4d0f-bc13-403f59667b97.jpg",
+      "strainName": "jack-herer",
+      "strainCategory": "Sativa",
+      "strainDescription": "Jack Herer, also known as \"JH,\" \"The Jack,\" \"Premium Jack,\" and \"Platinum Jack\" is a sativa-dominant marijuana strain that has gained as much renown as its namesake, the marijuana activist and author of The Emperor Wears No Clothes. Combining a Haze hybrid with a Northern Lights #5 and Shiva Skunk cross, Sensi Seeds created Jack Herer hoping to capture both cerebral elevation and heavy resin production. Its rich genetic background gives rise to several different variations of Jack Herer, each phenotype bearing its own unique features and effects. Leafly reviewers tell us that Jack Herer’s effects include feeling energetic, creative, and uplifted. However, consumers typically describe this 55% sativa hybrid as blissful, clear-headed, and creative. Jack Herer was created in the Netherlands in the mid-1990s, where it was later distributed by Dutch pharmacies as a recognized medical-grade strain. Since then, this spicy, pine-scented strain has taken home numerous awards for its quality and potency.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2318,
+          "score": 0.497716392750335,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2169,
+          "score": 0.934697912497298,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2014,
+          "score": 1.60179698814297,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1883,
+          "score": 0.149613631845532,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1740,
+          "score": 1.07344681016904,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1541,
+          "score": 0.809207451469943,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1251,
+          "score": -1.40208056912323,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1108,
+          "score": 0.742610879695344,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 706,
+          "score": -0.0633612627271394,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 674,
+          "score": -0.209133090651467,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 511,
+          "score": -0.354693979554485,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 441,
+          "score": -0.0453875274302305,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 286,
+          "score": -0.797750818987046,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Green Swiss - Concentrate - Hybrid",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 15,
+      "description": "Immerse yourself in the tranquil embrace of God's Green Crack and Swiss Cheese with our expertly crafted blend—Green Swiss. This harmonious fusion promises a soothing sensation, where the sweet and citrusy aroma delights the senses and nurtures a creative mindset, all while delivering effective stress relief. Crafted with precision on March 15, 2023, this product isn't just a date—it's a guarantee that every encounter with Green Swiss is a journey into serenity, creativity, and aromatic bliss.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/1cbe8f2d-ab4f-46da-821c-9df832d04084.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Crumble - Concentrate .5 - Hybrid",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 15,
+      "description": "Crumble has an earthy piney scent and taste.  This tasty crumble helps boost your mood and get you in that creative mindset!  Pinene is also known to help improve memory as well!",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/b5e107c4-eec3-4228-88c9-d18f30e44ece.jpg",
+      "strainName": "kush-mints",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Kush Mints is a hybrid weed strain made from a genetic cross between Animal Mints and Bubba Kush. This strain is 50% sativa and 50% indica. Kush Mints is a potent and flavorful strain that has a minty and cookie-like aroma and flavor, with hints of gas and pine. It has a balanced high that is both relaxing and euphoric, with a pleasant body buzz and a creative mind. Kush Mints is 28% THC, making this strain an ideal choice for experienced cannabis consumers. Leafly customers tell us Kush Mints effects include feeling relaxed, euphoric, and aroused. Medical marijuana patients often choose Kush Mints when dealing with symptoms associated with anxiety, stress, and depression. Bred by Mr. Nice Seeds, Kush Mints features flavors like mint, menthol, and pine. The dominant terpene of this strain is limonene. The average price of Kush Mints typically ranges from $15-$20 per gram. Kush Mints is a rare and exclusive strain that is not widely available, so if you find it at your local dispensary, don’t hesitate to try it out. If you’ve smoked, dabbed, or consumed Kush Mints, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 247,
+          "score": 0.677186663929887,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 187,
+          "score": 0.522739854684191,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 184,
+          "score": 0.190816965066963,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 116,
+          "score": -0.241759321017362,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 87,
+          "score": 0.364116587212834,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 81,
+          "score": 0.160955610330027,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 79,
+          "score": -0.203506451777249,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 70,
+          "score": 0.193523417919164,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 69,
+          "score": 0.0909277073842379,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 67,
+          "score": 0.659866979480341,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 66,
+          "score": -0.398632354607243,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 57,
+          "score": -0.0898698013902881,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 46,
+          "score": -0.504369789515515,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Original Glue - Concentrate - Hybrid",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 15,
+      "description": "Delve into the excellence of this exceptional hybrid concentrate, delivering remarkable benefits that extend beyond mere relief from pain and stress. Immerse yourself in its calming embrace while unlocking a surge of creativity, rendering it a versatile choice for a spectrum of wellness needs. Crafted with care on July 13, 2023, this product isn't just a date—it's an assurance that every drop holds the promise of comprehensive well-being, making it an indispensable addition to your wellness journey.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/02441f6f-5577-4e32-ad1f-402005a5ddf3.jpg",
+      "strainName": "original-glue",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Gorilla Glue is a hybrid weed strain made from a genetic cross between Chem’s Sister, Sour Dubb, and Chocolate Diesel. This strain is 37% sativa and 63% indica. “Gorilla Glue”, also known as “Original Glue” or “GG4”, is a potent strain that delivers heavy-handed euphoria and relaxation, leaving you feeling “glued” to the couch. Its chunky, resin-covered buds fill the room with pungent earthy and sour aromas inherited from its parent strains. Gorilla Glue is 20% THC, making this strain an ideal choice for experienced cannabis consumers. Leafly customers tell us Gorilla Glue effects include feeling relaxed, sleepy, and hungry. Medical marijuana patients often choose Gorilla Glue when dealing with symptoms associated with stress, anxiety, and pain. Bred by GG Strains LLC, Gorilla Glue features flavors like pungent, pine, and earthy. The dominant terpene of this strain is caryophyllene. The average price of Gorilla Glue typically ranges from $10-$15 per gram. Gorilla Glue is a multiple award-winning strain that has taken first place in both the Michigan and Los Angeles 2014 Cannabis Cups, as well as the High Times Jamaican World Cup in 2015. It is a fast-growing strain that produces large yields of sticky buds with a flowering time of 9-10 weeks. If you’ve smoked, dabbed, or consumed Gorilla Glue, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2807,
+          "score": 0.632650247763171,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2174,
+          "score": 0.273499819555211,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2067,
+          "score": 0.402003347469301,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1527,
+          "score": 0.0255343925727109,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1248,
+          "score": 0.63135401654094,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1127,
+          "score": 0.588179260881216,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 934,
+          "score": -0.166143094756621,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 905,
+          "score": 0.293446453379968,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 855,
+          "score": -0.253336534703897,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 759,
+          "score": 0.106688970901271,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 695,
+          "score": -0.0189373059485113,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 692,
+          "score": -0.276299639319774,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 535,
+          "score": 0.152923006843285,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Wookie Fire - Concentrate - Indica",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 15,
+      "description": "Immerse yourself in the embrace of cherished indicas, Wookie Lady and Fire OG, available now at the hive! This concentrated Indica duo delivers a potent punch for unparalleled relaxation. Infused with a distinctive peppery and floral scent, the flavor profile enhances the calming effects, offering a soothing respite for stress relief. Crafted with care on March 15, 2023, this product isn't just a date—it's a testament to the rich blend of flavors and the promise of a tranquil experience waiting to unfold.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/dd1bcab9-ccce-4221-87c9-e7d17c7da48b.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Canna Montana - Concentrate - Hybrid",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 33,
+      "description": "Indulge in the exquisite Hybrid concentrate meticulously crafted from our premium Canna MT flower! Elevate your senses with a blend that seamlessly provides stress relief, relaxation, and a euphoric sensation, ensuring a truly delightful and well-rounded experience. Crafted with precision on June 19, 2023, this product isn't just a date—it's a mark of quality and freshness, inviting you to savor every moment of this exceptional concentrate.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/ff995ce7-2947-42f9-abcc-b0b8aebea86e.jpg",
+      "strainName": "canna-montana",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Canna Montana is a sativa-dominant weed strain bred by King Jay Genetics and made from a genetic cross of (G13 x Chemdog) x Die Hard. Consumers get the best of both worlds with relaxing and euphoric effects. Canna Montana has a uniquely sweet and funky flavor. If you’ve smoked, dabbed, or consumed Canna Montana, tell us about your experience by leaving a strain review.",
+      "effects": {},
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Heirloom Orange - Concentrate - Sativa",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 33,
+      "description": "Savor the exquisite and citrus-infused experience with Heirloom, a potent sativa that offers the perfect morning wake-up call. Immerse yourself in the delightful citrus flavor that accompanies a euphoric feeling, making it a truly exceptional choice for those seeking a fantastic sativa concentrate. Crafted with precision on March 15, 2023, this product is not just a date—it's a guarantee of freshness and quality, ensuring every dab is a moment of flavorful and uplifting indulgence.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/cd415e0d-77d3-455e-8845-b523c65f6229.jpg",
+      "strainName": "heirloom-orange",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Heirloom Orange is a weed strain bred by The Green Bee and released in 2020. This strain has the signature orange aroma and uplifitng affects of similar citrus-forward strains. If you’ve smoked, dabbed, or consumed Heirloom Orange, tell us about your experience by leaving a strain review.",
+      "effects": {},
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Wookie Lady - Concentrate 1.0 - Hybrid",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 33,
+      "description": "Embark on a journey of delight with Wookie Lady, a delectable hybrid strain! Immerse yourself in its enchanting lavender aroma that promises to elevate your senses, leaving you in a state of euphoria and blissful relief from stress. Don't miss the chance to experience this new concentrate, crafted with care on October 31, 2023—an invitation to explore the richness of flavor and the therapeutic embrace of Wookie Lady.",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/d22aa05e-700f-4f71-a889-6f79159435bc.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Citrus Bliss - Dabs",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 49,
+      "description": "Citrus Bliss smells citrusy and sweet.  This is sure to help you get creative and boost your mood!",
+      "productCategory": "Concentrate",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/19f75b1a-50fb-46f3-a390-e7838281d41f.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "White Chocolates - Hybrid",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 5,
+      "description": "Try out our infused white chocolates! These tasty morsels are made with white chocolate and vanilla that pack quite a punch!",
+      "productCategory": "Edible",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/eef1b628-d974-4539-aa7f-78e434bbe23c.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Mango Orange - Gummies",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 9,
+      "description": "Mango Orange - Gummies",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Pear-Lime - Gummies",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 9,
+      "description": "Our Pear-Lime gummies are light and flavorful!\nA tasty combination of Pear and Lime!\nYou won't be sorry!\nSold in 50mg packages.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/2e7b64b6-397f-4b87-be68-8f7d6fe7e0ec.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Blue Raspberry - Gummies - Hybrid",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 9,
+      "description": "This BlueRaz flavor POPS!\nThese gummies provide a sweet rush of Blueberry and Raspberry.\nThey are BERRY good!\nSold in 50mg packages.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/400b35f7-ee43-4a3d-a0d4-58820534b707.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Chocolate Chip Cookie",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 3,
+      "description": "Chocolate Chip Cookie",
+      "productCategory": "Edible",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/58f4bafe-7996-4e53-b7d1-a7365342aa32.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Strawberry Watermelon - 50 mg Gummies - Hybrid",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 9,
+      "description": "Strawberry Watermelon - 50 mg Gummies - Hybrid",
+      "productCategory": "Edible",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/a72e52a3-e360-4f51-bdb0-23705c8d0447.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Chocolates - Hybrid",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 8,
+      "description": "Try out our infused chocolates! These tasty morsels are made with milk chocolate and pack quite a punch.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/bd345e06-8407-4fd5-b6f5-93b3ba20445b.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Wild Berry Gummies",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 9,
+      "description": "50 mg Package Delicious Wild berry flavor ,wonder way to start the day!",
+      "productCategory": "Edible",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/9d3a46ef-2b4f-48bc-855d-959a41b0d668.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Cherry - Gummies",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 9,
+      "description": "This Cherry flavor POPS!\nThese gummies provide a sweet and tart rush of Cherry!\nThey are CHERRY good!\nSold in 50mg packages.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Hot Coco Mix - Cinnamon - Hybrid",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 15,
+      "description": "Savor the perfect blend of rich chocolate and comforting cinnamon with our Hot Cocoa Mix - Cinnamon - Hybrid 20mg baggies. Each convenient baggie promises a balanced and delightful experience, ideal for elevating your cozy moments. Just mix with hot milk, stir, and enjoy the warmth and flavor in every sip. Treat yourself to a unique and indulgent chocolatey experience with a hint of cinnamon spice.",
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Bevvies Strawberry Lemon",
+      "brandName": "Bevvies",
+      "cartUnit": "each",
+      "price": 24,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Bevvies Pom Lemon",
+      "brandName": "Bevvies",
+      "cartUnit": "each",
+      "price": 24,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Bevvies Blood Orange",
+      "brandName": "Bevvies",
+      "cartUnit": "each",
+      "price": 24,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_edibles.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Blueberry - Gummies - Indica - Wana",
+      "brandName": "Wana Brands",
+      "cartUnit": "each",
+      "price": 32,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/TOpf2ERPT92yAgVy180o_Wana.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Mango - Gummies - Sativa - Wana",
+      "brandName": "Wana Brands",
+      "cartUnit": "each",
+      "price": 32,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/TOpf2ERPT92yAgVy180o_Wana.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Peach Bellini - Gummies - Sativa - Wana Quick",
+      "brandName": "Wana Brands",
+      "cartUnit": "each",
+      "price": 36,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/TOpf2ERPT92yAgVy180o_Wana.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Island Punch - Gummies - Indica - Wana Quick",
+      "brandName": "Wana Brands",
+      "cartUnit": "each",
+      "price": 36,
+      "description": null,
+      "productCategory": "Edible",
+      "imageUrl": "https://leafly-public.imgix.net/brands/logos/TOpf2ERPT92yAgVy180o_Wana.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Twisted Citrus - Vape Cartrigde",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 43,
+      "description": "Immerse yourself in the vibrant burst of Twisted Citrus! This sativa-dominant marvel unleashes an explosive fusion of oranges and bananas, crafting a tropical paradise with each inhale. Elevate your mood as you ride the waves of energized cerebral euphoria and enjoy the mellow, uplifting body effects—whether it's day or night, seize the twisted bliss! Crafted with precision on June 25, 2023, this cartridge doesn't just promise a taste; it's a ticket to an electrifying experience that defies the ordinary.",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/b9755f55-8d77-4e8c-a72f-ca196e10d519.jpg",
+      "strainName": "twisted-citrus",
+      "strainCategory": "Sativa",
+      "strainDescription": "Twisted Citrus is a sativa-dominant strain with a THC content that can climb to heights as high as 27%. With a name like Twisted Citrus, you might anticipate the tropical fruity aromas even before opening your stash jar. A bold fusion of oranges and banana flavors overwhelm the inhale and fade to subtle earthiness on the release. Next comes the upbeat, energized cerebral euphoria coupled with mellow, uplifting body effects, sensations that you can appreciate any time of the day.",
+      "effects": {
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 21,
+          "score": 1.38440846979383,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 20,
+          "score": 0.599989416455702,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 1.75484001205192,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 17,
+          "score": -0.348746788531832,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": 0.0305868160246226,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": 0.814262149926715,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": 0.596877079548678,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.458208430240643,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": 0.258733179191991,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": 0.17732778234194,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.33006344477607,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2,
+          "score": -0.465627560792517,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1,
+          "score": -1.01387581219172,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Zkittles - Vape Cartridge",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 43,
+      "description": "Embark on a journey into the luscious realm of fruit-infused ecstasy with our Zkittles vape cart—a sensation reminiscent of unwrapping a bag of pure fruity delight! Dive into this expertly crafted sativa blend, promising a revitalizing and uplifting experience that will leave you feeling nothing short of fantastic. Elevate your vaping escapade with the irresistible taste of Zkittles, allowing the goodness of every inhale to linger on your palate. Crafted on October 16, 2023, this cartridge is not just a product—it's a gateway to an unparalleled experience of flavor and euphoria.",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/c5261e92-7cdb-428a-81a3-bc8567506d5f.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Lemon Headz - Vape Cartridge",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 43,
+      "description": "Embark on a journey of exquisite indulgence with our Lemon Citrus cart! This indica masterpiece unfolds a symphony of delectable and soothing notes, delivering a tantalizingly relaxing sensation. Crafted for the connoisseur seeking a perfect evening companion, this cartridge, born on October 16, 2023, sets the stage for a serene and enjoyable night in. Immerse yourself in the citrusy allure and savor the essence of tranquility with every blissful inhale.",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/9bccbe7b-4e56-44dd-910c-6bb1b447f3b6.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Grape Ape - Vape Cartridge - Indica",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 43,
+      "description": "Immerse yourself in the lap of tranquility with Grape Ape—an opulent grape-flavored indica meticulously crafted to unravel your senses. Take a plunge into bliss and elevate your experience by indulging in this extraordinary cartridge! Crafted on October 16, 2023, it encapsulates the essence of luxury, inviting you to savor the unique pleasure of relaxation in every delightful puff.",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/b9efc3bf-83e8-46a9-bc05-9eaf54f67a20.jpg",
+      "strainName": "grape-ape",
+      "strainCategory": "Indica",
+      "strainDescription": "Grape Ape, propagated by Apothecary Genetics and Barney’s Farm, is a mostly indica strain that crosses Mendocino Purps, Skunk, and Afghani. Named for its distinct grape-like smell, this indica is known for providing carefree relaxation that can help soothe pain, stress, and anxiety. Its dense, compact buds are wreathed in deep purple leaves which darken as this indica reaches full maturation following its 7 to 8 week flowering time.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1091,
+          "score": 0.21390679263388,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 819,
+          "score": -0.170695584851859,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 779,
+          "score": 1.41704635755538,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 728,
+          "score": -0.183296186540727,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 482,
+          "score": 0.538714968313386,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 470,
+          "score": -0.609058199147663,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 301,
+          "score": -0.104875747425565,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 290,
+          "score": -0.58119035985487,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 279,
+          "score": -0.123795461875972,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 239,
+          "score": -0.728315946371438,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 204,
+          "score": -0.437365998381359,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 145,
+          "score": -0.28748868395779,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 118,
+          "score": -0.872648994908399,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Blueberry - Vape Cartridge - Sativa",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 43,
+      "description": "Elevate your senses to the zenith of sativa brilliance with this extraordinary cartridge! For those in pursuit of an unparalleled fusion of exceptional flavor and potent effects, your search ends here. Immerse yourself in the enchanting sweetness of berries that accompanies each exhale, delivering an explosion of flavor that truly distinguishes itself. Crafted with precision on October 16, 2023, this cartridge is not just a product—it's a testament to the artistry of an exceptional smoking experience.",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/ba215973-935f-44af-9dc6-e3166eb95565.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Banana Runtz - Vape Cartridge",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 43,
+      "description": "Unveiling a tropical sensation infused with the luscious essence of ripe bananas, evoking the beloved flavors of banana runtz candies! This exquisite indica not only captivates your palate but also delivers a serene and comforting experience, making it an ideal choice for pain relief. Embark on a flavorful odyssey and immerse yourself in the soothing effects of this tropical banana-infused elixir. Crafted on October 16, 2023, this cartridge promises a fresh and premium experience for your indulgence.",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/854c7ae7-dbc6-4b20-9b2e-a6e50d4cfcef.jpg",
+      "strainName": "banana-runtz",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Banana Runts is a hybrid weed strain made by crossing Banana OG with Runtz. This high profile strain is believed to promote a sense of balance. Consumers who have smoked Banana Runtz say this strain makes them feel tingly, uplifted, and aroused. This strain is best enjoyed during the afternoon or early evening. When smoked in large doses, this strain may make you feel paranoid or anxious. In terms of flavor, Banana Runtz tastes tropical and fruity, with notes of tobacco and tree fruit shining through. The history of this strain is unknown, but some cannabis connoisseurs tell us this is the same strain as Banana Punch. The original breeder of this strain is Solfire Gardens. Strains similar to Banana Runtz include Peanut Butter Souffle (aka PB Souffle), Tangerine Power, and Lime OG.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 42,
+          "score": -0.145862902232685,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 41,
+          "score": 0.248983285367707,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 37,
+          "score": 0.605460019892685,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 37,
+          "score": 0.22899369607879,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 24,
+          "score": 1.04104152395737,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 19,
+          "score": 1.14135415230387,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 0.366961870800561,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": -0.300977172390411,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": 0.152128587256793,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": -0.0089141533073064,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.427676205399338,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 9,
+          "score": -0.513088676607016,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.649190079518896,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Super Lemon Haze - Disposable Vape Cartridge",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 72,
+      "description": "Super Lemon Haze - The flower in vapor form! This is a very citrusy sativa for the morning time.\n\nDisposable vaporizers contain concentrated cannabis oil that is heated by an attached battery and inhaled. These products come charged and ready to go, and are not designed to be reused or refilled. These products are often very potent and are designed to be consumed in 2-3 second puffs.",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/74e79a4f-b875-4555-8e90-9ef951cb5607.jpg",
+      "strainName": "super-lemon-haze",
+      "strainCategory": "Sativa",
+      "strainDescription": "Super Lemon Haze, sometimes called \"SLH,\" is a sativa-dominant hybrid marijuana strain of Lemon Skunk and Super Silver Haze and two time Cannabis Cup winner from Green House Seeds. Super Lemon Haze is a kief-caked multi-colored wonder. As the name states this strain has real lemony characteristics. The smell is zesty, citrusy, and a little sweet. As for the taste, it's everything one would expect from the namesake; tart and sweet like lemonheads candy - not quite as sharp as one might expect. The effects are uniquely energetic and lively, may not be the best strain for those of us that are naturally wound-up tight.",
+      "effects": {
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1173,
+          "score": 0.46736028070131,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1131,
+          "score": 1.88618062040195,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1121,
+          "score": 0.971449602546512,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1016,
+          "score": 0.303880650003532,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 825,
+          "score": 0.883074951719851,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 706,
+          "score": 0.565191386933282,
+          "type": "effect"
+        },
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 608,
+          "score": -1.4811618749336,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 591,
+          "score": 0.832865890915625,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 421,
+          "score": 0.153561194083774,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 383,
+          "score": -0.0736748794006657,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 298,
+          "score": -0.217638562922043,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 274,
+          "score": 0.16163995580479,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 123,
+          "score": -0.864946445765895,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Blue Raspberry - Vape Cartridge - Indica",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 43,
+      "description": "Plunge into the captivating mystique of Blue Raspberry, the coveted hybrid born from a harmonious blend of Raspberry Kush. Brimming with easy-going, uplifting vibes, this strain is your golden ticket to an enjoyable and memorable experience. Immerse yourself in the sweet symphony of its flavor profile, artfully complemented by subtle skunky undertones. Unlock the secrets of Blue Razz and embark on an unforgettable journey! Crafted with care on October 16, 2023, this cartridge is not just a product; it's an invitation to explore the enigmatic depths of flavor and euphoria.",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/a0346ff5-a415-4857-b8ed-0ae7b0f9b940.jpg",
+      "strainName": "blue-raspberry",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Blue Raspberry, also known as \"Blue Razz,\" is a potent hybrid marijuana strain believed to originate from a Raspberry Kush cross. While little is known about this mystery strain, it's commonly found in cartridges and consumers say it produces easy-going effects that are uplifting and enjoyable. Blue Raspberry offers a sweet flavor profile with skunky undertones. Medical marijuana patients choose this strain to help relieve symptoms associated with pain and headaches. Growers say Blue Raspberry has a flowering time of about 10-12 weeks when cultivated indoors. We're still learning about the flavors and effects of this strain - if you've smoked, dabbed or consumed Blue Raspberry, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 53,
+          "score": 0.505451311966877,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 43,
+          "score": 0.311053834988332,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 32,
+          "score": 0.179693683713751,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 30,
+          "score": -0.355937436184887,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 25,
+          "score": 0.394184951710934,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": 0.221998158015043,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 15,
+          "score": 0.0439785606963888,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 14,
+          "score": -0.15632697278493,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.0671409034209638,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -0.25508406092103,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -0.451537081895687,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 11,
+          "score": -0.720742840212798,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.224396207332557,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Watermelon - Vape Cartridge - Hybrid",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 43,
+      "description": "Savor the unique essence of Watermelon Kush, boasting a distinctive fruity watermelon flavor profile that dances between grape sweetness and subtle hashy undertones. Embrace the consensus of users who've lauded its relaxing effects, finding utility as a reliable sleeping aid and appetite stimulant. Crafted on June 25, 2023, this cartridge is not just a product—it's a testament to the artistry of flavor and efficacy, offering a delightful and purposeful experience for the discerning consumer.",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/9961012f-3cf2-47fc-a340-f7e70fb30ab9.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Grandaddy Purple - Vape Cartridge - Indica",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 43,
+      "description": "Delight in the opulent retreat of Granddaddy Purple, your gateway to stress-free bliss. Embark on a journey that unfolds from a vibrant head high to a sumptuous physical embrace. Tailored for nighttime relaxation, this indica powerhouse unfolds its symphony of sweet grape and earthy undertones, weaving an unforgettable aromatic tapestry. Whether you're seeking to elevate your day or unwind under the stars at night, succumb to the unparalleled allure of Granddaddy Purple. Crafted on November 22, 2023, this cartridge isn't just a product; it's a crafted invitation to experience the luxurious blend of relaxation and flavor.",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/fa6b69dc-37b9-4ece-b67e-d7cdd377a9d9.jpg",
+      "strainName": "granddaddy-purple",
+      "strainCategory": "Indica",
+      "strainDescription": "Granddaddy Purple is an indica marijuana strain that goes by many different names, including \"Grand Daddy Purp,\" \"Granddaddy Purps,\" \"GDP,\" and \"Grandaddy Purple Kush.\" Popularized in 2003 by Ken Estes, Granddaddy Purple (or GDP) is a famous indica cross of Mendo Purps, Skunk, and Afghanistan. This California staple inherits a complex grape and berry aroma from its Mendo Purps and Afghanistan parent, while Skunk passes on its oversized, compact bud structure. GDP flowers bloom in shades of deep purple, a contrasting backdrop for its snow-like dusting of white crystal resin. Its potent effects are clearly detectable in both mind and body, delivering a fusion of cerebral euphoria and physical relaxation. While your thoughts may float in a dreamy buzz, your body is more likely to find itself fixed in one spot for the duration of GDP’s effects. Granddaddy Purple is typically pulled off the shelf for consumers looking to combat pain, stress, insomnia, appetite loss, and muscle spasms. GDP blesses growers with massive yields which are ready for harvest following a 60 day flowering time indoors.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2871,
+          "score": 0.412835164987509,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2280,
+          "score": 1.89310573689949,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 2069,
+          "score": -0.120766758274212,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1958,
+          "score": 0.0179956408856994,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1452,
+          "score": 0.956668783933009,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 1146,
+          "score": -0.634698112436567,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 819,
+          "score": 0.0163581195415657,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 777,
+          "score": 0.0228350115167404,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 731,
+          "score": -0.565074499717812,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 573,
+          "score": -0.756541091548502,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 500,
+          "score": -0.447602748521918,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 490,
+          "score": -0.0292665612532095,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 318,
+          "score": -0.840143917862864,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Unicorn Piss -  Vape Cartridge - Hybrid",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 43,
+      "description": "Immerse yourself in the enchanting realm of Unicorn Piss—an indica-dominant hybrid meticulously crafted for a delightful escape. Unleashing relaxing vibes that gently uplift without overwhelming, it's the ideal lift for your spirits and attitude. Brace yourself for an instantaneous journey; take it slow to savor the sour, skunky profile adorned with citrus notes. More than just a strain, Unicorn Piss is an unfolding experience, tailor-made for stress relief. Embrace the rich flavor, ignite your creativity, and share unforgettable moments with this sociable delight! Crafted with precision on November 22, 2023, this cartridge promises not just a product but a magical passage to a world of unique experiences.",
+      "productCategory": "Cartridge",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/439b37ec-475a-4530-abaa-9b34406b5e74.jpg",
+      "strainName": "unicorn-piss",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Unicorn Piss is an indica-dominant hybrid weed strain made from an unknown cross of strains. This strain is believed to be more relaxing than energizing, although the effects won’t completely knock you out. Unicorn Piss will calmly lift your spirits and your attitude. The effects of this strain will hit you instantaneously, so it’s important to take it slow when toking. Consumers who have smoked Unicorn Piss report feeling blissful, giggly, and tranquil. The flavor profile is sour and skunky and notes of citrus shining through. Medical marijuana patients say they buy Unicorn Piss when experiencing mild stress. This strain is 20-24% THC and should be reserved for experienced cannabis consumers. The original breeder of this strain is unknown.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -1.0258263125307,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.656480116517328,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.37455060416837,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 12,
+          "score": 1.16389636887136,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": -0.776623223028106,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.0019876058719764,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.177102231961445,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.161876463682284,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 0.495746522604838,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.214144974549224,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 5,
+          "score": -0.677885003027101,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.575428184251708,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.995885893812491,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "THC Pain Cream",
+      "brandName": "Montana Sungrown",
+      "cartUnit": "each",
+      "price": 50,
+      "description": "1:1 THC / CDB pain cream; 40 servings per jar. 200 mg CBD 200mg THC\nThis pain cream is sure to help soothe any aches and pains!",
+      "productCategory": "Topical",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/979f601d-3edd-477b-8a07-ac4079fc73a2.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Bong Bowl with handle",
+      "brandName": "Luvbuds",
+      "cartUnit": "each",
+      "price": 10,
+      "description": null,
+      "productCategory": "Accessory",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/menu_accessory.png",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Waterproof Joint Holder",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 1,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Green Bee Lanyard",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 4,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Peppermint - Lozenges - Hybrid",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 9,
+      "description": "Experience the perfect balance of soothing peppermint and a subtle hybrid effect with our Peppermint Lozenges. Enjoy a refreshing burst of mint and discreet cannabis benefits in one delightful package. Elevate your moments with the cool and calming fusion of peppermint and hybrid goodness.  69mg Packs!",
+      "productCategory": "Other",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/1f2f6f8c-56a6-435d-8af0-8b715fa20b83.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Peach - Hard Candy",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 9,
+      "description": "These delicious Peach hard candies taste just like a juicy Peach!\nOur infused hard candies are fruity good!",
+      "productCategory": "Other",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/59dc2a1c-91ed-4aca-9e84-7cb2da6c286e.jpg",
+      "strainName": "hard-candy",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Hard Candy is a hybrid weed strain made from a genetic cross between unknown parent strains. This strain is 75% sativa and 25% indica. Hard Candy is 19% THC, making this strain an ideal choice for experienced cannabis consumers. Bred by unknown breeders, the average price of Hard Candy typically ranges from $10-$15 per gram. We are still learning about Hard Candy’s effects, flavors, and medical uses. If you've smoked, dabbed, or consumed Hard Candy, please tell us about your experience by leaving a strain review.",
+      "effects": {},
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Root Beer - Hard Candy - Hybrid",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 9,
+      "description": "These delicious Root Beer hard candies taste just like the crisp drink!\nOur infused hard candies are jolly good!",
+      "productCategory": "Other",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/778bb994-51dc-4848-8ece-ae8c1786ffd5.jpg",
+      "strainName": "hard-candy",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Hard Candy is a hybrid weed strain made from a genetic cross between unknown parent strains. This strain is 75% sativa and 25% indica. Hard Candy is 19% THC, making this strain an ideal choice for experienced cannabis consumers. Bred by unknown breeders, the average price of Hard Candy typically ranges from $10-$15 per gram. We are still learning about Hard Candy’s effects, flavors, and medical uses. If you've smoked, dabbed, or consumed Hard Candy, please tell us about your experience by leaving a strain review.",
+      "effects": {},
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Dab Slick",
+      "brandName": "Luvbuds",
+      "cartUnit": "each",
+      "price": 10,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Rolling Tray - Small",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 10,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Special Blue Ultra Pure Butane",
+      "brandName": "Special Blue",
+      "cartUnit": "each",
+      "price": 12,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Bear Rootz Vape",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 13,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Lemon OG - Shake Bags - Indica",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 15,
+      "description": "Envelop yourself in the delightful essence of Lemon OG, where the perfect harmony of sweetness and earthiness unfolds. This strain reveals a robust citrus note intricately interwoven with subtle hints of spicy pepper and pungent diesel, creating a complex and enticing bouquet that tantalizes the senses. What truly sets Lemon OG apart is its exceptional balance, seamlessly delivering both uplifting and energetic influences, ensuring a flower that promises a well-rounded and invigorating experience. Conveniently pre-packaged into 1/8ths for your ease. Freshly harvested on July 17, 2023, this product isn't just a flower—it's a curated journey into freshness, balance, and exhilaration.",
+      "productCategory": "Other",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/08040bbe-a0c5-450a-92f7-1a9d0a620455.jpg",
+      "strainName": "lemon-og",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Lemon OG, also known as \"Lemon OG Kush,\" is an indica-dominant marijuana strain. Anything this skunky indica-hybrid lacks in longevity, it makes up for in speed. A cross between the mythical Las Vegas Lemon Skunk and The OG #18, Lemon OG provides users with a quick-acting sleepy head sensation. While Lemon OG has inherited a skunky aroma from its kush relatives, this particular strain is mild tasting and pleasant smelling with fruity undertones. Lemon OG tends to feel more psychoactive than other members of the kush family, but still offers a heavy, medicated feel. The strain is great for stress relief and increasing appetite. These plants usually flower in 8-10 weeks.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 291,
+          "score": 0.3009828977911,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 226,
+          "score": -0.0019457078033351,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 212,
+          "score": 0.105672073002412,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 177,
+          "score": 0.0629401663063313,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 143,
+          "score": 0.641056539704706,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 132,
+          "score": 0.643284662418976,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 117,
+          "score": -0.0241991562364556,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 95,
+          "score": -0.284890015329836,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 88,
+          "score": 0.0519891687480207,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 82,
+          "score": 0.0331795303955405,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 82,
+          "score": 0.0263558892205763,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 67,
+          "score": -0.42185929856252,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 42,
+          "score": -0.205117678198534,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Rolling Tray - Medium",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 15,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Grav Bauble Spoon",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Silicone Sherlock",
+      "brandName": "Luvbuds",
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Rolling Tray - Large",
+      "brandName": null,
+      "cartUnit": "each",
+      "price": 20,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Womens T-shirt - XL (grey)",
+      "brandName": "The Green Bee",
+      "cartUnit": "each",
+      "price": 25,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "CBD Pain Cream",
+      "brandName": "Montana Sungrown",
+      "cartUnit": "each",
+      "price": 25,
+      "description": "CBD Pain Cream 200 mg of CBD",
+      "productCategory": "Other",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/e3477a5c-6c96-4a9e-a82a-578107020d7b.jpg",
+      "strainName": "cream",
+      "strainCategory": "Hybrid",
+      "strainDescription": "Cream is a hybrid weed strain made from a genetic cross between Wedding Cake and Gelato #33. Cream is 14% THC, making this strain an ideal choice for beginner cannabis consumers. Leafly customers tell us Cream effects include feeling focused,  aroused, and tingly. Medical marijuana patients often choose Cream when dealing with symptoms associated with muscle spasms, pain, and depression. Bred by Cream Crop Co, Cream features flavors like flowery, berry, and pungent. The dominant terpene of this strain is Myrcene. The average price of Cream typically ranges from $30-$40. If you’ve smoked, dabbed, or consumed Cream, tell us about your experience by leaving a strain review.",
+      "effects": {
+        "relaxed": {
+          "name": "relaxed",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 18,
+          "score": -0.363368010248491,
+          "type": "effect"
+        },
+        "happy": {
+          "name": "happy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": -0.243116927220434,
+          "type": "effect"
+        },
+        "euphoric": {
+          "name": "euphoric",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 16,
+          "score": 0.0357622304865676,
+          "type": "effect"
+        },
+        "uplifted": {
+          "name": "uplifted",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 13,
+          "score": -0.0484307167125073,
+          "type": "effect"
+        },
+        "focused": {
+          "name": "focused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 10,
+          "score": 0.16824567853071,
+          "type": "effect"
+        },
+        "tingly": {
+          "name": "tingly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 8,
+          "score": 0.37256254859962,
+          "type": "effect"
+        },
+        "creative": {
+          "name": "creative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 7,
+          "score": -0.36954550641411,
+          "type": "effect"
+        },
+        "talkative": {
+          "name": "talkative",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": -0.0452170575864797,
+          "type": "effect"
+        },
+        "aroused": {
+          "name": "aroused",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 6,
+          "score": 0.45173240879571,
+          "type": "effect"
+        },
+        "sleepy": {
+          "name": "sleepy",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.535290695205661,
+          "type": "effect"
+        },
+        "giggly": {
+          "name": "giggly",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.514480946210752,
+          "type": "effect"
+        },
+        "energetic": {
+          "name": "energetic",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 4,
+          "score": -0.595354725404446,
+          "type": "effect"
+        },
+        "hungry": {
+          "name": "hungry",
+          "icon": "https://via.placeholder.com/150",
+          "votes": 3,
+          "score": -0.783520348370668,
+          "type": "effect"
+        }
+      },
+      "strainNucleusImageSvg": "https://public.leafly.com/strains/flowers/default.svg"
+    },
+    {
+      "name": "Triple Flame Torch",
+      "brandName": "Torch Northwest",
+      "cartUnit": "each",
+      "price": 25,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leafly-public.imgix.net/shared-web-images/product-type-icons/other.svg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    },
+    {
+      "name": "Grinder",
+      "brandName": "Luvbuds",
+      "cartUnit": "each",
+      "price": 25,
+      "description": null,
+      "productCategory": "Other",
+      "imageUrl": "https://leaflogixmedia.blob.core.windows.net/product-image/aac574c1-ec67-4f55-b58f-925153faa64d.jpg",
+      "strainName": null,
+      "strainCategory": null,
+      "strainDescription": null,
+      "effects": null,
+      "strainNucleusImageSvg": null,
+      "phenoType": null
+    }
+  ]
+}

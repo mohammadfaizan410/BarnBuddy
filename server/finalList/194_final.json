@@ -1,0 +1,56 @@
+{
+  "dispensary": {
+    "name": "Spiritleaf - Varsity",
+    "address1": "406-4625 Varsity Dr. NW",
+    "coverPhotoUrl": "https://images.leafly.com/menu/4lwzA1XTr6m3NspZABaI_Spiritleaf-Banner.jpeg",
+    "country": "CA",
+    "city": "Calgary",
+    "description": "",
+    "email": null,
+    "flags": [
+      "CA",
+      "dispensary",
+      "licensed",
+      "recreational",
+      "storefront"
+    ],
+    "locations": [
+      {
+        "lat": 51.0918349,
+        "lon": -114.1543781
+      }
+    ],
+    "logoUrl": "https://images.leafly.com/menu/svR7nXnRBmMrlUQ2M7m3_spirileaf_logo_2.jpg",
+    "mapMarkerLocations": [
+      {
+        "city": "Calgary",
+        "index": 0,
+        "label": "Calgary,AB",
+        "state": "AB",
+        "country": "CA",
+        "latitude": "51.0918349",
+        "longitude": "-114.1543781"
+      }
+    ],
+    "phone": "(587) 231-0243",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://images.leafly.com/menu/4lwzA1XTr6m3NspZABaI_Spiritleaf-Banner.jpeg"
+      }
+    ],
+    "primaryLocation": {
+      "lat": 51.0918349,
+      "lon": -114.1543781
+    },
+    "state": "AB",
+    "tags": [
+      "recreational",
+      "storefront",
+      "licensed"
+    ],
+    "website": "www.spiritleaf.ca",
+    "zip": "T3A 0Z9"
+  },
+  "products": []
+}

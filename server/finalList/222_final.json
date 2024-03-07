@@ -1,0 +1,56 @@
+{
+  "dispensary": {
+    "name": "Spiritleaf - Oxford",
+    "address1": "15274 127 St. NW",
+    "coverPhotoUrl": "https://images.leafly.com/menu/c3qvbYxTf60HBLE8IdC6_Spiritleaf-Banner.jpeg",
+    "country": "CA",
+    "city": "Edmonton",
+    "description": "",
+    "email": null,
+    "flags": [
+      "CA",
+      "dispensary",
+      "licensed",
+      "recreational",
+      "storefront"
+    ],
+    "locations": [
+      {
+        "lat": 53.6165934,
+        "lon": -113.5424507
+      }
+    ],
+    "logoUrl": "https://images.leafly.com/menu/ZshLv3AMTCqwxDlhmFxA_spirileaf_logo_2.jpg",
+    "mapMarkerLocations": [
+      {
+        "city": "Edmonton",
+        "index": 0,
+        "label": "Edmonton,AB",
+        "state": "AB",
+        "country": "CA",
+        "latitude": "53.6165934",
+        "longitude": "-113.5424507"
+      }
+    ],
+    "phone": "(587) 635-4280",
+    "photos": [
+      {
+        "id": -1,
+        "imageUrl": "https://images.leafly.com/menu/c3qvbYxTf60HBLE8IdC6_Spiritleaf-Banner.jpeg"
+      }
+    ],
+    "primaryLocation": {
+      "lat": 53.6165934,
+      "lon": -113.5424507
+    },
+    "state": "AB",
+    "tags": [
+      "recreational",
+      "storefront",
+      "licensed"
+    ],
+    "website": "www.spiritleaf.ca",
+    "zip": "T6V 0C5"
+  },
+  "products": []
+}
