@@ -10,12 +10,16 @@ export default function BusinessDashboardProducts() {
     const business = useStoreState(state => state.business);
     const [show, setShow] = useState(false);
     const [products, setProducts] = useState([]);
+
+    // router.get("/business/products/:business_id", async (req, res) => {
+
     useEffect(() => {
         if(business._id) {
-            fetch(`http://localhost:5000/api/business/${business._id}/products`)
+            fetch(`http://localhost:3001/business/products/${business._id}`)
             .then(res => res.json())
             .then(data => {
-                setProducts(data);
+                console.log(data);
+                setProducts(data.products); 
             })
             .catch(err => console.log(err));
         }
@@ -35,21 +39,6 @@ export default function BusinessDashboardProducts() {
                         <h6 className="textSecondary col-2">Actions</h6>
                 </div>
                 <ListedProducts products={products} />
-                {/* {products.map((product, index) => {
-                    return (
-                        <div key={index} className="d-flex flex-column m-3">
-                            <div className="d-flex flex-row">
-                                <div className="d-flex flex-column">
-                                    <img src={product.productImage} alt="product" width="200" height="200" />
-                                    <p className="textPrimary text-bold">{product.productName}</p>
-                                    <p className="textSecondary">{product.productDescription}</p>
-                                    <p className="textSecondary">{product.productPrice}</p>
-                                    <p className="textSecondary">{product.productCategory}</p>
-                                </div>
-                            </div>
-                        </div>
-                    )
-                })} */}
             <AddProductBusiness 
             show={show}
             handleClose={() => setShow(false)}

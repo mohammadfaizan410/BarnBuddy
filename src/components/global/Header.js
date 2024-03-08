@@ -14,6 +14,7 @@ import { IoAnalytics } from "react-icons/io5";
 import { CiSettings } from "react-icons/ci";
 import { FaUserFriends } from "react-icons/fa";
 import { CiHome } from "react-icons/ci";
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -28,7 +29,7 @@ export default function Header() {
     const setSelectedMenuBusiness = useStoreActions(actions => actions.setSelectedMenuBusiness);
     const selectedMenuBusiness = useStoreState(state => state.selectedMenuBusiness);
     const [BusinessAuthModal, setBusinessAuthModal] = React.useState(false);
-
+    const navigate = useNavigate();
 
 
 
@@ -124,10 +125,12 @@ export default function Header() {
                         >
                         </CiHome>
                     </Link>
-                    <Link 
-                        to="/business-dashboard-products" 
+                    <div 
                         className={`text-decoration-none dashboard-menu-item menu-margin menu-font mx-auto mb-4 border-bottom`}
-                        onClick={() => setSelectedMenuBusiness("myproducts")}
+                        onClick={() => {
+                            setSelectedMenuBusiness("myproducts")
+                            navigate("/business-dashboard-products")
+                        }}
                         >
                         <CiShop 
                         size={50}
@@ -136,11 +139,12 @@ export default function Header() {
                         style={selectedMenuBusiness === "myproducts" && {borderRadius: "20px", backgroundColor: "#E8E8E8"}}
                         >
                         </CiShop>
-                    </Link>
-                    <Link 
-                        to="/business-dashboard-products" 
+                    </div>
+                    <div 
                         className={`text-decoration-none dashboard-menu-item menu-margin menu-font mx-auto mb-4 border-bottom`}
-                        onClick={() => setSelectedMenuBusiness("analytics")}
+                        onClick={() => {setSelectedMenuBusiness("analytics")
+                        navigate("/business-dashboard-analytics")
+                    }}
                         >
                         <IoAnalytics 
                         size={50}
@@ -149,7 +153,7 @@ export default function Header() {
                         style={selectedMenuBusiness === "analytics" && {borderRadius: "20px", backgroundColor: "#E8E8E8"}}
                         >
                         </IoAnalytics>
-                    </Link>
+                    </div>
                     <Link 
                         to="/business-dashboard-products" 
                         className={`text-decoration-none dashboard-menu-item menu-margin menu-font mx-auto mb-4 border-bottom`}

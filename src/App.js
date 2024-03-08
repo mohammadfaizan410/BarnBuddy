@@ -24,8 +24,6 @@ function App() {
           <Route path="claim-business" element={<ClaimBusiness />} />
           <Route path="business-dashboard-products" element={<BusinessDashboardProducts />} />
           <Route path="business-dashboard-analytics" element={<BusinessDashboardAnalytics />} />
-
-
         </Routes>
       </div>
       </BrowserRouter>

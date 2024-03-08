@@ -21,88 +21,122 @@ const {
 
 
 // const populateData = async (index) => {
-//   if(index !== 162) {
-//   try {
-//     const data = fs.readFileSync("./finalList/" + index + "_final.json");
-//     const jsonData = JSON.parse(data);
-//     const businessData = jsonData.dispensary;
-//     const products = jsonData.products;
-//     let username = businessData.name + "-" + businessData.country + "-" + businessData.locations[0].lat + "-" + businessData.locations[0].lng;
-//     let email = businessData.email ? businessData.email : "temp@gmail.com";
-//     const user = new User({
-//       username: username,
-//       password: env.parsed.TEMP_PASSWORD;,
-//       email: email,
-//       fullname: "NA",
-//       date_of_birth: null,
-//       user_type: "business",
-//     });
+//   if (index !== 162) {
+//     try {
+//       const data = fs.readFileSync("./finalList/" + index + "_final.json");
+//       const jsonData = JSON.parse(data);
+//       const businessData = jsonData.dispensary;
+//       const products = jsonData.products;
+//       let username =
+//         businessData.name +
+//         "-" +
+//         businessData.country +
+//         "-" +
+//         businessData.locations[0].lat +
+//         "-" +
+//         businessData.locations[0].lng;
+//       let email = businessData.email ? businessData.email : "temp@gmail.com";
 
-//     await user.save();
-//     const business = new Business({
-//       user_id: user._id,
-//       name: businessData.name,
-//       address1: businessData.address1 ? businessData.address1 : "",
-//       coverPhotoUrl: businessData.coverPhotoUrl ? businessData.coverPhotoUrl : "",
-//       country: businessData.country ? businessData.country : "USA", 
-//       city: businessData.city ? businessData.city : "",
-//       description: businessData.description ? businessData.description : "",
-//       email: businessData.email ? businessData.email : "",
-//       flags : businessData.flags ? businessData.flags : [],
-//       locations : businessData.locations ? businessData.locations : [],
-//       logoUrl : businessData.logoUrl ? businessData.logoUrl : "",
-//       mapMarkerLocations : businessData.mapMarkerLocations  ? businessData.mapMarkerLocations : [],
-//       phone : businessData.phone ? businessData.phone : "",
-//       photos : businessData.photos ? businessData.photos : [],
-//       primaryLocation : businessData.primaryLocation ? businessData.primaryLocation : "",
-//       state : businessData.state ? businessData.state : "",
-//       tags : businessData.tags ? businessData.tags : [],
-//       website : businessData.website ? businessData.website : "",
-//       zip : businessData.zip ? businessData.zip : "",
-//       products: [],
-//       instore_purchasing: false,
-//       claimed: false,
-//       business_type: "greenstore",
-//       deals : [],
-//       reviews : [],
-//       filters : [],
-//       registration_date: Date.now(),
-//       followers: [],
-//       opening_hours: [],
-//       isFeatured: false,
-//       isTopRated: false,
-//     });
-
-//     await business.save();
-
-//     for (let i = 0; i < products.length; i++) {
-//       const product = new Product({
-//         business_id: business._id,
-//         name: products[i].name ? products[i].name : "",
-//         brandName: products[i].brandName ? products[i].brandName : "",        
-//         cartUnit: products[i].cartUnit,
-//         price: products[i].price ? products[i].price : 0,
-//         description: products[i].description ? products[i].description : "",
-//         productCategory: products[i].productCategory ? products[i].productCategory : "",
-//         imageUrl: products[i].imageUrl ? products[i].imageUrl : "",
-//         strainName: products[i].strainName ? products[i].strainName : "", 
-//         strainCategory: products[i].strainCategory ? products[i].strainCategory : "",
-//         strainDescription: products[i].strainDescription ? products[i].strainDescription : "",
-//         strainNucleusImageSvg : products[i].strainNucleusImageSvg ? products[i].strainNucleusImageSvg : "",
-//         followers : [],
-//         reviews : [],
-//         isFeatured: false,
+//       // Create a user outside the loop
+//       const user = new User({
+//         username: username,
+//         password: env.parsed.TEMP_PASSWORD,
+//         email: email,
+//         fullname: "NA",
+//         date_of_birth: null,
+//         user_type: "business",
 //       });
 
-//       await product.save();
-//       business.products.push(product._id);
+//       // Save the user
+//       await user.save();
+
+//       const business = new Business({
+//         user_id: user._id, // Ensure that user._id is assigned correctly
+//         name: businessData.name,
+//         address1: businessData.address1 ? businessData.address1 : "",
+//         coverPhotoUrl: businessData.coverPhotoUrl
+//           ? businessData.coverPhotoUrl
+//           : "",
+//         country: businessData.country ? businessData.country : "USA",
+//         city: businessData.city ? businessData.city : "",
+//         description: businessData.description
+//           ? businessData.description
+//           : "",
+//         email: businessData.email ? businessData.email : "",
+//         flags: businessData.flags ? businessData.flags : [],
+//         locations: businessData.locations ? businessData.locations : [],
+//         logoUrl: businessData.logoUrl ? businessData.logoUrl : "",
+//         mapMarkerLocations: businessData.mapMarkerLocations
+//           ? businessData.mapMarkerLocations
+//           : [],
+//         phone: businessData.phone ? businessData.phone : "",
+//         photos: businessData.photos ? businessData.photos : [],
+//         primaryLocation: businessData.primaryLocation
+//           ? businessData.primaryLocation
+//           : "",
+//         state: businessData.state ? businessData.state : "",
+//         tags: businessData.tags ? businessData.tags : [],
+//         website: businessData.website ? businessData.website : "",
+//         zip: businessData.zip ? businessData.zip : "",
+//         products: [],
+//         instore_purchasing: false,
+//         claimed: false,
+//         business_type: "greenstore",
+//         deals: [],
+//         reviews: [],
+//         filters: [],
+//         registration_date: Date.now(),
+//         followers: [],
+//         opening_hours: [],
+//         isFeatured: false,
+//         isTopRated: false,
+//       });
+
+//       // Save the business
 //       await business.save();
+
+//       for (let i = 0; i < products.length; i++) {
+//         const product = new Product({
+//           business_id: business._id, // Ensure that business._id is correctly assigned
+//           name: products[i].name ? products[i].name : "",
+//           brandName: products[i].brandName ? products[i].brandName : "",
+//           cartUnit: products[i].cartUnit,
+//           price: products[i].price ? products[i].price : 0,
+//           description: products[i].description
+//             ? products[i].description
+//             : "",
+//           productCategory: products[i].productCategory
+//             ? products[i].productCategory
+//             : "",
+//           imageUrl: products[i].imageUrl ? products[i].imageUrl : "",
+//           strainName: products[i].strainName
+//             ? products[i].strainName
+//             : "",
+//           strainCategory: products[i].strainCategory
+//             ? products[i].strainCategory
+//             : "",
+//           strainDescription: products[i].strainDescription
+//             ? products[i].strainDescription
+//             : "",
+//           strainNucleusImageSvg: products[i].strainNucleusImageSvg
+//             ? products[i].strainNucleusImageSvg
+//             : "",
+//           followers: [],
+//           reviews: [],
+//           isFeatured: false,
+//         });
+
+//         // Save the product
+//         await product.save();
+//         business.products.push(product._id);
+//       }
+
+//       // Save the business after adding products
+//       await business.save();
+//     } catch (error) {
+//       console.log(error + " " + index);
 //     }
 //   }
-//   catch (error) {
-//     console.log(error + " " + index);
-//   }
-// }
 // };
 
 
@@ -123,6 +157,9 @@ database.once("connected", () => {
   console.log("Database Connected: " + database.name);
 });
 
+// for(let i = 0; i < 228; i++){
+//   populateData(i);
+// }
 
 // ------- mongo db connection --------
 
@@ -217,6 +254,34 @@ async function importBusinesses() {
     console.error("Error reading file:", error);
   }
 }
+
+//---products for a business ---//
+router.get("/business/products/:business_id", async (req, res) => {
+
+  console.log("business id", req.params.business_id);
+  try {
+    const { business_id } = req.params;
+    const business = await Business.findOne({
+      _id: business_id,
+    });
+
+    if (!business) {
+      return res.status(400).json({ message: "Business not found" });
+    }
+
+    const products = await Product.find({
+      business_id: business_id,
+    });
+
+    return res.status(200).json({success : true , products: products });
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message });
+  }
+});
+
+
+
 
 //importBusinesses();
 
@@ -417,11 +482,24 @@ router.get("/business/unclaimed/all", async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 });
+router.get("/business/unclaimed/:category", async (req, res) => {
+  console.log(req.params.category);
+  try {
+    const businesses = await Business.find({
+      claimed: false,
+      business_type: req.params.category,
+    });
+    return res.status(200).json({ businesses: businesses });
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message });
+  }
+});
+ 
 
 router.get("/business/all", async (req, res) => {
   try {
     const businesses = await Business.find({});
-
     return res.status(200).json({ businesses: businesses });
   } catch (error) {
     console.log(error);

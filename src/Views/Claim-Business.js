@@ -4,6 +4,7 @@ import { Button } from "react-bootstrap";
 import SelectBusinessModal from "../components/Modals/Select-Business-Modal";
 import BusinessCardRound from "../components/Business/Business-Card-Round";
 export default function ClaimBusiness() {
+    const [category, setCategory] = useState("");
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -38,6 +39,10 @@ export default function ClaimBusiness() {
         }
     }
 
+    const onCategoryChange = () => {
+        setSelectedBusiness(null);
+
+    }
     const handleValidation = () => {};
 
 
@@ -61,11 +66,34 @@ export default function ClaimBusiness() {
         <form noValidate className="container-margins">
             <h3 className="heading-primary mb-lg-5 border-bottom">Claim A business</h3>
             <p className="textSecondary">After you have selected a business and added all the necessary details the owner of the website will be notified. Once approved you would be emailed a business account along with its details.</p>
+            <h6>Please select a category:</h6>
+            <div className="d-flex flex-row">
+            <Button className={
+                `btn btn-primary ${category === "greenstore" && "btn-secondary"}`
+            } onClick={() => {
+                setCategory("greenstore ")
+                onCategoryChange();
+            }}>Green Stores</Button>
+            <Button className= {
+                `btn btn-primary margin-2x-left ${category === "pharmacy" && "btn-secondary"}`
+            } 
+            onClick={() => {
+                setCategory("pharmacy");
+                onCategoryChange();
+            }}>Pharmacies</Button>
+            <Button className={
+                `btn btn-primary margin-2x-left ${category === "psychedelics" && "btn-secondary"}`
+            }
+            onClick={() =>{
+                setCategory("psychedelics")
+                onCategoryChange();
+            }}>Psychedelics</Button>
+            </div>
             {selectedBusiness ? 
             <div className="d-flex flex-column align-items-start">
             <BusinessCardRound 
-            avatar = {selectedBusiness.avatar}
-            title = {selectedBusiness.title}
+            avatar = {selectedBusiness.logoUrl}
+            title = {selectedBusiness.name}
             width = "200px"
             />
              <div className="btn btn-primary" onClick={ () => {
@@ -74,7 +102,7 @@ export default function ClaimBusiness() {
             } >Change Business</div>
             </div>
             :
-                <div className="btn btn-primary" onClick={ () => {
+                <div className={`btn btn-primary mt-3 ${category == "" && "d-none" }`} onClick={ () => {
                setShow(true);
             }
             } >Select a Business</div>
@@ -83,6 +111,7 @@ export default function ClaimBusiness() {
             handleClose={handleClose}
             handleShow={handleShow}
             handleSelectedBusiness={handleSelectedBusiness}
+            category={category}
             />
             <div>
             <div className="form-section margin-2x-top">

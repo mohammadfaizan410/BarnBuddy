@@ -6,23 +6,27 @@ import { IoClose } from "react-icons/io5";
 
 
 function SelectBusinessModal(props) {
+
     const [allBusiness, setAllBusiness] = React.useState([]);
     const [searchInput, setSearchInput] = React.useState("");
+
+
     React.useEffect(() => {
-        fetch("http://localhost:3001/business/unclaimed/all")
-          .then((res) => {
-            if (!res.ok) {
-              throw new Error(`HTTP error! Status: ${res.status}`);
-            }
-            return res.json();
-          })
-          .then((data) => {
-            setAllBusiness(data.businesses);
-          })
-          .catch((error) => {
-            console.error('Error fetching data:', error.message);
-          });
-      }, []);
+      const category = props.category;
+      fetch(`http://localhost:3001/business/unclaimed/${category}`)
+        .then((res) => {
+          if (!res.ok) {
+            throw new Error(`HTTP error! Status: ${res.status}`);
+          }
+          return res.json();
+        })
+        .then((data) => {
+          setAllBusiness(data.businesses);
+        })
+        .catch((error) => {
+          console.error('Error fetching data:', error.message);
+        });
+    }, [props.category]);
 
       const handleSearchInput = (e) => {
         setSearchInput(e.target.value);
@@ -30,7 +34,7 @@ function SelectBusinessModal(props) {
 
       const filteredBusiness = allBusiness.filter((business) => {
         if(searchInput === "" || searchInput === null) return business;
-        return business.title.toLowerCase().includes(searchInput.toLowerCase());
+        return business.name.toLowerCase().includes(searchInput.toLowerCase());
       });
 
 
@@ -66,8 +70,8 @@ function SelectBusinessModal(props) {
                         }}
                         >
                             <BusinessCardRound 
-                            avatar={business.avatar}
-                            title={business.title}
+                            avatar={business.logoUrl}
+                            title={business.name}
                             width="132px"
                             />
                         </div>
