@@ -24,6 +24,10 @@ const userSchema = new mongoose.Schema({
   user_type: {
     type: String,
   },
+
+  token: {
+    type: String,
+  },
 });
 
 const reviewSchema = new mongoose.Schema({

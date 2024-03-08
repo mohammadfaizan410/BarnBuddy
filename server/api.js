@@ -2,9 +2,12 @@ const mongoose = require("mongoose");
 const express = require("express");
 const router = express.Router();
 const fs = require("fs");
+const crypto = require("crypto");
+const jwt = require("jsonwebtoken");
+const iv = crypto.randomBytes(16);
+require("dotenv").config();
 const multer = require("multer");
 const path = require("path");
-const env = require("dotenv").config();
 
 const {
   User,
@@ -14,136 +17,6 @@ const {
   Review,
   BusinessClaim,
 } = require("./model.js");
-
-
-//function to populate the database with businesses
-
-
-
-// const populateData = async (index) => {
-//   if (index !== 162) {
-//     try {
-//       const data = fs.readFileSync("./finalList/" + index + "_final.json");
-//       const jsonData = JSON.parse(data);
-//       const businessData = jsonData.dispensary;
-//       const products = jsonData.products;
-//       let username =
-//         businessData.name +
-//         "-" +
-//         businessData.country +
-//         "-" +
-//         businessData.locations[0].lat +
-//         "-" +
-//         businessData.locations[0].lng;
-//       let email = businessData.email ? businessData.email : "temp@gmail.com";
-
-//       // Create a user outside the loop
-//       const user = new User({
-//         username: username,
-//         password: env.parsed.TEMP_PASSWORD,
-//         email: email,
-//         fullname: "NA",
-//         date_of_birth: null,
-//         user_type: "business",
-//       });
-
-//       // Save the user
-//       await user.save();
-
-//       const business = new Business({
-//         user_id: user._id, // Ensure that user._id is assigned correctly
-//         name: businessData.name,
-//         address1: businessData.address1 ? businessData.address1 : "",
-//         coverPhotoUrl: businessData.coverPhotoUrl
-//           ? businessData.coverPhotoUrl
-//           : "",
-//         country: businessData.country ? businessData.country : "USA",
-//         city: businessData.city ? businessData.city : "",
-//         description: businessData.description
-//           ? businessData.description
-//           : "",
-//         email: businessData.email ? businessData.email : "",
-//         flags: businessData.flags ? businessData.flags : [],
-//         locations: businessData.locations ? businessData.locations : [],
-//         logoUrl: businessData.logoUrl ? businessData.logoUrl : "",
-//         mapMarkerLocations: businessData.mapMarkerLocations
-//           ? businessData.mapMarkerLocations
-//           : [],
-//         phone: businessData.phone ? businessData.phone : "",
-//         photos: businessData.photos ? businessData.photos : [],
-//         primaryLocation: businessData.primaryLocation
-//           ? businessData.primaryLocation
-//           : "",
-//         state: businessData.state ? businessData.state : "",
-//         tags: businessData.tags ? businessData.tags : [],
-//         website: businessData.website ? businessData.website : "",
-//         zip: businessData.zip ? businessData.zip : "",
-//         products: [],
-//         instore_purchasing: false,
-//         claimed: false,
-//         business_type: "greenstore",
-//         deals: [],
-//         reviews: [],
-//         filters: [],
-//         registration_date: Date.now(),
-//         followers: [],
-//         opening_hours: [],
-//         isFeatured: false,
-//         isTopRated: false,
-//       });
-
-//       // Save the business
-//       await business.save();
-
-//       for (let i = 0; i < products.length; i++) {
-//         const product = new Product({
-//           business_id: business._id, // Ensure that business._id is correctly assigned
-//           name: products[i].name ? products[i].name : "",
-//           brandName: products[i].brandName ? products[i].brandName : "",
-//           cartUnit: products[i].cartUnit,
-//           price: products[i].price ? products[i].price : 0,
-//           description: products[i].description
-//             ? products[i].description
-//             : "",
-//           productCategory: products[i].productCategory
-//             ? products[i].productCategory
-//             : "",
-//           imageUrl: products[i].imageUrl ? products[i].imageUrl : "",
-//           strainName: products[i].strainName
-//             ? products[i].strainName
-//             : "",
-//           strainCategory: products[i].strainCategory
-//             ? products[i].strainCategory
-//             : "",
-//           strainDescription: products[i].strainDescription
-//             ? products[i].strainDescription
-//             : "",
-//           strainNucleusImageSvg: products[i].strainNucleusImageSvg
-//             ? products[i].strainNucleusImageSvg
-//             : "",
-//           followers: [],
-//           reviews: [],
-//           isFeatured: false,
-//         });
-
-//         // Save the product
-//         await product.save();
-//         business.products.push(product._id);
-//       }
-
-//       // Save the business after adding products
-//       await business.save();
-//     } catch (error) {
-//       console.log(error + " " + index);
-//     }
-//   }
-// };
-
-
-
-
-
-
 
 // ------- mongo db connection -------
 mongoose.connect("mongodb://127.0.0.1:27017/barnbuddy");
@@ -156,10 +29,6 @@ database.on("error", (error) => {
 database.once("connected", () => {
   console.log("Database Connected: " + database.name);
 });
-
-// for(let i = 0; i < 228; i++){
-//   populateData(i);
-// }
 
 // ------- mongo db connection --------
 
@@ -185,107 +54,65 @@ const upload = multer({
 
 // --------- functions ------------
 
-async function importBusinesses() {
-  try {
-    // Read the data from the file
-    const rawData = fs.readFileSync("data.json");
-    const data = JSON.parse(rawData);
-    let count = 0;
+// Encryption
+function encrypt(data, key) {
+  const cipher = crypto.createCipheriv("aes-256-cbc", key, iv);
 
-    // Iterate over each object in the array
-    for (const business of data) {
-      const avatar = business.imgSrcset.split(", ")[0].split(" ")[0];
-      const rating = business.starRating;
-      const title = business.title;
-      const location = business.primaryLocation;
-      const phone = business.phoneNumber;
-      const description = business.about;
-      const banner_image = business.backgroundImg;
-      const email = "";
-      const website_link = "";
+  let encryptedText = cipher.update(data, "utf-8", "hex");
 
-      if (avatar.includes("https://images.leafly.com/")) {
-        console.log(
-          "The imgSrcset link contains 'https://images.leafly.com/, SKIPPING'."
-        );
-      } else {
-        count++;
+  encryptedText += cipher.final("hex");
 
-        const user = new User({
-          username: "NA",
-          password: "temp123^@&#@*#*",
-          email: email,
-          fullname: "NA",
-          date_of_birth: null,
-          user_type: "business",
-        });
-
-        await user.save();
-
-        const business = new Business({
-          user_id: user._id,
-          title: title,
-          description: description,
-          website_link: website_link,
-          location: location,
-          email: email,
-          phone: phone,
-          products: [],
-          instore_purchasing: false,
-          business_type: [],
-          banner_image: banner_image,
-          avatar: avatar,
-          deals: [],
-          reviews: [],
-          filters: [],
-          registration_date: Date.now(),
-          followers: [],
-          opening_hours: [],
-          claimed: false,
-        });
-
-        await business.save();
-      }
-    }
-    console.log("-------------------");
-    console.log("Total businesses imported:", count);
-    console.log("-------------------");
-  } catch (error) {
-    console.error("Error reading file:", error);
-  }
+  return encryptedText;
 }
 
-//---products for a business ---//
-router.get("/business/products/:business_id", async (req, res) => {
+// Decryption
+function decrypt(encryptedText, key) {
+  const decipher = crypto.createDecipheriv("aes-256-cbc", key, iv);
 
-  console.log("business id", req.params.business_id);
-  try {
-    const { business_id } = req.params;
-    const business = await Business.findOne({
-      _id: business_id,
-    });
+  let decryptedText = decipher.update(encryptedText, "hex", "utf-8");
 
-    if (!business) {
-      return res.status(400).json({ message: "Business not found" });
+  decryptedText += decipher.final("utf-8");
+
+  return decryptedText;
+}
+
+// Add a method to generate a token
+function generateToken(data) {
+  return jwt.sign(data, process.env.secret, {
+    expiresIn: 604800 /* - 7 days */ /*86400* - one day */, // in seconds
+  });
+}
+
+function verifyToken(req, res, next) {
+  const incoming_token = req.headers["authorization"];
+
+  if (!incoming_token) {
+    return res
+      .status(401)
+      .json({ message: "No token provided", success: false });
+  }
+
+  jwt.verify(incoming_token, process.env.secret, (err, decoded) => {
+    if (err) {
+      return res
+        .status(401)
+        .json({ message: "Failed to authenticate token", success: false });
     }
 
-    const products = await Product.find({
-      business_id: business_id,
-    });
-
-    return res.status(200).json({success : true , products: products });
-  } catch (error) {
-    console.log(error);
-    res.status(400).json({ message: error.message });
-  }
-});
-
-
-
-
-//importBusinesses();
+    next();
+  });
+}
 
 // --------- functions ------------
+
+///////////////////////////////////////////////////////////
+// _____  _    _ ____  _      _____ _____
+// |  __ \| |  | |  _ \| |    |_   _/ ____|
+// | |__) | |  | | |_) | |      | || |
+// |  ___/| |  | |  _ <| |      | || |
+// | |    | |__| | |_) | |____ _| || |____
+// |_|     \____/|____/|______|_____\_____|
+///////////////////////////////////////////////////////////
 
 router.post("/auth/business", async (req, res) => {
   try {
@@ -298,21 +125,27 @@ router.post("/auth/business", async (req, res) => {
     });
 
     if (!user) {
-      return res.status(400).json({ message: "User not found" });
+      return res
+        .status(400)
+        .json({ message: "User not found", success: false });
     }
 
     const business = await Business.findOne({
       user_id: user._id,
     });
 
-    return res.status(200).json({ success: true, business: business });
+    user.token = generateToken({ user_id: user._id });
+    await user.save();
+
+    return res
+      .status(200)
+      .json({ success: true, business: business, token: user.token });
   } catch (error) {
     console.log(error);
     res.status(500).json({ message: error.message });
   }
 });
 
-// Register
 router.post("/user/customer/add", async (req, res) => {
   try {
     const { username, password, email, fullname, date_of_birth } = req.body;
@@ -322,7 +155,9 @@ router.post("/user/customer/add", async (req, res) => {
     });
 
     if (existing_user) {
-      return res.status(400).json({ message: "User already exists." });
+      return res
+        .status(400)
+        .json({ message: "User already exists.", success: false });
     }
     const user = new User({
       username: username,
@@ -352,7 +187,9 @@ router.post("/user/customer/add", async (req, res) => {
 
     await customer.save();
 
-    return res.status(200).json({ message: "Success Customer Added." });
+    return res
+      .status(200)
+      .json({ message: "Success Customer Added.", success: true });
   } catch (error) {
     console.log(error);
     res.status(400).json({ message: error.message });
@@ -376,7 +213,9 @@ router.post("/user/business/add", async (req, res) => {
     });
 
     if (existing_user) {
-      return res.status(400).json({ message: "User already exists." });
+      return res
+        .status(400)
+        .json({ message: "User already exists.", success: false });
     }
 
     const user = new User({
@@ -419,14 +258,25 @@ router.post("/user/business/add", async (req, res) => {
 
     await business.save();
 
-    return res.status(200).json({ message: "Success Business Added." });
+    return res
+      .status(200)
+      .json({ message: "Success Business Added.", success: true });
   } catch (error) {
     console.log(error);
-    res.status(400).json({ message: error.message });
+    res.status(400).json({ message: error.message, success: false });
   }
 });
 
-router.post("/user/customer/update", async (req, res) => {
+/////////////////////////////////////////////////////////
+// _____  _____  _______      __  _______ ______
+// |  __ \|  __ \|_   _\ \    / /\|__   __|  ____|
+// | |__) | |__) | | |  \ \  / /  \  | |  | |__
+// |  ___/|  _  /  | |   \ \/ / /\ \ | |  |  __|
+// | |    | | \ \ _| |_   \  / ____ \| |  | |____
+// |_|    |_|  \_\_____|   \/_/    \_\_|  |______|
+/////////////////////////////////////////////////////////
+
+router.post("/user/customer/update", verifyToken, async (req, res) => {
   try {
     const { user_id, username, fullname, date_of_birth } = req.body;
 
@@ -435,7 +285,9 @@ router.post("/user/customer/update", async (req, res) => {
     });
 
     if (!user) {
-      return res.status(400).json({ message: "User not found" });
+      return res
+        .status(400)
+        .json({ message: "User not found", success: false });
     }
 
     user.username = username;
@@ -444,14 +296,16 @@ router.post("/user/customer/update", async (req, res) => {
 
     await user.save();
 
-    return res.status(200).json({ message: "Success Customer Updated." });
+    return res
+      .status(200)
+      .json({ message: "Success Customer Updated.", success: true });
   } catch (error) {
     console.log(error);
     res.status(400).json({ message: error.message });
   }
 });
 
-router.post("/user/business/:business_id", async (req, res) => {
+router.post("/user/business/:business_id", verifyToken, async (req, res) => {
   try {
     const { business_id } = req.params;
 
@@ -460,46 +314,35 @@ router.post("/user/business/:business_id", async (req, res) => {
     });
 
     if (!business) {
-      return res.status(400).json({ message: "Business not found" });
+      return res
+        .status(400)
+        .json({ message: "Business not found", success: false });
     }
 
-    return res.status(200).json({ business: business });
+    return res.status(200).json({ business: business, success: true });
   } catch (error) {
     console.log(error);
     res.status(400).json({ message: error.message });
   }
 });
 
-router.get("/business/unclaimed/all", async (req, res) => {
+router.get("/business/unclaimed/all", verifyToken, async (req, res) => {
   try {
     const businesses = await Business.find({
       claimed: false,
     });
 
-    return res.status(200).json({ businesses: businesses });
+    return res.status(200).json({ businesses: businesses, success: true });
   } catch (error) {
     console.log(error);
-    res.status(400).json({ message: error.message });
+    res.status(400).json({ message: error.message, success: false });
   }
 });
-router.get("/business/unclaimed/:category", async (req, res) => {
-  console.log(req.params.category);
-  try {
-    const businesses = await Business.find({
-      claimed: false,
-      business_type: req.params.category,
-    });
-    return res.status(200).json({ businesses: businesses });
-  } catch (error) {
-    console.log(error);
-    res.status(400).json({ message: error.message });
-  }
-});
- 
 
-router.get("/business/all", async (req, res) => {
+router.get("/business/all", verifyToken, async (req, res) => {
   try {
     const businesses = await Business.find({});
+
     return res.status(200).json({ businesses: businesses });
   } catch (error) {
     console.log(error);
@@ -507,7 +350,7 @@ router.get("/business/all", async (req, res) => {
   }
 });
 
-router.post("/user/business/update", async (req, res) => {
+router.post("/user/business/update", verifyToken, async (req, res) => {
   try {
     const {
       user_id,
@@ -555,6 +398,7 @@ router.post("/user/business/update", async (req, res) => {
 
 router.post(
   "/business/claim",
+  verifyToken,
   upload.fields([
     { name: "business_ownership_document", maxCount: 1 },
     { name: "government_issued_id", maxCount: 1 },
@@ -572,7 +416,9 @@ router.post(
       });
 
       if (!business) {
-        return res.status(400).json({ message: "Business not found" });
+        return res
+          .status(400)
+          .json({ message: "Business not found", success: false });
       }
 
       const business_claim = new BusinessClaim({
@@ -587,15 +433,17 @@ router.post(
 
       await business_claim.save();
 
-      return res.status(200).json({ message: "Success Business Claim Filed." });
+      return res
+        .status(200)
+        .json({ message: "Success Business Claim Filed.", success: true });
     } catch (error) {
       console.log(error);
-      res.status(400).json({ message: error.message });
+      res.status(400).json({ message: error.message, success: false });
     }
   }
 );
 
-router.post("/business/claim/approve", async (req, res) => {
+router.post("/business/claim/approve", verifyToken, async (req, res) => {
   try {
     const { business_claim_id } = req.body;
 
@@ -604,20 +452,24 @@ router.post("/business/claim/approve", async (req, res) => {
     });
 
     if (!business_claim) {
-      return res.status(400).json({ message: "Business Claim not found" });
+      return res
+        .status(400)
+        .json({ message: "Business Claim not found", success: false });
     }
 
     business_claim.status = "rejected";
     await business_claim.save();
 
-    return res.status(200).json({ message: "Success Claim Rejected." });
+    return res
+      .status(200)
+      .json({ message: "Success Claim Rejected.", success: true });
   } catch (error) {
     console.log(error);
-    res.status(400).json({ message: error.message });
+    res.status(400).json({ message: error.message, success: false });
   }
 });
 
-router.post("/business/claim/reject", async (req, res) => {
+router.post("/business/claim/reject", verifyToken, async (req, res) => {
   try {
     const { business_claim_id } = req.body;
 
@@ -626,7 +478,9 @@ router.post("/business/claim/reject", async (req, res) => {
     });
 
     if (!business_claim) {
-      return res.status(400).json({ message: "Business Claim not found" });
+      return res
+        .status(400)
+        .json({ message: "Business Claim not found", success: false });
     }
 
     business_claim.status = "approved";
@@ -639,15 +493,18 @@ router.post("/business/claim/reject", async (req, res) => {
     business.claimed = true;
     await business.save();
 
-    return res.status(200).json({ message: "Success Claim Approved." });
+    return res
+      .status(200)
+      .json({ message: "Success Claim Approved.", success: true });
   } catch (error) {
     console.log(error);
-    res.status(400).json({ message: error.message });
+    res.status(400).json({ message: error.message, success: false });
   }
 });
 
 router.post(
   "/business/product/add",
+  verifyToken,
   upload.fields([
     { name: "featured_image", maxCount: 1 },
     { name: "product_image_1", maxCount: 1 },
@@ -670,7 +527,9 @@ router.post(
       });
 
       if (!business) {
-        return res.status(400).json({ message: "Business not found" });
+        return res
+          .status(400)
+          .json({ message: "Business not found", success: false });
       }
 
       const product = new Product({
@@ -695,15 +554,17 @@ router.post(
       business.products.push(product._id);
       await business.save();
 
-      return res.status(200).json({ message: "Success Product Added." });
+      return res
+        .status(200)
+        .json({ message: "Success Product Added.", success: true });
     } catch (error) {
       console.log(error);
-      res.status(400).json({ message: error.message });
+      res.status(400).json({ message: error.message, success: false });
     }
   }
 );
 
-router.delete("/business/product/delete", async (req, res) => {
+router.delete("/business/product/delete", verifyToken, async (req, res) => {
   try {
     const { business_id, product_id } = req.body;
 
@@ -712,7 +573,9 @@ router.delete("/business/product/delete", async (req, res) => {
     });
 
     if (!business) {
-      return res.status(400).json({ message: "Business not found" });
+      return res
+        .status(400)
+        .json({ message: "Business not found", success: false });
     }
 
     const product = await Product.findOne({
@@ -720,7 +583,9 @@ router.delete("/business/product/delete", async (req, res) => {
     });
 
     if (!product) {
-      return res.status(400).json({ message: "Product not found" });
+      return res
+        .status(400)
+        .json({ message: "Product not found", success: false });
     }
 
     business.products = business.products.filter((id) => id !== product_id);
@@ -730,15 +595,18 @@ router.delete("/business/product/delete", async (req, res) => {
       _id: product_id,
     });
 
-    return res.status(200).json({ message: "Success Product Deleted." });
+    return res
+      .status(200)
+      .json({ message: "Success Product Deleted.", success: true });
   } catch (error) {
     console.log(error);
-    res.status(400).json({ message: error.message });
+    res.status(400).json({ message: error.message, success: false });
   }
 });
 
 router.post(
   "/business/product/update",
+  verifyToken,
   upload.fields([
     { name: "featured_image", maxCount: 1 },
     { name: "product_image_1", maxCount: 1 },
@@ -761,7 +629,9 @@ router.post(
       });
 
       if (!product) {
-        return res.status(400).json({ message: "Product not found" });
+        return res
+          .status(400)
+          .json({ message: "Product not found", success: false });
       }
 
       product.title = title;
@@ -778,10 +648,12 @@ router.post(
 
       await product.save();
 
-      return res.status(200).json({ message: "Success Product Updated." });
+      return res
+        .status(200)
+        .json({ message: "Success Product Updated.", success: true });
     } catch (error) {
       console.log(error);
-      res.status(400).json({ message: error.message });
+      res.status(400).json({ message: error.message, success: false });
     }
   }
 );
