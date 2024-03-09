@@ -31,9 +31,6 @@ database.once("connected", () => {
   console.log("Database Connected: " + database.name);
 });
 
-
-
-
 // ------- mongo db connection --------
 
 // ---------- MULTER SET UP ------------
@@ -602,6 +599,35 @@ router.delete("/business/product/delete", verifyToken, async (req, res) => {
     return res
       .status(200)
       .json({ message: "Success Product Deleted.", success: true });
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message, success: false });
+  }
+});
+
+router.get("/business/:id/products", verifyToken, async (req, res) => {
+  try {
+    const { business_id } = req.body;
+
+    const business = await Business.findOne({
+      _id: business_id,
+    });
+
+    if (!business) {
+      return res
+        .status(400)
+        .json({ message: "Business not found", success: false });
+    }
+
+    const products = await Product.findOne({
+      business_id: business_id,
+    });
+
+    return res.status(200).json({
+      message: "Success! Products Found.",
+      success: true,
+      products: products,
+    });
   } catch (error) {
     console.log(error);
     res.status(400).json({ message: error.message, success: false });
