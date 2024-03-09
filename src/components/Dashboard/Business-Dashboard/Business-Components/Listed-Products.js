@@ -2,7 +2,6 @@ import React from "react";
 import BusinessDashboardProductCard from "./Business-dashboard-product-card";
 
 export default function ListedProducts(props) {
-    const business_id = props.business_id;
     return (
         <div className="w-100">
             {
