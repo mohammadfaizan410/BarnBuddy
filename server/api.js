@@ -693,22 +693,24 @@ router.get("/business/:id/products", verifyToken, async (req, res) => {
 router.post(
   "/business/product/update",
   verifyToken,
-  upload.fields([
-    { name: "featured_image", maxCount: 1 },
-    { name: "product_image_1", maxCount: 1 },
-    { name: "product_image_2", maxCount: 1 },
-    { name: "product_image_3", maxCount: 1 },
-    { name: "product_image_4", maxCount: 1 },
-  ]),
+  upload.fields([{ name: "featured_image", maxCount: 1 }]),
   async (req, res) => {
     try {
-      const { product_id, title, description, categories, price } = req.body;
+      const {
+        product_id,
+        name,
+        brandName,
+        cartUnit,
+        price,
+        description,
+        productCategory,
+        strainName,
+        strainCategory,
+        strainDescription,
+        isFeatured,
+      } = req.body;
 
-      const featured_image = req.files["featured_image"][0].path;
-      const product_image_1 = req.files["product_image_1"][0].path;
-      const product_image_2 = req.files["product_image_2"][0].path;
-      const product_image_3 = req.files["product_image_3"][0].path;
-      const product_image_4 = req.files["product_image_4"][0].path;
+      const uploaded_image = req.files["featured_image"][0].path;
 
       const product = await Product.findOne({
         _id: product_id,
@@ -720,17 +722,17 @@ router.post(
           .json({ message: "Product not found", success: false });
       }
 
-      product.title = title;
-      product.description = description;
-      product.categories = categories;
+      product.name = name;
+      product.brandName = brandName;
+      product.cartUnit = cartUnit;
       product.price = price;
-      product.featured_image = featured_image;
-      product.images = [
-        product_image_1,
-        product_image_2,
-        product_image_3,
-        product_image_4,
-      ];
+      product.description = description;
+      product.productCategory = productCategory;
+      product.featured_image = uploaded_image;
+      product.strainName = strainName;
+      product.strainCategory = strainCategory;
+      product.strainDescription = strainDescription;
+      product.isFeatured = isFeatured;
 
       await product.save();
 

@@ -97,10 +97,10 @@ const productSchema = new mongoose.Schema({
     type: String,
   },
 
-  brandName : {
+  brandName: {
     type: String,
   },
-  cartUnit : {
+  cartUnit: {
     type: String,
   },
   price: {
@@ -110,21 +110,18 @@ const productSchema = new mongoose.Schema({
     type: String,
   },
   productCategory: {
-    type : String,
-  },
-  imageUrl : {
     type: String,
   },
-  strainName : {
+  featured_image: {
     type: String,
   },
-  strainCategory : {
-    type : String,
+  strainName: {
+    type: String,
+  },
+  strainCategory: {
+    type: String,
   },
   strainDescription: {
-    type : String,
-  },
-  strainNucleusImageSvg : {
     type: String,
   },
   followers: {
@@ -137,7 +134,7 @@ const productSchema = new mongoose.Schema({
       ref: "Review",
     },
   ],
-  isFeatured : {
+  isFeatured: {
     type: Boolean,
   },
 });
@@ -151,10 +148,10 @@ const businessSchema = new mongoose.Schema({
   name: {
     type: String,
   },
-  address1  : {
+  address1: {
     type: String,
   },
-  coverPhotoUrl : {
+  coverPhotoUrl: {
     type: String,
   },
   country: {
@@ -172,34 +169,34 @@ const businessSchema = new mongoose.Schema({
   flags: {
     type: [String],
   },
-  locations : {
+  locations: {
     type: [Object],
   },
-  logoUrl : {
+  logoUrl: {
     type: String,
   },
-  mapMarkerLocations : {
+  mapMarkerLocations: {
     type: [Object],
   },
   phone: {
     type: String,
   },
-  photos : {
+  photos: {
     type: [Object],
   },
-  primaryLocation : {
+  primaryLocation: {
     type: Object,
   },
-  state : {
+  state: {
     type: String,
   },
-  tags : {
+  tags: {
     type: [String],
   },
   website: {
     type: String,
   },
-  zip : { 
+  zip: {
     type: String,
   },
   //TODO: Add a product schema
@@ -242,10 +239,10 @@ const businessSchema = new mongoose.Schema({
   opening_hours: {
     type: [String],
   },
-  isFeatured : {
+  isFeatured: {
     type: Boolean,
   },
-  isTopRated : {
+  isTopRated: {
     type: Boolean,
   },
 });
