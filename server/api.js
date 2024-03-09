@@ -85,12 +85,29 @@ function generateToken(data) {
 }
 
 function verifyToken(req, res, next) {
-  const incoming_token = req.headers["authorization"];
+  const user_id = req.headers["user_id"];
+  const incoming_token = req.headers["token"];
 
-  if (!incoming_token) {
+  if (!user_id || !token) {
     return res
       .status(401)
-      .json({ message: "No token provided", success: false });
+      .json({ message: "Token/id missing", success: false });
+  }
+
+  const user = User.findOne({
+    _id: user_id,
+  });
+
+  if (!user) {
+    return res.status(401).json({ message: "User not found", success: false });
+  }
+
+  const token = user.token;
+
+  if (token !== incoming_token) {
+    return res
+      .status(401)
+      .json({ message: "Token/id mismatch", success: false });
   }
 
   jwt.verify(incoming_token, process.env.secret, (err, decoded) => {
@@ -265,6 +282,45 @@ router.post("/user/business/add", async (req, res) => {
   } catch (error) {
     console.log(error);
     res.status(400).json({ message: error.message, success: false });
+  }
+});
+
+router.post("/auth/verify", async (req, res) => {
+  try {
+    const { user_id, token } = req.body;
+
+    const user = await User.findOne({
+      _id: user_id,
+    });
+
+    if (!user) {
+      return res
+        .status(400)
+        .json({ message: "User not found", success: false });
+    }
+
+    if (user.token !== token) {
+      return res
+        .status(400)
+        .json({ message: "Token mismatch", success: false });
+    }
+
+    const business = await Business.findOne({
+      user_id: user_id,
+    });
+
+    jwt.verify(token, process.env.secret, (err, decoded) => {
+      if (err) {
+        return res
+          .status(400)
+          .json({ message: "Failed to authenticate token", success: false });
+      }
+
+      return res.status(200).json({ success: true, business: business });
+    });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: error.message });
   }
 });
 
