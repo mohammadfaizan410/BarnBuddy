@@ -7,6 +7,7 @@ import { useStoreActions } from "easy-peasy";
 
 export default function BusinessAuth(props) {
     const setBusiness = useStoreActions(actions => actions.setBusiness);
+    const setBusinessUser = useStoreActions(actions => actions.setBusinessUser);
     let navigate = useNavigate();
     const [error, setError] = useState("");
     const  {show, handleClose} = props;
@@ -45,6 +46,12 @@ export default function BusinessAuth(props) {
     
             const data = await response.json();
             if (data.success) {
+                let tempBusinessUser = {
+                    token : data.token,
+                    business_id: data.business._id
+                }
+                setBusinessUser(tempBusinessUser);
+                localStorage.setItem("businessUser", JSON.stringify(tempBusinessUser));
                 setBusiness(data.business);
                 handleClose();
                 navigate("/business-dashboard-products");

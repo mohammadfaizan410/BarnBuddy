@@ -12,6 +12,9 @@ import BusinessDashboardAnalytics from './components/Dashboard/Business-Dashboar
 
 function App() {
   const Store = createStore(store);
+  const setBusinessUser = Store.getActions().setBusinessUser;
+  localStorage.getItem("businessUser") && setBusinessUser(JSON.parse(localStorage.getItem("businessUser")));
+  console.log(Store.getState());
   return (
     <StoreProvider store={Store}>
      <BrowserRouter>
