@@ -663,7 +663,7 @@ router.delete("/business/product/delete", verifyToken, async (req, res) => {
 
 router.get("/business/:id/products", verifyToken, async (req, res) => {
   try {
-    const { business_id } = req.params.id;
+    const { business_id } = req.params;
 
     const business = await Business.findOne({
       _id: business_id,

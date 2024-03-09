@@ -2,12 +2,13 @@ import React from "react";
 import { Modal } from "react-bootstrap";
 import { useState } from "react";
 import { useNavigate } from 'react-router-dom';
-import { useStoreActions } from "easy-peasy";
+import { useStoreActions, useStoreState } from "easy-peasy";
 
 
 export default function BusinessAuth(props) {
     const setBusiness = useStoreActions(actions => actions.setBusiness);
     const setBusinessUser = useStoreActions(actions => actions.setBusinessUser);
+    const business_user = useStoreState(state => state.business_user);
     let navigate = useNavigate();
     const [error, setError] = useState("");
     const  {show, handleClose} = props;
@@ -15,6 +16,24 @@ export default function BusinessAuth(props) {
         email: "",
         password: ""
     });
+
+    React.useEffect(() => {
+        if(business_user == {}) return;
+        else{
+            const authorization = {
+                token: business_user.token,
+                user_id: business_user.user_id
+        }
+        fetch("http://localhost:3001/verify", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "authorization": authorization
+            },
+            body: JSON.stringify(formData)
+        })
+    }
+    }, []);
 
 
     const handleFormSubmit = async () => {
@@ -48,7 +67,8 @@ export default function BusinessAuth(props) {
             if (data.success) {
                 let tempBusinessUser = {
                     token : data.token,
-                    business_id: data.business._id
+                    business_id: data.business._id,
+                    user_id : data.business.user_id
                 }
                 setBusinessUser(tempBusinessUser);
                 localStorage.setItem("businessUser", JSON.stringify(tempBusinessUser));
