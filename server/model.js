@@ -124,6 +124,9 @@ const productSchema = new mongoose.Schema({
   strainDescription: {
     type: String,
   },
+  strainImage: {
+    type: String,
+  },
   followers: {
     type: [String],
   },
