@@ -1,5 +1,5 @@
 import React from "react";
-import AddProductBusiness from "../../Modals/Add-Product-Modal";
+import AddProductBusiness from "../../Modals/Add-Product-Modal-Business";
 import { useStoreState } from "easy-peasy";
 import { useState, useEffect } from "react";
 import { IoAddCircleOutline } from "react-icons/io5";
@@ -10,19 +10,19 @@ import { Spinner } from "react-bootstrap";
 export default function BusinessDashboardProducts() {
     const business = useStoreState(state => state.business);
     const business_user = useStoreState(state => state.business_user);
-    console.log(business_user);
-    const [show, setShow] = useState(false);
+    const [showAddModal, setShowAddModal] = useState(false);
     const [products, setProducts] = useState(null);
 
     useEffect(() => {
         if(business_user.business_id) {
-            console.log(business_user.business_id);
-            fetch(`http://localhost:3001/business/0/products`,
+            fetch(`http://localhost:3001/business/${business_user.business_id}/products`,
             {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
-                    'authorization': business_user.token,
+                    'authorization-user_id': business_user.user_id,
+                    'authorization-token': business_user.token,
+                    'authorization-user_id': business_user.user_id,
                 }}
             )
             .then(res => res.json())
@@ -40,7 +40,7 @@ export default function BusinessDashboardProducts() {
         <div className="dashboard-margin-top dashboard-margin p-3 pb-4 border shadow-sm border-rounded ">
             <div className="d-flex flex-row justify-content-between">
                 <h4 className=" border-bottom heading-primary">Listed Products</h4>
-                <IoAddCircleOutline size={30} className="textPrimary cursor-pointer" onClick={() => setShow(true)} />
+                <IoAddCircleOutline size={30} className="textPrimary cursor-pointer" onClick={() => setShowAddModal(true)} />
             </div>
            
                 <div className="row mt-4 mb-4 border-bottom border-color">
@@ -58,8 +58,8 @@ export default function BusinessDashboardProducts() {
                 <h6>No products listed</h6>
                 )}
             <AddProductBusiness 
-            show={show}
-            handleClose={() => setShow(false)}
+            show={showAddModal}
+            handleClose={() => setShowAddModal(false)}
             business_id={business._id}
             />
         </div>

@@ -30,6 +30,8 @@ export default function Header() {
     const selectedMenuBusiness = useStoreState(state => state.selectedMenuBusiness);
     const [BusinessAuthModal, setBusinessAuthModal] = React.useState(false);
     const navigate = useNavigate();
+    const business_user = useStoreState(state => state.business_user);
+    const setBusiness = useStoreActions(actions => actions.setBusiness);
 
 
 
@@ -37,6 +39,34 @@ export default function Header() {
         setLocation(locationPath);
         setSelectedMenuBusiness("myproducts");
     }, [locationPath]);
+
+
+    const checkBusinessAuth = () => {
+        if(Object.keys(business_user).length === 0) {
+            setBusinessAuthModal(true)
+        }
+        else{
+                  fetch("http://localhost:3001/auth/verify", {
+                    method: "POST",
+                    headers: {
+                      "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({ token: business_user.token, user_id: business_user.user_id }),
+                  })
+                    .then((res) => res.json())
+                    .then((data) => {
+                      if (data.success) {
+                        setBusiness(data.business);
+                        navigate("/business-dashboard-products");
+                      } else {
+                        setBusinessAuthModal(true);
+                      }
+                    })
+                    .catch((error) => {
+                      console.error("Error verifying authentication:", error);
+                    })
+        }
+    }
 
     if(headerVisibilityArray.includes(location)) {
     return (
@@ -100,8 +130,8 @@ export default function Header() {
                         <DropdownItem><Link to="/claim-business" className="text-decoration-none textSecondary">Claim Business</Link></DropdownItem>
                             <DropdownItem
                             onClick={
-                                () => setBusinessAuthModal(true)
-                               }
+                                () => checkBusinessAuth()
+                            }
                             >Business Account</DropdownItem>
                         </Dropdown.Menu>    
                     </Dropdown>

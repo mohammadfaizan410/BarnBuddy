@@ -1,5 +1,5 @@
 import './App.css';
-import { StoreProvider, createStore } from 'easy-peasy';
+import { StoreProvider, createStore, useStoreState } from 'easy-peasy';
 import store from './context/Store';
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import BusinessFrontpage from "./Views/Business-Frontpage";
@@ -12,9 +12,7 @@ import BusinessDashboardAnalytics from './components/Dashboard/Business-Dashboar
 
 function App() {
   const Store = createStore(store);
-  const setBusinessUser = Store.getActions().setBusinessUser;
-  localStorage.getItem("businessUser") && setBusinessUser(JSON.parse(localStorage.getItem("businessUser")));
-  console.log(Store.getState());
+  console.log(localStorage.getItem("business_user"));
   return (
     <StoreProvider store={Store}>
      <BrowserRouter>

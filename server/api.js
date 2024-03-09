@@ -84,17 +84,18 @@ function generateToken(data) {
   });
 }
 
-function verifyToken(req, res, next) {
-  const user_id = req.headers["user_id"];
-  const incoming_token = req.headers["token"];
 
-  if (!user_id || !token) {
+async function verifyToken(req, res, next) {
+  const user_id = req.headers["authorization-user_id"];
+  const incoming_token = req.headers["authorization-token"];
+
+  if (!user_id || !incoming_token) {
     return res
       .status(401)
       .json({ message: "Token/id missing", success: false });
   }
 
-  const user = User.findOne({
+  const user = await User.findOne({
     _id: user_id,
   });
 
@@ -104,7 +105,9 @@ function verifyToken(req, res, next) {
 
   const token = user.token;
 
+
   if (token !== incoming_token) {
+    console.log("Token/id mismatch");
     return res
       .status(401)
       .json({ message: "Token/id mismatch", success: false });
@@ -663,20 +666,21 @@ router.delete("/business/product/delete", verifyToken, async (req, res) => {
 
 router.get("/business/:id/products", verifyToken, async (req, res) => {
   try {
-    const { business_id } = req.params;
+    const { id } = req.params;
 
     const business = await Business.findOne({
-      _id: business_id,
+      _id: id,
     });
 
     if (!business) {
+      console.log("Business not found");
       return res
         .status(400)
         .json({ message: "Business not found", success: false });
     }
 
-    const products = await Product.findOne({
-      business_id: business_id,
+    const products = await Product.find({
+      business_id: id,
     });
 
     return res.status(200).json({

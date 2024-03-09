@@ -9,6 +9,7 @@ export default function BusinessAuth(props) {
     const setBusiness = useStoreActions(actions => actions.setBusiness);
     const setBusinessUser = useStoreActions(actions => actions.setBusinessUser);
     const business_user = useStoreState(state => state.business_user);
+    console.log(business_user);
     let navigate = useNavigate();
     const [error, setError] = useState("");
     const  {show, handleClose} = props;
@@ -17,24 +18,7 @@ export default function BusinessAuth(props) {
         password: ""
     });
 
-    React.useEffect(() => {
-        if(business_user == {}) return;
-        else{
-            const authorization = {
-                token: business_user.token,
-                user_id: business_user.user_id
-        }
-        fetch("http://localhost:3001/verify", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "authorization": authorization
-            },
-            body: JSON.stringify(formData)
-        })
-    }
-    }, []);
-
+   
 
     const handleFormSubmit = async () => {
 
@@ -68,10 +52,11 @@ export default function BusinessAuth(props) {
                 let tempBusinessUser = {
                     token : data.token,
                     business_id: data.business._id,
-                    user_id : data.business.user_id
+                    user_id : data.business.user_id,
+                    business_type : data.business.business_type
                 }
                 setBusinessUser(tempBusinessUser);
-                localStorage.setItem("businessUser", JSON.stringify(tempBusinessUser));
+                localStorage.setItem("business_user", JSON.stringify(tempBusinessUser));
                 setBusiness(data.business);
                 handleClose();
                 navigate("/business-dashboard-products");
