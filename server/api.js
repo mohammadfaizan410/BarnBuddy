@@ -8,6 +8,7 @@ const iv = crypto.randomBytes(16);
 require("dotenv").config();
 const multer = require("multer");
 const path = require("path");
+const env = require("dotenv").config();
 
 const {
   User,
@@ -29,6 +30,9 @@ database.on("error", (error) => {
 database.once("connected", () => {
   console.log("Database Connected: " + database.name);
 });
+
+
+
 
 // ------- mongo db connection --------
 
@@ -339,7 +343,7 @@ router.get("/business/unclaimed/all", verifyToken, async (req, res) => {
   }
 });
 
-router.get("/business/all", verifyToken, async (req, res) => {
+router.get("/business/all", async (req, res) => {
   try {
     const businesses = await Business.find({});
 
