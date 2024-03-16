@@ -2,6 +2,7 @@ import React from "react";
 import "../..//styles/business-styles.css";
 import { FaCrown } from "react-icons/fa";
 import { MdStarRate } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 
 
@@ -11,6 +12,7 @@ export default function FeaturedBusinessCard(props) {
     const topRated = props.topRated;
     const {name, description, logoUrl, business_type, tags, price, reviews, img} = props.businessDetails;
     return (
+        <Link to={`/businessfrontpage/${props.businessDetails._id}`} style={{textDecoration: "none"}}>
         <div className="featured-business-container">
             <div className="featured-business-image-container">
                 <div className="top-tagged-container">
@@ -33,5 +35,6 @@ export default function FeaturedBusinessCard(props) {
             </div>
             <p>{price}</p>
         </div>
+        </Link>
     )
 }

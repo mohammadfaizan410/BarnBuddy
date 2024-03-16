@@ -7,8 +7,6 @@ import { FaBorderAll } from "react-icons/fa";
 import homeData from "../context/homeData.json";
 import ProductCard from "../components/Product/Product-Card";
 import FeaturedBusinessCard from "../components/Business/Featured-Business-Card";
-
-
 import ediblesImage from "../assets/CategoryImages/edibles.avif";
 import pharmacuticalsImage from "../assets/CategoryImages/pharmaceuticals.avif";
 import concentratesImage from "../assets/CategoryImages/concentrates.avif";
@@ -24,7 +22,7 @@ export default function Home() {
     "concentrates" : concentratesImage,
     "psychedelics" : psychedelicsImage,
     "shrooms" : shrooms};
-useEffect(() => { 
+        useEffect(() => { 
   try {
       fetch("http://localhost:3001/business/all")
           .then(res => res.json())
@@ -53,7 +51,7 @@ useEffect(() => {
 }, []);
 
 
-  if(businessArray.length === 0){
+  if(businessArray?.length === 0){
     return (
         <div className="d-flex justify-content-center align-items-center" style={{height: "100vh"}}>
             <Spinner animation="border" role="status">
@@ -123,7 +121,7 @@ useEffect(() => {
                 businessArray?.map((business, index) => {
                     if(index > 30 && index < 35){
                         return (
-                            <FeaturedBusinessCard key={index} businessDetails={business} type="Psychedelics" topRated= "true" />
+                            <FeaturedBusinessCard key={index} businessDetails={business} type="Psychedelics" topRated= "true"  />
                             )
                         }
                 })
@@ -147,6 +145,7 @@ useEffect(() => {
                             title={business.name}
                             avatar={business.logoUrl}
                             width="110px"
+                            businessDetails={business}
                             />
                         </div>
                     )
@@ -161,7 +160,7 @@ useEffect(() => {
             <h3 className="textSecondary heading-primary">Shop By Category</h3>
             <FaBorderAll size={30} className="textPrimary cursor-pointer ml-2" />
             </div>
-            <div className="d-flex flex-row mt-3 " style={{overflow: "auto"}}>
+            <div className="home-section-content" style={{overflow: "auto"}}>
             {
                 homeData.categoryArray.map((category, index) => {
                     return (

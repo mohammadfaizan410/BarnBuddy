@@ -19,7 +19,7 @@ import SideNav from "./SideNav";
 
 
 export default function Header() {
-    const headerVisibilityArray = ["/", "/businessfrontpage", "/claim-business"];
+    const headerVisibilityArray = ["", "businessfrontpage", "claim-business"];
     const headerBusinessDashboardArray = ["/business-dashboard-products", "/business-dashboard-analytics"];
     const [location, setLocation] = useState("");
     const locationPath = useLocation().pathname;
@@ -31,7 +31,7 @@ export default function Header() {
     const [business, setBusiness] = useState({});
 
     React.useEffect(() => {
-        setLocation(locationPath);
+        setLocation(locationPath.split("/")[1]);
     }, [locationPath]);
 
     

@@ -19,7 +19,7 @@ function App() {
       <div className="app-main">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="businessfrontpage" element={<BusinessFrontpage />} />
+          <Route path="businessfrontpage/:id" element={<BusinessFrontpage />} />
           <Route path="blogs" element={<ProductFrontpage />} />
           <Route path="claim-business" element={<ClaimBusiness />} />
         </Routes>

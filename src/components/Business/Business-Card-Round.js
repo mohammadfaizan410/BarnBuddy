@@ -1,9 +1,10 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 
 export default function BusinessCardRound(props) {
     const {avatar, title, width} = props;
     return (
+        <Link to={`/businessfrontpage/${props.businessDetails._id}`} style={{textDecoration: "none"}}>
         <div className="cursor-pointer" style={{width: `${width}`}}>
             <div className="d-flex flex-column align-items-center">
                 <div className="d-flex flex-column align-items-center">
@@ -14,5 +15,6 @@ export default function BusinessCardRound(props) {
                 </div>
             </div>
         </div>
+        </Link>
     )
 }

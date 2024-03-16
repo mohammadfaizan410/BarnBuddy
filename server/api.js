@@ -167,6 +167,28 @@ router.post("/auth/business", async (req, res) => {
   }
 });
 
+
+router.post("/business/getData", async (req, res) => {
+  try {
+    const { business_id } = req.body;
+    
+    const business = await Business.findOne({
+      _id: business_id,
+    });
+
+    if (!business) {
+      return res
+        .status(400)
+        .json({ message: "Business not found", success: false });
+    }
+
+    return res.status(200).json({ business: business, success: true });
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message });
+  }
+});
+
 router.post("/user/customer/add", async (req, res) => {
   try {
     const { username, password, email, fullname, date_of_birth } = req.body;
@@ -326,6 +348,64 @@ router.post("/auth/verify", async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 });
+
+
+
+router.post("/business/getAllProducts", async (req, res) => {
+  try {
+    const { business_id } = req.body;
+    console.log(business_id);
+
+    const business = await Business.findOne({
+      _id : business_id,
+    });
+
+    if (!business) {
+      console.log("Business not found");
+      return res
+        .status(400)
+        .json({ message: "Business not found", success: false });
+    }
+    else{
+      const products = await Product.find({
+        business_id: business_id,
+      });
+      return res.status(200).json({ products: products, success: true });
+    }
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message, success: false });
+  }
+});
+
+
+router.post("/business/getProductsByCategory", async (req, res) => {
+  try {
+    const { business_id, category } = req.body;
+    const business = await Business.findOne({
+      _id : business_id,
+    });
+
+    if (!business) {
+      console.log("Business not found");
+      return res
+        .status(400)
+        .json({ message: "Business not found", success: false });
+    }
+    else{
+      const products = await Product.find({
+        business_id: business_id,
+        productCategory: category,
+      });
+      return res.status(200).json({ products: products, success: true });
+    }
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message, success: false });
+  }
+});
+
+
 
 /////////////////////////////////////////////////////////
 // _____  _____  _______      __  _______ ______
