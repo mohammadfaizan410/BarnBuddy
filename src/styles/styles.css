@@ -300,12 +300,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.home-section-content{
+.home-section-content {
     display: flex;
     flex-direction: row;
     overflow: auto;
     justify-content: space-between;
+    align-items: stretch;
 }
+
+
 
 @media screen and (max-width: 1100px) {
     .home-section{

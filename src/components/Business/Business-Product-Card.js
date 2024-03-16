@@ -18,7 +18,7 @@ export default function BusinessProductCard(props) {
                 </div>
                 <img src={product.imageUrl} className="featured-business-image" alt="product" />
             </div>
-            <p className="featured-business-name"></p>
+            <p className="featured-business-name">{product.name}</p>
             
             
             {product.strainName && <div className="featured-business-type">{product.strainName}</div>}
@@ -29,7 +29,7 @@ export default function BusinessProductCard(props) {
             <div className="featured-business-tags">
             <span key={index} className="featured-buisness-tag">{product.productCategory}</span>
             </div>
-            <p>{product.price}</p>
+            <p className="featured-business-name">Price: ${product.price}</p>
         </div>
         </Link>
     )

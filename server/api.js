@@ -18,9 +18,9 @@ const {
   Review,
   BusinessClaim,
 } = require("./model.js");
-
+const dbpass = encodeURIComponent(process.env.dbpass);
 // ------- mongo db connection -------
-mongoose.connect("mongodb://127.0.0.1:27017/barnbuddy");
+mongoose.connect(`mongodb+srv://barnbuddy41000:${dbpass}@cluster0.5disqeu.mongodb.net/barnbuddy?retryWrites=true&w=majority&appName=Cluster0`);
 
 const database = mongoose.connection;
 database.on("error", (error) => {
@@ -31,6 +31,132 @@ database.once("connected", () => {
   console.log("Database Connected: " + database.name);
 });
 
+// const populateData = async (index) => {
+//   if (index !== 162) {
+//     try {
+//       const data = fs.readFileSync("./finalList/" + index + "_final.json");
+//       const jsonData = JSON.parse(data);
+//       const businessData = jsonData.dispensary;
+//       const products = jsonData.products;
+//       let username =
+//         businessData.name +
+//         "-" +
+//         businessData.country +
+//         "-" +
+//         businessData.locations[0].lat +
+//         "-" +
+//         businessData.locations[0].lon;
+//       let email = businessData.email ? businessData.email : "temp@gmail.com";
+
+//       // Create a user outside the loop
+//       const user = new User({
+//         username: username,
+//         password: env.parsed.TEMP_PASSWORD,
+//         email: email,
+//         fullname: "NA",
+//         date_of_birth: null,
+//         user_type: "business",
+//       });
+
+//       // Save the user
+//       await user.save();
+
+//       const business = new Business({
+//         user_id: user._id, // Ensure that user._id is assigned correctly
+//         name: businessData.name,
+//         address1: businessData.address1 ? businessData.address1 : "",
+//         coverPhotoUrl: businessData.coverPhotoUrl
+//           ? businessData.coverPhotoUrl
+//           : "",
+//         country: businessData.country ? businessData.country : "USA",
+//         city: businessData.city ? businessData.city : "",
+//         description: businessData.description
+//           ? businessData.description
+//           : "",
+//         email: businessData.email ? businessData.email : "",
+//         flags: businessData.flags ? businessData.flags : [],
+//         locations: businessData.locations ? businessData.locations : [],
+//         logoUrl: businessData.logoUrl ? businessData.logoUrl : "",
+//         mapMarkerLocations: businessData.mapMarkerLocations
+//           ? businessData.mapMarkerLocations
+//           : [],
+//         phone: businessData.phone ? businessData.phone : "",
+//         photos: businessData.photos ? businessData.photos : [],
+//         primaryLocation: businessData.primaryLocation
+//           ? businessData.primaryLocation
+//           : "",
+//         state: businessData.state ? businessData.state : "",
+//         tags: businessData.tags ? businessData.tags : [],
+//         website: businessData.website ? businessData.website : "",
+//         zip: businessData.zip ? businessData.zip : "",
+//         products: [],
+//         instore_purchasing: false,
+//         claimed: false,
+//         business_type: "greenstore",
+//         deals: [],
+//         reviews: [],
+//         filters: [],
+//         registration_date: Date.now(),
+//         followers: [],
+//         opening_hours: [],
+//         isFeatured: false,
+//         isTopRated: false,
+//       });
+
+//       // Save the business
+//       await business.save();
+
+//       for (let i = 0; i < products.length; i++) {
+//         const product = new Product({
+//           business_id: business._id, // Ensure that business._id is correctly assigned
+//           name: products[i].name ? products[i].name : "",
+//           brandName: products[i].brandName ? products[i].brandName : "",
+//           cartUnit: products[i].cartUnit,
+//           price: products[i].price ? products[i].price : 0,
+//           description: products[i].description
+//             ? products[i].description
+//             : "",
+//           productCategory: products[i].productCategory
+//             ? products[i].productCategory
+//             : "",
+//           imageUrl: products[i].imageUrl ? products[i].imageUrl : "",
+//           strainName: products[i].strainName
+//             ? products[i].strainName
+//             : "",
+//           strainCategory: products[i].strainCategory
+//             ? products[i].strainCategory
+//             : "",
+//           strainDescription: products[i].strainDescription
+//             ? products[i].strainDescription
+//             : "",
+//           strainNucleusImageSvg: products[i].strainNucleusImageSvg
+//             ? products[i].strainNucleusImageSvg
+//             : "",
+//           followers: [],
+//           reviews: [],
+//           isFeatured: false,
+//         });
+
+//         // Save the product
+//         await product.save();
+//         business.products.push(product._id);
+//       }
+
+//       // Save the business after adding products
+//       await business.save();
+//     } catch (error) {
+//       console.log(error + " " + index);
+//     }
+//   }
+// };
+
+
+// for(let i =0 ; i < 229; i++){
+//   if(i!==162){
+//     populateData(i);
+//   }
+
+// }
 // ------- mongo db connection --------
 
 // ---------- MULTER SET UP ------------

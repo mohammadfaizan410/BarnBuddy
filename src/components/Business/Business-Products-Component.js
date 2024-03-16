@@ -1,5 +1,6 @@
 import React from "react";
 import BusinessProductCard from "./Business-Product-Card";
+import { Spinner } from "react-bootstrap";
 
 export default function BusinessProductsComponent(props) {
     const categories = ["All Products","Flower","Edible","Concentrate","PreRoll","Topicals","Accessories"]; 
@@ -83,7 +84,11 @@ export default function BusinessProductsComponent(props) {
                         <div>No products found</div>
                     )
                 ) : (
-                    <div>Loading...</div>
+                    <>
+                    <Spinner animation="border" role="status">
+                        <span className="sr-only">Loading...</span>
+                    </Spinner>
+                    </>
                 )}
             </div>
         </div>

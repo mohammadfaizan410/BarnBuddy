@@ -8,10 +8,9 @@
     background-color: #ffffff;
     transition: 0.3s;
     cursor: pointer;
-    max-width: 220px;
-    min-width: 220px;
+    max-width: 250px;
+    min-width: 250px;
     padding: 10px;
-
 }
 .featured-business-image-container {
     position: relative;
@@ -44,6 +43,10 @@
     margin-bottom: 5px;
     letter-spacing: 1px;
     color: #00ADB5;
+    max-width: 100%;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
@@ -64,6 +67,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    color: black;
 }
 .featured-buisness-tag{
     font-size: 0.5rem;
@@ -147,9 +151,8 @@
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.1s;
     color: #00ADB5;
-    border-bottom: 2px solid #030404;
 }
 
 .business-products-component{
@@ -207,12 +210,16 @@
     flex-wrap: wrap;
     gap: 10px;
     flex-grow: 1;
+    transition: 0.3s;
 }
 
 @media  screen and (max-width: 768px){
+    
     .featured-business-container{
         margin: 10px;
         padding: 10px;
+        min-width: 220px;
+        max-width: 220px;
         }
     .featured-business-image{
         max-width: 100px;

@@ -112,7 +112,7 @@ const productSchema = new mongoose.Schema({
   productCategory: {
     type: String,
   },
-  featured_image: {
+  imageUrl: {
     type: String,
   },
   strainName: {
