@@ -22,6 +22,20 @@ export default function UpdateProductBusiness(props) {
         strainDesc: product.strainDescription,
     });
 
+    React.useEffect(() => {
+        setFormData({
+          productName: product.name,
+          productDescription: product.description,
+          cartUnit: product.cartUnit,
+          productPrice: product.price,
+          productCategory: product.productCategory,
+          productImage: "",
+          productImageUrl: product.imageUrl,
+          strainName: product.strainName,
+          strainDesc: product.strainDescription,
+        });
+      }, [product]);
+
     // const handleFormSubmit = async () => {
     //     const formData = new FormData();
     //     formData.append("productName", formData.productName);
@@ -51,7 +65,7 @@ export default function UpdateProductBusiness(props) {
     // }
 
 
-    return (
+    return (<>
         <Modal
             show={show}
             size="lg"
@@ -59,7 +73,7 @@ export default function UpdateProductBusiness(props) {
             scrollable
         >
             <Modal.Header>
-                <Modal.Title id="contained-modal-title-vcenter">
+                <Modal.Title>
                     Update Product
                 </Modal.Title>
             </Modal.Header>
@@ -74,7 +88,7 @@ export default function UpdateProductBusiness(props) {
                     </div>
                     <div className="form-group margin-2x-bottom">
                         <label htmlFor="productDescription" className="text-bold margin-1x-bottom">Product Description</label>
-                        <input type="text" className="form-control"
+                        <textarea rows={10} className="form-control"
                             onChange={(e) => setFormData({...formData, productDescription: e.target.value})}
                             value={formData.productDescription}
                         />
@@ -150,5 +164,6 @@ export default function UpdateProductBusiness(props) {
                 <Button variant="primary">Save</Button>
             </Modal.Footer>
         </Modal>
+                            </>
     )
 }
