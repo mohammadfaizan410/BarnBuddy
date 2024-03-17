@@ -4,6 +4,7 @@ import store from './context/Store';
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import BusinessFrontpage from "./Views/Business-Frontpage";
 import ProductFrontpage from "./Views/Product-Frontpage";
+import ClaimSelectedBusiness from './Views/Claim-Selected-Business';
 import Home from "./Views/Home";
 import Header from "./components/global/Header";
 import ClaimBusiness from "./Views/Claim-Business";
@@ -22,6 +23,7 @@ function App() {
           <Route path="businessfrontpage/:id" element={<BusinessFrontpage />} />
           <Route path="blogs" element={<ProductFrontpage />} />
           <Route path="claim-business" element={<ClaimBusiness />} />
+          <Route path="claim-selected-business/:id" element={<ClaimSelectedBusiness />} />
         </Routes>
       </div>
      </div>

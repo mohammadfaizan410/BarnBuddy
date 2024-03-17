@@ -84,6 +84,7 @@
     display: flex;
     flex-direction: column;
     margin: 20px 150px 0 150px;
+    margin-bottom: 50px;
 }
 
 .business-frontpage-cover{
@@ -212,6 +213,113 @@
     flex-grow: 1;
     transition: 0.3s;
 }
+
+
+/*business about componenet */
+.business-about-component{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.business-about-component h3{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #00ADB5;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid #00ADB5;
+    padding-bottom: 10px;
+}
+
+.business-about-content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: stretch;
+}
+
+.business-about-content-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: stretch;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.business-about-content-section-middle{
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+
+
+.business-about-icon-div{
+    display: flex;
+    align-items: start;
+}
+
+.business-about-icon-div span{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #00ADB5;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    padding-left: 10px;
+
+}
+
+.business-about-icon-div span span{
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.business-about-amneties{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.business-about-amneties div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #00ADB5;
+    color: white;
+    font-size: 0.7rem;
+}
+
+
+
+
+/*business claim form */
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 
 @media  screen and (max-width: 768px){
     

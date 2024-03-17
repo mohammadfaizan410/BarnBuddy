@@ -19,7 +19,7 @@ import SideNav from "./SideNav";
 
 
 export default function Header() {
-    const headerVisibilityArray = ["", "businessfrontpage", "claim-business"];
+    const headerVisibilityArray = ["", "businessfrontpage", "claim-business", "claim-selected-business"];
     const headerBusinessDashboardArray = ["/business-dashboard-products", "/business-dashboard-analytics"];
     const [location, setLocation] = useState("");
     const locationPath = useLocation().pathname;

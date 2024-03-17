@@ -531,6 +531,49 @@ router.post("/business/getProductsByCategory", async (req, res) => {
   }
 });
 
+router.post("business/reviews/getReviews", async (req, res) => {
+  try {
+    const { type, id } = req.body;
+
+    if (type === "business") {
+      const business = await Business.findOne({
+        _id: id,
+      });
+
+      if (!business) {
+        return res
+          .status(400)
+          .json({ message: "Business not found", success: false });
+      }
+
+      const reviews = await Review.find({
+        business_id: id,
+      });
+
+      return res.status(200).json({ reviews: reviews, success: true });
+    } else if (type === "product") {
+      const product = await Product.findOne({
+        _id: id,
+      });
+
+      if (!product) {
+        return res
+          .status(400)
+          .json({ message: "Product not found", success: false });
+      }
+
+      const reviews = await Review.find({
+        product_id: id,
+      });
+
+      return res.status(200).json({ reviews: reviews, success: true });
+    }
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message, success: false });
+  }
+});
+
 
 
 /////////////////////////////////////////////////////////
@@ -664,19 +707,26 @@ router.post("/user/business/update", verifyToken, async (req, res) => {
 
 router.post(
   "/business/claim",
-  verifyToken,
   upload.fields([
-    { name: "business_ownership_document", maxCount: 1 },
-    { name: "government_issued_id", maxCount: 1 },
+    { name: "proof_of_ownership", maxCount: 1 },
+    { name: "government_id", maxCount: 1 },
   ]),
   async (req, res) => {
     try {
-      const { business_id, fullname, email } = req.body;
+      const { business_id, fullname, phone, dob, email } = req.body;
 
       const business_ownership_document =
-        req.files["business_ownership_document"][0].path;
-      const government_issued_id = req.files["government_issued_id"][0].path;
-
+        req.files["proof_of_ownership"][0].path;
+      const government_issued_id = req.files["government_id"][0].path;
+      console.log(
+        business_id,
+        fullname,
+        phone,
+        dob,
+        email,
+        business_ownership_document,
+        government_issued_id
+      )
       const business = await Business.findOne({
         _id: business_id,
       });

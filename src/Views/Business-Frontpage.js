@@ -4,13 +4,20 @@ import "../styles/business-styles.css";
 import { MdFavorite } from "react-icons/md";
 import { MdFavoriteBorder } from "react-icons/md";
 import BusinessProductsComponent from "../components/Business/Business-Products-Component";
-
+import BusinessAboutComponent from "../components/Business/Business-About-Component";
+import { Link } from "react-router-dom";
 export default function BusinessFrontpage() {
     const [businessData, setBusinessData] = React.useState({});
     const [error, setError] = React.useState(null);
     const {id} = useParams();
     const menuItems = ["Products", "Reviews", "About", "Deals"];
     const [selectedMenuItem, setSelectedMenuItem] = React.useState("Products");
+    const componentArray = {
+        "Products": <BusinessProductsComponent businessData={businessData} />,
+        "Reviews": <div>Reviews</div>,
+        "About": <BusinessAboutComponent businessData={businessData} />,
+        "Deals": <div>Deals</div>
+    };
    
 React.useEffect(() => {
     if (!isValidObjectId(id)) {
@@ -61,14 +68,23 @@ if (error) {
                 <span>1223</span>
                 </div>
             </div>
+            <div>
+
             <div className="business-frontpage-topinfo-tags">
                     {
                         businessData.tags?.map((tag, index) => {
                             return (
                                 <span key={index}>{tag}</span>
-                            )
-                        })
-                    }
+                                )
+                            })
+                        }
+                </div>
+                {
+                    businessData.claimed ?
+                        <button className="btn btn-primary" disabled>Claimed</button>
+                        :
+                    <Link  className="btn btn-primary" to={`/claim-selected-business/${businessData?._id}`} >Claim this Business</Link>
+                }
                 </div>
 
             <div className="business-frontpage-menu">
@@ -82,8 +98,11 @@ if (error) {
                     })
                 }
                 </div>
+                {componentArray[selectedMenuItem]}
 
-            <BusinessProductsComponent businessData={businessData} />
+            
+
+            
         </div>
         </>
     );
