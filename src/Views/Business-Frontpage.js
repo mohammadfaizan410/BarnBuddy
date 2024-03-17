@@ -5,6 +5,7 @@ import { MdFavorite } from "react-icons/md";
 import { MdFavoriteBorder } from "react-icons/md";
 import BusinessProductsComponent from "../components/Business/Business-Products-Component";
 import BusinessAboutComponent from "../components/Business/Business-About-Component";
+import BusinessReviewsComponent from "../components/global/Review-Component";
 import { Link } from "react-router-dom";
 export default function BusinessFrontpage() {
     const [businessData, setBusinessData] = React.useState({});
@@ -14,7 +15,7 @@ export default function BusinessFrontpage() {
     const [selectedMenuItem, setSelectedMenuItem] = React.useState("Products");
     const componentArray = {
         "Products": <BusinessProductsComponent businessData={businessData} />,
-        "Reviews": <div>Reviews</div>,
+        "Reviews": <BusinessReviewsComponent type="business" id={businessData._id} />,
         "About": <BusinessAboutComponent businessData={businessData} />,
         "Deals": <div>Deals</div>
     };

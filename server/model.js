@@ -52,6 +52,16 @@ const reviewSchema = new mongoose.Schema({
     total: Number,
     users: [String],
   },
+  business_id:{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Business",
+    default: null
+  },
+  product_id:{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Product",
+    default: null
+  },
 });
 
 const customerSchema = new mongoose.Schema({
@@ -249,6 +259,8 @@ const businessSchema = new mongoose.Schema({
     type: Boolean,
   },
 });
+
+
 
 const businessClaimSchema = new mongoose.Schema({
   business_id: {

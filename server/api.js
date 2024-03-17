@@ -531,7 +531,8 @@ router.post("/business/getProductsByCategory", async (req, res) => {
   }
 });
 
-router.post("business/reviews/getReviews", async (req, res) => {
+router.post("/business/reviews/getReviews", async (req, res) => {
+  console.log("getReviews")
   try {
     const { type, id } = req.body;
 
@@ -549,7 +550,9 @@ router.post("business/reviews/getReviews", async (req, res) => {
       const reviews = await Review.find({
         business_id: id,
       });
-
+      if(reviews.length === 0){
+        return res.status(200).json({ reviews: [], success: true });
+      }
       return res.status(200).json({ reviews: reviews, success: true });
     } else if (type === "product") {
       const product = await Product.findOne({
