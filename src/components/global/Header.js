@@ -19,7 +19,7 @@ import SideNav from "./SideNav";
 
 
 export default function Header() {
-    const headerVisibilityArray = ["", "businessfrontpage", "claim-business", "claim-selected-business"];
+    const headerVisibilityArray = ["", "businessfrontpage", "claim-business", "claim-selected-business", "register-business"];
     const headerBusinessDashboardArray = ["/business-dashboard-products", "/business-dashboard-analytics"];
     const [location, setLocation] = useState("");
     const locationPath = useLocation().pathname;
@@ -126,6 +126,10 @@ export default function Header() {
                         onClick={() => checkBusinessAuth()}
                     >
                         <p className="textPrimary text-bold">Business Account</p>
+                    </Link>
+                    <Link className="text-decoration-none  menu-font" to={"/register-business"}
+                    >
+                        <p className="textPrimary text-bold">Register Business</p>
                     </Link>
                     <div className="flex-grow-item"></div>
             </div>

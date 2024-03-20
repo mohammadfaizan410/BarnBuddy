@@ -8,6 +8,7 @@ import ClaimSelectedBusiness from './Views/Claim-Selected-Business';
 import Home from "./Views/Home";
 import Header from "./components/global/Header";
 import ClaimBusiness from "./Views/Claim-Business";
+import RegisterBusiness from './Views/Register-Business';
 import React from 'react';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="blogs" element={<ProductFrontpage />} />
           <Route path="claim-business" element={<ClaimBusiness />} />
           <Route path="claim-selected-business/:id" element={<ClaimSelectedBusiness />} />
+          <Route path="register-business" element={<RegisterBusiness />} />
         </Routes>
       </div>
      </div>
