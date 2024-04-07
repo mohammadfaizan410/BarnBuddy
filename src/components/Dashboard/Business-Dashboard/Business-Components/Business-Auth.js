@@ -3,13 +3,13 @@ import { Modal } from "react-bootstrap";
 import { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import { useStoreActions, useStoreState } from "easy-peasy";
+import BusinessDashboardLayout from "../Business-Dashboard-Layout.";
 
 
 export default function BusinessAuth(props) {
     const setBusiness = useStoreActions(actions => actions.setBusiness);
     const setBusinessUser = useStoreActions(actions => actions.setBusinessUser);
     const business_user = useStoreState(state => state.business_user);
-    console.log(business_user);
     let navigate = useNavigate();
     const [error, setError] = useState("");
     const  {show, handleClose} = props;
@@ -17,6 +17,16 @@ export default function BusinessAuth(props) {
         email: "",
         password: ""
     });
+
+    const checkLoggedIn = () => {
+        if(Object.keys(business_user).length === 0) {
+            return false;
+        }
+        navigate("/BusinessDashboardLayout");
+    }
+
+  
+
 
    
 
@@ -59,7 +69,7 @@ export default function BusinessAuth(props) {
                 localStorage.setItem("business_user", JSON.stringify(tempBusinessUser));
                 setBusiness(data.business);
                 handleClose();
-                navigate("/business-dashboard-products");
+                navigate("/BusinessDashboardLayout");
             } else {
                 setError("Username or Password is incorrect. Please try again.");
             }

@@ -18,9 +18,8 @@ const {
   Review,
   BusinessClaim,
 } = require("./model.js");
-const dbpass = encodeURIComponent(process.env.dbpass);
 // ------- mongo db connection -------
-mongoose.connect(`mongodb+srv://barnbuddy41000:${dbpass}@cluster0.5disqeu.mongodb.net/barnbuddy?retryWrites=true&w=majority&appName=Cluster0`);
+mongoose.connect('mongodb://localhost:27017/barnbuddy');
 
 const database = mongoose.connection;
 database.on("error", (error) => {
@@ -487,7 +486,6 @@ router.post("/business/getAllProducts", async (req, res) => {
     });
 
     if (!business) {
-      console.log("Business not found");
       return res
         .status(400)
         .json({ message: "Business not found", success: false });
@@ -571,6 +569,29 @@ router.post("/business/reviews/getReviews", async (req, res) => {
 
       return res.status(200).json({ reviews: reviews, success: true });
     }
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ message: error.message, success: false });
+  }
+});
+
+
+router.post("/products/getProduct", async (req, res) => {
+  try {
+    const { product_id } = req.body;
+
+    const product
+      = await Product.findOne({
+        _id: product_id,
+      });
+
+    if (!product) {
+      return res
+        .status(400)
+        .json({ message: {}, success: false });
+    }
+
+    return res.status(200).json({ product: product, success: true})
   } catch (error) {
     console.log(error);
     res.status(400).json({ message: error.message, success: false });

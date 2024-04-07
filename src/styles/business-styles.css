@@ -320,6 +320,121 @@
     gap: 10px;
 }
 
+.product-front-page-left img{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.product-front-page-left h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #00ADB5;
+    margin: 0px;
+    padding: 0px;
+}
+.product-front-page-right{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    flex-grow: 1;
+}
+
+
+/*business dahsbaord */
+.dashboard-layout-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.business-dashboard-navbar-seperator{
+    min-width: 150px;
+    min-height: 100vh;
+}
+
+.dashboard-layout-content{
+    max-width: calc(100% - 150px);
+    min-height: 100vh;
+    padding-top: 40px;
+}
+
+.business-dashboard-navbar-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    position: fixed;
+    box-shadow: 0 0 10px 0 hsla(0, 0%, 0%, 0.1);
+    min-height: 100vh;
+}
+
+.dashboard-layout-products{
+    max-width: 500px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.dashboard-content-wrappers{
+    max-width: 520px;
+    padding: 10px;
+}
+.business-product-name {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+    word-break: break-all;
+    max-width: 200px;
+}
+.business-dashboard-product-heading-row p{
+    font-size:1.2rem;
+    color: #00ADB5;
+}
+.dashboard-unit{
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.dashboard-content-category-picker{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    border: none;
+    font-weight: bold;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.dashboard-content-category-picker button{
+    background-color: #ececec;
+    color: rgb(44, 43, 43);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dashboard-content-category-picker button:hover{
+    background-color: #00ADB5;
+    color: white;
+}
+
+#dashboard-content-category-picker-selected{
+    background-color: #00ADB5;
+    color: white;
+}
+
+
+
+
 
 @media  screen and (max-width: 768px){
     

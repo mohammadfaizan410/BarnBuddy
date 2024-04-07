@@ -9,6 +9,7 @@ import Home from "./Views/Home";
 import Header from "./components/global/Header";
 import ClaimBusiness from "./Views/Claim-Business";
 import RegisterBusiness from './Views/Register-Business';
+import BusinessDashboardLayout from './components/Dashboard/Business-Dashboard/Business-Dashboard-Layout.';
 import React from 'react';
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
           <Route path="claim-business" element={<ClaimBusiness />} />
           <Route path="claim-selected-business/:id" element={<ClaimSelectedBusiness />} />
           <Route path="register-business" element={<RegisterBusiness />} />
+          <Route path="product-front-page/:id" element={<ProductFrontpage />} />
+          <Route path="BusinessDashboardLayout" element={<BusinessDashboardLayout />} />
         </Routes>
       </div>
      </div>

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export default function BusinessProductCard(props) {
     const {product, index} = props;    
     return (
-        <Link to={`/productFrontpage/${product._id}`} style={{textDecoration: "none"}}>
+        <Link to={`/product-front-page/${product._id}`} style={{textDecoration: "none"}}>
         <div className="featured-business-container">
             <div className="featured-business-image-container">
                 <div className="top-tagged-container">
@@ -19,8 +19,6 @@ export default function BusinessProductCard(props) {
                 <img src={product.imageUrl} className="featured-business-image" alt="product" />
             </div>
             <p className="featured-business-name">{product.name}</p>
-            
-            
             {product.strainName && <div className="featured-business-type">{product.strainName}</div>}
             <div className="featured-business-tags">
             <span key={index} className="featured-buisness-tag">{product.strainName}</span>

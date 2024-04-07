@@ -19,7 +19,7 @@ import SideNav from "./SideNav";
 
 
 export default function Header() {
-    const headerVisibilityArray = ["", "businessfrontpage", "claim-business", "claim-selected-business", "register-business"];
+    const headerVisibilityArray = ["", "businessfrontpage", "claim-business", "claim-selected-business", "register-business", "product-front-page"];
     const headerBusinessDashboardArray = ["/business-dashboard-products", "/business-dashboard-analytics"];
     const [location, setLocation] = useState("");
     const locationPath = useLocation().pathname;
@@ -56,7 +56,7 @@ export default function Header() {
                     .then((data) => {
                       if (data.success) {
                         setBusiness(data.business);
-                        navigate("/business-dashboard-products");
+                        navigate("/BusinessDashboardLayout");
                       } else {
                         setBusinessAuthModal(true);
                       }
@@ -135,6 +135,7 @@ export default function Header() {
             </div>
             </div>
         </div>
+        <div className="header-seperator"></div>
         </>
     );
     }
